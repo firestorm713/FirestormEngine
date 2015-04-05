@@ -1,0 +1,10 @@
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/71_icon-naming-utils/icon-naming-utils-0.8.90'
+test -z "/srv/win32builder/fixed_364/build/win32/libexec" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/libexec"
+ /usr/bin/install -c 'icon-name-mapping' '/srv/win32builder/fixed_364/build/win32/libexec/icon-name-mapping'
+test -z "/srv/win32builder/fixed_364/build/win32/share/dtds" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/share/dtds"
+ /usr/bin/install -c -m 644 'legacy-icon-mapping.dtd' '/srv/win32builder/fixed_364/build/win32/share/dtds/legacy-icon-mapping.dtd'
+test -z "/srv/win32builder/fixed_364/build/win32/share/pkgconfig" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/share/pkgconfig"
+ /usr/bin/install -c -m 644 'icon-naming-utils.pc' '/srv/win32builder/fixed_364/build/win32/share/pkgconfig/icon-naming-utils.pc'
+test -z "/srv/win32builder/fixed_364/build/win32/share/icon-naming-utils" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/share/icon-naming-utils"
+ /usr/bin/install -c -m 644 'legacy-icon-mapping.xml' '/srv/win32builder/fixed_364/build/win32/share/icon-naming-utils/legacy-icon-mapping.xml'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/71_icon-naming-utils/icon-naming-utils-0.8.90'

@@ -1,0 +1,49 @@
+MAKE x86_64-unknown-linux-gnu : 0 * install
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+Making install in include
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/include'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/include'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/libffi-3.0.12/include'
+ /usr/bin/install -c -m 644 ffi.h ffitarget.h '/srv/win32builder/fixed_364/build/win32/lib/libffi-3.0.12/include'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/include'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/include'
+Making install in testsuite
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/testsuite'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/testsuite'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/testsuite'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/testsuite'
+Making install in man
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/man'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/man'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man3'
+ /usr/bin/install -c -m 644 ../../man/ffi.3 ../../man/ffi_call.3 ../../man/ffi_prep_cif.3 ../../man/ffi_prep_cif_var.3 '/srv/win32builder/fixed_364/build/win32/share/man/man3'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/man'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/man'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libffi.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libffi.dll.a /srv/win32builder/fixed_364/build/win32/lib/libffi.dll.a
+libtool: install: base_file=`basename libffi.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libffi.la'i; echo libffi-6.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libffi-6.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libffi-6.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libffi-6.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libffi-6.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libffi-6.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libffi.lai /srv/win32builder/fixed_364/build/win32/lib/libffi.la
+libtool: install: /usr/bin/install -c .libs/libffi.a /srv/win32builder/fixed_364/build/win32/lib/libffi.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libffi.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libffi.a
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/info'
+ /usr/bin/install -c -m 644 ../doc/libffi.info '/srv/win32builder/fixed_364/build/win32/share/info'
+ install-info --info-dir='/srv/win32builder/fixed_364/build/win32/share/info' '/srv/win32builder/fixed_364/build/win32/share/info/libffi.info'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libffi.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'

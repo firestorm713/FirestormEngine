@@ -1,0 +1,9 @@
+Making all in src
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2/src'
+if test "x.." != "x.."; then \
+		cp -a ../gnome ../gnome; \
+	fi
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2/src'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2'

@@ -1,0 +1,190 @@
+Making install in fontconfig
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fontconfig'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fontconfig'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/fontconfig'
+ /usr/bin/install -c -m 644 fontconfig.h fcfreetype.h fcprivate.h '/srv/win32builder/fixed_364/build/win32/include/fontconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fontconfig'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fontconfig'
+Making install in fc-case
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+Making install in fc-lang
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+Making install in fc-glyphname
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+Making install in src
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libfontconfig.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libfontconfig.dll.a /srv/win32builder/fixed_364/build/win32/lib/libfontconfig.dll.a
+libtool: install: base_file=`basename libfontconfig.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libfontconfig.la'i; echo libfontconfig-1.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libfontconfig-1.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libfontconfig-1.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libfontconfig-1.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libfontconfig-1.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libfontconfig-1.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libfontconfig.lai /srv/win32builder/fixed_364/build/win32/lib/libfontconfig.la
+libtool: install: /usr/bin/install -c .libs/libfontconfig.a /srv/win32builder/fixed_364/build/win32/lib/libfontconfig.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libfontconfig.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libfontconfig.a
+/usr/bin/install -c .libs/libfontconfig.dll.a /srv/win32builder/fixed_364/build/win32/lib
+/usr/bin/install -c fontconfig.def /srv/win32builder/fixed_364/build/win32/lib/fontconfig.def
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+Making install in fc-cache
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cache'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cache'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-cache.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/fc-cache.exe /srv/win32builder/fixed_364/build/win32/bin/fc-cache.exe
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cache'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cache'
+Making install in fc-cat
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cat'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cat'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-cat.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/fc-cat.exe /srv/win32builder/fixed_364/build/win32/bin/fc-cat.exe
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cat'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cat'
+Making install in fc-list
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-list'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-list'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-list.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/fc-list.exe /srv/win32builder/fixed_364/build/win32/bin/fc-list.exe
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-list'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-list'
+Making install in fc-match
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-match'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-match'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-match.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/fc-match.exe /srv/win32builder/fixed_364/build/win32/bin/fc-match.exe
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-match'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-match'
+Making install in fc-pattern
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-pattern'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-pattern'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-pattern.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/fc-pattern.exe /srv/win32builder/fixed_364/build/win32/bin/fc-pattern.exe
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-pattern'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-pattern'
+Making install in fc-query
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-query'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-query'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-query.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/fc-query.exe /srv/win32builder/fixed_364/build/win32/bin/fc-query.exe
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-query'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-query'
+Making install in fc-scan
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-scan'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-scan'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c fc-scan.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/fc-scan.exe /srv/win32builder/fixed_364/build/win32/bin/fc-scan.exe
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-scan'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-scan'
+Making install in conf.d
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/conf.d'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/conf.d'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/etc/fonts/conf.d'
+ /usr/bin/install -c -m 644 README '/srv/win32builder/fixed_364/build/win32/etc/fonts/conf.d'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail'
+ /usr/bin/install -c -m 644 10-autohint.conf 10-no-sub-pixel.conf 10-sub-pixel-bgr.conf 10-sub-pixel-rgb.conf 10-sub-pixel-vbgr.conf 10-sub-pixel-vrgb.conf 10-unhinted.conf 11-lcdfilter-default.conf 11-lcdfilter-legacy.conf 11-lcdfilter-light.conf 20-unhint-small-vera.conf 25-unhint-nonlatin.conf 30-urw-aliases.conf 30-metric-aliases.conf 40-nonlatin.conf 45-latin.conf 49-sansserif.conf 50-user.conf 51-local.conf 60-latin.conf 65-fonts-persian.conf 65-khmer.conf 65-nonlatin.conf 69-unifont.conf 70-no-bitmaps.conf 70-yes-bitmaps.conf 80-delicious.conf 90-synthetic.conf '/srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail'
+make  install-data-hook
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/conf.d'
+mkdir -p /srv/win32builder/fixed_364/build/win32/etc/fonts/conf.d
+cd /srv/win32builder/fixed_364/build/win32/etc/fonts/conf.d
+rm -f 20-unhint-small-vera.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/20-unhint-small-vera.conf .
+rm -f 30-urw-aliases.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/30-urw-aliases.conf .
+rm -f 30-metric-aliases.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/30-metric-aliases.conf .
+rm -f 40-nonlatin.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/40-nonlatin.conf .
+rm -f 45-latin.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/45-latin.conf .
+rm -f 49-sansserif.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/49-sansserif.conf .
+rm -f 50-user.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/50-user.conf .
+rm -f 51-local.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/51-local.conf .
+rm -f 60-latin.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/60-latin.conf .
+rm -f 65-fonts-persian.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/65-fonts-persian.conf .
+rm -f 65-nonlatin.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/65-nonlatin.conf .
+rm -f 69-unifont.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/69-unifont.conf .
+rm -f 80-delicious.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/80-delicious.conf .
+rm -f 90-synthetic.conf; ln -s /srv/win32builder/fixed_364/build/win32/share/fontconfig/conf.avail/90-synthetic.conf .
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/conf.d'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/conf.d'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/conf.d'
+Making install in test
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/test'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/test'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/test'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/test'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2'
+make[2]: Nothing to be done for `install-exec-am'.
+sed \
+		-e 's,@FC_CACHEDIR\@,WINDOWSTEMPDIR_FONTCONFIG_CACHE,g' \
+		-e 's,@FC_DEFAULT_FONTS\@,WINDOWSFONTDIR,g' \
+		-e 's,@FC_FONTPATH\@,,g' \
+		-e 's,@CONFIGDIR\@,/srv/win32builder/fixed_364/build/win32/etc/fonts/conf.d,g' \
+		-e 's,@PACKAGE\@,fontconfig,g' \
+		-e 's,@VERSION\@,2.10.2,g' \
+		./fonts.conf.in > fonts.conf.tmp && \
+	mv fonts.conf.tmp fonts.conf
+/bin/sh /srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/install-sh -d /srv/win32builder/fixed_364/build/win32/etc/fonts WINDOWSTEMPDIR_FONTCONFIG_CACHE
+if [ -f /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf ]; then \
+	  echo "backing up existing /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf"; \
+	  mv /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf.bak; \
+	fi
+if [ -f ./fonts.conf ]; then \
+	  echo " /usr/bin/install -c -m 644 ./fonts.conf /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf"; \
+	  /usr/bin/install -c -m 644 ./fonts.conf /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf; \
+	else if [ -f fonts.conf ]; then \
+	  echo " /usr/bin/install -c -m 644 fonts.conf /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf"; \
+	  /usr/bin/install -c -m 644 fonts.conf /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf; \
+	fi; fi
+ /usr/bin/install -c -m 644 ./fonts.conf /srv/win32builder/fixed_364/build/win32/etc/fonts/fonts.conf
+***
+*** Warning: fonts.cache not built
+***
+*** Generate this file manually on host system using fc-cache
+***
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 fontconfig.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/xml/fontconfig'
+ /usr/bin/install -c -m 644 fonts.dtd '/srv/win32builder/fixed_364/build/win32/share/xml/fontconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2'

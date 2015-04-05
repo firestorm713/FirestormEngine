@@ -1,0 +1,67 @@
+MAKE x86_64-unknown-linux-gnu : 0 * all-all
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=-L/srv/win32builder/fixed_364/build/win32/lib" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=make" "MAKEINFO=/bin/sh /srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/srv/win32builder/fixed_364/build/win32" "infodir=/srv/win32builder/fixed_364/build/win32/share/info" "libdir=/srv/win32builder/fixed_364/build/win32/lib" "mandir=/srv/win32builder/fixed_364/build/win32/share/man" "prefix=/srv/win32builder/fixed_364/build/win32" "AR=i686-pc-mingw32-ar" "AS=as" "CC=i686-pc-mingw32-gcc" "CXX=g++" "LD=/usr/i686-pc-mingw32/bin/ld" "NM=/usr/bin/i686-pc-mingw32-nm -B" "RANLIB=i686-pc-mingw32-ranlib" "DESTDIR=" all-recursive
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+Making all in include
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/include'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/include'
+Making all in testsuite
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/testsuite'
+Making all in man
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/man'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32/man'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+depbase=`echo src/prep_cif.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions -MT src/prep_cif.lo -MD -MP -MF $depbase.Tpo -c -o src/prep_cif.lo ../src/prep_cif.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/prep_cif.lo -MD -MP -MF src/.deps/prep_cif.Tpo -c ../src/prep_cif.c  -DDLL_EXPORT -DPIC -o src/.libs/prep_cif.o
+../src/prep_cif.c: In function 'ffi_prep_cif_core':
+../src/prep_cif.c:118: warning: suggest parentheses around '&&' within '||'
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/prep_cif.lo -MD -MP -MF src/.deps/prep_cif.Tpo -c ../src/prep_cif.c -o src/prep_cif.o >/dev/null 2>&1
+depbase=`echo src/types.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions -MT src/types.lo -MD -MP -MF $depbase.Tpo -c -o src/types.lo ../src/types.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/types.lo -MD -MP -MF src/.deps/types.Tpo -c ../src/types.c  -DDLL_EXPORT -DPIC -o src/.libs/types.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/types.lo -MD -MP -MF src/.deps/types.Tpo -c ../src/types.c -o src/types.o >/dev/null 2>&1
+depbase=`echo src/raw_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions -MT src/raw_api.lo -MD -MP -MF $depbase.Tpo -c -o src/raw_api.lo ../src/raw_api.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/raw_api.lo -MD -MP -MF src/.deps/raw_api.Tpo -c ../src/raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/raw_api.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/raw_api.lo -MD -MP -MF src/.deps/raw_api.Tpo -c ../src/raw_api.c -o src/raw_api.o >/dev/null 2>&1
+depbase=`echo src/java_raw_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions -MT src/java_raw_api.lo -MD -MP -MF $depbase.Tpo -c -o src/java_raw_api.lo ../src/java_raw_api.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/java_raw_api.lo -MD -MP -MF src/.deps/java_raw_api.Tpo -c ../src/java_raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/java_raw_api.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/java_raw_api.lo -MD -MP -MF src/.deps/java_raw_api.Tpo -c ../src/java_raw_api.c -o src/java_raw_api.o >/dev/null 2>&1
+depbase=`echo src/closures.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions -MT src/closures.lo -MD -MP -MF $depbase.Tpo -c -o src/closures.lo ../src/closures.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/closures.lo -MD -MP -MF src/.deps/closures.Tpo -c ../src/closures.c  -DDLL_EXPORT -DPIC -o src/.libs/closures.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/closures.lo -MD -MP -MF src/.deps/closures.Tpo -c ../src/closures.c -o src/closures.o >/dev/null 2>&1
+depbase=`echo src/x86/ffi.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions -MT src/x86/ffi.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/ffi.lo ../src/x86/ffi.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/x86/ffi.lo -MD -MP -MF src/x86/.deps/ffi.Tpo -c ../src/x86/ffi.c  -DDLL_EXPORT -DPIC -o src/x86/.libs/ffi.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -fexceptions -MT src/x86/ffi.lo -MD -MP -MF src/x86/.deps/ffi.Tpo -c ../src/x86/ffi.c -o src/x86/ffi.o >/dev/null 2>&1
+depbase=`echo src/x86/win32.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -MT src/x86/win32.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/win32.lo ../src/x86/win32.S &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -MT src/x86/win32.lo -MD -MP -MF src/x86/.deps/win32.Tpo -c ../src/x86/win32.S  -DDLL_EXPORT -DPIC -o src/x86/.libs/win32.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -I. -I../include -Iinclude -I../src -I/srv/win32builder/fixed_364/build/win32/include -MT src/x86/win32.lo -MD -MP -MF src/x86/.deps/win32.Tpo -c ../src/x86/win32.S -o src/x86/win32.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions  -L/srv/win32builder/fixed_364/build/win32/lib -o libffi_convenience.la  src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo      src/x86/ffi.lo src/x86/win32.lo                             
+libtool: link: i686-pc-mingw32-ar cru .libs/libffi_convenience.a src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/win32.o 
+libtool: link: i686-pc-mingw32-ranlib .libs/libffi_convenience.a
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && ln -s "../libffi_convenience.la" "libffi_convenience.la" )
+/bin/sh ./libtool --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include  -Wall -fexceptions -no-undefined -version-info `grep -v '^#' ../libtool-version`  '-L/srv/win32builder/fixed_364/build/win32/lib' -no-undefined -bindir "/srv/win32builder/fixed_364/build/win32/bin" -L/srv/win32builder/fixed_364/build/win32/lib -o libffi.la -rpath /srv/win32builder/fixed_364/build/win32/lib src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo      src/x86/ffi.lo src/x86/win32.lo                             
+libtool: link: i686-pc-mingw32-gcc -shared  src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/win32.o   -L/srv/win32builder/fixed_364/build/win32/lib    -o .libs/libffi-6.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libffi.dll.a
+Creating library file: .libs/libffi.dll.a
+libtool: link: i686-pc-mingw32-ar cru .libs/libffi.a  src/prep_cif.o src/types.o src/raw_api.o src/java_raw_api.o src/closures.o src/x86/ffi.o src/x86/win32.o
+libtool: link: i686-pc-mingw32-ranlib .libs/libffi.a
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && ln -s "../libffi.la" "libffi.la" )
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/21_libffi/libffi-3.0.12/i686-pc-mingw32'

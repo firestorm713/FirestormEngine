@@ -1,0 +1,29 @@
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libjpeg.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libjpeg.dll.a /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a
+libtool: install: base_file=`basename libjpeg.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libjpeg.la'i; echo libjpeg-9.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libjpeg-9.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libjpeg-9.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libjpeg-9.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libjpeg-9.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libjpeg-9.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libjpeg.lai /srv/win32builder/fixed_364/build/win32/lib/libjpeg.la
+libtool: install: /usr/bin/install -c .libs/libjpeg.a /srv/win32builder/fixed_364/build/win32/lib/libjpeg.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libjpeg.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libjpeg.a
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c cjpeg.exe djpeg.exe jpegtran.exe rdjpgcom.exe wrjpgcom.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/cjpeg.exe /srv/win32builder/fixed_364/build/win32/bin/cjpeg.exe
+libtool: install: /usr/bin/install -c .libs/djpeg.exe /srv/win32builder/fixed_364/build/win32/bin/djpeg.exe
+libtool: install: /usr/bin/install -c .libs/jpegtran.exe /srv/win32builder/fixed_364/build/win32/bin/jpegtran.exe
+libtool: install: /usr/bin/install -c .libs/rdjpgcom.exe /srv/win32builder/fixed_364/build/win32/bin/rdjpgcom.exe
+libtool: install: /usr/bin/install -c .libs/wrjpgcom.exe /srv/win32builder/fixed_364/build/win32/bin/wrjpgcom.exe
+/bin/sh /srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9/install-sh -d /srv/win32builder/fixed_364/build/win32/include
+/usr/bin/install -c -m 644 jconfig.h /srv/win32builder/fixed_364/build/win32/include/jconfig.h
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include'
+ /usr/bin/install -c -m 644 jerror.h jmorecfg.h jpeglib.h '/srv/win32builder/fixed_364/build/win32/include'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 cjpeg.1 djpeg.1 jpegtran.1 rdjpgcom.1 wrjpgcom.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9'

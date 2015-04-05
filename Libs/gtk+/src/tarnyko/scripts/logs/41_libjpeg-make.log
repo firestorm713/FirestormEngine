@@ -1,0 +1,99 @@
+make  all-am
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9'
+  CC       jaricom.lo
+  CC       jcapimin.lo
+  CC       jcapistd.lo
+  CC       jcarith.lo
+  CC       jccoefct.lo
+  CC       jccolor.lo
+  CC       jcdctmgr.lo
+  CC       jchuff.lo
+  CC       jcinit.lo
+  CC       jcmainct.lo
+  CC       jcmarker.lo
+  CC       jcmaster.lo
+  CC       jcomapi.lo
+  CC       jcparam.lo
+  CC       jcprepct.lo
+  CC       jcsample.lo
+  CC       jctrans.lo
+  CC       jdapimin.lo
+  CC       jdapistd.lo
+  CC       jdarith.lo
+  CC       jdatadst.lo
+  CC       jdatasrc.lo
+  CC       jdcoefct.lo
+  CC       jdcolor.lo
+  CC       jddctmgr.lo
+  CC       jdhuff.lo
+  CC       jdinput.lo
+  CC       jdmainct.lo
+  CC       jdmarker.lo
+  CC       jdmaster.lo
+  CC       jdmerge.lo
+  CC       jdpostct.lo
+  CC       jdsample.lo
+  CC       jdtrans.lo
+  CC       jerror.lo
+  CC       jfdctflt.lo
+  CC       jfdctfst.lo
+  CC       jfdctint.lo
+  CC       jidctflt.lo
+  CC       jidctfst.lo
+  CC       jidctint.lo
+  CC       jquant1.lo
+  CC       jquant2.lo
+  CC       jutils.lo
+  CC       jmemmgr.lo
+  CC       jmemnobs.lo
+  CCLD     libjpeg.la
+Creating library file: .libs/libjpeg.dll.a
+  CC       cjpeg.o
+  CC       rdppm.o
+  CC       rdgif.o
+  CC       rdtarga.o
+  CC       rdrle.o
+  CC       rdbmp.o
+  CC       rdswitch.o
+  CC       cdjpeg.o
+  CCLD     cjpeg.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       djpeg.o
+  CC       wrppm.o
+  CC       wrgif.o
+  CC       wrtarga.o
+  CC       wrrle.o
+  CC       wrbmp.o
+  CC       rdcolmap.o
+  CCLD     djpeg.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       jpegtran.o
+  CC       transupp.o
+  CCLD     jpegtran.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       rdjpgcom.o
+  CCLD     rdjpgcom.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       wrjpgcom.o
+  CCLD     wrjpgcom.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/41_libjpeg/jpeg-9'

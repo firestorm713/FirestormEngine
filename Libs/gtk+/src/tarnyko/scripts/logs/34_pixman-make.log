@@ -1,0 +1,211 @@
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0'
+Making all in pixman
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman'
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman'
+  CC     pixman.lo
+  CC     pixman-access.lo
+  CC     pixman-access-accessors.lo
+  CC     pixman-bits-image.lo
+  CC     pixman-combine32.lo
+  CC     pixman-combine64.lo
+  CC     pixman-conical-gradient.lo
+  CC     pixman-cpu.lo
+  CC     pixman-edge.lo
+  CC     pixman-edge-accessors.lo
+  CC     pixman-fast-path.lo
+  CC     pixman-general.lo
+  CC     pixman-gradient-walker.lo
+  CC     pixman-image.lo
+  CC     pixman-implementation.lo
+  CC     pixman-linear-gradient.lo
+  CC     pixman-matrix.lo
+  CC     pixman-noop.lo
+  CC     pixman-radial-gradient.lo
+  CC     pixman-region16.lo
+  CC     pixman-region32.lo
+  CC     pixman-solid-fill.lo
+  CC     pixman-timer.lo
+  CC     pixman-trap.lo
+  CC     pixman-utils.lo
+  CC     libpixman_sse2_la-pixman-sse2.lo
+  CCLD   libpixman-sse2.la
+  CCLD   libpixman-1.la
+Creating library file: .libs/libpixman-1.dll.a
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman'
+Making all in demos
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/demos'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/demos'
+Making all in test
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/test'
+  CC     utils.lo
+utils.c:598: warning: 'on_alarm' defined but not used
+  CCLD   libutils.la
+  CC     a1-trap-test.o
+  CCLD   a1-trap-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     pdf-op-test.o
+  CCLD   pdf-op-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     region-test.o
+  CCLD   region-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     region-translate-test.o
+  CCLD   region-translate-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     fetch-test.o
+  CCLD   fetch-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     oob-test.o
+  CCLD   oob-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     trap-crasher.o
+  CCLD   trap-crasher.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     alpha-loop.o
+  CCLD   alpha-loop.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     scaling-crash-test.o
+  CCLD   scaling-crash-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     scaling-helpers-test.o
+  CCLD   scaling-helpers-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     gradient-crash-test.o
+  CCLD   gradient-crash-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     region-contains-test.o
+  CCLD   region-contains-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     alphamap.o
+  CCLD   alphamap.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     stress-test.o
+  CCLD   stress-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     composite-traps-test.o
+  CCLD   composite-traps-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     blitters-test.o
+  CCLD   blitters-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     scaling-test.o
+  CCLD   scaling-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     affine-test.o
+  CCLD   affine-test.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     composite.o
+  CCLD   composite.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     lowlevel-blt-bench.o
+  CCLD   lowlevel-blt-bench.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/pixman/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0/test'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/34_pixman/pixman-0.26.0'

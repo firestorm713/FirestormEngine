@@ -1,0 +1,923 @@
+Making install in .
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+ /usr/bin/install -c glib-gettextize '/srv/win32builder/fixed_364/build/win32/bin'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext'
+ /usr/bin/install -c mkinstalldirs '/srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 glib-2.0.pc gobject-2.0.pc gmodule-2.0.pc gmodule-export-2.0.pc gmodule-no-export-2.0.pc gthread-2.0.pc gio-2.0.pc gio-windows-2.0.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3'
+Making install in m4macros
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/m4macros'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/m4macros'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/aclocal'
+ /usr/bin/install -c -m 644 glib-2.0.m4 glib-gettext.m4 gsettings.m4 '/srv/win32builder/fixed_364/build/win32/share/aclocal'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/m4macros'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/m4macros'
+Making install in glib
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make  install-recursive
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+Making install in libcharset
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/libcharset'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/libcharset'
+/bin/sh ../../mkinstalldirs /srv/win32builder/fixed_364/build/win32/lib
+if test -f /srv/win32builder/fixed_364/build/win32/lib/charset.alias; then \
+	  sed -f ref-add.sed /srv/win32builder/fixed_364/build/win32/lib/charset.alias > /srv/win32builder/fixed_364/build/win32/lib/charset.tmp ; \
+	  /usr/bin/install -c -m 644 /srv/win32builder/fixed_364/build/win32/lib/charset.tmp /srv/win32builder/fixed_364/build/win32/lib/charset.alias ; \
+	  rm -f /srv/win32builder/fixed_364/build/win32/lib/charset.tmp ; \
+	else \
+	  if test no = no; then \
+	    sed -f ref-add.sed charset.alias > /srv/win32builder/fixed_364/build/win32/lib/charset.tmp ; \
+	    /usr/bin/install -c -m 644 /srv/win32builder/fixed_364/build/win32/lib/charset.tmp /srv/win32builder/fixed_364/build/win32/lib/charset.alias ; \
+	    rm -f /srv/win32builder/fixed_364/build/win32/lib/charset.tmp ; \
+	  fi ; \
+	fi
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/libcharset'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/libcharset'
+Making install in gnulib
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/gnulib'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/gnulib'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/gnulib'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/gnulib'
+Making install in pcre
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/pcre'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/pcre'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/pcre'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/pcre'
+Making install in update-pcre
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/update-pcre'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/update-pcre'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/update-pcre'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/update-pcre'
+Making install in .
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libglib-2.0.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libglib-2.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libglib-2.0.dll.a
+libtool: install: base_file=`basename libglib-2.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libglib-2.0.la'i; echo libglib-2.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libglib-2.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libglib-2.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libglib-2.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libglib-2.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libglib-2.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libglib-2.0.lai /srv/win32builder/fixed_364/build/win32/lib/libglib-2.0.la
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gspawn-win32-helper.exe gspawn-win32-helper-console.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/gspawn-win32-helper.exe /srv/win32builder/fixed_364/build/win32/bin/gspawn-win32-helper.exe
+libtool: install: /usr/bin/install -c .libs/gspawn-win32-helper-console.exe /srv/win32builder/fixed_364/build/win32/bin/gspawn-win32-helper-console.exe
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/glib-2.0/include'
+ /usr/bin/install -c -m 644 glibconfig.h '/srv/win32builder/fixed_364/build/win32/lib/glib-2.0/include'
+make  install-exec-hook
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[5]: Nothing to be done for `install-exec-hook'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+/usr/bin/install -c ./glib.def /srv/win32builder/fixed_364/build/win32/lib/glib-2.0.def
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib/deprecated'
+ /usr/bin/install -c -m 644 deprecated/gallocator.h deprecated/gcache.h deprecated/gcompletion.h deprecated/gmain.h deprecated/grel.h deprecated/gthread.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib/deprecated'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/glib-2.0/gdb'
+ /usr/bin/install -c glib.py '/srv/win32builder/fixed_364/build/win32/share/glib-2.0/gdb'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/glib-2.0'
+ /usr/bin/install -c -m 644 glib-unix.h glib-object.h glib.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib'
+ /usr/bin/install -c -m 644 galloca.h garray.h gasyncqueue.h gatomic.h gbacktrace.h gbase64.h gbitlock.h gbookmarkfile.h gbytes.h gcharset.h gchecksum.h gconvert.h gdataset.h gdate.h gdatetime.h gdir.h genviron.h gerror.h gfileutils.h ggettext.h ghash.h ghmac.h ghook.h ghostutils.h gi18n.h gi18n-lib.h giochannel.h gkeyfile.h glist.h gmacros.h gmain.h gmappedfile.h gmarkup.h gmem.h gmessages.h gnode.h goption.h gpattern.h gpoll.h gprimes.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib'
+ /usr/bin/install -c -m 644 gqsort.h gquark.h gqueue.h grand.h gregex.h gscanner.h gsequence.h gshell.h gslice.h gslist.h gspawn.h gstdio.h gstrfuncs.h gtestutils.h gstring.h gstringchunk.h gthread.h gthreadpool.h gtimer.h gtimezone.h gtrashstack.h gtree.h gtypes.h gunicode.h gurifuncs.h gutils.h gvarianttype.h gvariant.h gversion.h gversionmacros.h gwin32.h gprintf.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib'
+make  install-data-hook
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+  GEN      libglib-gdb.py
+mkdir -p /srv/win32builder/fixed_364/build/win32/share/gdb/auto-load
+/usr/bin/install -c ./libglib-gdb.py /srv/win32builder/fixed_364/build/win32/share/gdb/auto-load/libglib-2.0.so.0.3400.3-gdb.py
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+Making install in gmodule
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgmodule-2.0.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libgmodule-2.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libgmodule-2.0.dll.a
+libtool: install: base_file=`basename libgmodule-2.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libgmodule-2.0.la'i; echo libgmodule-2.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libgmodule-2.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libgmodule-2.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libgmodule-2.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libgmodule-2.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libgmodule-2.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libgmodule-2.0.lai /srv/win32builder/fixed_364/build/win32/lib/libgmodule-2.0.la
+/usr/bin/install -c ./gmodule.def /srv/win32builder/fixed_364/build/win32/lib/gmodule-2.0.def
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/glib-2.0'
+ /usr/bin/install -c -m 644 gmodule.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0'
+make  install-data-hook
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make[4]: Nothing to be done for `install-data-hook'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+Making install in gthread
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgthread-2.0.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libgthread-2.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libgthread-2.0.dll.a
+libtool: install: base_file=`basename libgthread-2.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libgthread-2.0.la'i; echo libgthread-2.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libgthread-2.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libgthread-2.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libgthread-2.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libgthread-2.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libgthread-2.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libgthread-2.0.lai /srv/win32builder/fixed_364/build/win32/lib/libgthread-2.0.la
+/usr/bin/install -c ./gthread.def /srv/win32builder/fixed_364/build/win32/lib/gthread-2.0.def
+make  install-data-hook
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+make[3]: Nothing to be done for `install-data-hook'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+Making install in gobject
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make  install-recursive
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+Making install in .
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgobject-2.0.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libgobject-2.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libgobject-2.0.dll.a
+libtool: install: base_file=`basename libgobject-2.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libgobject-2.0.la'i; echo libgobject-2.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libgobject-2.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libgobject-2.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libgobject-2.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libgobject-2.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libgobject-2.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libgobject-2.0.lai /srv/win32builder/fixed_364/build/win32/lib/libgobject-2.0.la
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gobject-query.exe glib-genmarshal.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/gobject-query.exe /srv/win32builder/fixed_364/build/win32/bin/gobject-query.exe
+libtool: install: /usr/bin/install -c .libs/glib-genmarshal.exe /srv/win32builder/fixed_364/build/win32/bin/glib-genmarshal.exe
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+ /usr/bin/install -c glib-mkenums '/srv/win32builder/fixed_364/build/win32/bin'
+/usr/bin/install -c ./gobject.def /srv/win32builder/fixed_364/build/win32/lib/gobject-2.0.def
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/glib-2.0/gdb'
+ /usr/bin/install -c gobject.py '/srv/win32builder/fixed_364/build/win32/share/glib-2.0/gdb'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gobject'
+ /usr/bin/install -c -m 644 glib-types.h gbinding.h gboxed.h gclosure.h genums.h gmarshal.h gobject.h gparam.h gparamspecs.h gsignal.h gsourceclosure.h gtype.h gtypemodule.h gtypeplugin.h gvalue.h gvaluearray.h gvaluecollector.h gvaluetypes.h gobjectnotifyqueue.c '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gobject'
+make  install-data-hook
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+  GEN      libgobject-gdb.py
+mkdir -p /srv/win32builder/fixed_364/build/win32/share/gdb/auto-load/
+/usr/bin/install -c ./libgobject-gdb.py /srv/win32builder/fixed_364/build/win32/share/gdb/auto-load//libgobject-2.0.so.0.3400.3-gdb.py
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+Making install in gio
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make  install-recursive
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+Making install in gdbus-2.0/codegen
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/gdbus-2.0/codegen'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/gdbus-2.0/codegen'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+ /usr/bin/install -c gdbus-codegen '/srv/win32builder/fixed_364/build/win32/bin'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/gdbus-2.0/codegen'
+ /usr/bin/install -c -m 644 __init__.py codegen.py codegen_main.py codegen_docbook.py config.py dbustypes.py parser.py utils.py '/srv/win32builder/fixed_364/build/win32/lib/gdbus-2.0/codegen'
+Byte-compiling python modules...
+__init__.pycodegen.pycodegen_main.pycodegen_docbook.pyconfig.pydbustypes.pyparser.pyutils.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pycodegen.pycodegen_main.pycodegen_docbook.pyconfig.pydbustypes.pyparser.pyutils.py
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/gdbus-2.0/codegen'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/gdbus-2.0/codegen'
+Making install in win32
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/win32'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/win32'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/win32'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/win32'
+Making install in .
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgio-2.0.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libgio-2.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libgio-2.0.dll.a
+libtool: install: base_file=`basename libgio-2.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libgio-2.0.la'i; echo libgio-2.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libgio-2.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libgio-2.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libgio-2.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libgio-2.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libgio-2.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libgio-2.0.lai /srv/win32builder/fixed_364/build/win32/lib/libgio-2.0.la
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gio-querymodules.exe glib-compile-schemas.exe glib-compile-resources.exe gsettings.exe gdbus.exe gresource.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/gio-querymodules.exe /srv/win32builder/fixed_364/build/win32/bin/gio-querymodules.exe
+libtool: install: /usr/bin/install -c .libs/glib-compile-schemas.exe /srv/win32builder/fixed_364/build/win32/bin/glib-compile-schemas.exe
+libtool: install: /usr/bin/install -c .libs/glib-compile-resources.exe /srv/win32builder/fixed_364/build/win32/bin/glib-compile-resources.exe
+libtool: install: /usr/bin/install -c .libs/gsettings.exe /srv/win32builder/fixed_364/build/win32/bin/gsettings.exe
+libtool: install: /usr/bin/install -c .libs/gdbus.exe /srv/win32builder/fixed_364/build/win32/bin/gdbus.exe
+libtool: install: /usr/bin/install -c .libs/gresource.exe /srv/win32builder/fixed_364/build/win32/bin/gresource.exe
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 completion/gdbus completion/gsettings completion/gresource '/srv/win32builder/fixed_364/build/win32/share/bash-completion/completions'
+/usr/bin/install -c ./gio.def /srv/win32builder/fixed_364/build/win32/lib/gio-2.0.def
+/bin/sh ../mkinstalldirs /srv/win32builder/fixed_364/build/win32/lib/gio/modules
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/lib/gio/modules
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/glib-2.0/schemas'
+ /usr/bin/install -c -m 644 gschema.dtd '/srv/win32builder/fixed_364/build/win32/share/glib-2.0/schemas'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gio/'
+ /usr/bin/install -c -m 644 gappinfo.h gasyncinitable.h gasyncresult.h gbufferedinputstream.h gbufferedoutputstream.h gcancellable.h gcontenttype.h gcharsetconverter.h gconverter.h gconverterinputstream.h gconverteroutputstream.h gdatainputstream.h gdataoutputstream.h gdrive.h gemblem.h gemblemedicon.h gfile.h gfileattribute.h gfileenumerator.h gfileicon.h gfileinfo.h gfileinputstream.h gfilemonitor.h gfilenamecompleter.h gfileoutputstream.h gfileiostream.h gfilterinputstream.h gfilteroutputstream.h gicon.h ginetaddress.h ginetaddressmask.h ginetsocketaddress.h ginputstream.h ginitable.h gio.h giotypes.h gioenums.h gioerror.h giomodule.h gioscheduler.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gio/'
+ /usr/bin/install -c -m 644 giostream.h gloadableicon.h gmount.h gmemoryinputstream.h gmemoryoutputstream.h gmountoperation.h gnativevolumemonitor.h gnetworkaddress.h gnetworkmonitor.h gnetworkservice.h goutputstream.h gpermission.h gpollableinputstream.h gpollableoutputstream.h gpollableutils.h gproxyaddress.h gproxy.h gproxyaddressenumerator.h gproxyresolver.h gresolver.h gresource.h gseekable.h gsimpleasyncresult.h gsimplepermission.h gsocket.h gsocketaddress.h gsocketaddressenumerator.h gsocketclient.h gsocketconnectable.h gsocketconnection.h gsocketcontrolmessage.h gsocketlistener.h gsocketservice.h gsrvtarget.h gtcpconnection.h gtcpwrapperconnection.h gthreadedsocketservice.h gthemedicon.h gtlsbackend.h gtlscertificate.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gio/'
+ /usr/bin/install -c -m 644 gtlsclientconnection.h gtlsconnection.h gtlsdatabase.h gtlsfiledatabase.h gtlsinteraction.h gtlspassword.h gtlsserverconnection.h gvfs.h gvolume.h gvolumemonitor.h gzlibcompressor.h gzlibdecompressor.h gapplication.h gapplicationcommandline.h gactiongroup.h gactionmap.h gsimpleactiongroup.h gremoteactiongroup.h gactiongroupexporter.h gdbusactiongroup.h gaction.h gsimpleaction.h gmenumodel.h gmenu.h gmenuexporter.h gdbusmenumodel.h gsettingsbackend.h gsettingsschema.h gsettings.h gdbusauthobserver.h gcredentials.h gdbusutils.h gdbuserror.h gdbusaddress.h gdbusconnection.h gdbusmessage.h gdbusnameowning.h gdbusnamewatching.h gdbusproxy.h gdbusintrospection.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gio/'
+ /usr/bin/install -c -m 644 gdbusmethodinvocation.h gdbusserver.h gdbusinterface.h gdbusinterfaceskeleton.h gdbusobject.h gdbusobjectskeleton.h gdbusobjectproxy.h gdbusobjectmanager.h gdbusobjectmanagerclient.h gdbusobjectmanagerserver.h gtestdbus.h gioenumtypes.h '/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gio/'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/gio-win32-2.0/gio'
+ /usr/bin/install -c -m 644 gwin32inputstream.h gwin32outputstream.h '/srv/win32builder/fixed_364/build/win32/include/gio-win32-2.0/gio'
+make  install-data-hook
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[5]: Nothing to be done for `install-data-hook'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+Making install in po
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/po'
+if test -r ".././mkinstalldirs"; then \
+	  .././mkinstalldirs /srv/win32builder/fixed_364/build/win32/share; \
+	else \
+	  /bin/sh ../mkinstalldirs /srv/win32builder/fixed_364/build/win32/share; \
+	fi
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/af/LC_MESSAGES
+installing af.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/af/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/am/LC_MESSAGES
+installing am.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/am/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ar/LC_MESSAGES
+installing ar.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ar/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/as/LC_MESSAGES
+installing as.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/as/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ast/LC_MESSAGES
+installing ast.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ast/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/az/LC_MESSAGES
+installing az.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/az/LC_MESSAGES/glib20.mo
+installing be.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/be/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/be@latin/LC_MESSAGES
+installing be@latin.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/be@latin/LC_MESSAGES/glib20.mo
+installing bg.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bg/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/bn/LC_MESSAGES
+installing bn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bn/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/bn_IN/LC_MESSAGES
+installing bn_IN.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bn_IN/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/bs/LC_MESSAGES
+installing bs.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bs/LC_MESSAGES/glib20.mo
+installing ca.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ca/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ca@valencia/LC_MESSAGES
+installing ca@valencia.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ca@valencia/LC_MESSAGES/glib20.mo
+installing cs.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/cs/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/cy/LC_MESSAGES
+installing cy.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/cy/LC_MESSAGES/glib20.mo
+installing da.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/da/LC_MESSAGES/glib20.mo
+installing de.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/de/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/dz/LC_MESSAGES
+installing dz.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/dz/LC_MESSAGES/glib20.mo
+installing el.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/el/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/en_CA/LC_MESSAGES
+installing en_CA.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en_CA/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/en_GB/LC_MESSAGES
+installing en_GB.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en_GB/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/en@shaw/LC_MESSAGES
+installing en@shaw.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en@shaw/LC_MESSAGES/glib20.mo
+installing eo.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/eo/LC_MESSAGES/glib20.mo
+installing es.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/es/LC_MESSAGES/glib20.mo
+installing et.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/et/LC_MESSAGES/glib20.mo
+installing eu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/eu/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/fa/LC_MESSAGES
+installing fa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fa/LC_MESSAGES/glib20.mo
+installing fi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fi/LC_MESSAGES/glib20.mo
+installing fr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fr/LC_MESSAGES/glib20.mo
+installing ga.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ga/LC_MESSAGES/glib20.mo
+installing gl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/gl/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/gu/LC_MESSAGES
+installing gu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/gu/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/he/LC_MESSAGES
+installing he.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/he/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/hi/LC_MESSAGES
+installing hi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hi/LC_MESSAGES/glib20.mo
+installing hr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hr/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/hu/LC_MESSAGES
+installing hu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hu/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/hy/LC_MESSAGES
+installing hy.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hy/LC_MESSAGES/glib20.mo
+installing id.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/id/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/is/LC_MESSAGES
+installing is.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/is/LC_MESSAGES/glib20.mo
+installing it.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/it/LC_MESSAGES/glib20.mo
+installing ja.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ja/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ka/LC_MESSAGES
+installing ka.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ka/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/kk/LC_MESSAGES
+installing kk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/kk/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/kn/LC_MESSAGES
+installing kn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/kn/LC_MESSAGES/glib20.mo
+installing ko.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ko/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ku/LC_MESSAGES
+installing ku.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ku/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/lt/LC_MESSAGES
+installing lt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/lt/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/lv/LC_MESSAGES
+installing lv.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/lv/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/mai/LC_MESSAGES
+installing mai.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mai/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/mg/LC_MESSAGES
+installing mg.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mg/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/mk/LC_MESSAGES
+installing mk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mk/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ml/LC_MESSAGES
+installing ml.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ml/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/mn/LC_MESSAGES
+installing mn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mn/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/mr/LC_MESSAGES
+installing mr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mr/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ms/LC_MESSAGES
+installing ms.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ms/LC_MESSAGES/glib20.mo
+installing nb.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nb/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/nds/LC_MESSAGES
+installing nds.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nds/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ne/LC_MESSAGES
+installing ne.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ne/LC_MESSAGES/glib20.mo
+installing nl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nl/LC_MESSAGES/glib20.mo
+installing nn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nn/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/oc/LC_MESSAGES
+installing oc.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/oc/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/or/LC_MESSAGES
+installing or.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/or/LC_MESSAGES/glib20.mo
+installing pa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pa/LC_MESSAGES/glib20.mo
+installing pl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pl/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ps/LC_MESSAGES
+installing ps.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ps/LC_MESSAGES/glib20.mo
+installing pt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pt/LC_MESSAGES/glib20.mo
+installing pt_BR.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pt_BR/LC_MESSAGES/glib20.mo
+installing ro.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ro/LC_MESSAGES/glib20.mo
+installing ru.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ru/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/rw/LC_MESSAGES
+installing rw.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/rw/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/si/LC_MESSAGES
+installing si.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/si/LC_MESSAGES/glib20.mo
+installing sk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sk/LC_MESSAGES/glib20.mo
+installing sl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sl/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/sq/LC_MESSAGES
+installing sq.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sq/LC_MESSAGES/glib20.mo
+installing sr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/sr@latin/LC_MESSAGES
+installing sr@latin.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr@latin/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/sr@ije/LC_MESSAGES
+installing sr@ije.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr@ije/LC_MESSAGES/glib20.mo
+installing sv.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sv/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ta/LC_MESSAGES
+installing ta.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ta/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/te/LC_MESSAGES
+installing te.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/te/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/th/LC_MESSAGES
+installing th.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/th/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/tl/LC_MESSAGES
+installing tl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tl/LC_MESSAGES/glib20.mo
+installing tr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tr/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/ug/LC_MESSAGES
+installing ug.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ug/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/tt/LC_MESSAGES
+installing tt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tt/LC_MESSAGES/glib20.mo
+installing uk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/uk/LC_MESSAGES/glib20.mo
+installing vi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/vi/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/wa/LC_MESSAGES
+installing wa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/wa/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/xh/LC_MESSAGES
+installing xh.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/xh/LC_MESSAGES/glib20.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/yi/LC_MESSAGES
+installing yi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/yi/LC_MESSAGES/glib20.mo
+installing zh_CN.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_CN/LC_MESSAGES/glib20.mo
+installing zh_HK.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_HK/LC_MESSAGES/glib20.mo
+installing zh_TW.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_TW/LC_MESSAGES/glib20.mo
+if test "glib" = "glib"; then \
+	  if test -r ".././mkinstalldirs"; then \
+	    .././mkinstalldirs /srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext/po; \
+	  else \
+	    /bin/sh ../mkinstalldirs /srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext/po; \
+	  fi; \
+	  /usr/bin/install -c -m 644 ./Makefile.in.in \
+			  /srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext/po/Makefile.in.in; \
+	else \
+	  : ; \
+	fi
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext/po
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/po'
+Making install in docs
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+Making install in reference
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+Making install in glib
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/glib'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/glib'
+make[4]: Nothing to be done for `install-exec-am'.
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/glib
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-10.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-14.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-16.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-18.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-20.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-24.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-26.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-28.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-32.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-34.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/deprecated.html
+ /usr/bin/install -c -m 644 ./html/file-name-encodings.png
+ /usr/bin/install -c -m 644 ./html/glib-Arrays.html
+ /usr/bin/install -c -m 644 ./html/glib-Asynchronous-Queues.html
+ /usr/bin/install -c -m 644 ./html/glib-Atomic-Operations.html
+ /usr/bin/install -c -m 644 ./html/glib-Automatic-String-Completion.html
+ /usr/bin/install -c -m 644 ./html/glib-Balanced-Binary-Trees.html
+ /usr/bin/install -c -m 644 ./html/glib-Base64-Encoding.html
+ /usr/bin/install -c -m 644 ./html/glib-Basic-Types.html
+ /usr/bin/install -c -m 644 ./html/glib-Bookmark-file-parser.html
+ /usr/bin/install -c -m 644 ./html/glib-building.html
+ /usr/bin/install -c -m 644 ./html/glib-Byte-Arrays.html
+ /usr/bin/install -c -m 644 ./html/glib-Byte-Order-Macros.html
+ /usr/bin/install -c -m 644 ./html/glib-Caches.html
+ /usr/bin/install -c -m 644 ./html/glib-changes.html
+ /usr/bin/install -c -m 644 ./html/glib-Character-Set-Conversion.html
+ /usr/bin/install -c -m 644 ./html/glib-Commandline-option-parser.html
+ /usr/bin/install -c -m 644 ./html/glib-compiling.html
+ /usr/bin/install -c -m 644 ./html/glib-core.html
+ /usr/bin/install -c -m 644 ./html/glib-cross-compiling.html
+ /usr/bin/install -c -m 644 ./html/glib-Data-Checksums.html
+ /usr/bin/install -c -m 644 ./html/glib-Data-HMACs.html
+ /usr/bin/install -c -m 644 ./html/glib-Datasets.html
+ /usr/bin/install -c -m 644 ./html/glib-data-types.html
+ /usr/bin/install -c -m 644 ./html/glib-Date-and-Time-Functions.html
+ /usr/bin/install -c -m 644 ./html/glib-Deprecated-Thread-APIs.html
+ /usr/bin/install -c -m 644 ./html/glib.devhelp2
+ /usr/bin/install -c -m 644 ./html/glib-Double-ended-Queues.html
+ /usr/bin/install -c -m 644 ./html/glib-Doubly-Linked-Lists.html
+ /usr/bin/install -c -m 644 ./html/glib-Dynamic-Loading-of-Modules.html
+ /usr/bin/install -c -m 644 ./html/glib-Error-Reporting.html
+ /usr/bin/install -c -m 644 ./html/glib-File-Utilities.html
+ /usr/bin/install -c -m 644 ./html/glib-fundamentals.html
+ /usr/bin/install -c -m 644 ./html/glib-GDateTime.html
+ /usr/bin/install -c -m 644 ./html/glib-gettextize.html
+ /usr/bin/install -c -m 644 ./html/glib-Glob-style-pattern-matching.html
+ /usr/bin/install -c -m 644 ./html/glib-GTimeZone.html
+ /usr/bin/install -c -m 644 ./html/glib-GVariant.html
+ /usr/bin/install -c -m 644 ./html/glib-GVariantType.html
+ /usr/bin/install -c -m 644 ./html/glib-Hash-Tables.html
+ /usr/bin/install -c -m 644 ./html/glib-Hook-Functions.html
+ /usr/bin/install -c -m 644 ./html/glib-Hostname-Utilities.html
+ /usr/bin/install -c -m 644 ./html/glib.html
+ /usr/bin/install -c -m 644 ./html/glib-I18N.html
+ /usr/bin/install -c -m 644 ./html/glib-IO-Channels.html
+ /usr/bin/install -c -m 644 ./html/glib-Keyed-Data-Lists.html
+ /usr/bin/install -c -m 644 ./html/glib-Key-value-file-parser.html
+ /usr/bin/install -c -m 644 ./html/glib-Lexical-Scanner.html
+ /usr/bin/install -c -m 644 ./html/glib-Memory-Allocation.html
+ /usr/bin/install -c -m 644 ./html/glib-Memory-Slices.html
+ /usr/bin/install -c -m 644 ./html/glib-Message-Logging.html
+ /usr/bin/install -c -m 644 ./html/glib-Miscellaneous-Macros.html
+ /usr/bin/install -c -m 644 ./html/glib-Miscellaneous-Utility-Functions.html
+ /usr/bin/install -c -m 644 ./html/glib-N-ary-Trees.html
+ /usr/bin/install -c -m 644 ./html/glib-Numerical-Definitions.html
+ /usr/bin/install -c -m 644 ./html/glib-Perl-compatible-regular-expressions.html
+ /usr/bin/install -c -m 644 ./html/glib-Pointer-Arrays.html
+ /usr/bin/install -c -m 644 ./html/glib-programming.html
+ /usr/bin/install -c -m 644 ./html/glib-Quarks.html
+ /usr/bin/install -c -m 644 ./html/glib-Random-Numbers.html
+ /usr/bin/install -c -m 644 ./html/glib-regex-syntax.html
+ /usr/bin/install -c -m 644 ./html/glib-Relations-and-Tuples.html
+ /usr/bin/install -c -m 644 ./html/glib-resources.html
+ /usr/bin/install -c -m 644 ./html/glib-running.html
+ /usr/bin/install -c -m 644 ./html/glib-Sequences.html
+ /usr/bin/install -c -m 644 ./html/glib-Shell-related-Utilities.html
+ /usr/bin/install -c -m 644 ./html/glib-Simple-XML-Subset-Parser.html
+ /usr/bin/install -c -m 644 ./html/glib-Singly-Linked-Lists.html
+ /usr/bin/install -c -m 644 ./html/glib-Spawning-Processes.html
+ /usr/bin/install -c -m 644 ./html/glib-Standard-Macros.html
+ /usr/bin/install -c -m 644 ./html/glib-String-Chunks.html
+ /usr/bin/install -c -m 644 ./html/glib-Strings.html
+ /usr/bin/install -c -m 644 ./html/glib-String-Utility-Functions.html
+ /usr/bin/install -c -m 644 ./html/glib-Testing.html
+ /usr/bin/install -c -m 644 ./html/glib-The-Main-Event-Loop.html
+ /usr/bin/install -c -m 644 ./html/glib-Thread-Pools.html
+ /usr/bin/install -c -m 644 ./html/glib-Threads.html
+ /usr/bin/install -c -m 644 ./html/glib-Timers.html
+ /usr/bin/install -c -m 644 ./html/glib-Trash-Stacks.html
+ /usr/bin/install -c -m 644 ./html/glib-Type-Conversion-Macros.html
+ /usr/bin/install -c -m 644 ./html/glib-Unicode-Manipulation.html
+ /usr/bin/install -c -m 644 ./html/glib-UNIX-specific-utilities-and-integration.html
+ /usr/bin/install -c -m 644 ./html/glib-URI-Functions.html
+ /usr/bin/install -c -m 644 ./html/glib-utilities.html
+ /usr/bin/install -c -m 644 ./html/glib-Version-Information.html
+ /usr/bin/install -c -m 644 ./html/glib-Warnings-and-Assertions.html
+ /usr/bin/install -c -m 644 ./html/glib-Windows-Compatibility-Functions.html
+ /usr/bin/install -c -m 644 ./html/gtester.html
+ /usr/bin/install -c -m 644 ./html/gtester-report.html
+ /usr/bin/install -c -m 644 ./html/gvariant-format-strings.html
+ /usr/bin/install -c -m 644 ./html/gvariant-text.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/mainloop-states.gif
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/tools.html
+ /usr/bin/install -c -m 644 ./html/up.png
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 glib-gettextize.1 gtester.1 gtester-report.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/glib'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/glib'
+Making install in gobject
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gobject'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gobject'
+make[4]: Nothing to be done for `install-exec-am'.
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/gobject
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-10.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-14.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-18.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-24.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-26.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-28.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-32.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-34.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/ch01s02.html
+ /usr/bin/install -c -m 644 ./html/chapter-gobject.html
+ /usr/bin/install -c -m 644 ./html/chapter-gtype.html
+ /usr/bin/install -c -m 644 ./html/chapter-intro.html
+ /usr/bin/install -c -m 644 ./html/chapter-signal.html
+ /usr/bin/install -c -m 644 ./html/GBinding.html
+ /usr/bin/install -c -m 644 ./html/glib-genmarshal.html
+ /usr/bin/install -c -m 644 ./html/glib-mkenums.html
+ /usr/bin/install -c -m 644 ./html/glue.png
+ /usr/bin/install -c -m 644 ./html/gobject-Boxed-Types.html
+ /usr/bin/install -c -m 644 ./html/gobject-Closures.html
+ /usr/bin/install -c -m 644 ./html/gobject.devhelp2
+ /usr/bin/install -c -m 644 ./html/gobject-Enumeration-and-Flag-Types.html
+ /usr/bin/install -c -m 644 ./html/gobject-Generic-values.html
+ /usr/bin/install -c -m 644 ./html/gobject-GParamSpec.html
+ /usr/bin/install -c -m 644 ./html/gobject-memory.html
+ /usr/bin/install -c -m 644 ./html/gobject-properties.html
+ /usr/bin/install -c -m 644 ./html/gobject-query.html
+ /usr/bin/install -c -m 644 ./html/gobject-Signals.html
+ /usr/bin/install -c -m 644 ./html/gobject-Standard-Parameter-and-Value-Types.html
+ /usr/bin/install -c -m 644 ./html/gobject-The-Base-Object-Type.html
+ /usr/bin/install -c -m 644 ./html/gobject-Type-Information.html
+ /usr/bin/install -c -m 644 ./html/gobject-Value-arrays.html
+ /usr/bin/install -c -m 644 ./html/gobject-Varargs-Value-Collection.html
+ /usr/bin/install -c -m 644 ./html/gtype-conventions.html
+ /usr/bin/install -c -m 644 ./html/gtype-instantiable-classed.html
+ /usr/bin/install -c -m 644 ./html/GTypeModule.html
+ /usr/bin/install -c -m 644 ./html/gtype-non-instantiable-classed.html
+ /usr/bin/install -c -m 644 ./html/gtype-non-instantiable.html
+ /usr/bin/install -c -m 644 ./html/GTypePlugin.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/howto-gobject-chainup.html
+ /usr/bin/install -c -m 644 ./html/howto-gobject-code.html
+ /usr/bin/install -c -m 644 ./html/howto-gobject-construction.html
+ /usr/bin/install -c -m 644 ./html/howto-gobject-destruction.html
+ /usr/bin/install -c -m 644 ./html/howto-gobject.html
+ /usr/bin/install -c -m 644 ./html/howto-gobject-methods.html
+ /usr/bin/install -c -m 644 ./html/howto-interface.html
+ /usr/bin/install -c -m 644 ./html/howto-interface-implement.html
+ /usr/bin/install -c -m 644 ./html/howto-interface-override.html
+ /usr/bin/install -c -m 644 ./html/howto-interface-prerequisite.html
+ /usr/bin/install -c -m 644 ./html/howto-interface-properties.html
+ /usr/bin/install -c -m 644 ./html/howto-signals.html
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/pr01.html
+ /usr/bin/install -c -m 644 ./html/pt01.html
+ /usr/bin/install -c -m 644 ./html/pt02.html
+ /usr/bin/install -c -m 644 ./html/pt03.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/rn01.html
+ /usr/bin/install -c -m 644 ./html/rn02.html
+ /usr/bin/install -c -m 644 ./html/signal.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/tools-ginspector.html
+ /usr/bin/install -c -m 644 ./html/tools-gob.html
+ /usr/bin/install -c -m 644 ./html/tools-gtkdoc.html
+ /usr/bin/install -c -m 644 ./html/tools-refdb.html
+ /usr/bin/install -c -m 644 ./html/tools-vala.html
+ /usr/bin/install -c -m 644 ./html/up.png
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 glib-mkenums.1 glib-genmarshal.1 gobject-query.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gobject'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gobject'
+Making install in gio
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+Making install in gdbus-object-manager-example
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio/gdbus-object-manager-example'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio/gdbus-object-manager-example'
+make[5]: Nothing to be done for `install-exec-am'.
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/gdbus-object-manager-example
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ExampleAnimal.html
+ /usr/bin/install -c -m 644 ./html/ExampleCat.html
+ /usr/bin/install -c -m 644 ./html/ExampleObject.html
+ /usr/bin/install -c -m 644 ./html/ExampleObjectManagerClient.html
+ /usr/bin/install -c -m 644 ./html/gdbus-object-manager-example.devhelp2
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/pt01.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up.png
+make  install-data-hook
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio/gdbus-object-manager-example'
+rm -rf /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/gdbus-object-manager-example
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio/gdbus-object-manager-example'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio/gdbus-object-manager-example'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio/gdbus-object-manager-example'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+make[5]: Nothing to be done for `install-exec-am'.
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/gio
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-18.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-20.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-24.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-26.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-28.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-32.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-34.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/application.html
+ /usr/bin/install -c -m 644 ./html/async.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/ch03.html
+ /usr/bin/install -c -m 644 ./html/ch29.html
+ /usr/bin/install -c -m 644 ./html/ch30.html
+ /usr/bin/install -c -m 644 ./html/ch30s02.html
+ /usr/bin/install -c -m 644 ./html/ch30s03.html
+ /usr/bin/install -c -m 644 ./html/ch31.html
+ /usr/bin/install -c -m 644 ./html/ch31s02.html
+ /usr/bin/install -c -m 644 ./html/ch31s03.html
+ /usr/bin/install -c -m 644 ./html/ch31s04.html
+ /usr/bin/install -c -m 644 ./html/ch31s05.html
+ /usr/bin/install -c -m 644 ./html/ch31s06.html
+ /usr/bin/install -c -m 644 ./html/ch31s07.html
+ /usr/bin/install -c -m 644 ./html/ch32.html
+ /usr/bin/install -c -m 644 ./html/ch32s02.html
+ /usr/bin/install -c -m 644 ./html/ch32s03.html
+ /usr/bin/install -c -m 644 ./html/ch32s04.html
+ /usr/bin/install -c -m 644 ./html/ch32s05.html
+ /usr/bin/install -c -m 644 ./html/conversion.html
+ /usr/bin/install -c -m 644 ./html/ExampleAnimal.html
+ /usr/bin/install -c -m 644 ./html/ExampleCat.html
+ /usr/bin/install -c -m 644 ./html/ExampleObject.html
+ /usr/bin/install -c -m 644 ./html/ExampleObjectManagerClient.html
+ /usr/bin/install -c -m 644 ./html/extending-gio.html
+ /usr/bin/install -c -m 644 ./html/extending.html
+ /usr/bin/install -c -m 644 ./html/failable_initialization.html
+ /usr/bin/install -c -m 644 ./html/file_mon.html
+ /usr/bin/install -c -m 644 ./html/file_ops.html
+ /usr/bin/install -c -m 644 ./html/GActionGroup.html
+ /usr/bin/install -c -m 644 ./html/GAction.html
+ /usr/bin/install -c -m 644 ./html/GActionMap.html
+ /usr/bin/install -c -m 644 ./html/GAppInfo.html
+ /usr/bin/install -c -m 644 ./html/GApplicationCommandLine.html
+ /usr/bin/install -c -m 644 ./html/GApplication.html
+ /usr/bin/install -c -m 644 ./html/GAsyncInitable.html
+ /usr/bin/install -c -m 644 ./html/GAsyncResult.html
+ /usr/bin/install -c -m 644 ./html/GBufferedInputStream.html
+ /usr/bin/install -c -m 644 ./html/GBufferedOutputStream.html
+ /usr/bin/install -c -m 644 ./html/GCancellable.html
+ /usr/bin/install -c -m 644 ./html/GCharsetConverter.html
+ /usr/bin/install -c -m 644 ./html/GConverter.html
+ /usr/bin/install -c -m 644 ./html/GCredentials.html
+ /usr/bin/install -c -m 644 ./html/GDataInputStream.html
+ /usr/bin/install -c -m 644 ./html/GDataOutputStream.html
+ /usr/bin/install -c -m 644 ./html/GDBusActionGroup.html
+ /usr/bin/install -c -m 644 ./html/GDBusAuthObserver.html
+ /usr/bin/install -c -m 644 ./html/gdbus-codegen.html
+ /usr/bin/install -c -m 644 ./html/GDBusConnection.html
+ /usr/bin/install -c -m 644 ./html/gdbus-convenience.html
+ /usr/bin/install -c -m 644 ./html/gdbus.html
+ /usr/bin/install -c -m 644 ./html/GDBusInterface.html
+ /usr/bin/install -c -m 644 ./html/GDBusInterfaceSkeleton.html
+ /usr/bin/install -c -m 644 ./html/gdbus-lowlevel.html
+ /usr/bin/install -c -m 644 ./html/GDBusMenuModel.html
+ /usr/bin/install -c -m 644 ./html/GDBusMessage.html
+ /usr/bin/install -c -m 644 ./html/GDBusMethodInvocation.html
+ /usr/bin/install -c -m 644 ./html/GDBusObject.html
+ /usr/bin/install -c -m 644 ./html/GDBusObjectManagerClient.html
+ /usr/bin/install -c -m 644 ./html/GDBusObjectManager.html
+ /usr/bin/install -c -m 644 ./html/GDBusObjectManagerServer.html
+ /usr/bin/install -c -m 644 ./html/GDBusObjectProxy.html
+ /usr/bin/install -c -m 644 ./html/GDBusObjectSkeleton.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.gtk.GDBus.Example.ObjectManager.Animal.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.gtk.GDBus.Example.ObjectManager.Cat.html
+ /usr/bin/install -c -m 644 ./html/GDBusProxy.html
+ /usr/bin/install -c -m 644 ./html/GDBusServer.html
+ /usr/bin/install -c -m 644 ./html/GDrive.html
+ /usr/bin/install -c -m 644 ./html/GEmblemedIcon.html
+ /usr/bin/install -c -m 644 ./html/GEmblem.html
+ /usr/bin/install -c -m 644 ./html/GFileDescriptorBased.html
+ /usr/bin/install -c -m 644 ./html/GFileEnumerator.html
+ /usr/bin/install -c -m 644 ./html/GFile.html
+ /usr/bin/install -c -m 644 ./html/GFileIcon.html
+ /usr/bin/install -c -m 644 ./html/GFileInfo.html
+ /usr/bin/install -c -m 644 ./html/GFileInputStream.html
+ /usr/bin/install -c -m 644 ./html/GFileIOStream.html
+ /usr/bin/install -c -m 644 ./html/GFileMonitor.html
+ /usr/bin/install -c -m 644 ./html/GFilenameCompleter.html
+ /usr/bin/install -c -m 644 ./html/GFileOutputStream.html
+ /usr/bin/install -c -m 644 ./html/GFilterInputStream.html
+ /usr/bin/install -c -m 644 ./html/GFilterOutputStream.html
+ /usr/bin/install -c -m 644 ./html/GIcon.html
+ /usr/bin/install -c -m 644 ./html/GInetAddress.html
+ /usr/bin/install -c -m 644 ./html/GInetSocketAddress.html
+ /usr/bin/install -c -m 644 ./html/GInitable.html
+ /usr/bin/install -c -m 644 ./html/GInputStream.html
+ /usr/bin/install -c -m 644 ./html/gio-D-Bus-Addresses.html
+ /usr/bin/install -c -m 644 ./html/gio-D-Bus-Introspection-Data.html
+ /usr/bin/install -c -m 644 ./html/gio-D-Bus-Utilities.html
+ /usr/bin/install -c -m 644 ./html/gio-Desktop-file-based-GAppInfo.html
+ /usr/bin/install -c -m 644 ./html/gio.devhelp2
+ /usr/bin/install -c -m 644 ./html/gio-Extension-Points.html
+ /usr/bin/install -c -m 644 ./html/gio-GActionGroup-exporter.html
+ /usr/bin/install -c -m 644 ./html/gio-GContentType.html
+ /usr/bin/install -c -m 644 ./html/gio-GConverterInputstream.html
+ /usr/bin/install -c -m 644 ./html/gio-GConverterOutputstream.html
+ /usr/bin/install -c -m 644 ./html/gio-GDBusError.html
+ /usr/bin/install -c -m 644 ./html/gio-GFileAttribute.html
+ /usr/bin/install -c -m 644 ./html/gio-GInetAddressMask.html
+ /usr/bin/install -c -m 644 ./html/gio-GIOError.html
+ /usr/bin/install -c -m 644 ./html/gio-GIOScheduler.html
+ /usr/bin/install -c -m 644 ./html/gio-GMenuModel-exporter.html
+ /usr/bin/install -c -m 644 ./html/gio-gpollableutils.html
+ /usr/bin/install -c -m 644 ./html/gio-GResource.html
+ /usr/bin/install -c -m 644 ./html/gio-GSettingsSchema-GSettingsSchemaSource.html
+ /usr/bin/install -c -m 644 ./html/gio-GWin32InputStream.html
+ /usr/bin/install -c -m 644 ./html/gio-GWin32OutputStream.html
+ /usr/bin/install -c -m 644 ./html/gio-hierarchy.html
+ /usr/bin/install -c -m 644 ./html/GIOModule.html
+ /usr/bin/install -c -m 644 ./html/gio-Owning-Bus-Names.html
+ /usr/bin/install -c -m 644 ./html/gio-querymodules.html
+ /usr/bin/install -c -m 644 ./html/GIOStream.html
+ /usr/bin/install -c -m 644 ./html/gio-TLS-Overview.html
+ /usr/bin/install -c -m 644 ./html/gio-Unix-Mounts.html
+ /usr/bin/install -c -m 644 ./html/gio-Watching-Bus-Names.html
+ /usr/bin/install -c -m 644 ./html/glib-compile-resources.html
+ /usr/bin/install -c -m 644 ./html/glib-compile-schemas.html
+ /usr/bin/install -c -m 644 ./html/GLoadableIcon.html
+ /usr/bin/install -c -m 644 ./html/GMemoryInputStream.html
+ /usr/bin/install -c -m 644 ./html/GMemoryOutputStream.html
+ /usr/bin/install -c -m 644 ./html/GMenu.html
+ /usr/bin/install -c -m 644 ./html/GMenuModel.html
+ /usr/bin/install -c -m 644 ./html/GMount.html
+ /usr/bin/install -c -m 644 ./html/GMountOperation.html
+ /usr/bin/install -c -m 644 ./html/GNetworkAddress.html
+ /usr/bin/install -c -m 644 ./html/GNetworkMonitor.html
+ /usr/bin/install -c -m 644 ./html/GNetworkService.html
+ /usr/bin/install -c -m 644 ./html/GOutputStream.html
+ /usr/bin/install -c -m 644 ./html/GPermission.html
+ /usr/bin/install -c -m 644 ./html/GPollableInputStream.html
+ /usr/bin/install -c -m 644 ./html/GPollableOutputStream.html
+ /usr/bin/install -c -m 644 ./html/GProxyAddress.html
+ /usr/bin/install -c -m 644 ./html/GProxy.html
+ /usr/bin/install -c -m 644 ./html/GProxyResolver.html
+ /usr/bin/install -c -m 644 ./html/GRemoteActionGroup.html
+ /usr/bin/install -c -m 644 ./html/GResolver.html
+ /usr/bin/install -c -m 644 ./html/gresource-tool.html
+ /usr/bin/install -c -m 644 ./html/GSeekable.html
+ /usr/bin/install -c -m 644 ./html/GSettingsBackend.html
+ /usr/bin/install -c -m 644 ./html/GSettings.html
+ /usr/bin/install -c -m 644 ./html/gsettings-tool.html
+ /usr/bin/install -c -m 644 ./html/GSimpleActionGroup.html
+ /usr/bin/install -c -m 644 ./html/GSimpleAction.html
+ /usr/bin/install -c -m 644 ./html/GSimpleAsyncResult.html
+ /usr/bin/install -c -m 644 ./html/GSimplePermission.html
+ /usr/bin/install -c -m 644 ./html/GSocketAddress.html
+ /usr/bin/install -c -m 644 ./html/GSocketClient.html
+ /usr/bin/install -c -m 644 ./html/GSocketConnectable.html
+ /usr/bin/install -c -m 644 ./html/GSocketConnection.html
+ /usr/bin/install -c -m 644 ./html/GSocketControlMessage.html
+ /usr/bin/install -c -m 644 ./html/GSocket.html
+ /usr/bin/install -c -m 644 ./html/GSocketListener.html
+ /usr/bin/install -c -m 644 ./html/GSocketService.html
+ /usr/bin/install -c -m 644 ./html/GSrvTarget.html
+ /usr/bin/install -c -m 644 ./html/GTcpConnection.html
+ /usr/bin/install -c -m 644 ./html/GTcpWrapperConnection.html
+ /usr/bin/install -c -m 644 ./html/GTestDBus.html
+ /usr/bin/install -c -m 644 ./html/GThemedIcon.html
+ /usr/bin/install -c -m 644 ./html/GThreadedSocketService.html
+ /usr/bin/install -c -m 644 ./html/GTlsBackend.html
+ /usr/bin/install -c -m 644 ./html/GTlsCertificate.html
+ /usr/bin/install -c -m 644 ./html/GTlsClientConnection.html
+ /usr/bin/install -c -m 644 ./html/GTlsConnection.html
+ /usr/bin/install -c -m 644 ./html/GTlsDatabase.html
+ /usr/bin/install -c -m 644 ./html/GTlsFileDatabase.html
+ /usr/bin/install -c -m 644 ./html/GTlsInteraction.html
+ /usr/bin/install -c -m 644 ./html/GTlsPassword.html
+ /usr/bin/install -c -m 644 ./html/GTlsServerConnection.html
+ /usr/bin/install -c -m 644 ./html/GUnixConnection.html
+ /usr/bin/install -c -m 644 ./html/GUnixCredentialsMessage.html
+ /usr/bin/install -c -m 644 ./html/GUnixFDList.html
+ /usr/bin/install -c -m 644 ./html/GUnixFDMessage.html
+ /usr/bin/install -c -m 644 ./html/GUnixInputStream.html
+ /usr/bin/install -c -m 644 ./html/GUnixOutputStream.html
+ /usr/bin/install -c -m 644 ./html/GUnixSocketAddress.html
+ /usr/bin/install -c -m 644 ./html/GVfs.html
+ /usr/bin/install -c -m 644 ./html/gvfs-overview.png
+ /usr/bin/install -c -m 644 ./html/GVolume.html
+ /usr/bin/install -c -m 644 ./html/GVolumeMonitor.html
+ /usr/bin/install -c -m 644 ./html/GZlibCompressor.html
+ /usr/bin/install -c -m 644 ./html/GZlibDecompressor.html
+ /usr/bin/install -c -m 644 ./html/highlevel-socket.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/icons.html
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/menu-example.png
+ /usr/bin/install -c -m 644 ./html/menu-model.png
+ /usr/bin/install -c -m 644 ./html/migrating.html
+ /usr/bin/install -c -m 644 ./html/networking.html
+ /usr/bin/install -c -m 644 ./html/permissions.html
+ /usr/bin/install -c -m 644 ./html/pt01.html
+ /usr/bin/install -c -m 644 ./html/pt02.html
+ /usr/bin/install -c -m 644 ./html/resolver.html
+ /usr/bin/install -c -m 644 ./html/resources.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/running-gio-apps.html
+ /usr/bin/install -c -m 644 ./html/settings.html
+ /usr/bin/install -c -m 644 ./html/streaming.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/testing.html
+ /usr/bin/install -c -m 644 ./html/tls.html
+ /usr/bin/install -c -m 644 ./html/tools.html
+ /usr/bin/install -c -m 644 ./html/types.html
+ /usr/bin/install -c -m 644 ./html/up.png
+ /usr/bin/install -c -m 644 ./html/utils.html
+ /usr/bin/install -c -m 644 ./html/volume_mon.html
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 gio-querymodules.1 glib-compile-schemas.1 glib-compile-resources.1 gsettings.1 gresource.1 gdbus.1 gdbus-codegen.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'

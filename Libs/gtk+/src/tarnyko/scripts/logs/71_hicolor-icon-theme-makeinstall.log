@@ -1,0 +1,12 @@
+mkdir -p /srv/win32builder/fixed_364/build/win32/share/icons/hicolor
+/usr/bin/install -c -m 644 index.theme /srv/win32builder/fixed_364/build/win32/share/icons/hicolor
+for dir in 16x16 22x22 24x24 32x32 36x36 48x48 64x64 72x72 96x96 128x128 192x192 256x256 scalable; do \
+	  for ctxt in actions animations apps categories devices emblems emotes filesystems intl mimetypes places status stock; do \
+	    mkdir -p /srv/win32builder/fixed_364/build/win32/share/icons/hicolor/$dir/$ctxt; \
+	    if [ "$ctxt" = "stock" ]; then \
+	      for sub in chart code data form image io media navigation net object table text; do \
+	        mkdir -p /srv/win32builder/fixed_364/build/win32/share/icons/hicolor/$dir/$ctxt/$sub; \
+	      done \
+	    fi \
+	  done \
+	done

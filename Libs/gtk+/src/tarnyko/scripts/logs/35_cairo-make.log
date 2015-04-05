@@ -1,0 +1,232 @@
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'
+Making all in src
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+  CC     cairo-analysis-surface.lo
+  CC     cairo-arc.lo
+  CC     cairo-array.lo
+  CC     cairo-atomic.lo
+  CC     cairo-base64-stream.lo
+  CC     cairo-base85-stream.lo
+  CC     cairo-bentley-ottmann.lo
+  CC     cairo-bentley-ottmann-rectangular.lo
+  CC     cairo-bentley-ottmann-rectilinear.lo
+  CC     cairo-botor-scan-converter.lo
+  CC     cairo-boxes.lo
+  CC     cairo.lo
+  CC     cairo-cache.lo
+  CC     cairo-clip.lo
+  CC     cairo-color.lo
+  CC     cairo-composite-rectangles.lo
+  CC     cairo-debug.lo
+  CC     cairo-device.lo
+  CC     cairo-fixed.lo
+  CC     cairo-font-face.lo
+  CC     cairo-font-face-twin.lo
+  CC     cairo-font-face-twin-data.lo
+  CC     cairo-font-options.lo
+  CC     cairo-freelist.lo
+  CC     cairo-freed-pool.lo
+  CC     cairo-gstate.lo
+cairo-gstate.c: In function '_cairo_gstate_copy_clip_rectangle_list':
+cairo-gstate.c:1565: warning: ignoring return value of '_cairo_clip_rectangle', declared with attribute warn_unused_result
+  CC     cairo-hash.lo
+  CC     cairo-hull.lo
+  CC     cairo-image-info.lo
+  CC     cairo-image-surface.lo
+cairo-image-surface.c: In function '_cairo_format_from_pixman_format':
+cairo-image-surface.c:101: warning: enumeration value 'PIXMAN_r8g8b8a8' not handled in switch
+cairo-image-surface.c:101: warning: enumeration value 'PIXMAN_r8g8b8x8' not handled in switch
+cairo-image-surface.c:101: warning: enumeration value 'PIXMAN_x14r6g6b6' not handled in switch
+  CC     cairo-lzw.lo
+  CC     cairo-matrix.lo
+  CC     cairo-recording-surface.lo
+  CC     cairo-misc.lo
+  CC     cairo-mutex.lo
+  CC     cairo-observer.lo
+  CC     cairo-output-stream.lo
+  CC     cairo-paginated-surface.lo
+  CC     cairo-path-bounds.lo
+  CC     cairo-path.lo
+  CC     cairo-path-fill.lo
+  CC     cairo-path-fixed.lo
+  CC     cairo-path-in-fill.lo
+  CC     cairo-path-stroke.lo
+  CC     cairo-pattern.lo
+  CC     cairo-pen.lo
+  CC     cairo-polygon.lo
+  CC     cairo-rectangle.lo
+  CC     cairo-rectangular-scan-converter.lo
+  CC     cairo-region.lo
+  CC     cairo-rtree.lo
+  CC     cairo-scaled-font.lo
+  CC     cairo-slope.lo
+  CC     cairo-spans.lo
+  CC     cairo-spline.lo
+  CC     cairo-stroke-style.lo
+  CC     cairo-surface.lo
+  CC     cairo-surface-fallback.lo
+  CC     cairo-surface-clipper.lo
+  CC     cairo-surface-offset.lo
+  CC     cairo-surface-snapshot.lo
+  CC     cairo-surface-subsurface.lo
+  CC     cairo-surface-wrapper.lo
+cairo-surface-wrapper.c: In function '_cairo_surface_wrapper_get_extents':
+cairo-surface-wrapper.c:659: warning: ignoring return value of '_cairo_rectangle_intersect', declared with attribute warn_unused_result
+  CC     cairo-system.lo
+  CC     cairo-tor-scan-converter.lo
+  CC     cairo-toy-font-face.lo
+  CC     cairo-traps.lo
+  CC     cairo-unicode.lo
+  CC     cairo-user-font.lo
+  CC     cairo-version.lo
+  CC     cairo-wideint.lo
+  CC     cairo-cff-subset.lo
+  CC     cairo-scaled-font-subsets.lo
+  CC     cairo-truetype-subset.lo
+  CC     cairo-type1-fallback.lo
+  CC     cairo-type1-subset.lo
+  CC     cairo-type3-glyph-surface.lo
+  CC     cairo-pdf-operators.lo
+  CC     cairo-deflate-stream.lo
+  CC     cairo-win32-surface.lo
+cairo-win32-surface.c: In function '_create_dc_and_bitmap':
+cairo-win32-surface.c:202: warning: enumeration value 'CAIRO_FORMAT_RGB16_565' not handled in switch
+cairo-win32-surface.c:236: warning: enumeration value 'CAIRO_FORMAT_INVALID' not handled in switch
+cairo-win32-surface.c:236: warning: enumeration value 'CAIRO_FORMAT_RGB16_565' not handled in switch
+cairo-win32-surface.c:312: warning: enumeration value 'CAIRO_FORMAT_INVALID' not handled in switch
+cairo-win32-surface.c:312: warning: enumeration value 'CAIRO_FORMAT_RGB16_565' not handled in switch
+cairo-win32-surface.c: In function 'mirror_a1_bits':
+cairo-win32-surface.c:586: warning: unused variable 'w'
+cairo-win32-surface.c: In function '_cairo_win32_surface_composite':
+cairo-win32-surface.c:1338: warning: comparison between signed and unsigned integer expressions
+cairo-win32-surface.c:1344: warning: comparison between signed and unsigned integer expressions
+cairo-win32-surface.c:1348: warning: comparison between signed and unsigned integer expressions
+cairo-win32-surface.c:1354: warning: comparison between signed and unsigned integer expressions
+cairo-win32-surface.c: In function 'categorize_solid_dest_operator':
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_MULTIPLY' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_SCREEN' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_OVERLAY' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_DARKEN' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_LIGHTEN' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_COLOR_DODGE' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_COLOR_BURN' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_HARD_LIGHT' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_SOFT_LIGHT' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_DIFFERENCE' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_EXCLUSION' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_HSL_HUE' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_HSL_SATURATION' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_HSL_COLOR' not handled in switch
+cairo-win32-surface.c:1430: warning: enumeration value 'CAIRO_OPERATOR_HSL_LUMINOSITY' not handled in switch
+cairo-win32-surface.c: At top level:
+cairo-win32-surface.c:615: warning: '_cairo_win32_surface_convert_to_gdi_format' defined but not used
+  CC     cairo-win32-printing-surface.lo
+  CC     cairo-win32-font.lo
+cairo-win32-font.c:712: warning: '_cairo_win32_scaled_font_text_to_glyphs' defined but not used
+  CC     cairo-png.lo
+  CC     cairo-ft-font.lo
+  CC     cairo-ps-surface.lo
+cairo-ps-surface.c: In function '_cairo_ps_surface_emit_header':
+cairo-ps-surface.c:166: warning: unused variable 'ctime_buf'
+  CC     cairo-pdf-surface.lo
+  CC     cairo-svg-surface.lo
+Generating cairo.def
+  CCLD   libcairo.la
+Creating library file: .libs/libcairo.dll.a
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+Making all in doc
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+Making all in public
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make  all-am
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+Making all in util
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+Making all in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+Making all in cairo-gobject
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-gobject'
+  CC     libcairo_gobject_la-cairo-gobject-enums.lo
+  CC     libcairo_gobject_la-cairo-gobject-structs.lo
+  CCLD   libcairo-gobject.la
+Creating library file: .libs/libcairo-gobject.dll.a
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-gobject'
+Making all in cairo-script
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+Making all in examples
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script/examples'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script/examples'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+  CC     libcairo_script_interpreter_la-cairo-script-file.lo
+  CC     libcairo_script_interpreter_la-cairo-script-hash.lo
+  CC     libcairo_script_interpreter_la-cairo-script-interpreter.lo
+  CC     libcairo_script_interpreter_la-cairo-script-objects.lo
+  CC     libcairo_script_interpreter_la-cairo-script-operators.lo
+cairo-script-operators.c: In function '_ft_create_for_pattern':
+cairo-script-operators.c:1863: warning: unused variable 'vec'
+  CC     libcairo_script_interpreter_la-cairo-script-scanner.lo
+  CC     libcairo_script_interpreter_la-cairo-script-stack.lo
+  CCLD   libcairo-script-interpreter.la
+Creating library file: .libs/libcairo-script-interpreter.dll.a
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+Making all in boilerplate
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+(cd . && sh ./make-cairo-boilerplate-constructors.sh cairo-boilerplate-getopt.c cairo-boilerplate-system.c cairo-boilerplate.c           cairo-boilerplate-win32.c cairo-boilerplate-win32-printing.c                   cairo-boilerplate-ps.c cairo-boilerplate-pdf.c cairo-boilerplate-svg.c                                                      ) > cairo-boilerplate-constructors.c
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+Making all in test
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+(cd . && sh ./make-cairo-test-constructors.sh a1-bug.c a1-image-sample.c a1-mask.c a1-mask-sample.c a1-traps-sample.c a1-rasterisation.c a8-clear.c a8-mask.c aliasing.c alpha-similar.c api-special-cases.c big-line.c big-trap.c bilevel-image.c bug-bo-rectangular.c bug-extents.c bug-seams.c caps.c caps-joins.c caps-joins-alpha.c caps-joins-curve.c caps-sub-paths.c clear.c clear-source.c clip-all.c clip-contexts.c clip-disjoint.c clip-device-offset.c clip-draw-unbounded.c clip-empty.c clip-empty-group.c clip-empty-save.c clip-fill.c clip-fill-no-op.c clip-fill-rule.c clip-fill-rule-pixel-aligned.c clip-group-shapes.c clip-image.c clip-nesting.c clip-operator.c clip-push-group.c clip-shape.c clip-stroke.c clip-stroke-no-op.c clip-text.c clip-twice.c clip-twice-rectangle.c clip-unbounded.c clip-zero.c clipped-group.c clipped-surface.c close-path.c close-path-current-point.c composite-integer-translate-source.c composite-integer-translate-over.c composite-integer-translate-over-repeat.c copy-path.c coverage.c create-for-stream.c create-from-png.c create-from-png-stream.c culled-glyphs.c curve-to-as-line-to.c dash-caps-joins.c dash-curve.c dash-infinite-loop.c dash-no-dash.c dash-offset.c dash-offset-negative.c dash-scale.c dash-state.c dash-zero-length.c degenerate-arc.c degenerate-arcs.c degenerate-curve-to.c degenerate-dash.c degenerate-linear-gradient.c degenerate-path.c degenerate-pen.c degenerate-radial-gradient.c degenerate-rel-curve-to.c device-offset.c device-offset-fractional.c device-offset-positive.c device-offset-scale.c error-setters.c extend-pad.c extend-pad-border.c extend-pad-similar.c extend-reflect.c extend-reflect-similar.c extend-repeat.c extend-repeat-similar.c extended-blend.c extended-blend-alpha.c fill-alpha.c fill-alpha-pattern.c fill-and-stroke.c fill-and-stroke-alpha.c fill-and-stroke-alpha-add.c fill-degenerate-sort-order.c fill-empty.c fill-image.c fill-missed-stop.c fill-rule.c filter-bilinear-extents.c filter-nearest-offset.c filter-nearest-transformed.c finer-grained-fallbacks.c font-face-get-type.c font-matrix-translation.c font-options.c glyph-cache-pressure.c get-and-set.c get-clip.c get-group-target.c get-path-extents.c gradient-alpha.c gradient-constant-alpha.c gradient-zero-stops.c gradient-zero-stops-mask.c group-clip.c group-paint.c group-unaligned.c half-coverage.c halo.c huge-linear.c huge-radial.c image-surface-source.c implicit-close.c infinite-join.c in-fill-empty-trapezoid.c in-fill-trapezoid.c invalid-matrix.c inverse-text.c joins.c large-clip.c large-font.c large-source.c large-source-roi.c large-twin-antialias-mixed.c leaky-dash.c leaky-dashed-rectangle.c leaky-dashed-stroke.c leaky-polygon.c line-width.c line-width-scale.c line-width-zero.c linear-gradient.c linear-gradient-extend.c linear-gradient-large.c linear-gradient-one-stop.c linear-gradient-reflect.c linear-gradient-subset.c linear-step-function.c linear-uniform.c long-dashed-lines.c long-lines.c mask.c mask-alpha.c mask-ctm.c mask-glyphs.c mask-surface-ctm.c mask-transformed-image.c mask-transformed-similar.c recording-surface-pattern.c mime-data.c miter-precision.c move-to-show-surface.c new-sub-path.c nil-surface.c operator.c operator-alpha.c operator-alpha-alpha.c operator-clear.c operator-source.c over-above-source.c over-around-source.c over-below-source.c over-between-source.c overlapping-glyphs.c paint.c paint-repeat.c paint-source-alpha.c paint-with-alpha.c partial-clip-text.c partial-coverage.c path-append.c path-stroke-twice.c path-precision.c pattern-get-type.c pattern-getters.c pixman-rotate.c png.c push-group.c push-group-color.c push-group-path-offset.c radial-gradient.c radial-gradient-extend.c radial-gradient-mask.c radial-gradient-mask-source.c radial-gradient-one-stop.c radial-gradient-source.c random-intersections-eo.c random-intersections-nonzero.c random-intersections-curves-eo.c random-intersections-curves-nz.c rectangle-rounding-error.c rectilinear-fill.c rectilinear-grid.c rectilinear-miter-limit.c rectilinear-dash.c rectilinear-stroke.c reflected-stroke.c rel-path.c rgb24-ignore-alpha.c rotate-image-surface-paint.c rotated-clip.c rounded-rectangle-fill.c rounded-rectangle-stroke.c scale-down-source-surface-paint.c scale-offset-image.c scale-offset-similar.c scale-source-surface-paint.c scaled-font-zero-matrix.c stroke-ctm-caps.c stroke-image.c select-font-face.c select-font-no-show-text.c self-copy.c self-copy-overlap.c self-intersecting.c set-source.c show-glyphs-many.c show-text-current-point.c skew-extreme.c smask.c smask-fill.c smask-image-mask.c smask-mask.c smask-paint.c smask-stroke.c smask-text.c solid-pattern-cache-stress.c source-clip.c source-clip-scale.c source-surface-scale-paint.c spline-decomposition.c subsurface.c subsurface-image-repeat.c subsurface-repeat.c subsurface-reflect.c subsurface-pad.c subsurface-modify-child.c subsurface-modify-parent.c subsurface-outside-target.c subsurface-similar-repeat.c surface-finish-twice.c surface-pattern.c surface-pattern-big-scale-down.c surface-pattern-operator.c surface-pattern-scale-down.c surface-pattern-scale-down-extend.c surface-pattern-scale-up.c text-antialias-gray.c text-antialias-none.c text-antialias-subpixel.c text-cache-crash.c text-glyph-range.c text-pattern.c text-rotate.c text-transform.c text-zero-len.c toy-font-face.c transforms.c translate-show-surface.c trap-clip.c twin.c twin-antialias-gray.c twin-antialias-mixed.c twin-antialias-none.c twin-antialias-subpixel.c unantialiased-shapes.c unbounded-operator.c user-data.c user-font.c user-font-mask.c user-font-proxy.c user-font-rescale.c xcomposite-projection.c xlib-expose-event.c zero-alpha.c zero-mask.c pthread-same-source.c pthread-show-text.c pthread-similar.c  bitmap-font.c ft-font-create-for-ft-face.c ft-show-glyphs-positioning.c ft-show-glyphs-table.c ft-text-vertical-layout-type1.c ft-text-vertical-layout-type3.c ft-text-antialias-none.c   pdf-features.c pdf-mime-data.c pdf-surface-source.c ps-eps.c ps-features.c ps-surface-source.c svg-surface.c svg-clip.c svg-surface-source.c     multi-page.c ) > cairo-test-constructors.c
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+Making all in pdiff
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+make  all-am
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+  CC     lpyramid.lo
+  CC     pdiff.lo
+  CCLD   libpdiff.la
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+Making all in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+Making all in perf
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'

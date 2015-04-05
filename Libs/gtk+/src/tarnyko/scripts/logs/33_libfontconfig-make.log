@@ -1,0 +1,194 @@
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2'
+Making all in fontconfig
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fontconfig'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fontconfig'
+Making all in fc-case
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+touch fcalias.h fcaliastail.h
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+  CC     fc-case.o
+  CCLD   fc-case.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-case'
+Making all in fc-lang
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+touch fcalias.h fcaliastail.h
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+  CC     fc-lang.o
+  CCLD   fc-lang.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-lang'
+Making all in fc-glyphname
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+touch fcalias.h fcaliastail.h
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+  CC     fc-glyphname.o
+  CCLD   fc-glyphname.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-glyphname'
+Making all in src
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+  GEN    fcalias.h
+  GEN    fcftalias.h
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+  CC     fcatomic.lo
+  CC     fcblanks.lo
+  CC     fccache.lo
+  CC     fccfg.lo
+fccfg.c:1667: warning: no previous prototype for 'DllMain'
+  CC     fccharset.lo
+  CC     fcdbg.lo
+  CC     fcdefault.lo
+  CC     fcdir.lo
+  CC     fcformat.lo
+  CC     fcfreetype.lo
+  CC     fcfs.lo
+  CC     fcinit.lo
+  CC     fclang.lo
+  CC     fclist.lo
+  CC     fcmatch.lo
+  CC     fcmatrix.lo
+  CC     fcname.lo
+  CC     fcpat.lo
+  CC     fcserialize.lo
+  CC     fcstat.lo
+  CC     fcstr.lo
+  CC     fcxml.lo
+fcxml.c: In function 'FcParseDir':
+fcxml.c:1900: warning: pointer targets in assignment differ in signedness
+fcxml.c:1902: warning: passing argument 1 of 'strcat' discards qualifiers from pointer target type
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:41: note: expected 'char *' but argument is of type 'const FcChar8 *'
+fcxml.c:1913: warning: pointer targets in assignment differ in signedness
+fcxml.c:1915: warning: passing argument 1 of 'strcat' discards qualifiers from pointer target type
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:41: note: expected 'char *' but argument is of type 'const FcChar8 *'
+fcxml.c:1928: warning: passing argument 1 of 'strcat' discards qualifiers from pointer target type
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:41: note: expected 'char *' but argument is of type 'const FcChar8 *'
+fcxml.c:1929: warning: passing argument 1 of 'strcat' discards qualifiers from pointer target type
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:41: note: expected 'char *' but argument is of type 'const FcChar8 *'
+fcxml.c: In function 'FcParseCacheDir':
+fcxml.c:1999: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:41: note: expected 'char *' but argument is of type 'FcChar8 *'
+fcxml.c:2000: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:41: note: expected 'char *' but argument is of type 'FcChar8 *'
+  CC     ftglue.lo
+echo Generating fontconfig.def
+Generating fontconfig.def
+(echo EXPORTS; \
+	(cat ../fontconfig/fontconfig.h ../src/fcdeprecate.h ../fontconfig/fcprivate.h ../fontconfig/fcfreetype.h || echo 'FcERROR ()' ) | \
+	grep '^Fc[^ ]* *(' | sed -e 's/ *(.*$//' -e 's/^/	/' | \
+	sort; \
+	echo LIBRARY libfontconfig-1.dll; \
+	echo VERSION 7.2) >fontconfig.def
+  CCLD   libfontconfig.la
+Creating library file: .libs/libfontconfig.dll.a
+  CC     fcarch.o
+  CCLD   fcarch.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src'
+Making all in fc-cache
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cache'
+  CC     fc-cache.o
+  CCLD   fc-cache.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cache'
+Making all in fc-cat
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cat'
+  CC     fc-cat.o
+  CCLD   fc-cat.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-cat'
+Making all in fc-list
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-list'
+  CC     fc-list.o
+  CCLD   fc-list.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-list'
+Making all in fc-match
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-match'
+  CC     fc-match.o
+  CCLD   fc-match.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-match'
+Making all in fc-pattern
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-pattern'
+  CC     fc-pattern.o
+  CCLD   fc-pattern.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-pattern'
+Making all in fc-query
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-query'
+  CC     fc-query.o
+  CCLD   fc-query.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-query'
+Making all in fc-scan
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-scan'
+  CC     fc-scan.o
+  CCLD   fc-scan.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/src/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/fc-scan'
+Making all in conf.d
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/conf.d'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/conf.d'
+Making all in test
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/test'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2/test'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/33_libfontconfig/fontconfig-2.10.2'

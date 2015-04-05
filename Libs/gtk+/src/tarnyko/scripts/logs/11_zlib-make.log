@@ -1,0 +1,31 @@
+i686-pc-mingw32-gcc  -O3 -Wall -c -o adler32.o adler32.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o compress.o compress.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o crc32.o crc32.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o deflate.o deflate.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o gzclose.o gzclose.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o gzlib.o gzlib.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o gzread.o gzread.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o gzwrite.o gzwrite.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o infback.o infback.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o inffast.o inffast.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o inflate.o inflate.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o inftrees.o inftrees.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o trees.o trees.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o uncompr.o uncompr.c
+i686-pc-mingw32-gcc  -O3 -Wall -c -o zutil.o zutil.c
+i686-pc-mingw32-ar rcs libz.a adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o uncompr.o zutil.o 
+i686-pc-mingw32-windres --define GCC_WINDRES -o zlibrc.o win32/zlib1.rc
+i686-pc-mingw32-gcc -shared -Wl,--out-implib,libz.dll.a  \
+	-o zlib1.dll win32/zlib.def adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o uncompr.o zutil.o  zlibrc.o
+Creating library file: libz.dll.a
+i686-pc-mingw32-strip zlib1.dll
+i686-pc-mingw32-gcc  -O3 -Wall -I. -c -o example.o test/example.c
+i686-pc-mingw32-gcc  -o example.exe example.o libz.a
+i686-pc-mingw32-strip example.exe
+i686-pc-mingw32-gcc  -O3 -Wall -I. -c -o minigzip.o test/minigzip.c
+i686-pc-mingw32-gcc  -o minigzip.exe minigzip.o libz.a
+i686-pc-mingw32-strip minigzip.exe
+i686-pc-mingw32-gcc  -o example_d.exe example.o libz.dll.a
+i686-pc-mingw32-strip example_d.exe
+i686-pc-mingw32-gcc  -o minigzip_d.exe minigzip.o libz.dll.a
+i686-pc-mingw32-strip minigzip_d.exe

@@ -1,0 +1,292 @@
+make  install-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'
+Making install in src
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+make  install-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+test -z "/srv/win32builder/fixed_364/build/win32/lib" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcairo.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libcairo.dll.a /srv/win32builder/fixed_364/build/win32/lib/libcairo.dll.a
+libtool: install: base_file=`basename libcairo.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libcairo.la'i; echo libcairo-2.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libcairo-2.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libcairo-2.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-2.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-2.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-2.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libcairo.lai /srv/win32builder/fixed_364/build/win32/lib/libcairo.la
+libtool: install: /usr/bin/install -c .libs/libcairo.a /srv/win32builder/fixed_364/build/win32/lib/libcairo.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libcairo.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libcairo.a
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /srv/win32builder/fixed_364/build/win32/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-LLIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/srv/win32builder/fixed_364/build/win32/include/cairo" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/include/cairo"
+ /usr/bin/install -c -m 644 cairo.h cairo-deprecated.h cairo-win32.h cairo-ft.h cairo-ps.h cairo-pdf.h cairo-svg.h ../cairo-version.h '/srv/win32builder/fixed_364/build/win32/include/cairo'
+test -z "/srv/win32builder/fixed_364/build/win32/include/cairo" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/include/cairo"
+ /usr/bin/install -c -m 644 cairo-features.h '/srv/win32builder/fixed_364/build/win32/include/cairo'
+test -z "/srv/win32builder/fixed_364/build/win32/lib/pkgconfig" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib/pkgconfig"
+ /usr/bin/install -c -m 644 cairo.pc cairo-win32.pc cairo-win32-font.pc cairo-png.pc cairo-ft.pc cairo-fc.pc cairo-ps.pc cairo-pdf.pc cairo-svg.pc cairo-gobject.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/src'
+Making install in doc
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make  install-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+Making install in public
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make  install-am
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make[6]: Nothing to be done for `install-exec-am'.
+installfiles=`echo ./html/*`; \
+	if test "$installfiles" = './html/*'; \
+	then echo '-- Nothing to install' ; \
+	else \
+	  /bin/sh /srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/build/install-sh -d /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/cairo; \
+	  for i in $installfiles; do \
+	    echo '-- Installing '$i ; \
+	    /usr/bin/install -c -m 644 $i /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/cairo; \
+	  done; \
+	  echo '-- Installing ./html/index.sgml' ; \
+	  /usr/bin/install -c -m 644 ./html/index.sgml /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/cairo || :; \
+	  which gtkdoc-rebase >/dev/null && \
+	    gtkdoc-rebase --relative --dest-dir= --html-dir=/srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/cairo ; \
+	fi
+-- Installing ./html/bindings-errors.html
+-- Installing ./html/bindings-fonts.html
+-- Installing ./html/bindings-memory.html
+-- Installing ./html/bindings-overloading.html
+-- Installing ./html/bindings-path.html
+-- Installing ./html/bindings-patterns.html
+-- Installing ./html/bindings-return-values.html
+-- Installing ./html/bindings-streams.html
+-- Installing ./html/bindings-surfaces.html
+-- Installing ./html/cairo-cairo-device-t.html
+-- Installing ./html/cairo-cairo-font-face-t.html
+-- Installing ./html/cairo-cairo-font-options-t.html
+-- Installing ./html/cairo-cairo-matrix-t.html
+-- Installing ./html/cairo-cairo-pattern-t.html
+-- Installing ./html/cairo-cairo-scaled-font-t.html
+-- Installing ./html/cairo-cairo-surface-t.html
+-- Installing ./html/cairo-cairo-t.html
+-- Installing ./html/cairo.devhelp
+-- Installing ./html/cairo.devhelp2
+-- Installing ./html/cairo-drawing.html
+-- Installing ./html/cairo-Error-handling.html
+-- Installing ./html/cairo-fonts.html
+-- Installing ./html/cairo-FreeType-Fonts.html
+-- Installing ./html/cairo-Image-Surfaces.html
+-- Installing ./html/cairo-Paths.html
+-- Installing ./html/cairo-PDF-Surfaces.html
+-- Installing ./html/cairo-PNG-Support.html
+-- Installing ./html/cairo-PostScript-Surfaces.html
+-- Installing ./html/cairo-Quartz-(CGFont)-Fonts.html
+-- Installing ./html/cairo-Quartz-Surfaces.html
+-- Installing ./html/cairo-Recording-Surfaces.html
+-- Installing ./html/cairo-Regions.html
+-- Installing ./html/cairo-support.html
+-- Installing ./html/cairo-surfaces.html
+-- Installing ./html/cairo-SVG-Surfaces.html
+-- Installing ./html/cairo-text.html
+-- Installing ./html/cairo-Transformations.html
+-- Installing ./html/cairo-Types.html
+-- Installing ./html/cairo-User-Fonts.html
+-- Installing ./html/cairo-Version-Information.html
+-- Installing ./html/cairo-Win32-Fonts.html
+-- Installing ./html/cairo-Win32-Surfaces.html
+-- Installing ./html/cairo-XLib-Surfaces.html
+-- Installing ./html/home.png
+-- Installing ./html/index-1.10.html
+-- Installing ./html/index-1.2.html
+-- Installing ./html/index-1.4.html
+-- Installing ./html/index-1.6.html
+-- Installing ./html/index-1.8.html
+-- Installing ./html/index-all.html
+-- Installing ./html/index.html
+-- Installing ./html/index.sgml
+-- Installing ./html/language-bindings.html
+-- Installing ./html/left.png
+-- Installing ./html/right.png
+-- Installing ./html/style.css
+-- Installing ./html/up.png
+-- Installing ./html/index.sgml
+http://library.gnome.org/devel/glib/unstable/ -> ../glib/ (123)
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc/public'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/doc'
+Making install in util
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+make  install-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+Making install in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+Making install in cairo-gobject
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-gobject'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-gobject'
+test -z "/srv/win32builder/fixed_364/build/win32/lib" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libcairo-gobject.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libcairo-gobject.dll.a /srv/win32builder/fixed_364/build/win32/lib/libcairo-gobject.dll.a
+libtool: install: base_file=`basename libcairo-gobject.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libcairo-gobject.la'i; echo libcairo-gobject-2.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libcairo-gobject-2.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libcairo-gobject-2.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-gobject-2.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-gobject-2.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-gobject-2.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libcairo-gobject.lai /srv/win32builder/fixed_364/build/win32/lib/libcairo-gobject.la
+libtool: install: /usr/bin/install -c .libs/libcairo-gobject.a /srv/win32builder/fixed_364/build/win32/lib/libcairo-gobject.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libcairo-gobject.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libcairo-gobject.a
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /srv/win32builder/fixed_364/build/win32/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-LLIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/srv/win32builder/fixed_364/build/win32/include/cairo" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/include/cairo"
+ /usr/bin/install -c -m 644 cairo-gobject.h '/srv/win32builder/fixed_364/build/win32/include/cairo'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-gobject'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-gobject'
+Making install in cairo-script
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+Making install in examples
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script/examples'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script/examples'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script/examples'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script/examples'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+test -z "/srv/win32builder/fixed_364/build/win32/lib" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib"
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libcairo-script-interpreter.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libcairo-script-interpreter.dll.a /srv/win32builder/fixed_364/build/win32/lib/libcairo-script-interpreter.dll.a
+libtool: install: base_file=`basename libcairo-script-interpreter.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libcairo-script-interpreter.la'i; echo libcairo-script-interpreter-2.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libcairo-script-interpreter-2.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libcairo-script-interpreter-2.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-script-interpreter-2.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-script-interpreter-2.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libcairo-script-interpreter-2.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libcairo-script-interpreter.lai /srv/win32builder/fixed_364/build/win32/lib/libcairo-script-interpreter.la
+libtool: install: /usr/bin/install -c .libs/libcairo-script-interpreter.a /srv/win32builder/fixed_364/build/win32/lib/libcairo-script-interpreter.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libcairo-script-interpreter.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libcairo-script-interpreter.a
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /srv/win32builder/fixed_364/build/win32/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-LLIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/srv/win32builder/fixed_364/build/win32/include/cairo" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/include/cairo"
+ /usr/bin/install -c -m 644 cairo-script-interpreter.h '/srv/win32builder/fixed_364/build/win32/include/cairo'
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util/cairo-script'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/util'
+Making install in boilerplate
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+make  install-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/boilerplate'
+Making install in test
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make  install-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+Making install in pdiff
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+make  install-am
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test/pdiff'
+Making install in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/test'
+Making install in perf
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make  install-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2/perf'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/35_cairo/cairo-1.10.2'

@@ -1,0 +1,118 @@
+Making install in include
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+Making install in libxml
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include/libxml'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include/libxml'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/srv/win32builder/fixed_364/build/win32/include/libxml2/libxml" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/include/libxml2/libxml"
+ /usr/bin/install -c -m 644 SAX.h entities.h encoding.h parser.h parserInternals.h xmlerror.h HTMLparser.h HTMLtree.h debugXML.h tree.h list.h hash.h xpath.h xpathInternals.h xpointer.h xinclude.h xmlIO.h xmlmemory.h nanohttp.h nanoftp.h uri.h valid.h xlink.h xmlversion.h DOCBparser.h catalog.h threads.h globals.h c14n.h xmlautomata.h xmlregexp.h xmlmodule.h xmlschemas.h schemasInternals.h xmlschemastypes.h xmlstring.h xmlunicode.h xmlreader.h relaxng.h dict.h '/srv/win32builder/fixed_364/build/win32/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 SAX2.h xmlexports.h xmlwriter.h chvalid.h pattern.h xmlsave.h schematron.h '/srv/win32builder/fixed_364/build/win32/include/libxml2/libxml'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include/libxml'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include/libxml'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+Making install in .
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0'
+test -z "/srv/win32builder/fixed_364/build/win32/lib" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib"
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libxml2.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libxml2.dll.a /srv/win32builder/fixed_364/build/win32/lib/libxml2.dll.a
+libtool: install: base_file=`basename libxml2.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libxml2.la'i; echo libxml2-2.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libxml2-2.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libxml2-2.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libxml2-2.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libxml2-2.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libxml2-2.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libxml2.lai /srv/win32builder/fixed_364/build/win32/lib/libxml2.la
+libtool: install: /usr/bin/install -c .libs/libxml2.a /srv/win32builder/fixed_364/build/win32/lib/libxml2.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libxml2.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libxml2.a
+test -z "/srv/win32builder/fixed_364/build/win32/bin" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/bin"
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c xmllint.exe xmlcatalog.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/xmllint.exe /srv/win32builder/fixed_364/build/win32/bin/xmllint.exe
+libtool: install: /usr/bin/install -c .libs/xmlcatalog.exe /srv/win32builder/fixed_364/build/win32/bin/xmlcatalog.exe
+test -z "/srv/win32builder/fixed_364/build/win32/bin" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/bin"
+ /usr/bin/install -c xml2-config '/srv/win32builder/fixed_364/build/win32/bin'
+test -z "/srv/win32builder/fixed_364/build/win32/lib" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib"
+ /usr/bin/install -c -m 644 xml2Conf.sh '/srv/win32builder/fixed_364/build/win32/lib'
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0
+/usr/bin/install -c -m 0644 ./Copyright /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/examples
+/usr/bin/install -c -m 0644 ./xmllint.c /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/examples
+/usr/bin/install -c -m 0644 ./testSAX.c /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/examples
+/usr/bin/install -c -m 0644 ./testHTML.c /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/examples
+/usr/bin/install -c -m 0644 ./testXPath.c /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/examples
+test -z "/srv/win32builder/fixed_364/build/win32/share/aclocal" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/share/aclocal"
+ /usr/bin/install -c -m 644 libxml.m4 '/srv/win32builder/fixed_364/build/win32/share/aclocal'
+test -z "/srv/win32builder/fixed_364/build/win32/share/man/man1" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/share/man/man1"
+ /usr/bin/install -c -m 644 xml2-config.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+test -z "/srv/win32builder/fixed_364/build/win32/share/man/man3" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/share/man/man3"
+ /usr/bin/install -c -m 644 libxml.3 '/srv/win32builder/fixed_364/build/win32/share/man/man3'
+test -z "/srv/win32builder/fixed_364/build/win32/lib/pkgconfig" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib/pkgconfig"
+ /usr/bin/install -c -m 644 libxml-2.0.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0'
+Making install in doc
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+Making install in devhelp
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/devhelp'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/devhelp'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/libxml2
+/usr/bin/install -c -m 0644 ./libxml2.devhelp /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/libxml2
+/usr/bin/install -c -m 0644 ./home.png ./left.png ./right.png ./up.png ./style.css /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/libxml2
+/usr/bin/install -c -m 0644 ./index.html ./general.html ./libxml2-c14n.html ./libxml2-catalog.html ./libxml2-chvalid.html ./libxml2-debugXML.html ./libxml2-dict.html ./libxml2-DOCBparser.html ./libxml2-encoding.html ./libxml2-entities.html ./libxml2-globals.html ./libxml2-hash.html ./libxml2-HTMLparser.html ./libxml2-HTMLtree.html ./libxml2-list.html ./libxml2-nanoftp.html ./libxml2-nanohttp.html ./libxml2-parser.html ./libxml2-parserInternals.html ./libxml2-pattern.html ./libxml2-relaxng.html ./libxml2-SAX2.html ./libxml2-SAX.html ./libxml2-schemasInternals.html ./libxml2-schematron.html ./libxml2-threads.html ./libxml2-tree.html ./libxml2-uri.html ./libxml2-valid.html ./libxml2-xinclude.html ./libxml2-xlink.html ./libxml2-xmlautomata.html ./libxml2-xmlerror.html ./libxml2-xmlexports.html ./libxml2-xmlIO.html ./libxml2-xmlmemory.html ./libxml2-xmlmodule.html ./libxml2-xmlreader.html ./libxml2-xmlregexp.html ./libxml2-xmlsave.html ./libxml2-xmlschemas.html ./libxml2-xmlschemastypes.html ./libxml2-xmlstring.html ./libxml2-xmlunicode.html ./libxml2-xmlversion.html ./libxml2-xmlwriter.html ./libxml2-xpath.html ./libxml2-xpathInternals.html ./libxml2-xpointer.html /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/libxml2
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/devhelp'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/devhelp'
+Making install in examples
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/examples'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/examples'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html
+/usr/bin/install -c -m 0644 ./*.html ./*.c ./*.xml ./*.xsl ./*.res /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html
+/usr/bin/install: cannot stat `./*.html': No such file or directory
+make[3]: [install-data-local] Error 1 (ignored)
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/examples'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/examples'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html
+/usr/bin/install -c -m 0644 ./xml.html ./encoding.html ./FAQ.html ./structure.gif ./DOM.gif ./smallfootonly.gif ./redhat.gif ./libxml.gif ./w3c.png ./Libxml2-Logo-180x168.gif ./Libxml2-Logo-90x34.gif /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/html
+/usr/bin/install -c -m 0644 ./html/*.html /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/html
+/usr/bin/install -c -m 0644 ./html/*.png /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/html
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/tutorial
+/usr/bin/install -c -m 0644 ./tutorial/*.* \
+		/srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/tutorial
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/tutorial/images
+/usr/bin/install -c -m 0644 ./tutorial/images/*.* \
+		/srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/tutorial/images
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/tutorial/images/callouts
+/usr/bin/install -c -m 0644 ./tutorial/images/callouts/*.* \
+		/srv/win32builder/fixed_364/build/win32/share/doc/libxml2-2.8.0/html/tutorial/images/callouts
+test -z "/srv/win32builder/fixed_364/build/win32/share/man/man1" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/share/man/man1"
+ /usr/bin/install -c -m 644 xmllint.1 xmlcatalog.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+Making install in example
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/example'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/example'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/example'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/example'
+Making install in xstc
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/xstc'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/xstc'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/xstc'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/xstc'

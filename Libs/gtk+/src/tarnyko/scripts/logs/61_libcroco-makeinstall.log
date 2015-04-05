@@ -1,0 +1,152 @@
+Making install in src
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/src'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/src'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcroco-0.6.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libcroco-0.6.dll.a /srv/win32builder/fixed_364/build/win32/lib/libcroco-0.6.dll.a
+libtool: install: base_file=`basename libcroco-0.6.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libcroco-0.6.la'i; echo libcroco-0.6-3.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libcroco-0.6-3.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libcroco-0.6-3.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libcroco-0.6-3.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libcroco-0.6-3.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libcroco-0.6-3.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libcroco-0.6.lai /srv/win32builder/fixed_364/build/win32/lib/libcroco-0.6.la
+libtool: install: /usr/bin/install -c .libs/libcroco-0.6.a /srv/win32builder/fixed_364/build/win32/lib/libcroco-0.6.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libcroco-0.6.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libcroco-0.6.a
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/libcroco-0.6/libcroco'
+ /usr/bin/install -c -m 644 libcroco.h cr-additional-sel.h cr-attr-sel.h cr-cascade.h cr-declaration.h cr-doc-handler.h cr-enc-handler.h cr-input.h cr-num.h cr-om-parser.h cr-parser.h cr-pseudo.h cr-rgb.h cr-selector.h cr-simple-sel.h cr-statement.h cr-stylesheet.h cr-term.h cr-tknzr.h cr-token.h cr-utils.h cr-fonts.h cr-sel-eng.h cr-style.h cr-prop-list.h cr-parsing-location.h cr-string.h libcroco-config.h '/srv/win32builder/fixed_364/build/win32/include/libcroco-0.6/libcroco'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/src'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/src'
+Making install in csslint
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/csslint'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/csslint'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c csslint-0.6.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/csslint-0.6.exe /srv/win32builder/fixed_364/build/win32/bin/csslint-0.6.exe
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/csslint'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/csslint'
+Making install in docs
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs'
+Making install in examples
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs/examples'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs/examples'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs/examples'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs/examples'
+Making install in reference
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs/reference'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs/reference'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-additional-sel.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-attr-sel.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-cascade.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-declaration.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-doc-handler.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-enc-handler.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-fonts.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-input.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-num.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-om-parser.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-parser.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-parsing-location.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-prop-list.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-pseudo.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-rgb.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-selector.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-sel-eng.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-simple-sel.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-statement.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-string.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-style.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-stylesheet.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-term.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-tknzr.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-token.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-utils.html
+ /usr/bin/install -c -m 644 ./html/libcroco.devhelp2
+ /usr/bin/install -c -m 644 ./html/libcroco-libcroco-config.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up.png
+http://library.gnome.org/devel/glib/unstable/ -> ../glib/ (556)
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs/reference'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs/reference'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/docs'
+Making install in tests
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests'
+Making install in test-inputs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests/test-inputs'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests/test-inputs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests/test-inputs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests/test-inputs'
+Making install in test-output-refs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests/test-output-refs'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests/test-output-refs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests/test-output-refs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests/test-output-refs'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/tests'
+Making install in build
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build'
+Making install in win32
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32'
+Making install in vs9
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32/vs9'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32/vs9'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32/vs9'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32/vs10'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32/vs10'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32/vs10'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32/vs10'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build/win32'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8/build'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+ /usr/bin/install -c croco-0.6-config '/srv/win32builder/fixed_364/build/win32/bin'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libcroco-0.6.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/61_libcroco/libcroco-0.6.8'

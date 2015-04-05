@@ -4,7 +4,11 @@
 #include<GL/glew.h>
 #include<iostream>
 #include<memory>
-#include "GameSystem.h"
+#include"GraphicsSystem.h"
+//#include "GameSystem.h"
+#include "Shader.h"
+//class GameSystem;
+class GraphicsSystem;
 
 class Engine
 {
@@ -20,4 +24,5 @@ public:
 	SDL_GLContext context;
 	SDL_Event EngineEvent;
 	bool running;
+	GraphicsSystem* graphicsSystem;
 };

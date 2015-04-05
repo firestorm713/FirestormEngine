@@ -1,0 +1,175 @@
+Making install in src
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src'
+Making install in libjasper
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper'
+Making install in include
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include'
+Making install in jasper
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include/jasper'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include/jasper'
+make[5]: Nothing to be done for `install-exec-am'.
+test -z "/srv/win32builder/fixed_364/build/win32/include/jasper" || mkdir -p -- "/srv/win32builder/fixed_364/build/win32/include/jasper"
+ /usr/bin/install -c -m 644 'jasper.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jasper.h'
+ /usr/bin/install -c -m 644 'jas_config.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_config.h'
+ /usr/bin/install -c -m 644 'jas_config2.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_config2.h'
+ /usr/bin/install -c -m 644 'jas_cm.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_cm.h'
+ /usr/bin/install -c -m 644 'jas_fix.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_fix.h'
+ /usr/bin/install -c -m 644 'jas_debug.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_debug.h'
+ /usr/bin/install -c -m 644 'jas_getopt.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_getopt.h'
+ /usr/bin/install -c -m 644 'jas_icc.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_icc.h'
+ /usr/bin/install -c -m 644 'jas_image.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_image.h'
+ /usr/bin/install -c -m 644 'jas_init.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_init.h'
+ /usr/bin/install -c -m 644 'jas_malloc.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_malloc.h'
+ /usr/bin/install -c -m 644 'jas_math.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_math.h'
+ /usr/bin/install -c -m 644 'jas_seq.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_seq.h'
+ /usr/bin/install -c -m 644 'jas_stream.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_stream.h'
+ /usr/bin/install -c -m 644 'jas_string.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_string.h'
+ /usr/bin/install -c -m 644 'jas_tmr.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_tmr.h'
+ /usr/bin/install -c -m 644 'jas_tvp.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_tvp.h'
+ /usr/bin/install -c -m 644 'jas_types.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_types.h'
+ /usr/bin/install -c -m 644 'jas_version.h' '/srv/win32builder/fixed_364/build/win32/include/jasper/jas_version.h'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include/jasper'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include/jasper'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/include'
+Making install in base
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/base'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/base'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/base'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/base'
+Making install in bmp
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/bmp'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/bmp'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/bmp'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/bmp'
+Making install in jp2
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jp2'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jp2'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jp2'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jp2'
+Making install in jpc
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jpc'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jpc'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jpc'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jpc'
+Making install in jpg
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jpg'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jpg'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jpg'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/jpg'
+Making install in mif
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/mif'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/mif'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/mif'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/mif'
+Making install in pgx
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/pgx'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/pgx'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/pgx'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/pgx'
+Making install in pnm
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/pnm'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/pnm'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/pnm'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/pnm'
+Making install in ras
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/ras'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/ras'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/ras'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper/ras'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper'
+test -z "/srv/win32builder/fixed_364/build/win32/lib" || mkdir -p -- "/srv/win32builder/fixed_364/build/win32/lib"
+ /bin/sh ../../libtool --mode=install /usr/bin/install -c  'libjasper.la' '/srv/win32builder/fixed_364/build/win32/lib/libjasper.la'
+/usr/bin/install -c .libs/libjasper.dll.a /srv/win32builder/fixed_364/build/win32/lib/libjasper.dll.a
+base_file=`basename ${file}`
+ dlpath=`/bin/sh 2>&1 -c '. .libs/'${base_file}'i;echo $dlname'`
+ dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname $dlpath`
+ test -d $dldir || mkdir -p $dldir
+ /usr/bin/install -c .libs/libjasper-1.dll $dldir/libjasper-1.dll
+ chmod a+x $dldir/libjasper-1.dll
+/usr/bin/install -c .libs/libjasper.lai /srv/win32builder/fixed_364/build/win32/lib/libjasper.la
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /srv/win32builder/fixed_364/build/win32/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-LLIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/libjasper'
+Making install in appl
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/appl'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/appl'
+test -z "/srv/win32builder/fixed_364/build/win32/bin" || mkdir -p -- "/srv/win32builder/fixed_364/build/win32/bin"
+  /bin/sh ../../libtool --mode=install /usr/bin/install -c 'jasper.exe' '/srv/win32builder/fixed_364/build/win32/bin/jasper.exe'
+/usr/bin/install -c .libs/jasper.exe /srv/win32builder/fixed_364/build/win32/bin/jasper.exe
+  /bin/sh ../../libtool --mode=install /usr/bin/install -c 'imgcmp.exe' '/srv/win32builder/fixed_364/build/win32/bin/imgcmp.exe'
+/usr/bin/install -c .libs/imgcmp.exe /srv/win32builder/fixed_364/build/win32/bin/imgcmp.exe
+  /bin/sh ../../libtool --mode=install /usr/bin/install -c 'imginfo.exe' '/srv/win32builder/fixed_364/build/win32/bin/imginfo.exe'
+/usr/bin/install -c .libs/imginfo.exe /srv/win32builder/fixed_364/build/win32/bin/imginfo.exe
+  /bin/sh ../../libtool --mode=install /usr/bin/install -c 'tmrdemo.exe' '/srv/win32builder/fixed_364/build/win32/bin/tmrdemo.exe'
+/usr/bin/install -c .libs/tmrdemo.exe /srv/win32builder/fixed_364/build/win32/bin/tmrdemo.exe
+test -z "/srv/win32builder/fixed_364/build/win32/man/man1" || mkdir -p -- "/srv/win32builder/fixed_364/build/win32/man/man1"
+ /usr/bin/install -c -m 644 './imgcmp.1' '/srv/win32builder/fixed_364/build/win32/man/man1/imgcmp.1'
+ /usr/bin/install -c -m 644 './imginfo.1' '/srv/win32builder/fixed_364/build/win32/man/man1/imginfo.1'
+ /usr/bin/install -c -m 644 './jasper.1' '/srv/win32builder/fixed_364/build/win32/man/man1/jasper.1'
+ /usr/bin/install -c -m 644 './jiv.1' '/srv/win32builder/fixed_364/build/win32/man/man1/jiv.1'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/appl'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/appl'
+Making install in msvc
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/msvc'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/msvc'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/msvc'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src/msvc'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1/src'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/42_libjasper/jasper-1.900.1'

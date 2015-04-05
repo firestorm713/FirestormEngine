@@ -1,0 +1,70 @@
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/31_libpng/libpng-1.5.14'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+ /usr/bin/install -c libpng15-config '/srv/win32builder/fixed_364/build/win32/bin'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libpng15.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libpng15.dll.a /srv/win32builder/fixed_364/build/win32/lib/libpng15.dll.a
+libtool: install: base_file=`basename libpng15.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libpng15.la'i; echo libpng15-15.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libpng15-15.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libpng15-15.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libpng15-15.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libpng15-15.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libpng15-15.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libpng15.lai /srv/win32builder/fixed_364/build/win32/lib/libpng15.la
+libtool: install: /usr/bin/install -c .libs/libpng15.a /srv/win32builder/fixed_364/build/win32/lib/libpng15.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libpng15.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libpng15.a
+make  install-exec-hook
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/31_libpng/libpng-1.5.14'
+cd '/srv/win32builder/fixed_364/build/win32/bin'; rm -f libpng-config
+cd '/srv/win32builder/fixed_364/build/win32/bin';\
+	   ln -s libpng15-config libpng-config
++ cd /srv/win32builder/fixed_364/build/win32/lib
++ for ext in a la so so.15.14 sl dylib dll.a
++ rm -f libpng.a
++ test -f libpng15.a
++ ln -s libpng15.a libpng.a
++ for ext in a la so so.15.14 sl dylib dll.a
++ rm -f libpng.la
++ test -f libpng15.la
++ ln -s libpng15.la libpng.la
++ for ext in a la so so.15.14 sl dylib dll.a
++ rm -f libpng.so
++ test -f libpng15.so
++ for ext in a la so so.15.14 sl dylib dll.a
++ rm -f libpng.so.15.14
++ test -f libpng15.so.15.14
++ for ext in a la so so.15.14 sl dylib dll.a
++ rm -f libpng.sl
++ test -f libpng15.sl
++ for ext in a la so so.15.14 sl dylib dll.a
++ rm -f libpng.dylib
++ test -f libpng15.dylib
++ for ext in a la so so.15.14 sl dylib dll.a
++ rm -f libpng.dll.a
++ test -f libpng15.dll.a
++ ln -s libpng15.dll.a libpng.dll.a
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/31_libpng/libpng-1.5.14'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man3'
+ /usr/bin/install -c -m 644 libpng.3 libpngpf.3 '/srv/win32builder/fixed_364/build/win32/share/man/man3'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man5'
+ /usr/bin/install -c -m 644 png.5 '/srv/win32builder/fixed_364/build/win32/share/man/man5'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/libpng15'
+ /usr/bin/install -c -m 644 pnglibconf.h '/srv/win32builder/fixed_364/build/win32/include/libpng15'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libpng15.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/libpng15'
+ /usr/bin/install -c -m 644 png.h pngconf.h '/srv/win32builder/fixed_364/build/win32/include/libpng15'
+make  install-data-hook
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/31_libpng/libpng-1.5.14'
+cd '/srv/win32builder/fixed_364/build/win32/include'; rm -f png.h pngconf.h pnglibconf.h
+cd '/srv/win32builder/fixed_364/build/win32/include'; ln -s libpng15/png.h png.h
+cd '/srv/win32builder/fixed_364/build/win32/include'; ln -s libpng15/pngconf.h \
+		pngconf.h
+cd '/srv/win32builder/fixed_364/build/win32/include'; ln -s libpng15/pnglibconf.h \
+		pnglibconf.h
+cd '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'; rm -f libpng.pc
+cd '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'; ln -s libpng15.pc libpng.pc
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/31_libpng/libpng-1.5.14'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/31_libpng/libpng-1.5.14'

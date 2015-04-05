@@ -1,0 +1,518 @@
+  GEN    s-enum-types-h
+  GEN    s-enum-types-c
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'
+Making all in .
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'
+  CC     librsvg_2_la-librsvg-features.lo
+  CC     librsvg_2_la-rsvg-css.lo
+rsvg-css.c: In function 'rsvg_css_parse_xml_attribute_string':
+rsvg-css.c:844: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:43: note: expected 'const char *' but argument is of type 'const xmlChar *'
+rsvg-css.c: In function 'rsvg_css_parse_vbox':
+rsvg-css.c:65: warning: function returns an aggregate
+rsvg-css.c: In function '_rsvg_css_parse_length':
+rsvg-css.c:182: warning: function returns an aggregate
+  CC     librsvg_2_la-rsvg-defs.lo
+  CC     librsvg_2_la-rsvg-image.lo
+rsvg-image.c: In function 'rsvg_node_image_set_atts':
+rsvg-image.c:194: warning: function call has aggregate value
+rsvg-image.c:196: warning: function call has aggregate value
+rsvg-image.c:198: warning: function call has aggregate value
+rsvg-image.c:200: warning: function call has aggregate value
+rsvg-image.c: In function 'rsvg_new_image':
+rsvg-image.c:236: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-io.lo
+rsvg-io.c: In function 'rsvg_acquire_data_data':
+rsvg-io.c:110: warning: pointer targets in assignment differ in signedness
+rsvg-io.c:124: warning: pointer targets in return differ in signedness
+rsvg-io.c: In function 'rsvg_acquire_file_data':
+rsvg-io.c:181: warning: pointer targets in passing argument 2 of 'g_content_type_guess' differ in signedness
+/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gio/gcontenttype.h:50: note: expected 'const guchar *' but argument is of type 'gchar *'
+rsvg-io.c:189: warning: pointer targets in return differ in signedness
+rsvg-io.c: In function 'rsvg_acquire_gvfs_data':
+rsvg-io.c:286: warning: pointer targets in passing argument 2 of 'g_content_type_guess' differ in signedness
+/srv/win32builder/fixed_364/build/win32/include/glib-2.0/gio/gcontenttype.h:50: note: expected 'const guchar *' but argument is of type 'gchar *'
+rsvg-io.c:292: warning: pointer targets in return differ in signedness
+  CC     librsvg_2_la-rsvg-paint-server.lo
+rsvg-paint-server.c: In function 'rsvg_stop_set_atts':
+rsvg-paint-server.c:200: warning: function call has aggregate value
+rsvg-paint-server.c: In function 'rsvg_linear_gradient_set_atts':
+rsvg-paint-server.c:248: warning: function call has aggregate value
+rsvg-paint-server.c:252: warning: function call has aggregate value
+rsvg-paint-server.c:256: warning: function call has aggregate value
+rsvg-paint-server.c:260: warning: function call has aggregate value
+rsvg-paint-server.c: In function 'rsvg_new_linear_gradient':
+rsvg-paint-server.c:303: warning: function call has aggregate value
+rsvg-paint-server.c:304: warning: function call has aggregate value
+rsvg-paint-server.c: In function 'rsvg_radial_gradient_set_atts':
+rsvg-paint-server.c:324: warning: function call has aggregate value
+rsvg-paint-server.c:330: warning: function call has aggregate value
+rsvg-paint-server.c:336: warning: function call has aggregate value
+rsvg-paint-server.c:340: warning: function call has aggregate value
+rsvg-paint-server.c:344: warning: function call has aggregate value
+rsvg-paint-server.c: In function 'rsvg_new_radial_gradient':
+rsvg-paint-server.c:389: warning: function call has aggregate value
+rsvg-paint-server.c: In function 'rsvg_pattern_set_atts':
+rsvg-paint-server.c:406: warning: function call has aggregate value
+rsvg-paint-server.c:410: warning: function call has aggregate value
+rsvg-paint-server.c:414: warning: function call has aggregate value
+rsvg-paint-server.c:418: warning: function call has aggregate value
+rsvg-paint-server.c:422: warning: function call has aggregate value
+rsvg-paint-server.c: In function 'rsvg_new_pattern':
+rsvg-paint-server.c:469: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-path.lo
+rsvg-path.c: In function 'rsvg_path_builder_curve_to':
+rsvg-path.c:122: warning: declaration of 'y1' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:258: warning: shadowed declaration is here
+rsvg-path.c: In function 'rsvg_path_arc_segment':
+rsvg-path.c:185: warning: declaration of 'y1' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:258: warning: shadowed declaration is here
+rsvg-path.c:188: warning: declaration of 'sinf' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:447: warning: shadowed declaration is here
+rsvg-path.c:188: warning: declaration of 'cosf' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:450: warning: shadowed declaration is here
+rsvg-path.c: In function 'rsvg_path_arc':
+rsvg-path.c:234: warning: declaration of 'sinf' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:447: warning: shadowed declaration is here
+rsvg-path.c:234: warning: declaration of 'cosf' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:450: warning: shadowed declaration is here
+rsvg-path.c:235: warning: declaration of 'y1' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:258: warning: shadowed declaration is here
+rsvg-path.c: In function 'rsvg_parse_path_do_cmd':
+rsvg-path.c:371: warning: declaration of 'y1' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:258: warning: shadowed declaration is here
+rsvg-path.c: In function 'rsvg_path_end_of_number':
+rsvg-path.c:528: warning: declaration of 'exp' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:153: warning: shadowed declaration is here
+rsvg-path.c: In function 'rsvg_parse_path_data':
+rsvg-path.c:582: warning: declaration of 'exp' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:153: warning: shadowed declaration is here
+  CC     librsvg_2_la-rsvg-base-file-util.lo
+  CC     librsvg_2_la-rsvg-filter.lo
+rsvg-filter.c: In function 'fixpow':
+rsvg-filter.c:2184: warning: declaration of 'exp' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:153: warning: shadowed declaration is here
+rsvg-filter.c: In function 'rsvg_filter_primitive_component_transfer_render':
+rsvg-filter.c:2228: warning: declaration of 'temp' shadows a previous local
+rsvg-filter.c:2208: warning: shadowed declaration is here
+rsvg-filter.c: In function 'get_light_direction':
+rsvg-filter.c:3999: warning: declaration of 'y1' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:258: warning: shadowed declaration is here
+rsvg-filter.c: In function 'get_light_colour':
+rsvg-filter.c:4027: warning: declaration of 'y1' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:258: warning: shadowed declaration is here
+rsvg-filter.c: In function 'rsvg_filter_primitive_get_bounds':
+rsvg-filter.c:90: warning: function returns an aggregate
+rsvg-filter.c: In function 'rsvg_filter_render':
+rsvg-filter.c:522: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_get_result':
+rsvg-filter.c:676: warning: function returns an aggregate
+rsvg-filter.c: In function 'rsvg_filter_get_in':
+rsvg-filter.c:733: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_set_args':
+rsvg-filter.c:785: warning: function call has aggregate value
+rsvg-filter.c:787: warning: function call has aggregate value
+rsvg-filter.c:789: warning: function call has aggregate value
+rsvg-filter.c:791: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_new_filter':
+rsvg-filter.c:811: warning: function call has aggregate value
+rsvg-filter.c:812: warning: function call has aggregate value
+rsvg-filter.c:813: warning: function call has aggregate value
+rsvg-filter.c:814: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_blend_render':
+rsvg-filter.c:965: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_blend_set_atts':
+rsvg-filter.c:1033: warning: function call has aggregate value
+rsvg-filter.c:1035: warning: function call has aggregate value
+rsvg-filter.c:1037: warning: function call has aggregate value
+rsvg-filter.c:1039: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_convolve_matrix_render':
+rsvg-filter.c:1104: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_convolve_matrix_set_atts':
+rsvg-filter.c:1239: warning: function call has aggregate value
+rsvg-filter.c:1241: warning: function call has aggregate value
+rsvg-filter.c:1243: warning: function call has aggregate value
+rsvg-filter.c:1245: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_gaussian_blur_render':
+rsvg-filter.c:1494: warning: function call has aggregate value
+rsvg-filter.c:1496: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_gaussian_blur_set_atts':
+rsvg-filter.c:1546: warning: function call has aggregate value
+rsvg-filter.c:1548: warning: function call has aggregate value
+rsvg-filter.c:1550: warning: function call has aggregate value
+rsvg-filter.c:1552: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_offset_render':
+rsvg-filter.c:1608: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_offset_set_atts':
+rsvg-filter.c:1690: warning: function call has aggregate value
+rsvg-filter.c:1692: warning: function call has aggregate value
+rsvg-filter.c:1694: warning: function call has aggregate value
+rsvg-filter.c:1696: warning: function call has aggregate value
+rsvg-filter.c:1698: warning: function call has aggregate value
+rsvg-filter.c:1700: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_new_filter_primitive_offset':
+rsvg-filter.c:1716: warning: function call has aggregate value
+rsvg-filter.c:1717: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_merge_render':
+rsvg-filter.c:1744: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_merge_set_atts':
+rsvg-filter.c:1793: warning: function call has aggregate value
+rsvg-filter.c:1795: warning: function call has aggregate value
+rsvg-filter.c:1797: warning: function call has aggregate value
+rsvg-filter.c:1799: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_colour_matrix_render':
+rsvg-filter.c:1891: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_colour_matrix_set_atts':
+rsvg-filter.c:1999: warning: function call has aggregate value
+rsvg-filter.c:2001: warning: function call has aggregate value
+rsvg-filter.c:2003: warning: function call has aggregate value
+rsvg-filter.c:2005: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_component_transfer_render':
+rsvg-filter.c:2219: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_component_transfer_set_atts':
+rsvg-filter.c:2312: warning: function call has aggregate value
+rsvg-filter.c:2314: warning: function call has aggregate value
+rsvg-filter.c:2316: warning: function call has aggregate value
+rsvg-filter.c:2318: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_erode_render':
+rsvg-filter.c:2444: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_erode_set_atts':
+rsvg-filter.c:2531: warning: function call has aggregate value
+rsvg-filter.c:2533: warning: function call has aggregate value
+rsvg-filter.c:2535: warning: function call has aggregate value
+rsvg-filter.c:2537: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_composite_render':
+rsvg-filter.c:2605: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_composite_set_atts':
+rsvg-filter.c:2775: warning: function call has aggregate value
+rsvg-filter.c:2777: warning: function call has aggregate value
+rsvg-filter.c:2779: warning: function call has aggregate value
+rsvg-filter.c:2781: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_flood_render':
+rsvg-filter.c:2835: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_flood_set_atts':
+rsvg-filter.c:2892: warning: function call has aggregate value
+rsvg-filter.c:2894: warning: function call has aggregate value
+rsvg-filter.c:2896: warning: function call has aggregate value
+rsvg-filter.c:2898: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_displacement_map_render':
+rsvg-filter.c:2952: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_displacement_map_set_atts':
+rsvg-filter.c:3079: warning: function call has aggregate value
+rsvg-filter.c:3081: warning: function call has aggregate value
+rsvg-filter.c:3083: warning: function call has aggregate value
+rsvg-filter.c:3085: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_turbulence_render':
+rsvg-filter.c:3380: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_turbulence_set_atts':
+rsvg-filter.c:3459: warning: function call has aggregate value
+rsvg-filter.c:3461: warning: function call has aggregate value
+rsvg-filter.c:3463: warning: function call has aggregate value
+rsvg-filter.c:3465: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_image_render_ext':
+rsvg-filter.c:3556: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_image_render':
+rsvg-filter.c:3623: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_image_set_atts':
+rsvg-filter.c:3699: warning: function call has aggregate value
+rsvg-filter.c:3701: warning: function call has aggregate value
+rsvg-filter.c:3703: warning: function call has aggregate value
+rsvg-filter.c:3705: warning: function call has aggregate value
+rsvg-filter.c: In function 'normalise':
+rsvg-filter.c:3760: warning: function returns an aggregate
+rsvg-filter.c: In function 'get_light_normal_matrix_x':
+rsvg-filter.c:3773: warning: function returns an aggregate
+rsvg-filter.c: In function 'get_light_normal_matrix_y':
+rsvg-filter.c:3827: warning: function returns an aggregate
+rsvg-filter.c: In function 'get_surface_normal':
+rsvg-filter.c:3883: warning: function returns an aggregate
+rsvg-filter.c:3908: warning: function call has aggregate value
+rsvg-filter.c:3912: warning: function call has aggregate value
+rsvg-filter.c:3978: warning: function call has aggregate value
+rsvg-filter.c: In function 'get_light_direction':
+rsvg-filter.c:3999: warning: function returns an aggregate
+rsvg-filter.c:4018: warning: function call has aggregate value
+rsvg-filter.c: In function 'get_light_colour':
+rsvg-filter.c:4026: warning: function returns an aggregate
+rsvg-filter.c:4051: warning: function call has aggregate value
+rsvg-filter.c:4056: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_node_light_source_set_atts':
+rsvg-filter.c:4094: warning: function call has aggregate value
+rsvg-filter.c:4096: warning: function call has aggregate value
+rsvg-filter.c:4098: warning: function call has aggregate value
+rsvg-filter.c:4100: warning: function call has aggregate value
+rsvg-filter.c:4102: warning: function call has aggregate value
+rsvg-filter.c:4104: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_diffuse_lighting_render':
+rsvg-filter.c:4181: warning: function call has aggregate value
+rsvg-filter.c:4225: warning: function call has aggregate value
+rsvg-filter.c:4226: warning: function call has aggregate value
+rsvg-filter.c:4229: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_diffuse_lighting_set_atts':
+rsvg-filter.c:4276: warning: function call has aggregate value
+rsvg-filter.c:4278: warning: function call has aggregate value
+rsvg-filter.c:4280: warning: function call has aggregate value
+rsvg-filter.c:4282: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_specular_lighting_render':
+rsvg-filter.c:4367: warning: function call has aggregate value
+rsvg-filter.c:4399: warning: function call has aggregate value
+rsvg-filter.c:4401: warning: function call has aggregate value
+rsvg-filter.c:4403: warning: function call has aggregate value
+rsvg-filter.c:4404: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_specular_lighting_set_atts':
+rsvg-filter.c:4466: warning: function call has aggregate value
+rsvg-filter.c:4468: warning: function call has aggregate value
+rsvg-filter.c:4470: warning: function call has aggregate value
+rsvg-filter.c:4472: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_tile_render':
+rsvg-filter.c:4539: warning: function call has aggregate value
+rsvg-filter.c:4541: warning: function call has aggregate value
+rsvg-filter.c: In function 'rsvg_filter_primitive_tile_set_atts':
+rsvg-filter.c:4602: warning: function call has aggregate value
+rsvg-filter.c:4604: warning: function call has aggregate value
+rsvg-filter.c:4606: warning: function call has aggregate value
+rsvg-filter.c:4608: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-marker.lo
+rsvg-marker.c: In function 'rsvg_marker_render':
+rsvg-marker.c:129: warning: declaration of 'x' shadows a parameter
+rsvg-marker.c:103: warning: shadowed declaration is here
+rsvg-marker.c:129: warning: declaration of 'y' shadows a parameter
+rsvg-marker.c:103: warning: shadowed declaration is here
+rsvg-marker.c: In function 'rsvg_node_marker_set_atts':
+rsvg-marker.c:58: warning: function call has aggregate value
+rsvg-marker.c:60: warning: function call has aggregate value
+rsvg-marker.c:62: warning: function call has aggregate value
+rsvg-marker.c:64: warning: function call has aggregate value
+rsvg-marker.c:66: warning: function call has aggregate value
+rsvg-marker.c: In function 'rsvg_new_marker':
+rsvg-marker.c:94: warning: function call has aggregate value
+rsvg-marker.c:95: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-mask.lo
+rsvg-mask.c: In function 'rsvg_mask_set_atts':
+rsvg-mask.c:53: warning: function call has aggregate value
+rsvg-mask.c:55: warning: function call has aggregate value
+rsvg-mask.c:57: warning: function call has aggregate value
+rsvg-mask.c:59: warning: function call has aggregate value
+rsvg-mask.c: In function 'rsvg_new_mask':
+rsvg-mask.c:80: warning: function call has aggregate value
+rsvg-mask.c:81: warning: function call has aggregate value
+rsvg-mask.c:82: warning: function call has aggregate value
+rsvg-mask.c:83: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-shapes.lo
+rsvg-shapes.c: In function '_rsvg_node_line_set_atts':
+rsvg-shapes.c:253: warning: function call has aggregate value
+rsvg-shapes.c:255: warning: function call has aggregate value
+rsvg-shapes.c:257: warning: function call has aggregate value
+rsvg-shapes.c:259: warning: function call has aggregate value
+rsvg-shapes.c: In function 'rsvg_new_line':
+rsvg-shapes.c:312: warning: function call has aggregate value
+rsvg-shapes.c: In function '_rsvg_node_rect_set_atts':
+rsvg-shapes.c:332: warning: function call has aggregate value
+rsvg-shapes.c:334: warning: function call has aggregate value
+rsvg-shapes.c:336: warning: function call has aggregate value
+rsvg-shapes.c:338: warning: function call has aggregate value
+rsvg-shapes.c:340: warning: function call has aggregate value
+rsvg-shapes.c:344: warning: function call has aggregate value
+rsvg-shapes.c: In function 'rsvg_new_rect':
+rsvg-shapes.c:492: warning: function call has aggregate value
+rsvg-shapes.c: In function '_rsvg_node_circle_set_atts':
+rsvg-shapes.c:512: warning: function call has aggregate value
+rsvg-shapes.c:514: warning: function call has aggregate value
+rsvg-shapes.c:516: warning: function call has aggregate value
+rsvg-shapes.c: In function 'rsvg_new_circle':
+rsvg-shapes.c:622: warning: function call has aggregate value
+rsvg-shapes.c: In function '_rsvg_node_ellipse_set_atts':
+rsvg-shapes.c:641: warning: function call has aggregate value
+rsvg-shapes.c:643: warning: function call has aggregate value
+rsvg-shapes.c:645: warning: function call has aggregate value
+rsvg-shapes.c:647: warning: function call has aggregate value
+rsvg-shapes.c: In function 'rsvg_new_ellipse':
+rsvg-shapes.c:753: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-structure.lo
+rsvg-structure.c: In function 'rsvg_node_svg_set_atts':
+rsvg-structure.c:339: warning: function call has aggregate value
+rsvg-structure.c:344: warning: function call has aggregate value
+rsvg-structure.c:346: warning: function call has aggregate value
+rsvg-structure.c:352: warning: function call has aggregate value
+rsvg-structure.c:354: warning: function call has aggregate value
+rsvg-structure.c: In function 'rsvg_new_svg':
+rsvg-structure.c:400: warning: function call has aggregate value
+rsvg-structure.c:401: warning: function call has aggregate value
+rsvg-structure.c:402: warning: function call has aggregate value
+rsvg-structure.c:403: warning: function call has aggregate value
+rsvg-structure.c: In function 'rsvg_node_use_set_atts':
+rsvg-structure.c:420: warning: function call has aggregate value
+rsvg-structure.c:422: warning: function call has aggregate value
+rsvg-structure.c:424: warning: function call has aggregate value
+rsvg-structure.c:426: warning: function call has aggregate value
+rsvg-structure.c: In function 'rsvg_new_use':
+rsvg-structure.c:448: warning: function call has aggregate value
+rsvg-structure.c:449: warning: function call has aggregate value
+rsvg-structure.c:450: warning: function call has aggregate value
+rsvg-structure.c:451: warning: function call has aggregate value
+rsvg-structure.c: In function 'rsvg_node_symbol_set_atts':
+rsvg-structure.c:471: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-styles.lo
+rsvg-styles.c: In function 'rsvg_state_init':
+rsvg-styles.c:125: warning: function call has aggregate value
+rsvg-styles.c:139: warning: function call has aggregate value
+rsvg-styles.c:148: warning: function call has aggregate value
+rsvg-styles.c: In function 'rsvg_parse_style_pair':
+rsvg-styles.c:640: warning: function call has aggregate value
+rsvg-styles.c:666: warning: function call has aggregate value
+rsvg-styles.c:753: warning: function call has aggregate value
+rsvg-styles.c:777: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-text.lo
+rsvg-text.c: In function 'rsvg_make_valid_utf8':
+rsvg-text.c:56: warning: declaration of 'remainder' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:795: warning: shadowed declaration is here
+rsvg-text.c: In function 'rsvg_text_create_layout':
+rsvg-text.c:480: warning: declaration of 'attribute' shadows a global declaration
+/srv/win32builder/fixed_364/build/win32/include/libxml2/libxml/SAX.h:104: warning: shadowed declaration is here
+rsvg-text.c: In function '_rsvg_node_text_set_atts':
+rsvg-text.c:134: warning: function call has aggregate value
+rsvg-text.c:136: warning: function call has aggregate value
+rsvg-text.c:138: warning: function call has aggregate value
+rsvg-text.c:140: warning: function call has aggregate value
+rsvg-text.c: In function 'rsvg_new_text':
+rsvg-text.c:308: warning: function call has aggregate value
+rsvg-text.c: In function '_rsvg_node_tspan_set_atts':
+rsvg-text.c:383: warning: function call has aggregate value
+rsvg-text.c:385: warning: function call has aggregate value
+rsvg-text.c:387: warning: function call has aggregate value
+rsvg-text.c:389: warning: function call has aggregate value
+rsvg-text.c: In function 'rsvg_new_tspan':
+rsvg-text.c:409: warning: function call has aggregate value
+  CC     librsvg_2_la-rsvg-cond.lo
+  CC     librsvg_2_la-rsvg-base.lo
+rsvg-base.c: In function 'rsvg_start_xinclude':
+rsvg-base.c:551: warning: pointer targets in passing argument 1 of 'g_convert' differ in signedness
+/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib/gconvert.h:89: note: expected 'const gchar *' but argument is of type 'guint8 *'
+rsvg-base.c:554: warning: pointer targets in assignment differ in signedness
+rsvg-base.c: In function 'rsvg_entity_decl':
+rsvg-base.c:822: warning: pointer targets in passing argument 1 of 'xmlCharStrndup' differ in signedness
+/srv/win32builder/fixed_364/build/win32/include/libxml2/libxml/xmlstring.h:46: note: expected 'const char *' but argument is of type 'guint8 *'
+rsvg-base.c: In function 'rsvg_handle_close_impl':
+rsvg-base.c:1147: warning: declaration of 'xmlDoc' shadows a global declaration
+/srv/win32builder/fixed_364/build/win32/include/libxml2/libxml/tree.h:511: warning: shadowed declaration is here
+  CC     librsvg_2_la-librsvg-enum-types.lo
+  CC     librsvg_2_la-rsvg-cairo-draw.lo
+rsvg-cairo-draw.c: In function 'rsvg_cairo_create_pango_context':
+rsvg-cairo-draw.c:374: warning: 'pango_cairo_font_map_create_context' is deprecated (declared at /srv/win32builder/fixed_364/build/win32/include/pango-1.0/pango/pangocairo.h:79)
+rsvg-cairo-draw.c: In function 'rsvg_cairo_pop_render_stack':
+rsvg-cairo-draw.c:808: warning: passing argument 5 of 'rsvg_filter_render' discards qualifiers from pointer target type
+rsvg-filter.h:48: note: expected 'char *' but argument is of type 'const char *'
+  CC     librsvg_2_la-rsvg-cairo-render.lo
+rsvg-cairo-render.c: In function 'rsvg_cairo_transformed_image_bounding_box':
+rsvg-cairo-render.c:83: warning: declaration of 'y0' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:257: warning: shadowed declaration is here
+rsvg-cairo-render.c:83: warning: declaration of 'y1' shadows a global declaration
+/usr/i686-pc-mingw32/sys-root/mingw/include/math.h:258: warning: shadowed declaration is here
+  CC     librsvg_2_la-rsvg-cairo-clip.lo
+  CC     librsvg_2_la-rsvg.lo
+  CC     librsvg_2_la-rsvg-gobject.lo
+  CC     librsvg_2_la-rsvg-file-util.lo
+  CC     librsvg_2_la-rsvg-size-callback.lo
+  CC     librsvg_2_la-rsvg-xml.lo
+  CCLD   librsvg-2.la
+Creating library file: .libs/librsvg-2.dll.a
+  CC     rsvg_convert-rsvg-convert.o
+rsvg-convert.c: In function 'main':
+rsvg-convert.c:248: warning: 'rsvg_handle_set_size_callback' is deprecated (declared at rsvg.h:201)
+  CC     rsvg_convert-rsvg-size-callback.o
+  CCLD   rsvg-convert.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     rsvg_view_3-test-display.o
+test-display.c: In function 'populate_window':
+test-display.c:544: warning: 'gtk_widget_size_request' is deprecated (declared at /srv/win32builder/fixed_364/build/win32/include/gtk-3.0/gtk/gtkwidget.h:477)
+  CCLD   rsvg-view-3.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'
+Making all in gdk-pixbuf-loader
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/gdk-pixbuf-loader'
+  CC     libpixbufloader_svg_la-io-svg.lo
+In file included from io-svg.c:31:
+../librsvg-features.h:2:2: warning: #warning "Including <librsvg/librsvg-features.h> directly is deprecated."
+io-svg.c: In function 'gdk_pixbuf__svg_image_load_increment':
+io-svg.c:127: warning: 'rsvg_handle_set_size_callback' is deprecated (declared at ../rsvg.h:201)
+  CCLD   libpixbufloader-svg.la
+Creating library file: .libs/libpixbufloader-svg.dll.a
+  CC     rsvg_loader-test.o
+  GEN    gdk-pixbuf-loaders
+  CCLD   rsvg-loader.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/gdk-pixbuf-loader'
+Making all in tests
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+Making all in pdiff
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests/pdiff'
+  CC     lpyramid.lo
+  CC     pdiff.lo
+  CCLD   libpdiff.la
+  CC     args.o
+  CC     perceptualdiff.o
+  CCLD   perceptualdiff.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests/pdiff'
+Making all in .
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+  CC     test-utils.lo
+  CC     rsvg-size-callback.lo
+  CCLD   libtest-utils.la
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+Making all in tools
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tools'
+  CC     rsvg-tools-main.lo
+  CCLD   librsvg_tools_main.la
+  CC     rsvg-dimensions.o
+  CCLD   rsvg-dimensions.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     test-performance.o
+  CCLD   test-performance.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     test-memory.o
+  CCLD   test-memory.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tools'
+Making all in doc
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/doc'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'

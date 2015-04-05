@@ -1,0 +1,570 @@
+Making all in port
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/port'
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT dummy.lo -MD -MP -MF .deps/dummy.Tpo -c -o dummy.lo dummy.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT dummy.lo -MD -MP -MF .deps/dummy.Tpo -c dummy.c  -DDLL_EXPORT -DPIC -o .libs/dummy.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT dummy.lo -MD -MP -MF .deps/dummy.Tpo -c dummy.c -o dummy.o >/dev/null 2>&1
+mv -f .deps/dummy.Tpo .deps/dummy.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o libport.la  dummy.lo  -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-ar cru .libs/libport.a .libs/dummy.o 
+libtool: link: i686-pc-mingw32-ranlib .libs/libport.a
+libtool: link: ( cd ".libs" && rm -f "libport.la" && ln -s "../libport.la" "libport.la" )
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/port'
+Making all in libtiff
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff'
+make  all-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff'
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_aux.lo -MD -MP -MF .deps/tif_aux.Tpo -c -o tif_aux.lo tif_aux.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_aux.lo -MD -MP -MF .deps/tif_aux.Tpo -c tif_aux.c  -DDLL_EXPORT -DPIC -o .libs/tif_aux.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_aux.lo -MD -MP -MF .deps/tif_aux.Tpo -c tif_aux.c -o tif_aux.o >/dev/null 2>&1
+mv -f .deps/tif_aux.Tpo .deps/tif_aux.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_close.lo -MD -MP -MF .deps/tif_close.Tpo -c -o tif_close.lo tif_close.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_close.lo -MD -MP -MF .deps/tif_close.Tpo -c tif_close.c  -DDLL_EXPORT -DPIC -o .libs/tif_close.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_close.lo -MD -MP -MF .deps/tif_close.Tpo -c tif_close.c -o tif_close.o >/dev/null 2>&1
+mv -f .deps/tif_close.Tpo .deps/tif_close.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_codec.lo -MD -MP -MF .deps/tif_codec.Tpo -c -o tif_codec.lo tif_codec.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_codec.lo -MD -MP -MF .deps/tif_codec.Tpo -c tif_codec.c  -DDLL_EXPORT -DPIC -o .libs/tif_codec.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_codec.lo -MD -MP -MF .deps/tif_codec.Tpo -c tif_codec.c -o tif_codec.o >/dev/null 2>&1
+mv -f .deps/tif_codec.Tpo .deps/tif_codec.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_color.lo -MD -MP -MF .deps/tif_color.Tpo -c -o tif_color.lo tif_color.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_color.lo -MD -MP -MF .deps/tif_color.Tpo -c tif_color.c  -DDLL_EXPORT -DPIC -o .libs/tif_color.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_color.lo -MD -MP -MF .deps/tif_color.Tpo -c tif_color.c -o tif_color.o >/dev/null 2>&1
+mv -f .deps/tif_color.Tpo .deps/tif_color.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_compress.lo -MD -MP -MF .deps/tif_compress.Tpo -c -o tif_compress.lo tif_compress.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_compress.lo -MD -MP -MF .deps/tif_compress.Tpo -c tif_compress.c  -DDLL_EXPORT -DPIC -o .libs/tif_compress.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_compress.lo -MD -MP -MF .deps/tif_compress.Tpo -c tif_compress.c -o tif_compress.o >/dev/null 2>&1
+mv -f .deps/tif_compress.Tpo .deps/tif_compress.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dir.lo -MD -MP -MF .deps/tif_dir.Tpo -c -o tif_dir.lo tif_dir.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dir.lo -MD -MP -MF .deps/tif_dir.Tpo -c tif_dir.c  -DDLL_EXPORT -DPIC -o .libs/tif_dir.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dir.lo -MD -MP -MF .deps/tif_dir.Tpo -c tif_dir.c -o tif_dir.o >/dev/null 2>&1
+mv -f .deps/tif_dir.Tpo .deps/tif_dir.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirinfo.lo -MD -MP -MF .deps/tif_dirinfo.Tpo -c -o tif_dirinfo.lo tif_dirinfo.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirinfo.lo -MD -MP -MF .deps/tif_dirinfo.Tpo -c tif_dirinfo.c  -DDLL_EXPORT -DPIC -o .libs/tif_dirinfo.o
+tif_dirinfo.c:196: warning: missing initializer
+tif_dirinfo.c:196: warning: (near initialization for 'tiffFields[139].field_subfields')
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirinfo.lo -MD -MP -MF .deps/tif_dirinfo.Tpo -c tif_dirinfo.c -o tif_dirinfo.o >/dev/null 2>&1
+mv -f .deps/tif_dirinfo.Tpo .deps/tif_dirinfo.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirread.lo -MD -MP -MF .deps/tif_dirread.Tpo -c -o tif_dirread.lo tif_dirread.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirread.lo -MD -MP -MF .deps/tif_dirread.Tpo -c tif_dirread.c  -DDLL_EXPORT -DPIC -o .libs/tif_dirread.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirread.lo -MD -MP -MF .deps/tif_dirread.Tpo -c tif_dirread.c -o tif_dirread.o >/dev/null 2>&1
+mv -f .deps/tif_dirread.Tpo .deps/tif_dirread.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirwrite.lo -MD -MP -MF .deps/tif_dirwrite.Tpo -c -o tif_dirwrite.lo tif_dirwrite.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirwrite.lo -MD -MP -MF .deps/tif_dirwrite.Tpo -c tif_dirwrite.c  -DDLL_EXPORT -DPIC -o .libs/tif_dirwrite.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dirwrite.lo -MD -MP -MF .deps/tif_dirwrite.Tpo -c tif_dirwrite.c -o tif_dirwrite.o >/dev/null 2>&1
+mv -f .deps/tif_dirwrite.Tpo .deps/tif_dirwrite.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dumpmode.lo -MD -MP -MF .deps/tif_dumpmode.Tpo -c -o tif_dumpmode.lo tif_dumpmode.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dumpmode.lo -MD -MP -MF .deps/tif_dumpmode.Tpo -c tif_dumpmode.c  -DDLL_EXPORT -DPIC -o .libs/tif_dumpmode.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_dumpmode.lo -MD -MP -MF .deps/tif_dumpmode.Tpo -c tif_dumpmode.c -o tif_dumpmode.o >/dev/null 2>&1
+mv -f .deps/tif_dumpmode.Tpo .deps/tif_dumpmode.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_error.lo -MD -MP -MF .deps/tif_error.Tpo -c -o tif_error.lo tif_error.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_error.lo -MD -MP -MF .deps/tif_error.Tpo -c tif_error.c  -DDLL_EXPORT -DPIC -o .libs/tif_error.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_error.lo -MD -MP -MF .deps/tif_error.Tpo -c tif_error.c -o tif_error.o >/dev/null 2>&1
+mv -f .deps/tif_error.Tpo .deps/tif_error.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_extension.lo -MD -MP -MF .deps/tif_extension.Tpo -c -o tif_extension.lo tif_extension.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_extension.lo -MD -MP -MF .deps/tif_extension.Tpo -c tif_extension.c  -DDLL_EXPORT -DPIC -o .libs/tif_extension.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_extension.lo -MD -MP -MF .deps/tif_extension.Tpo -c tif_extension.c -o tif_extension.o >/dev/null 2>&1
+mv -f .deps/tif_extension.Tpo .deps/tif_extension.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_fax3.lo -MD -MP -MF .deps/tif_fax3.Tpo -c -o tif_fax3.lo tif_fax3.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_fax3.lo -MD -MP -MF .deps/tif_fax3.Tpo -c tif_fax3.c  -DDLL_EXPORT -DPIC -o .libs/tif_fax3.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_fax3.lo -MD -MP -MF .deps/tif_fax3.Tpo -c tif_fax3.c -o tif_fax3.o >/dev/null 2>&1
+mv -f .deps/tif_fax3.Tpo .deps/tif_fax3.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_fax3sm.lo -MD -MP -MF .deps/tif_fax3sm.Tpo -c -o tif_fax3sm.lo tif_fax3sm.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_fax3sm.lo -MD -MP -MF .deps/tif_fax3sm.Tpo -c tif_fax3sm.c  -DDLL_EXPORT -DPIC -o .libs/tif_fax3sm.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_fax3sm.lo -MD -MP -MF .deps/tif_fax3sm.Tpo -c tif_fax3sm.c -o tif_fax3sm.o >/dev/null 2>&1
+mv -f .deps/tif_fax3sm.Tpo .deps/tif_fax3sm.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_flush.lo -MD -MP -MF .deps/tif_flush.Tpo -c -o tif_flush.lo tif_flush.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_flush.lo -MD -MP -MF .deps/tif_flush.Tpo -c tif_flush.c  -DDLL_EXPORT -DPIC -o .libs/tif_flush.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_flush.lo -MD -MP -MF .deps/tif_flush.Tpo -c tif_flush.c -o tif_flush.o >/dev/null 2>&1
+mv -f .deps/tif_flush.Tpo .deps/tif_flush.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_getimage.lo -MD -MP -MF .deps/tif_getimage.Tpo -c -o tif_getimage.lo tif_getimage.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_getimage.lo -MD -MP -MF .deps/tif_getimage.Tpo -c tif_getimage.c  -DDLL_EXPORT -DPIC -o .libs/tif_getimage.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_getimage.lo -MD -MP -MF .deps/tif_getimage.Tpo -c tif_getimage.c -o tif_getimage.o >/dev/null 2>&1
+mv -f .deps/tif_getimage.Tpo .deps/tif_getimage.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jbig.lo -MD -MP -MF .deps/tif_jbig.Tpo -c -o tif_jbig.lo tif_jbig.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jbig.lo -MD -MP -MF .deps/tif_jbig.Tpo -c tif_jbig.c  -DDLL_EXPORT -DPIC -o .libs/tif_jbig.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jbig.lo -MD -MP -MF .deps/tif_jbig.Tpo -c tif_jbig.c -o tif_jbig.o >/dev/null 2>&1
+mv -f .deps/tif_jbig.Tpo .deps/tif_jbig.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jpeg.lo -MD -MP -MF .deps/tif_jpeg.Tpo -c -o tif_jpeg.lo tif_jpeg.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jpeg.lo -MD -MP -MF .deps/tif_jpeg.Tpo -c tif_jpeg.c  -DDLL_EXPORT -DPIC -o .libs/tif_jpeg.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jpeg.lo -MD -MP -MF .deps/tif_jpeg.Tpo -c tif_jpeg.c -o tif_jpeg.o >/dev/null 2>&1
+mv -f .deps/tif_jpeg.Tpo .deps/tif_jpeg.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jpeg_12.lo -MD -MP -MF .deps/tif_jpeg_12.Tpo -c -o tif_jpeg_12.lo tif_jpeg_12.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jpeg_12.lo -MD -MP -MF .deps/tif_jpeg_12.Tpo -c tif_jpeg_12.c  -DDLL_EXPORT -DPIC -o .libs/tif_jpeg_12.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_jpeg_12.lo -MD -MP -MF .deps/tif_jpeg_12.Tpo -c tif_jpeg_12.c -o tif_jpeg_12.o >/dev/null 2>&1
+mv -f .deps/tif_jpeg_12.Tpo .deps/tif_jpeg_12.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_luv.lo -MD -MP -MF .deps/tif_luv.Tpo -c -o tif_luv.lo tif_luv.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_luv.lo -MD -MP -MF .deps/tif_luv.Tpo -c tif_luv.c  -DDLL_EXPORT -DPIC -o .libs/tif_luv.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_luv.lo -MD -MP -MF .deps/tif_luv.Tpo -c tif_luv.c -o tif_luv.o >/dev/null 2>&1
+mv -f .deps/tif_luv.Tpo .deps/tif_luv.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_lzma.lo -MD -MP -MF .deps/tif_lzma.Tpo -c -o tif_lzma.lo tif_lzma.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_lzma.lo -MD -MP -MF .deps/tif_lzma.Tpo -c tif_lzma.c  -DDLL_EXPORT -DPIC -o .libs/tif_lzma.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_lzma.lo -MD -MP -MF .deps/tif_lzma.Tpo -c tif_lzma.c -o tif_lzma.o >/dev/null 2>&1
+mv -f .deps/tif_lzma.Tpo .deps/tif_lzma.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_lzw.lo -MD -MP -MF .deps/tif_lzw.Tpo -c -o tif_lzw.lo tif_lzw.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_lzw.lo -MD -MP -MF .deps/tif_lzw.Tpo -c tif_lzw.c  -DDLL_EXPORT -DPIC -o .libs/tif_lzw.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_lzw.lo -MD -MP -MF .deps/tif_lzw.Tpo -c tif_lzw.c -o tif_lzw.o >/dev/null 2>&1
+mv -f .deps/tif_lzw.Tpo .deps/tif_lzw.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_next.lo -MD -MP -MF .deps/tif_next.Tpo -c -o tif_next.lo tif_next.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_next.lo -MD -MP -MF .deps/tif_next.Tpo -c tif_next.c  -DDLL_EXPORT -DPIC -o .libs/tif_next.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_next.lo -MD -MP -MF .deps/tif_next.Tpo -c tif_next.c -o tif_next.o >/dev/null 2>&1
+mv -f .deps/tif_next.Tpo .deps/tif_next.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_ojpeg.lo -MD -MP -MF .deps/tif_ojpeg.Tpo -c -o tif_ojpeg.lo tif_ojpeg.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_ojpeg.lo -MD -MP -MF .deps/tif_ojpeg.Tpo -c tif_ojpeg.c  -DDLL_EXPORT -DPIC -o .libs/tif_ojpeg.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_ojpeg.lo -MD -MP -MF .deps/tif_ojpeg.Tpo -c tif_ojpeg.c -o tif_ojpeg.o >/dev/null 2>&1
+mv -f .deps/tif_ojpeg.Tpo .deps/tif_ojpeg.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_open.lo -MD -MP -MF .deps/tif_open.Tpo -c -o tif_open.lo tif_open.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_open.lo -MD -MP -MF .deps/tif_open.Tpo -c tif_open.c  -DDLL_EXPORT -DPIC -o .libs/tif_open.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_open.lo -MD -MP -MF .deps/tif_open.Tpo -c tif_open.c -o tif_open.o >/dev/null 2>&1
+mv -f .deps/tif_open.Tpo .deps/tif_open.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_packbits.lo -MD -MP -MF .deps/tif_packbits.Tpo -c -o tif_packbits.lo tif_packbits.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_packbits.lo -MD -MP -MF .deps/tif_packbits.Tpo -c tif_packbits.c  -DDLL_EXPORT -DPIC -o .libs/tif_packbits.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_packbits.lo -MD -MP -MF .deps/tif_packbits.Tpo -c tif_packbits.c -o tif_packbits.o >/dev/null 2>&1
+mv -f .deps/tif_packbits.Tpo .deps/tif_packbits.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_pixarlog.lo -MD -MP -MF .deps/tif_pixarlog.Tpo -c -o tif_pixarlog.lo tif_pixarlog.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_pixarlog.lo -MD -MP -MF .deps/tif_pixarlog.Tpo -c tif_pixarlog.c  -DDLL_EXPORT -DPIC -o .libs/tif_pixarlog.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_pixarlog.lo -MD -MP -MF .deps/tif_pixarlog.Tpo -c tif_pixarlog.c -o tif_pixarlog.o >/dev/null 2>&1
+mv -f .deps/tif_pixarlog.Tpo .deps/tif_pixarlog.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_predict.lo -MD -MP -MF .deps/tif_predict.Tpo -c -o tif_predict.lo tif_predict.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_predict.lo -MD -MP -MF .deps/tif_predict.Tpo -c tif_predict.c  -DDLL_EXPORT -DPIC -o .libs/tif_predict.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_predict.lo -MD -MP -MF .deps/tif_predict.Tpo -c tif_predict.c -o tif_predict.o >/dev/null 2>&1
+mv -f .deps/tif_predict.Tpo .deps/tif_predict.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_print.lo -MD -MP -MF .deps/tif_print.Tpo -c -o tif_print.lo tif_print.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_print.lo -MD -MP -MF .deps/tif_print.Tpo -c tif_print.c  -DDLL_EXPORT -DPIC -o .libs/tif_print.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_print.lo -MD -MP -MF .deps/tif_print.Tpo -c tif_print.c -o tif_print.o >/dev/null 2>&1
+mv -f .deps/tif_print.Tpo .deps/tif_print.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_read.lo -MD -MP -MF .deps/tif_read.Tpo -c -o tif_read.lo tif_read.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_read.lo -MD -MP -MF .deps/tif_read.Tpo -c tif_read.c  -DDLL_EXPORT -DPIC -o .libs/tif_read.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_read.lo -MD -MP -MF .deps/tif_read.Tpo -c tif_read.c -o tif_read.o >/dev/null 2>&1
+mv -f .deps/tif_read.Tpo .deps/tif_read.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_strip.lo -MD -MP -MF .deps/tif_strip.Tpo -c -o tif_strip.lo tif_strip.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_strip.lo -MD -MP -MF .deps/tif_strip.Tpo -c tif_strip.c  -DDLL_EXPORT -DPIC -o .libs/tif_strip.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_strip.lo -MD -MP -MF .deps/tif_strip.Tpo -c tif_strip.c -o tif_strip.o >/dev/null 2>&1
+mv -f .deps/tif_strip.Tpo .deps/tif_strip.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_swab.lo -MD -MP -MF .deps/tif_swab.Tpo -c -o tif_swab.lo tif_swab.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_swab.lo -MD -MP -MF .deps/tif_swab.Tpo -c tif_swab.c  -DDLL_EXPORT -DPIC -o .libs/tif_swab.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_swab.lo -MD -MP -MF .deps/tif_swab.Tpo -c tif_swab.c -o tif_swab.o >/dev/null 2>&1
+mv -f .deps/tif_swab.Tpo .deps/tif_swab.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_thunder.lo -MD -MP -MF .deps/tif_thunder.Tpo -c -o tif_thunder.lo tif_thunder.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_thunder.lo -MD -MP -MF .deps/tif_thunder.Tpo -c tif_thunder.c  -DDLL_EXPORT -DPIC -o .libs/tif_thunder.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_thunder.lo -MD -MP -MF .deps/tif_thunder.Tpo -c tif_thunder.c -o tif_thunder.o >/dev/null 2>&1
+mv -f .deps/tif_thunder.Tpo .deps/tif_thunder.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_tile.lo -MD -MP -MF .deps/tif_tile.Tpo -c -o tif_tile.lo tif_tile.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_tile.lo -MD -MP -MF .deps/tif_tile.Tpo -c tif_tile.c  -DDLL_EXPORT -DPIC -o .libs/tif_tile.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_tile.lo -MD -MP -MF .deps/tif_tile.Tpo -c tif_tile.c -o tif_tile.o >/dev/null 2>&1
+mv -f .deps/tif_tile.Tpo .deps/tif_tile.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_version.lo -MD -MP -MF .deps/tif_version.Tpo -c -o tif_version.lo tif_version.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_version.lo -MD -MP -MF .deps/tif_version.Tpo -c tif_version.c  -DDLL_EXPORT -DPIC -o .libs/tif_version.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_version.lo -MD -MP -MF .deps/tif_version.Tpo -c tif_version.c -o tif_version.o >/dev/null 2>&1
+mv -f .deps/tif_version.Tpo .deps/tif_version.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_warning.lo -MD -MP -MF .deps/tif_warning.Tpo -c -o tif_warning.lo tif_warning.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_warning.lo -MD -MP -MF .deps/tif_warning.Tpo -c tif_warning.c  -DDLL_EXPORT -DPIC -o .libs/tif_warning.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_warning.lo -MD -MP -MF .deps/tif_warning.Tpo -c tif_warning.c -o tif_warning.o >/dev/null 2>&1
+mv -f .deps/tif_warning.Tpo .deps/tif_warning.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_write.lo -MD -MP -MF .deps/tif_write.Tpo -c -o tif_write.lo tif_write.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_write.lo -MD -MP -MF .deps/tif_write.Tpo -c tif_write.c  -DDLL_EXPORT -DPIC -o .libs/tif_write.o
+tif_write.c: In function 'TIFFWriteEncodedStrip':
+tif_write.c:236: warning: comparison between signed and unsigned integer expressions
+tif_write.c: In function 'TIFFWriteEncodedTile':
+tif_write.c:382: warning: comparison between signed and unsigned integer expressions
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_write.lo -MD -MP -MF .deps/tif_write.Tpo -c tif_write.c -o tif_write.o >/dev/null 2>&1
+mv -f .deps/tif_write.Tpo .deps/tif_write.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_zip.lo -MD -MP -MF .deps/tif_zip.Tpo -c -o tif_zip.lo tif_zip.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_zip.lo -MD -MP -MF .deps/tif_zip.Tpo -c tif_zip.c  -DDLL_EXPORT -DPIC -o .libs/tif_zip.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_zip.lo -MD -MP -MF .deps/tif_zip.Tpo -c tif_zip.c -o tif_zip.o >/dev/null 2>&1
+mv -f .deps/tif_zip.Tpo .deps/tif_zip.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_win32.lo -MD -MP -MF .deps/tif_win32.Tpo -c -o tif_win32.lo tif_win32.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_win32.lo -MD -MP -MF .deps/tif_win32.Tpo -c tif_win32.c  -DDLL_EXPORT -DPIC -o .libs/tif_win32.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_win32.lo -MD -MP -MF .deps/tif_win32.Tpo -c tif_win32.c -o tif_win32.o >/dev/null 2>&1
+mv -f .deps/tif_win32.Tpo .deps/tif_win32.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -no-undefined -version-info 7:0:2   -L/srv/win32builder/fixed_364/build/win32/lib -o libtiff.la -rpath /srv/win32builder/fixed_364/build/win32/lib tif_aux.lo tif_close.lo tif_codec.lo tif_color.lo tif_compress.lo tif_dir.lo tif_dirinfo.lo tif_dirread.lo tif_dirwrite.lo tif_dumpmode.lo tif_error.lo tif_extension.lo tif_fax3.lo tif_fax3sm.lo tif_flush.lo tif_getimage.lo tif_jbig.lo tif_jpeg.lo tif_jpeg_12.lo tif_luv.lo tif_lzma.lo tif_lzw.lo tif_next.lo tif_ojpeg.lo tif_open.lo tif_packbits.lo tif_pixarlog.lo tif_predict.lo tif_print.lo tif_read.lo tif_strip.lo tif_swab.lo tif_thunder.lo tif_tile.lo tif_version.lo tif_warning.lo tif_write.lo tif_zip.lo tif_win32.lo  ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -shared  .libs/tif_aux.o .libs/tif_close.o .libs/tif_codec.o .libs/tif_color.o .libs/tif_compress.o .libs/tif_dir.o .libs/tif_dirinfo.o .libs/tif_dirread.o .libs/tif_dirwrite.o .libs/tif_dumpmode.o .libs/tif_error.o .libs/tif_extension.o .libs/tif_fax3.o .libs/tif_fax3sm.o .libs/tif_flush.o .libs/tif_getimage.o .libs/tif_jbig.o .libs/tif_jpeg.o .libs/tif_jpeg_12.o .libs/tif_luv.o .libs/tif_lzma.o .libs/tif_lzw.o .libs/tif_next.o .libs/tif_ojpeg.o .libs/tif_open.o .libs/tif_packbits.o .libs/tif_pixarlog.o .libs/tif_predict.o .libs/tif_print.o .libs/tif_read.o .libs/tif_strip.o .libs/tif_swab.o .libs/tif_thunder.o .libs/tif_tile.o .libs/tif_version.o .libs/tif_warning.o .libs/tif_write.o .libs/tif_zip.o .libs/tif_win32.o  -Wl,--whole-archive ../port/.libs/libport.a -Wl,--no-whole-archive  -L/srv/win32builder/fixed_364/build/win32/lib /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz    -o .libs/libtiff-5.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libtiff.dll.a
+Creating library file: .libs/libtiff.dll.a
+libtool: link: (cd .libs/libtiff.lax/libport.a && i686-pc-mingw32-ar x "/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/../port/.libs/libport.a")
+libtool: link: i686-pc-mingw32-ar cru .libs/libtiff.a  tif_aux.o tif_close.o tif_codec.o tif_color.o tif_compress.o tif_dir.o tif_dirinfo.o tif_dirread.o tif_dirwrite.o tif_dumpmode.o tif_error.o tif_extension.o tif_fax3.o tif_fax3sm.o tif_flush.o tif_getimage.o tif_jbig.o tif_jpeg.o tif_jpeg_12.o tif_luv.o tif_lzma.o tif_lzw.o tif_next.o tif_ojpeg.o tif_open.o tif_packbits.o tif_pixarlog.o tif_predict.o tif_print.o tif_read.o tif_strip.o tif_swab.o tif_thunder.o tif_tile.o tif_version.o tif_warning.o tif_write.o tif_zip.o tif_win32.o  .libs/libtiff.lax/libport.a/dummy.o 
+libtool: link: i686-pc-mingw32-ranlib .libs/libtiff.a
+libtool: link: rm -fr .libs/libtiff.lax
+libtool: link: ( cd ".libs" && rm -f "libtiff.la" && ln -s "../libtiff.la" "libtiff.la" )
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.   -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT mkg3states.o -MD -MP -MF .deps/mkg3states.Tpo -c -o mkg3states.o mkg3states.c
+mv -f .deps/mkg3states.Tpo .deps/mkg3states.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o mkg3states.exe mkg3states.o ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/mkg3states.exe mkg3states.o  -L/srv/win32builder/fixed_364/build/win32/lib ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff'
+Making all in tools
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/tools'
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT bmp2tiff.o -MD -MP -MF .deps/bmp2tiff.Tpo -c -o bmp2tiff.o bmp2tiff.c
+mv -f .deps/bmp2tiff.Tpo .deps/bmp2tiff.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o bmp2tiff.exe bmp2tiff.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/bmp2tiff.exe bmp2tiff.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT fax2ps.o -MD -MP -MF .deps/fax2ps.Tpo -c -o fax2ps.o fax2ps.c
+mv -f .deps/fax2ps.Tpo .deps/fax2ps.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o fax2ps.exe fax2ps.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/fax2ps.exe fax2ps.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT fax2tiff.o -MD -MP -MF .deps/fax2tiff.Tpo -c -o fax2tiff.o fax2tiff.c
+mv -f .deps/fax2tiff.Tpo .deps/fax2tiff.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o fax2tiff.exe fax2tiff.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/fax2tiff.exe fax2tiff.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT gif2tiff.o -MD -MP -MF .deps/gif2tiff.Tpo -c -o gif2tiff.o gif2tiff.c
+mv -f .deps/gif2tiff.Tpo .deps/gif2tiff.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o gif2tiff.exe gif2tiff.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/gif2tiff.exe gif2tiff.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT pal2rgb.o -MD -MP -MF .deps/pal2rgb.Tpo -c -o pal2rgb.o pal2rgb.c
+mv -f .deps/pal2rgb.Tpo .deps/pal2rgb.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o pal2rgb.exe pal2rgb.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/pal2rgb.exe pal2rgb.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT ppm2tiff.o -MD -MP -MF .deps/ppm2tiff.Tpo -c -o ppm2tiff.o ppm2tiff.c
+mv -f .deps/ppm2tiff.Tpo .deps/ppm2tiff.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o ppm2tiff.exe ppm2tiff.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/ppm2tiff.exe ppm2tiff.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT ras2tiff.o -MD -MP -MF .deps/ras2tiff.Tpo -c -o ras2tiff.o ras2tiff.c
+mv -f .deps/ras2tiff.Tpo .deps/ras2tiff.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o ras2tiff.exe ras2tiff.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/ras2tiff.exe ras2tiff.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT raw2tiff.o -MD -MP -MF .deps/raw2tiff.Tpo -c -o raw2tiff.o raw2tiff.c
+mv -f .deps/raw2tiff.Tpo .deps/raw2tiff.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o raw2tiff.exe raw2tiff.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/raw2tiff.exe raw2tiff.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT rgb2ycbcr.o -MD -MP -MF .deps/rgb2ycbcr.Tpo -c -o rgb2ycbcr.o rgb2ycbcr.c
+mv -f .deps/rgb2ycbcr.Tpo .deps/rgb2ycbcr.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o rgb2ycbcr.exe rgb2ycbcr.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/rgb2ycbcr.exe rgb2ycbcr.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT thumbnail.o -MD -MP -MF .deps/thumbnail.Tpo -c -o thumbnail.o thumbnail.c
+mv -f .deps/thumbnail.Tpo .deps/thumbnail.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o thumbnail.exe thumbnail.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/thumbnail.exe thumbnail.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiff2bw.o -MD -MP -MF .deps/tiff2bw.Tpo -c -o tiff2bw.o tiff2bw.c
+mv -f .deps/tiff2bw.Tpo .deps/tiff2bw.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiff2bw.exe tiff2bw.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiff2bw.exe tiff2bw.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiff2pdf.o -MD -MP -MF .deps/tiff2pdf.Tpo -c -o tiff2pdf.o tiff2pdf.c
+mv -f .deps/tiff2pdf.Tpo .deps/tiff2pdf.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiff2pdf.exe tiff2pdf.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiff2pdf.exe tiff2pdf.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiff2ps.o -MD -MP -MF .deps/tiff2ps.Tpo -c -o tiff2ps.o tiff2ps.c
+mv -f .deps/tiff2ps.Tpo .deps/tiff2ps.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiff2ps.exe tiff2ps.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiff2ps.exe tiff2ps.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiff2rgba.o -MD -MP -MF .deps/tiff2rgba.Tpo -c -o tiff2rgba.o tiff2rgba.c
+mv -f .deps/tiff2rgba.Tpo .deps/tiff2rgba.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiff2rgba.exe tiff2rgba.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiff2rgba.exe tiff2rgba.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffcmp.o -MD -MP -MF .deps/tiffcmp.Tpo -c -o tiffcmp.o tiffcmp.c
+mv -f .deps/tiffcmp.Tpo .deps/tiffcmp.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffcmp.exe tiffcmp.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffcmp.exe tiffcmp.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffcp.o -MD -MP -MF .deps/tiffcp.Tpo -c -o tiffcp.o tiffcp.c
+mv -f .deps/tiffcp.Tpo .deps/tiffcp.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffcp.exe tiffcp.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffcp.exe tiffcp.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffcrop.o -MD -MP -MF .deps/tiffcrop.Tpo -c -o tiffcrop.o tiffcrop.c
+mv -f .deps/tiffcrop.Tpo .deps/tiffcrop.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffcrop.exe tiffcrop.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffcrop.exe tiffcrop.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffdither.o -MD -MP -MF .deps/tiffdither.Tpo -c -o tiffdither.o tiffdither.c
+mv -f .deps/tiffdither.Tpo .deps/tiffdither.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffdither.exe tiffdither.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffdither.exe tiffdither.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffdump.o -MD -MP -MF .deps/tiffdump.Tpo -c -o tiffdump.o tiffdump.c
+mv -f .deps/tiffdump.Tpo .deps/tiffdump.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffdump.exe tiffdump.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffdump.exe tiffdump.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffinfo.o -MD -MP -MF .deps/tiffinfo.Tpo -c -o tiffinfo.o tiffinfo.c
+mv -f .deps/tiffinfo.Tpo .deps/tiffinfo.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffinfo.exe tiffinfo.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffinfo.exe tiffinfo.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffmedian.o -MD -MP -MF .deps/tiffmedian.Tpo -c -o tiffmedian.o tiffmedian.c
+mv -f .deps/tiffmedian.Tpo .deps/tiffmedian.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffmedian.exe tiffmedian.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffmedian.exe tiffmedian.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffset.o -MD -MP -MF .deps/tiffset.Tpo -c -o tiffset.o tiffset.c
+mv -f .deps/tiffset.Tpo .deps/tiffset.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffset.exe tiffset.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffset.exe tiffset.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiffsplit.o -MD -MP -MF .deps/tiffsplit.Tpo -c -o tiffsplit.o tiffsplit.c
+mv -f .deps/tiffsplit.Tpo .deps/tiffsplit.Po
+/bin/sh ../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiffsplit.exe tiffsplit.o ../libtiff/libtiff.la ../port/libport.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiffsplit.exe tiffsplit.o  -L/srv/win32builder/fixed_364/build/win32/lib ../libtiff/.libs/libtiff.dll.a ../port/.libs/libport.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/tools'
+Making all in build
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+Making all in contrib
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+Making all in addtiffo
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/addtiffo'
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../../libtiff  -I../../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT addtiffo.o -MD -MP -MF .deps/addtiffo.Tpo -c -o addtiffo.o addtiffo.c
+mv -f .deps/addtiffo.Tpo .deps/addtiffo.Po
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../../libtiff  -I../../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_overview.o -MD -MP -MF .deps/tif_overview.Tpo -c -o tif_overview.o tif_overview.c
+mv -f .deps/tif_overview.Tpo .deps/tif_overview.Po
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../../libtiff  -I../../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tif_ovrcache.o -MD -MP -MF .deps/tif_ovrcache.Tpo -c -o tif_ovrcache.o tif_ovrcache.c
+mv -f .deps/tif_ovrcache.Tpo .deps/tif_ovrcache.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o addtiffo.exe addtiffo.o tif_overview.o tif_ovrcache.o ../../libtiff/libtiff.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/addtiffo.exe addtiffo.o tif_overview.o tif_ovrcache.o  -L/srv/win32builder/fixed_364/build/win32/lib ../../libtiff/.libs/libtiff.dll.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/addtiffo'
+Making all in dbs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+Making all in xtiff
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs/xtiff'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs/xtiff'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../../libtiff  -I../../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiff-bi.o -MD -MP -MF .deps/tiff-bi.Tpo -c -o tiff-bi.o tiff-bi.c
+mv -f .deps/tiff-bi.Tpo .deps/tiff-bi.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiff-bi.exe tiff-bi.o ../../libtiff/libtiff.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiff-bi.exe tiff-bi.o  -L/srv/win32builder/fixed_364/build/win32/lib ../../libtiff/.libs/libtiff.dll.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../../libtiff  -I../../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiff-grayscale.o -MD -MP -MF .deps/tiff-grayscale.Tpo -c -o tiff-grayscale.o tiff-grayscale.c
+mv -f .deps/tiff-grayscale.Tpo .deps/tiff-grayscale.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiff-grayscale.exe tiff-grayscale.o ../../libtiff/libtiff.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiff-grayscale.exe tiff-grayscale.o  -L/srv/win32builder/fixed_364/build/win32/lib ../../libtiff/.libs/libtiff.dll.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../../libtiff  -I../../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiff-palette.o -MD -MP -MF .deps/tiff-palette.Tpo -c -o tiff-palette.o tiff-palette.c
+mv -f .deps/tiff-palette.Tpo .deps/tiff-palette.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiff-palette.exe tiff-palette.o ../../libtiff/libtiff.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiff-palette.exe tiff-palette.o  -L/srv/win32builder/fixed_364/build/win32/lib ../../libtiff/.libs/libtiff.dll.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../../libtiff  -I../../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT tiff-rgb.o -MD -MP -MF .deps/tiff-rgb.Tpo -c -o tiff-rgb.o tiff-rgb.c
+mv -f .deps/tiff-rgb.Tpo .deps/tiff-rgb.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o tiff-rgb.exe tiff-rgb.o ../../libtiff/libtiff.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/tiff-rgb.exe tiff-rgb.o  -L/srv/win32builder/fixed_364/build/win32/lib ../../libtiff/.libs/libtiff.dll.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+Making all in iptcutil
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/iptcutil'
+i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -I../../libtiff  -I../../libtiff -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -MT iptcutil.o -MD -MP -MF .deps/iptcutil.Tpo -c -o iptcutil.o iptcutil.c
+mv -f .deps/iptcutil.Tpo .deps/iptcutil.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -Wall -W  -L/srv/win32builder/fixed_364/build/win32/lib -o iptcutil.exe iptcutil.o ../../libtiff/libtiff.la -llzma -ljpeg -lz 
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include -Wall -W -o .libs/iptcutil.exe iptcutil.o  -L/srv/win32builder/fixed_364/build/win32/lib ../../libtiff/.libs/libtiff.dll.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a -lpthread /srv/win32builder/fixed_364/build/win32/lib/libjpeg.dll.a -lz -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/iptcutil'
+Making all in mfs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/mfs'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/mfs'
+Making all in pds
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/pds'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/pds'
+Making all in ras
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/ras'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/ras'
+Making all in stream
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/stream'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/stream'
+Making all in tags
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/tags'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/tags'
+Making all in win_dib
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/win_dib'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/win_dib'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+Making all in test
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/test'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/test'
+Making all in man
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/man'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/man'
+Making all in html
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+Making all in images
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/images'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/images'
+Making all in man
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/man'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/man'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3'

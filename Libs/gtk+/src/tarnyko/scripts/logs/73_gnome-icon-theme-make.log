@@ -1,0 +1,273 @@
+Making all in po
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/73_gnome-icon-theme/gnome-icon-theme-3.6.2/po'
+file=`echo af | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file af.po
+file=`echo am | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file am.po
+file=`echo an | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file an.po
+file=`echo ar | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo as | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file as.po
+file=`echo ast | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ast.po
+file=`echo az | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file az.po
+file=`echo be | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file be.po
+file=`echo be@latin | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file be@latin.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo bn | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file bn.po
+file=`echo bn_IN | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file bn_IN.po
+file=`echo br | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file br.po
+file=`echo bs | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file bs.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo ca@valencia | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ca@valencia.po
+file=`echo crh | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file crh.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo csb | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file csb.po
+file=`echo cy | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file cy.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo dz | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file dz.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_CA | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file en_CA.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo en@shaw | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file en@shaw.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file eo.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo et | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file et.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fa | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file fa.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo fur | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file fur.po
+file=`echo fy | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file fy.po
+file=`echo ga | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ga.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file gu.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file he.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file hi.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file hr.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo is | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file is.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo ka | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ka.po
+file=`echo kk | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file kk.po
+file=`echo km | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file km.po
+file=`echo kn | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file kn.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo ku | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ku.po
+file=`echo li | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file li.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo lv | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file lv.po
+file=`echo mai | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file mai.po
+file=`echo mg | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file mg.po
+file=`echo mk | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file mk.po
+file=`echo ml | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ml.po
+file=`echo mn | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file mn.po
+file=`echo mr | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file mr.po
+file=`echo ms | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ms.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo nds | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file nds.po
+file=`echo ne | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ne.po
+file=`echo nhn | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file nhn.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo nn | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file nn.po
+file=`echo oc | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file oc.po
+file=`echo or | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file or.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file pa.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo ps | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ps.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo si | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file si.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sr@latin | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file sr@latin.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo ta | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ta.po
+file=`echo te | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file te.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tk | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file tk.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo ug | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file ug.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo uz | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file uz.po
+file=`echo uz@cyrillic | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file uz@cyrillic.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo wa | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file wa.po
+file=`echo xh | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file xh.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_HK | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file zh_HK.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+	  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/73_gnome-icon-theme/gnome-icon-theme-3.6.2/po'
+Making all in src
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/73_gnome-icon-theme/gnome-icon-theme-3.6.2/src'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/73_gnome-icon-theme/gnome-icon-theme-3.6.2/src'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/73_gnome-icon-theme/gnome-icon-theme-3.6.2'
+dirs="`echo ./gnome/8x8/emblems,./gnome/16x16/actions,./gnome/16x16/animations,./gnome/16x16/apps,./gnome/16x16/categories,./gnome/16x16/devices,./gnome/16x16/emblems,./gnome/16x16/emotes,./gnome/16x16/mimetypes,./gnome/16x16/places,./gnome/16x16/status,./gnome/22x22/actions,./gnome/22x22/animations,./gnome/22x22/apps,./gnome/22x22/categories,./gnome/22x22/devices,./gnome/22x22/emblems,./gnome/22x22/emotes,./gnome/22x22/mimetypes,./gnome/22x22/places,./gnome/22x22/status,./gnome/24x24/actions,./gnome/24x24/apps,./gnome/24x24/categories,./gnome/24x24/devices,./gnome/24x24/emblems,./gnome/24x24/emotes,./gnome/24x24/mimetypes,./gnome/24x24/places,./gnome/24x24/status,./gnome/32x32/actions,./gnome/32x32/animations,./gnome/32x32/apps,./gnome/32x32/categories,./gnome/32x32/devices,./gnome/32x32/emblems,./gnome/32x32/emotes,./gnome/32x32/mimetypes,./gnome/32x32/places,./gnome/32x32/status,./gnome/48x48/actions,./gnome/48x48/animations,./gnome/48x48/apps,./gnome/48x48/categories,./gnome/48x48/devices,./gnome/48x48/emblems,./gnome/48x48/emotes,./gnome/48x48/mimetypes,./gnome/48x48/places,./gnome/48x48/status,./gnome/256x256/actions,./gnome/256x256/apps,./gnome/256x256/categories,./gnome/256x256/devices,./gnome/256x256/emblems,./gnome/256x256/emotes,./gnome/256x256/mimetypes,./gnome/256x256/places,./gnome/256x256/status,scalable/actions,scalable/apps,scalable/devices,scalable/emblems,scalable/mimetypes,scalable/places,scalable/status,scalable/categories | sed -e 's#./gnome/##g'`"; \
+	sed -e "s|\@THEME_DIRS\@|$dirs|g" < index.theme.in.in > index.theme.in; \
+	for dir in `echo $dirs | sed -e "s/,/ /g"`; do \
+		sizefull="`dirname $dir`"; \
+		if test "$sizefull" = "scalable"; then \
+			size="16"; \
+		else \
+			size="`echo $sizefull | sed -e 's/x.*$//g'`"; \
+		fi; \
+		context="`basename $dir`"; \
+		echo "[$dir]" >> index.theme.in; \
+		if test "$context" = "actions"; then \
+			echo "Context=Actions" >> index.theme.in; \
+		fi; \
+		if test "$context" = "animations"; then \
+			echo "Context=Animations" >> index.theme.in; \
+		fi; \
+		if test "$context" = "apps"; then \
+			echo "Context=Applications" >> index.theme.in; \
+		fi; \
+		if test "$context" = "categories"; then \
+			echo "Context=Categories" >> index.theme.in; \
+		fi; \
+		if test "$context" = "devices"; then \
+			echo "Context=Devices" >> index.theme.in; \
+		fi; \
+		if test "$context" = "emblems"; then \
+			echo "Context=Emblems" >> index.theme.in; \
+		fi; \
+		if test "$context" = "emotes"; then \
+			echo "Context=Emotes" >> index.theme.in; \
+		fi; \
+		if test "$context" = "intl"; then \
+			echo "Context=International" >> index.theme.in; \
+		fi; \
+		if test "$context" = "mimetypes"; then \
+			echo "Context=MimeTypes" >> index.theme.in; \
+		fi; \
+		if test "$context" = "places"; then \
+			echo "Context=Places" >> index.theme.in; \
+		fi; \
+		if test "$context" = "status"; then \
+			echo "Context=Status" >> index.theme.in; \
+		fi; \
+		echo "Size=$size" >> index.theme.in; \
+		if test "$sizefull" = "scalable"; then \
+			echo "MinSize=8" >> index.theme.in; \
+			echo "MaxSize=512" >> index.theme.in; \
+			echo "Type=Scalable" >> index.theme.in; \
+		elif test "$size" = "256"; then \
+			echo "MinSize=56" >> index.theme.in; \
+			echo "MaxSize=512" >> index.theme.in; \
+			echo "Type=Scalable" >> index.theme.in; \
+		else \
+			echo "Type=Fixed" >> index.theme.in; \
+		fi; \
+		echo "" >> index.theme.in; \
+	done
+LC_ALL=C /usr/bin/intltool-merge  -d -u -c ./po/.intltool-merge-cache ./po index.theme.in index.theme
+Generating and caching the translation database
+Merging translations into index.theme.
+rm index.theme.in
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/73_gnome-icon-theme/gnome-icon-theme-3.6.2'

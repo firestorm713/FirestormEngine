@@ -1,0 +1,287 @@
+Making install in gdk-pixbuf
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+make  install-recursive
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+Making install in pixops
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/pixops'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/pixops'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/pixops'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/pixops'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgdk_pixbuf-2.0.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libgdk_pixbuf-2.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libgdk_pixbuf-2.0.dll.a
+libtool: install: base_file=`basename libgdk_pixbuf-2.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libgdk_pixbuf-2.0.la'i; echo libgdk_pixbuf-2.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libgdk_pixbuf-2.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libgdk_pixbuf-2.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libgdk_pixbuf-2.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libgdk_pixbuf-2.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libgdk_pixbuf-2.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libgdk_pixbuf-2.0.lai /srv/win32builder/fixed_364/build/win32/lib/libgdk_pixbuf-2.0.la
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gdk-pixbuf-csource.exe gdk-pixbuf-pixdata.exe gdk-pixbuf-query-loaders.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/gdk-pixbuf-csource.exe /srv/win32builder/fixed_364/build/win32/bin/gdk-pixbuf-csource.exe
+libtool: install: /usr/bin/install -c .libs/gdk-pixbuf-pixdata.exe /srv/win32builder/fixed_364/build/win32/bin/gdk-pixbuf-pixdata.exe
+libtool: install: /usr/bin/install -c .libs/gdk-pixbuf-query-loaders.exe /srv/win32builder/fixed_364/build/win32/bin/gdk-pixbuf-query-loaders.exe
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/gdk-pixbuf-2.0/gdk-pixbuf'
+ /usr/bin/install -c -m 644 gdk-pixbuf.h gdk-pixbuf-core.h gdk-pixbuf-transform.h gdk-pixbuf-io.h gdk-pixbuf-animation.h gdk-pixbuf-simple-anim.h gdk-pixbuf-loader.h gdk-pixbuf-enum-types.h gdk-pixbuf-marshal.h gdk-pixbuf-features.h gdk-pixdata.h '/srv/win32builder/fixed_364/build/win32/include/gdk-pixbuf-2.0/gdk-pixbuf'
+make  install-data-hook
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+/usr/bin/install -c ./gdk_pixbuf.def /srv/win32builder/fixed_364/build/win32/lib/gdk_pixbuf-2.0.def
+***
+*** Warning: loaders.cache not built
+***
+*** Generate this file manually on host
+*** system using gdk-pixbuf-query-loaders
+***
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+Making install in po
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/po'
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share
+installing af.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/af/LC_MESSAGES/gdk-pixbuf.mo
+installing ang.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ang/LC_MESSAGES/gdk-pixbuf.mo
+installing ar.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ar/LC_MESSAGES/gdk-pixbuf.mo
+installing as.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/as/LC_MESSAGES/gdk-pixbuf.mo
+installing ast.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ast/LC_MESSAGES/gdk-pixbuf.mo
+installing az.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/az/LC_MESSAGES/gdk-pixbuf.mo
+installing be.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/be/LC_MESSAGES/gdk-pixbuf.mo
+installing be@latin.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/be@latin/LC_MESSAGES/gdk-pixbuf.mo
+installing bg.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bg/LC_MESSAGES/gdk-pixbuf.mo
+installing bn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bn/LC_MESSAGES/gdk-pixbuf.mo
+installing bn_IN.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bn_IN/LC_MESSAGES/gdk-pixbuf.mo
+installing br.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/br/LC_MESSAGES/gdk-pixbuf.mo
+installing bs.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bs/LC_MESSAGES/gdk-pixbuf.mo
+installing ca.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ca/LC_MESSAGES/gdk-pixbuf.mo
+installing ca@valencia.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ca@valencia/LC_MESSAGES/gdk-pixbuf.mo
+installing crh.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/crh/LC_MESSAGES/gdk-pixbuf.mo
+installing cs.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/cs/LC_MESSAGES/gdk-pixbuf.mo
+installing csb.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/csb/LC_MESSAGES/gdk-pixbuf.mo
+installing cy.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/cy/LC_MESSAGES/gdk-pixbuf.mo
+installing da.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/da/LC_MESSAGES/gdk-pixbuf.mo
+installing de.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/de/LC_MESSAGES/gdk-pixbuf.mo
+installing dz.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/dz/LC_MESSAGES/gdk-pixbuf.mo
+installing el.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/el/LC_MESSAGES/gdk-pixbuf.mo
+installing en_CA.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en_CA/LC_MESSAGES/gdk-pixbuf.mo
+installing en_GB.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en_GB/LC_MESSAGES/gdk-pixbuf.mo
+installing en@shaw.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en@shaw/LC_MESSAGES/gdk-pixbuf.mo
+installing eo.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/eo/LC_MESSAGES/gdk-pixbuf.mo
+installing es.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/es/LC_MESSAGES/gdk-pixbuf.mo
+installing et.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/et/LC_MESSAGES/gdk-pixbuf.mo
+installing eu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/eu/LC_MESSAGES/gdk-pixbuf.mo
+installing fa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fa/LC_MESSAGES/gdk-pixbuf.mo
+installing fi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fi/LC_MESSAGES/gdk-pixbuf.mo
+installing fr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fr/LC_MESSAGES/gdk-pixbuf.mo
+installing ga.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ga/LC_MESSAGES/gdk-pixbuf.mo
+installing gl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/gl/LC_MESSAGES/gdk-pixbuf.mo
+installing gu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/gu/LC_MESSAGES/gdk-pixbuf.mo
+installing he.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/he/LC_MESSAGES/gdk-pixbuf.mo
+installing hi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hi/LC_MESSAGES/gdk-pixbuf.mo
+installing hr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hr/LC_MESSAGES/gdk-pixbuf.mo
+installing hu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hu/LC_MESSAGES/gdk-pixbuf.mo
+installing hy.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hy/LC_MESSAGES/gdk-pixbuf.mo
+installing ia.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ia/LC_MESSAGES/gdk-pixbuf.mo
+installing id.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/id/LC_MESSAGES/gdk-pixbuf.mo
+installing io.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/io/LC_MESSAGES/gdk-pixbuf.mo
+installing is.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/is/LC_MESSAGES/gdk-pixbuf.mo
+installing it.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/it/LC_MESSAGES/gdk-pixbuf.mo
+installing ja.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ja/LC_MESSAGES/gdk-pixbuf.mo
+installing ka.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ka/LC_MESSAGES/gdk-pixbuf.mo
+installing km.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/km/LC_MESSAGES/gdk-pixbuf.mo
+installing kn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/kn/LC_MESSAGES/gdk-pixbuf.mo
+installing ko.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ko/LC_MESSAGES/gdk-pixbuf.mo
+installing ku.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ku/LC_MESSAGES/gdk-pixbuf.mo
+installing li.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/li/LC_MESSAGES/gdk-pixbuf.mo
+installing lt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/lt/LC_MESSAGES/gdk-pixbuf.mo
+installing lv.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/lv/LC_MESSAGES/gdk-pixbuf.mo
+installing mai.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mai/LC_MESSAGES/gdk-pixbuf.mo
+installing mi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mi/LC_MESSAGES/gdk-pixbuf.mo
+installing mk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mk/LC_MESSAGES/gdk-pixbuf.mo
+installing ml.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ml/LC_MESSAGES/gdk-pixbuf.mo
+installing mn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mn/LC_MESSAGES/gdk-pixbuf.mo
+installing mr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mr/LC_MESSAGES/gdk-pixbuf.mo
+installing ms.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ms/LC_MESSAGES/gdk-pixbuf.mo
+installing my.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/my/LC_MESSAGES/gdk-pixbuf.mo
+installing nb.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nb/LC_MESSAGES/gdk-pixbuf.mo
+installing nds.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nds/LC_MESSAGES/gdk-pixbuf.mo
+installing ne.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ne/LC_MESSAGES/gdk-pixbuf.mo
+installing nl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nl/LC_MESSAGES/gdk-pixbuf.mo
+installing nn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nn/LC_MESSAGES/gdk-pixbuf.mo
+installing nso.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nso/LC_MESSAGES/gdk-pixbuf.mo
+installing oc.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/oc/LC_MESSAGES/gdk-pixbuf.mo
+installing or.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/or/LC_MESSAGES/gdk-pixbuf.mo
+installing pa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pa/LC_MESSAGES/gdk-pixbuf.mo
+installing pl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pl/LC_MESSAGES/gdk-pixbuf.mo
+installing ps.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ps/LC_MESSAGES/gdk-pixbuf.mo
+installing pt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pt/LC_MESSAGES/gdk-pixbuf.mo
+installing pt_BR.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pt_BR/LC_MESSAGES/gdk-pixbuf.mo
+installing ro.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ro/LC_MESSAGES/gdk-pixbuf.mo
+installing ru.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ru/LC_MESSAGES/gdk-pixbuf.mo
+installing si.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/si/LC_MESSAGES/gdk-pixbuf.mo
+installing sk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sk/LC_MESSAGES/gdk-pixbuf.mo
+installing sl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sl/LC_MESSAGES/gdk-pixbuf.mo
+installing sq.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sq/LC_MESSAGES/gdk-pixbuf.mo
+installing sr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr/LC_MESSAGES/gdk-pixbuf.mo
+installing sr@ije.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr@ije/LC_MESSAGES/gdk-pixbuf.mo
+installing sr@latin.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr@latin/LC_MESSAGES/gdk-pixbuf.mo
+installing sv.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sv/LC_MESSAGES/gdk-pixbuf.mo
+installing ta.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ta/LC_MESSAGES/gdk-pixbuf.mo
+installing te.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/te/LC_MESSAGES/gdk-pixbuf.mo
+installing th.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/th/LC_MESSAGES/gdk-pixbuf.mo
+installing tk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tk/LC_MESSAGES/gdk-pixbuf.mo
+installing tr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tr/LC_MESSAGES/gdk-pixbuf.mo
+installing tt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tt/LC_MESSAGES/gdk-pixbuf.mo
+installing ug.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ug/LC_MESSAGES/gdk-pixbuf.mo
+installing uk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/uk/LC_MESSAGES/gdk-pixbuf.mo
+installing uz.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/uz/LC_MESSAGES/gdk-pixbuf.mo
+installing uz@cyrillic.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/uz@cyrillic/LC_MESSAGES/gdk-pixbuf.mo
+installing vi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/vi/LC_MESSAGES/gdk-pixbuf.mo
+installing wa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/wa/LC_MESSAGES/gdk-pixbuf.mo
+installing xh.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/xh/LC_MESSAGES/gdk-pixbuf.mo
+installing yi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/yi/LC_MESSAGES/gdk-pixbuf.mo
+installing zh_CN.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_CN/LC_MESSAGES/gdk-pixbuf.mo
+installing zh_HK.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_HK/LC_MESSAGES/gdk-pixbuf.mo
+installing zh_TW.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_TW/LC_MESSAGES/gdk-pixbuf.mo
+if test "gdk-pixbuf" = "gettext-tools"; then \
+	  /bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/gettext/po; \
+	  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+	    /usr/bin/install -c -m 644 ./$file \
+			    /srv/win32builder/fixed_364/build/win32/share/gettext/po/$file; \
+	  done; \
+	  for file in Makevars; do \
+	    rm -f /srv/win32builder/fixed_364/build/win32/share/gettext/po/$file; \
+	  done; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/po'
+Making install in docs
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+Making install in reference
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+Making install in gdk-pixbuf
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference/gdk-pixbuf'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference/gdk-pixbuf'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-14.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-26.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/composite.png
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Animations.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-csource.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf.devhelp2
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-File-Loading.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-File-saving.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-gdk-pixbuf-from-drawables.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-gdk-pixbuf-rendering.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-gdk-pixbuf-Xlib-initialization.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Image-Data-in-Memory.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Inline-data.html
+ /usr/bin/install -c -m 644 ./html/GdkPixbufLoader.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Module-Interface.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-query-loaders.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Reference-Counting-and-Memory-Mangement.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Scaling.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-The-GdkPixbuf-Structure.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Utilities.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Versioning.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-X-Drawables-to-Pixbufs.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Xlib-Rendering.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-XlibRGB.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/license.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/rn01.html
+ /usr/bin/install -c -m 644 ./html/rn02.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up.png
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 gdk-pixbuf-csource.1 gdk-pixbuf-query-loaders.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference/gdk-pixbuf'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference/gdk-pixbuf'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+Making install in tests
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/tests'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/tests'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/tests'
+Making install in contrib
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+Making install in build
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+Making install in win32
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+Making install in vs9
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs9'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs9'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs9'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs10'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs10'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs10'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs10'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gdk-pixbuf-2.0.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5'

@@ -1,0 +1,762 @@
+ cd . && /bin/sh ./config.status Makefile 
+config.status: creating Makefile
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3'
+Making all in .
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3'
+Making all in m4macros
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/m4macros'
+ cd .. && /bin/sh ./config.status m4macros/Makefile 
+config.status: creating m4macros/Makefile
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/m4macros'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/m4macros'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/m4macros'
+Making all in glib
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+ cd .. && /bin/sh ./config.status glib/Makefile depfiles
+config.status: creating glib/Makefile
+config.status: executing depfiles commands
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+  GEN      glibconfig-stamp
+config.status: executing glib/glibconfig.h commands
+config.status: glib/glibconfig.h is unchanged
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+Making all in libcharset
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/libcharset'
+ cd ../.. && /bin/sh ./config.status glib/libcharset/Makefile depfiles
+config.status: creating glib/libcharset/Makefile
+config.status: executing depfiles commands
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/libcharset'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/libcharset'
+  CC       localcharset.lo
+  CCLD     libcharset.la
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+  GEN      charset.alias
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/libcharset'
+Making all in gnulib
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/gnulib'
+ cd ../.. && /bin/sh ./config.status glib/gnulib/Makefile depfiles
+config.status: creating glib/gnulib/Makefile
+config.status: executing depfiles commands
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/gnulib'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/gnulib'
+  CC       asnprintf.lo
+  CC       printf-args.lo
+  CC       printf-parse.lo
+  CC       vasnprintf.lo
+  CC       printf.lo
+  CCLD     libgnulib.la
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/gnulib'
+Making all in pcre
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/pcre'
+ cd ../.. && /bin/sh ./config.status glib/pcre/Makefile depfiles
+config.status: creating glib/pcre/Makefile
+config.status: executing depfiles commands
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/pcre'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/pcre'
+  CC       libpcre_la-pcre_byte_order.lo
+  CC       libpcre_la-pcre_chartables.lo
+  CC       libpcre_la-pcre_compile.lo
+  CC       libpcre_la-pcre_config.lo
+  CC       libpcre_la-pcre_dfa_exec.lo
+  CC       libpcre_la-pcre_exec.lo
+  CC       libpcre_la-pcre_fullinfo.lo
+  CC       libpcre_la-pcre_get.lo
+  CC       libpcre_la-pcre_globals.lo
+  CC       libpcre_la-pcre_jit_compile.lo
+  CC       libpcre_la-pcre_newline.lo
+  CC       libpcre_la-pcre_ord2utf8.lo
+  CC       libpcre_la-pcre_string_utils.lo
+  CC       libpcre_la-pcre_study.lo
+  CC       libpcre_la-pcre_tables.lo
+  CC       libpcre_la-pcre_valid_utf8.lo
+  CC       libpcre_la-pcre_xclass.lo
+  CCLD     libpcre.la
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/pcre'
+Making all in update-pcre
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/update-pcre'
+ cd ../.. && /bin/sh ./config.status glib/update-pcre/Makefile 
+config.status: creating glib/update-pcre/Makefile
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/update-pcre'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/update-pcre'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/update-pcre'
+Making all in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+  CC       gallocator.lo
+  CC       gcache.lo
+  CC       gcompletion.lo
+  CC       grel.lo
+  CC       gthread-deprecated.lo
+  CC       garray.lo
+  CC       gasyncqueue.lo
+  CC       gatomic.lo
+  CC       gbacktrace.lo
+  CC       gbase64.lo
+  CC       gbitlock.lo
+  CC       gbookmarkfile.lo
+  CC       gbytes.lo
+  CC       gcharset.lo
+  CC       gchecksum.lo
+  CC       gconvert.lo
+gconvert.c: In function 'g_iconv':
+gconvert.c:310: warning: passing argument 2 of 'iconv' from incompatible pointer type
+win_iconv.c:775: note: expected 'const char **' but argument is of type 'gchar **'
+  CC       gdataset.lo
+  CC       gdate.lo
+  CC       gdatetime.lo
+gdatetime.c: In function 'g_date_time_format_locale':
+gdatetime.c:2305: warning: assignment discards qualifiers from pointer target type
+gdatetime.c:2326: warning: assignment discards qualifiers from pointer target type
+  CC       gdir.lo
+  CC       genviron.lo
+  CC       gerror.lo
+  CC       gfileutils.lo
+  CC       ggettext.lo
+  CC       ghash.lo
+  CC       ghmac.lo
+  CC       ghook.lo
+  CC       ghostutils.lo
+  CC       giochannel.lo
+  CC       gkeyfile.lo
+  CC       glib-init.lo
+  CC       glib-private.lo
+  CC       glist.lo
+  CC       gmain.lo
+  CC       gmappedfile.lo
+  CC       gmarkup.lo
+  CC       gmem.lo
+  CC       gmessages.lo
+  CC       gnode.lo
+  CC       goption.lo
+  CC       gpattern.lo
+  CC       gpoll.lo
+  CC       gprimes.lo
+  CC       gqsort.lo
+  CC       gquark.lo
+  CC       gqueue.lo
+  CC       grand.lo
+  CC       gregex.lo
+  CC       gscanner.lo
+  CC       gsequence.lo
+  CC       gshell.lo
+  CC       gslice.lo
+  CC       gslist.lo
+  CC       gstdio.lo
+gstdio.c: In function 'g_stat':
+gstdio.c:496: warning: passing argument 2 of '_wstat' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/sys/stat.h:251: note: expected 'struct _stat *' but argument is of type 'struct GStatBuf *'
+  CC       gstrfuncs.lo
+  CC       gstring.lo
+  CC       gstringchunk.lo
+  CC       gtestutils.lo
+gtestutils.c: In function 'g_test_log_send':
+gtestutils.c:577: warning: unknown conversion type character 'L' in format
+gtestutils.c:577: warning: too many arguments for format
+gtestutils.c: In function 'g_assertion_message_cmpnum':
+gtestutils.c:1906: warning: unknown conversion type character 'L' in format
+gtestutils.c:1906: warning: format '%s' expects type 'char *', but argument 3 has type 'long double'
+gtestutils.c:1906: warning: unknown conversion type character 'L' in format
+gtestutils.c:1906: warning: too many arguments for format
+gtestutils.c:1908: warning: unknown conversion type character 'L' in format
+gtestutils.c:1908: warning: format '%s' expects type 'char *', but argument 3 has type 'long double'
+gtestutils.c:1908: warning: unknown conversion type character 'L' in format
+gtestutils.c:1908: warning: too many arguments for format
+  CC       gthread.lo
+  CC       gthreadpool.lo
+  CC       gtimer.lo
+  CC       gtimezone.lo
+  CC       gtrashstack.lo
+  CC       gtree.lo
+  CC       guniprop.lo
+  CC       gutf8.lo
+  CC       gunibreak.lo
+  CC       gunicollate.lo
+  CC       gunidecomp.lo
+  CC       gurifuncs.lo
+  CC       gutils.lo
+  CC       gvariant.lo
+  CC       gvariant-core.lo
+  CC       gvariant-parser.lo
+  CC       gvariant-serialiser.lo
+  CC       gvarianttypeinfo.lo
+  CC       gvarianttype.lo
+  CC       gversion.lo
+  CC       gwakeup.lo
+  CC       gprintf.lo
+  CC       gthread-win32.lo
+  CC       giowin32.lo
+  CC       gspawn-win32.lo
+  CC       gwin32.lo
+cd .. && /bin/sh ./config.status glib/glib.rc
+config.status: creating glib/glib.rc
+i686-pc-mingw32-windres glib.rc glib-win32-res.o
+  GEN      glib.def
+  CCLD     libglib-2.0.la
+Creating library file: .libs/libglib-2.0.dll.a
+  CC       gspawn-win32-helper.o
+gspawn-win32.c:68: warning: 'debug' defined but not used
+  CCLD     gspawn-win32-helper.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       gspawn-win32-helper-console.o
+gspawn-win32.c:68: warning: 'debug' defined but not used
+  CCLD     gspawn-win32-helper-console.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+echo glib-unix.h glib-object.h glib.h galloca.h garray.h gasyncqueue.h gatomic.h gbacktrace.h gbase64.h gbitlock.h gbookmarkfile.h gbytes.h gcharset.h gchecksum.h gconvert.h gdataset.h gdate.h gdatetime.h gdir.h genviron.h gerror.h gfileutils.h ggettext.h ghash.h ghmac.h ghook.h ghostutils.h gi18n.h gi18n-lib.h giochannel.h gkeyfile.h glist.h gmacros.h gmain.h gmappedfile.h gmarkup.h gmem.h gmessages.h gnode.h goption.h gpattern.h gpoll.h gprimes.h gqsort.h gquark.h gqueue.h grand.h gregex.h gscanner.h gsequence.h gshell.h gslice.h gslist.h gspawn.h gstdio.h gstrfuncs.h gtestutils.h gstring.h gstringchunk.h gthread.h gthreadpool.h gtimer.h gtimezone.h gtrashstack.h gtree.h gtypes.h gunicode.h gurifuncs.h gutils.h gvarianttype.h gvariant.h gversion.h gversionmacros.h gwin32.h gprintf.h > glib-public-headers.txt.tmp && mv glib-public-headers.txt.tmp glib-public-headers.txt
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib'
+Making all in gmodule
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+ cd .. && /bin/sh ./config.status gmodule/Makefile depfiles
+config.status: creating gmodule/Makefile
+config.status: executing depfiles commands
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+  CC       gmodule.lo
+cd .. && /bin/sh ./config.status gmodule/gmodule.rc
+config.status: creating gmodule/gmodule.rc
+  GEN      gmodule-win32-res.o
+  GEN      gmodule.def
+  CCLD     libgmodule-2.0.la
+Creating library file: .libs/libgmodule-2.0.dll.a
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule'
+Making all in gthread
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+ cd .. && /bin/sh ./config.status gthread/Makefile depfiles
+config.status: creating gthread/Makefile
+config.status: executing depfiles commands
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+  CC       gthread-impl.lo
+cd .. && /bin/sh ./config.status gthread/gthread.rc
+config.status: creating gthread/gthread.rc
+  GEN      gthread-win32-res.o
+  CCLD     libgthread-2.0.la
+Creating library file: .libs/libgthread-2.0.dll.a
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread'
+Making all in gobject
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+ cd .. && /bin/sh ./config.status gobject/Makefile depfiles
+config.status: creating gobject/Makefile
+config.status: executing depfiles commands
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+Making all in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+  CC       libgobject_2_0_la-gatomicarray.lo
+  CC       libgobject_2_0_la-gbinding.lo
+  CC       libgobject_2_0_la-gboxed.lo
+  CC       libgobject_2_0_la-gclosure.lo
+  CC       libgobject_2_0_la-genums.lo
+  CC       libgobject_2_0_la-gmarshal.lo
+  CC       libgobject_2_0_la-gobject.lo
+  CC       libgobject_2_0_la-gparam.lo
+  CC       libgobject_2_0_la-gparamspecs.lo
+  CC       libgobject_2_0_la-gsignal.lo
+  CC       libgobject_2_0_la-gsourceclosure.lo
+  CC       libgobject_2_0_la-gtype.lo
+  CC       libgobject_2_0_la-gtypemodule.lo
+  CC       libgobject_2_0_la-gtypeplugin.lo
+  CC       libgobject_2_0_la-gvalue.lo
+  CC       libgobject_2_0_la-gvaluearray.lo
+gvaluearray.c: In function 'g_value_array_prepend':
+gvaluearray.c:232: warning: 'g_value_array_insert' is deprecated (declared at gvaluearray.h:86)
+gvaluearray.c: In function 'g_value_array_append':
+gvaluearray.c:255: warning: 'g_value_array_insert' is deprecated (declared at gvaluearray.h:86)
+  CC       libgobject_2_0_la-gvaluetransform.lo
+  CC       libgobject_2_0_la-gvaluetypes.lo
+cd .. && /bin/sh ./config.status gobject/gobject.rc
+config.status: creating gobject/gobject.rc
+  GEN      gobject-win32-res.o
+  GEN      gobject.def
+  CCLD     libgobject-2.0.la
+Creating library file: .libs/libgobject-2.0.dll.a
+  CC       gobject-query.o
+  CCLD     gobject-query.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       glib-genmarshal.o
+  CCLD     glib-genmarshal.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testgobject.o
+  CCLD     testgobject.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+echo glib-types.h gbinding.h gboxed.h gclosure.h genums.h gmarshal.h gobject.h gparam.h gparamspecs.h gsignal.h gsourceclosure.h gtype.h gtypemodule.h gtypeplugin.h gvalue.h gvaluearray.h gvaluecollector.h gvaluetypes.h gobjectnotifyqueue.c > gobject-public-headers.txt.tmp && mv gobject-public-headers.txt.tmp gobject-public-headers.txt
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject'
+Making all in gio
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+ cd .. && /bin/sh ./config.status gio/Makefile depfiles
+config.status: creating gio/Makefile
+config.status: executing depfiles commands
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+  GEN      gconstructor_as_data.h
+  GEN      gdbus-daemon-generated.c
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+Making all in gdbus-2.0/codegen
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/gdbus-2.0/codegen'
+ cd ../../.. && /bin/sh ./config.status gio/gdbus-2.0/codegen/Makefile 
+config.status: creating gio/gdbus-2.0/codegen/Makefile
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/gdbus-2.0/codegen'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/gdbus-2.0/codegen'
+  GEN      gdbus-codegen
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/gdbus-2.0/codegen'
+Making all in win32
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/win32'
+ cd ../.. && /bin/sh ./config.status gio/win32/Makefile depfiles
+config.status: creating gio/win32/Makefile
+config.status: executing depfiles commands
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/win32'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/win32'
+  CC       libgiowin32_la-gwin32directorymonitor.lo
+  CC       libgiowin32_la-gwinhttpvfs.lo
+  CC       libgiowin32_la-gwinhttpfile.lo
+  CC       libgiowin32_la-gwinhttpfileinputstream.lo
+  CC       libgiowin32_la-gwinhttpfileoutputstream.lo
+  CCLD     libgiowin32.la
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/win32'
+Making all in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+  CC       libgio_2_0_la-gappinfo.lo
+  CC       libgio_2_0_la-gasynchelper.lo
+  CC       libgio_2_0_la-gasyncinitable.lo
+  CC       libgio_2_0_la-gasyncresult.lo
+  CC       libgio_2_0_la-gbufferedinputstream.lo
+  CC       libgio_2_0_la-gbufferedoutputstream.lo
+  CC       libgio_2_0_la-gcancellable.lo
+  CC       libgio_2_0_la-gcharsetconverter.lo
+  CC       libgio_2_0_la-gconverter.lo
+  CC       libgio_2_0_la-gconverterinputstream.lo
+  CC       libgio_2_0_la-gconverteroutputstream.lo
+  CC       libgio_2_0_la-gcredentials.lo
+gcredentials.c:97:2: warning: #warning Please add GCredentials support for your OS
+  CC       libgio_2_0_la-gdatainputstream.lo
+  CC       libgio_2_0_la-gdataoutputstream.lo
+  CC       libgio_2_0_la-gdrive.lo
+  CC       libgio_2_0_la-gdummyfile.lo
+  CC       libgio_2_0_la-gdummyproxyresolver.lo
+  CC       libgio_2_0_la-gdummytlsbackend.lo
+  CC       libgio_2_0_la-gemblem.lo
+  CC       libgio_2_0_la-gemblemedicon.lo
+  CC       libgio_2_0_la-gfile.lo
+  CC       libgio_2_0_la-gfileattribute.lo
+  CC       libgio_2_0_la-gfileenumerator.lo
+  CC       libgio_2_0_la-gfileicon.lo
+  CC       libgio_2_0_la-gfileinfo.lo
+  CC       libgio_2_0_la-gfileinputstream.lo
+  CC       libgio_2_0_la-gfilemonitor.lo
+  CC       libgio_2_0_la-gfilenamecompleter.lo
+  CC       libgio_2_0_la-gfileoutputstream.lo
+  CC       libgio_2_0_la-gfileiostream.lo
+  CC       libgio_2_0_la-gfilterinputstream.lo
+  CC       libgio_2_0_la-gfilteroutputstream.lo
+  CC       libgio_2_0_la-gicon.lo
+  CC       libgio_2_0_la-ginetaddress.lo
+  CC       libgio_2_0_la-ginetaddressmask.lo
+  CC       libgio_2_0_la-ginetsocketaddress.lo
+  CC       libgio_2_0_la-ginitable.lo
+  CC       libgio_2_0_la-ginputstream.lo
+  CC       libgio_2_0_la-gioerror.lo
+  CC       libgio_2_0_la-giomodule.lo
+  CC       libgio_2_0_la-gioscheduler.lo
+  CC       libgio_2_0_la-giostream.lo
+  CC       libgio_2_0_la-gloadableicon.lo
+  CC       libgio_2_0_la-gmount.lo
+  CC       libgio_2_0_la-gmemoryinputstream.lo
+  CC       libgio_2_0_la-gmemoryoutputstream.lo
+  CC       libgio_2_0_la-gmountoperation.lo
+  CC       libgio_2_0_la-gnativevolumemonitor.lo
+  CC       libgio_2_0_la-gnetworkaddress.lo
+  CC       libgio_2_0_la-gnetworkmonitor.lo
+  CC       libgio_2_0_la-gnetworkmonitorbase.lo
+  CC       libgio_2_0_la-gnetworkservice.lo
+  CC       libgio_2_0_la-goutputstream.lo
+  CC       libgio_2_0_la-gpermission.lo
+  CC       libgio_2_0_la-gpollableinputstream.lo
+  CC       libgio_2_0_la-gpollableoutputstream.lo
+  CC       libgio_2_0_la-gpollableutils.lo
+  CC       libgio_2_0_la-gpollfilemonitor.lo
+  CC       libgio_2_0_la-gproxyresolver.lo
+  CC       libgio_2_0_la-gresolver.lo
+  CC       libgio_2_0_la-gresource.lo
+  CC       libgio_2_0_la-gresourcefile.lo
+  CC       libgio_2_0_la-gseekable.lo
+  CC       libgio_2_0_la-gsimpleasyncresult.lo
+  CC       libgio_2_0_la-gsimplepermission.lo
+  CC       libgio_2_0_la-gsocket.lo
+gsocket.c: In function 'g_socket_details_from_fd':
+gsocket.c:334: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c:379: warning: pointer targets in passing argument 3 of 'getsockname' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:542: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c:447: warning: pointer targets in passing argument 3 of 'getpeername' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:541: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c:453: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_get_ttl':
+gsocket.c:1298: warning: pointer targets in passing argument 4 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'char *' but argument is of type 'guchar *'
+gsocket.c:1298: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c:1305: warning: passing argument 4 of 'getsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'char *' but argument is of type 'guint *'
+gsocket.c:1305: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_set_ttl':
+gsocket.c:1343: warning: pointer targets in passing argument 4 of 'setsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'guchar *'
+gsocket.c:1348: warning: passing argument 4 of 'setsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_get_broadcast':
+gsocket.c:1385: warning: passing argument 4 of 'getsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'char *' but argument is of type 'guint *'
+gsocket.c:1385: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_set_broadcast':
+gsocket.c:1421: warning: passing argument 4 of 'setsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'gint *'
+gsocket.c: In function 'g_socket_get_multicast_loopback':
+gsocket.c:1457: warning: passing argument 4 of 'getsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'char *' but argument is of type 'guint *'
+gsocket.c:1457: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c:1463: warning: passing argument 4 of 'getsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'char *' but argument is of type 'guint *'
+gsocket.c:1463: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_set_multicast_loopback':
+gsocket.c:1505: warning: pointer targets in passing argument 4 of 'setsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'guchar *'
+gsocket.c:1512: warning: passing argument 4 of 'setsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_get_multicast_ttl':
+gsocket.c:1552: warning: pointer targets in passing argument 4 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'char *' but argument is of type 'guchar *'
+gsocket.c:1552: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c:1559: warning: passing argument 4 of 'getsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'char *' but argument is of type 'guint *'
+gsocket.c:1559: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_set_multicast_ttl':
+gsocket.c:1598: warning: pointer targets in passing argument 4 of 'setsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'guchar *'
+gsocket.c:1603: warning: passing argument 4 of 'setsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_get_local_address':
+gsocket.c:1718: warning: pointer targets in passing argument 3 of 'getsockname' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:542: note: expected 'int *' but argument is of type 'guint32 *'
+gsocket.c: In function 'g_socket_get_remote_address':
+gsocket.c:1761: warning: pointer targets in passing argument 3 of 'getpeername' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:541: note: expected 'int *' but argument is of type 'guint32 *'
+gsocket.c: In function 'g_socket_multicast_group_operation':
+gsocket.c:1962: warning: passing argument 4 of 'setsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'struct ip_mreq *'
+gsocket.c:1978: warning: passing argument 4 of 'setsockopt' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:551: note: expected 'const char *' but argument is of type 'struct ipv6_mreq *'
+gsocket.c: In function 'g_socket_check_connect_result':
+gsocket.c:2342: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'guint *'
+gsocket.c: In function 'g_socket_get_available_bytes':
+gsocket.c:2393: warning: passing argument 3 of 'ioctlsocket' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:540: note: expected 'u_long *' but argument is of type 'gint *'
+gsocket.c: In function 'update_condition':
+gsocket.c:3057: warning: passing argument 2 of 'recv' from incompatible pointer type
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:547: note: expected 'char *' but argument is of type 'int *'
+  CC       libgio_2_0_la-gsocketaddress.lo
+  CC       libgio_2_0_la-gsocketaddressenumerator.lo
+  CC       libgio_2_0_la-gsocketclient.lo
+  CC       libgio_2_0_la-gsocketconnectable.lo
+  CC       libgio_2_0_la-gsocketconnection.lo
+  CC       libgio_2_0_la-gsocketcontrolmessage.lo
+  CC       libgio_2_0_la-gsocketinputstream.lo
+  CC       libgio_2_0_la-gsocketlistener.lo
+  CC       libgio_2_0_la-gsocketoutputstream.lo
+  CC       libgio_2_0_la-gproxy.lo
+  CC       libgio_2_0_la-gproxyaddress.lo
+  CC       libgio_2_0_la-gproxyaddressenumerator.lo
+  CC       libgio_2_0_la-gsocketservice.lo
+  CC       libgio_2_0_la-gsrvtarget.lo
+  CC       libgio_2_0_la-gtcpconnection.lo
+  CC       libgio_2_0_la-gtcpwrapperconnection.lo
+  CC       libgio_2_0_la-gthreadedsocketservice.lo
+  CC       libgio_2_0_la-gthemedicon.lo
+  CC       libgio_2_0_la-gthreadedresolver.lo
+  CC       libgio_2_0_la-gtlsbackend.lo
+  CC       libgio_2_0_la-gtlscertificate.lo
+  CC       libgio_2_0_la-gtlsclientconnection.lo
+  CC       libgio_2_0_la-gtlsconnection.lo
+  CC       libgio_2_0_la-gtlsdatabase.lo
+  CC       libgio_2_0_la-gtlsfiledatabase.lo
+  CC       libgio_2_0_la-gtlsinteraction.lo
+  CC       libgio_2_0_la-gtlspassword.lo
+  CC       libgio_2_0_la-gtlsserverconnection.lo
+  CC       libgio_2_0_la-gunionvolumemonitor.lo
+  CC       libgio_2_0_la-gvfs.lo
+  CC       libgio_2_0_la-gvolume.lo
+  CC       libgio_2_0_la-gvolumemonitor.lo
+  CC       libgio_2_0_la-gzlibcompressor.lo
+  CC       libgio_2_0_la-gzlibdecompressor.lo
+  CC       libgio_2_0_la-gioenumtypes.lo
+  CC       libgio_2_0_la-gwin32appinfo.lo
+  CC       libgio_2_0_la-gdbusdaemon.lo
+  CC       libgio_2_0_la-gdbus-daemon-generated.lo
+  CC       libgio_2_0_la-gcontenttype-win32.lo
+  CC       libgio_2_0_la-gwin32mount.lo
+  CC       libgio_2_0_la-gwin32volumemonitor.lo
+gwin32volumemonitor.c: In function 'get_connected_drives':
+gwin32volumemonitor.c:172: warning: unused variable 'wc_name'
+gwin32volumemonitor.c:171: warning: unused variable 'found'
+gwin32volumemonitor.c:170: warning: unused variable 'find_handle'
+  CC       libgio_2_0_la-gwin32inputstream.lo
+  CC       libgio_2_0_la-gwin32outputstream.lo
+  CC       libgio_2_0_la-gapplication.lo
+  CC       libgio_2_0_la-gapplicationcommandline.lo
+  CC       libgio_2_0_la-gapplicationimpl-dbus.lo
+  CC       libgio_2_0_la-gactiongroup.lo
+  CC       libgio_2_0_la-gactionmap.lo
+  CC       libgio_2_0_la-gsimpleactiongroup.lo
+  CC       libgio_2_0_la-gremoteactiongroup.lo
+  CC       libgio_2_0_la-gactiongroupexporter.lo
+  CC       libgio_2_0_la-gdbusactiongroup.lo
+  CC       libgio_2_0_la-gaction.lo
+  CC       libgio_2_0_la-gsimpleaction.lo
+  CC       libgio_2_0_la-gmenumodel.lo
+  CC       libgio_2_0_la-gmenu.lo
+  CC       libgio_2_0_la-gmenuexporter.lo
+  CC       libgio_2_0_la-gdbusmenumodel.lo
+  CC       libgio_2_0_la-gvdb-reader.lo
+  CC       libgio_2_0_la-gdelayedsettingsbackend.lo
+  CC       libgio_2_0_la-gkeyfilesettingsbackend.lo
+  CC       libgio_2_0_la-gmemorysettingsbackend.lo
+  CC       libgio_2_0_la-gnullsettingsbackend.lo
+  CC       libgio_2_0_la-gsettingsbackend.lo
+  CC       libgio_2_0_la-gsettingsschema.lo
+  CC       libgio_2_0_la-gsettings-mapping.lo
+  CC       libgio_2_0_la-gsettings.lo
+  CC       libgio_2_0_la-gregistrysettingsbackend.lo
+gregistrysettingsbackend.c:500: warning: 'registry_cache_dump' defined but not used
+  CC       libgio_2_0_la-gdbusutils.lo
+  CC       libgio_2_0_la-gdbusaddress.lo
+  CC       libgio_2_0_la-gdbusauthobserver.lo
+  CC       libgio_2_0_la-gdbusauth.lo
+  CC       libgio_2_0_la-gdbusauthmechanism.lo
+  CC       libgio_2_0_la-gdbusauthmechanismanon.lo
+  CC       libgio_2_0_la-gdbusauthmechanismexternal.lo
+gdbusauthmechanismexternal.c:355:2: warning: #warning Dont know how to send credentials on this OS. The EXTERNAL D-Bus authentication mechanism will not work.
+gdbusauthmechanismexternal.c: In function 'mechanism_client_initiate':
+gdbusauthmechanismexternal.c:359: warning: 'initial_response' may be used uninitialized in this function
+  CC       libgio_2_0_la-gdbusauthmechanismsha1.lo
+gdbusauthmechanismsha1.c:287:2: warning: #warning Please implement permission checking on this non-UNIX platform
+  CC       libgio_2_0_la-gdbuserror.lo
+  CC       libgio_2_0_la-gdbusconnection.lo
+  CC       libgio_2_0_la-gdbusmessage.lo
+gdbusmessage.c: In function 'g_dbus_message_copy':
+gdbusmessage.c:3278: warning: label 'out' defined but not used
+  CC       libgio_2_0_la-gdbusnameowning.lo
+  CC       libgio_2_0_la-gdbusnamewatching.lo
+  CC       libgio_2_0_la-gdbusproxy.lo
+  CC       libgio_2_0_la-gdbusprivate.lo
+gdbusprivate.c: In function 'write_message_continue_writing':
+gdbusprivate.c:1109: warning: label 'out' defined but not used
+gdbusprivate.c: At top level:
+gdbusprivate.c:967: warning: 'on_socket_ready' defined but not used
+  CC       libgio_2_0_la-gdbusintrospection.lo
+  CC       libgio_2_0_la-gdbusmethodinvocation.lo
+  CC       libgio_2_0_la-gdbusserver.lo
+  CC       libgio_2_0_la-gdbusinterface.lo
+  CC       libgio_2_0_la-gdbusinterfaceskeleton.lo
+  CC       libgio_2_0_la-gdbusobject.lo
+  CC       libgio_2_0_la-gdbusobjectskeleton.lo
+  CC       libgio_2_0_la-gdbusobjectproxy.lo
+  CC       libgio_2_0_la-gdbusobjectmanager.lo
+  CC       libgio_2_0_la-gdbusobjectmanagerclient.lo
+  CC       libgio_2_0_la-gdbusobjectmanagerserver.lo
+  CC       libgio_2_0_la-gtestdbus.lo
+  CC       libgio_2_0_la-glocaldirectorymonitor.lo
+  CC       libgio_2_0_la-glocalfile.lo
+  CC       libgio_2_0_la-glocalfileenumerator.lo
+  CC       libgio_2_0_la-glocalfileinfo.lo
+  CC       libgio_2_0_la-glocalfileinputstream.lo
+  CC       libgio_2_0_la-glocalfilemonitor.lo
+  CC       libgio_2_0_la-glocalfileoutputstream.lo
+  CC       libgio_2_0_la-glocalfileiostream.lo
+  CC       libgio_2_0_la-glocalvfs.lo
+  CC       libgio_2_0_la-gsocks4proxy.lo
+  CC       libgio_2_0_la-gsocks4aproxy.lo
+  CC       libgio_2_0_la-gsocks5proxy.lo
+cd .. && /bin/sh ./config.status gio/gio.rc
+config.status: creating gio/gio.rc
+i686-pc-mingw32-windres gio.rc gio-win32-res.o
+  GEN      gio.def
+  CCLD     libgio-2.0.la
+Creating library file: .libs/libgio-2.0.dll.a
+  CC       gio-querymodules.o
+  CCLD     gio-querymodules.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       gvdb-builder.o
+  CC       glib-compile-schemas.o
+  CCLD     glib-compile-schemas.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       glib-compile-resources.o
+  CCLD     glib-compile-resources.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       gsettings-tool.o
+  CCLD     gsettings.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       gdbus-tool.o
+  CCLD     gdbus.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       gresource-gresource-tool.o
+  CCLD     gresource.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gobject/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gmodule/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/glib/.libs:/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gthread/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  GEN      gio-public-headers.txt
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/gio'
+Making all in po
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/po'
+Making all in docs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+Making all in reference
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+Making all in glib
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/glib'
+  GEN      glib-gettextize.1
+  GEN      gtester.1
+  GEN      gtester-report.1
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/glib'
+Making all in gobject
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gobject'
+  GEN      glib-mkenums.1
+  GEN      glib-genmarshal.1
+  GEN      gobject-query.1
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gobject'
+Making all in gio
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+Making all in gdbus-object-manager-example
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio/gdbus-object-manager-example'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio/gdbus-object-manager-example'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+  GEN      gio-querymodules.1
+  GEN      glib-compile-schemas.1
+Error: no ID for constraint linkend: GSettings.
+Error: no ID for constraint linkend: GSettings.
+  GEN      glib-compile-resources.1
+Error: no ID for constraint linkend: GResource.
+Error: no ID for constraint linkend: GResource.
+  GEN      gsettings.1
+Error: no ID for constraint linkend: GSettings.
+Error: no ID for constraint linkend: GVariant.
+Error: no ID for constraint linkend: GVariant.
+Error: no ID for constraint linkend: GVariant.
+  GEN      gresource.1
+Error: no ID for constraint linkend: GResource.
+  GEN      gdbus.1
+Error: no ID for constraint linkend: GVariant.
+Error: no ID for constraint linkend: GVariant.
+Error: no ID for constraint linkend: GVariant.
+  GEN      gdbus-codegen.1
+Error: no ID for constraint linkend: g-main-context-push-thread-default.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-BOOLEAN:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-BYTE:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-INT16:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-UINT16:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-INT32:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-UINT32:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-INT64:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-UINT64:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-DOUBLE:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-STRING:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-BYTESTRING:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-OBJECT-PATH:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-SIGNATURE:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-STRING-ARRAY:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-OBJECT-PATH-ARRAY:CAPS.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-BYTESTRING-ARRAY:CAPS.
+Error: no ID for constraint linkend: gchararray.
+Error: no ID for constraint linkend: GStrv.
+Error: no ID for constraint linkend: G-VARIANT-TYPE-BYTESTRING:CAPS.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference/gio'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs/reference'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3/docs'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/22_glib/glib-2.34.3'

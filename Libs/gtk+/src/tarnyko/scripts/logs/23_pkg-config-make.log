@@ -1,0 +1,22 @@
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+Making all in .
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+  CC       pkg.o
+pkg.c: In function 'scan_dir':
+pkg.c:151: warning: assignment discards qualifiers from pointer target type
+  CC       parse.o
+  CC       main.o
+  CCLD     pkg-config.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+Making all in check
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28/check'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28/check'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'

@@ -1,0 +1,171 @@
+Making install in src
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src'
+Making install in liblzma
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma'
+Making install in api
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma/api'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma/api'
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/lzma'
+ /usr/bin/install -c -m 644  lzma/base.h lzma/bcj.h lzma/block.h lzma/check.h lzma/container.h lzma/delta.h lzma/filter.h lzma/hardware.h lzma/index.h lzma/index_hash.h lzma/lzma.h lzma/stream_flags.h lzma/version.h lzma/vli.h '/srv/win32builder/fixed_364/build/win32/include/lzma'
+ /usr/bin/install -c -m 644  lzma.h '/srv/win32builder/fixed_364/build/win32/include/.'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma/api'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma/api'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   liblzma.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/liblzma.dll.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.dll.a
+libtool: install: base_file=`basename liblzma.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'liblzma.la'i; echo liblzma-5.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/liblzma-5.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/liblzma-5.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/liblzma-5.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/liblzma-5.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/liblzma-5.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/liblzma.lai /srv/win32builder/fixed_364/build/win32/lib/liblzma.la
+libtool: install: /usr/bin/install -c .libs/liblzma.a /srv/win32builder/fixed_364/build/win32/lib/liblzma.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/liblzma.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/liblzma.a
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/xz'
+ /usr/bin/install -c -m 644 liblzma.def '/srv/win32builder/fixed_364/build/win32/share/doc/xz'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 liblzma.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/liblzma'
+Making install in xzdec
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xzdec'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xzdec'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c xzdec.exe lzmadec.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/xzdec.exe /srv/win32builder/fixed_364/build/win32/bin/xzdec.exe
+libtool: install: /usr/bin/install -c .libs/lzmadec.exe /srv/win32builder/fixed_364/build/win32/bin/lzmadec.exe
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 xzdec.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make  install-data-hook
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xzdec'
+cd /srv/win32builder/fixed_364/build/win32/share/man/man1 && \
+	target=`echo xzdec | sed 's,x,x,'` && \
+	link=`echo lzmadec | sed 's,x,x,'` && \
+	rm -f $link.1 && \
+	ln -s $target.1 $link.1
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xzdec'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xzdec'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xzdec'
+Making install in xz
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xz'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xz'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c xz.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/xz.exe /srv/win32builder/fixed_364/build/win32/bin/xz.exe
+make  install-exec-hook
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xz'
+cd /srv/win32builder/fixed_364/build/win32/bin && \
+	target=`echo xz | sed 's,x,x,'`.exe && \
+	for name in unxz xzcat lzma unlzma lzcat; do \
+		link=`echo $name | sed 's,x,x,'`.exe && \
+		rm -f $link && \
+		ln -s $target $link; \
+	done
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xz'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 xz.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make  install-data-hook
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xz'
+cd /srv/win32builder/fixed_364/build/win32/share/man/man1 && \
+	target=`echo xz | sed 's,x,x,'` && \
+	for name in unxz xzcat lzma unlzma lzcat; do \
+		link=`echo $name | sed 's,x,x,'` && \
+		rm -f $link.1 && \
+		ln -s $target.1 $link.1; \
+	done
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xz'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xz'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/xz'
+Making install in lzmainfo
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/lzmainfo'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/lzmainfo'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c lzmainfo.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/lzmainfo.exe /srv/win32builder/fixed_364/build/win32/bin/lzmainfo.exe
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 lzmainfo.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/lzmainfo'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/lzmainfo'
+Making install in scripts
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/scripts'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/scripts'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+ /usr/bin/install -c xzdiff xzgrep xzmore xzless '/srv/win32builder/fixed_364/build/win32/bin'
+make  install-exec-hook
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/scripts'
+cd /srv/win32builder/fixed_364/build/win32/bin && \
+	for pair in xzdiff-xzcmp xzgrep-xzegrep xzgrep-xzfgrep xzdiff-lzdiff xzdiff-lzcmp xzgrep-lzgrep xzgrep-lzegrep xzgrep-lzfgrep xzmore-lzmore xzless-lzless; do \
+		target=`echo $pair | sed 's/-.*$//' | sed 's,x,x,'` && \
+		link=`echo $pair | sed 's/^.*-//' | sed 's,x,x,'` && \
+		rm -f $link && \
+		ln -s $target $link; \
+	done
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/scripts'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 xzdiff.1 xzgrep.1 xzmore.1 xzless.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make  install-data-hook
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/scripts'
+cd /srv/win32builder/fixed_364/build/win32/share/man/man1 && \
+	for pair in xzdiff-xzcmp xzgrep-xzegrep xzgrep-xzfgrep xzdiff-lzdiff xzdiff-lzcmp xzgrep-lzgrep xzgrep-lzegrep xzgrep-lzfgrep xzmore-lzmore xzless-lzless; do \
+		target=`echo $pair | sed 's/-.*$//' | sed 's,x,x,'` && \
+		link=`echo $pair | sed 's/^.*-//' | sed 's,x,x,'` && \
+		rm -f $link.1 && \
+		ln -s $target.1 $link.1; \
+	done
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/scripts'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/scripts'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src/scripts'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/src'
+Making install in po
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/po'
+/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share
+installing cs.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/cs/LC_MESSAGES/xz.mo
+installing de.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/de/LC_MESSAGES/xz.mo
+installing fr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fr/LC_MESSAGES/xz.mo
+installing it.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/it/LC_MESSAGES/xz.mo
+installing pl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pl/LC_MESSAGES/xz.mo
+if test "xz" = "gettext-tools"; then \
+	  /bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/gettext/po; \
+	  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+	    /usr/bin/install -c -m 644 ./$file \
+			    /srv/win32builder/fixed_364/build/win32/share/gettext/po/$file; \
+	  done; \
+	  for file in Makevars; do \
+	    rm -f /srv/win32builder/fixed_364/build/win32/share/gettext/po/$file; \
+	  done; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/po'
+Making install in tests
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/tests'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/tests'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4/tests'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/xz'
+ /usr/bin/install -c -m 644 AUTHORS COPYING COPYING.GPLv2 NEWS README THANKS TODO doc/faq.txt doc/history.txt doc/xz-file-format.txt doc/lzma-file-format.txt '/srv/win32builder/fixed_364/build/win32/share/doc/xz'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/xz/examples'
+ /usr/bin/install -c -m 644 doc/examples/00_README.txt doc/examples/01_compress_easy.c doc/examples/02_decompress.c doc/examples/03_compress_custom.c doc/examples/Makefile '/srv/win32builder/fixed_364/build/win32/share/doc/xz/examples'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/xz/examples_old'
+ /usr/bin/install -c -m 644 doc/examples_old/xz_pipe_comp.c doc/examples_old/xz_pipe_decomp.c '/srv/win32builder/fixed_364/build/win32/share/doc/xz/examples_old'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/12_xz/xz-5.0.4'

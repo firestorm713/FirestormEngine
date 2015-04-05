@@ -1,0 +1,198 @@
+cd libcharset && make install prefix='/srv/win32builder/fixed_364/build/win32' exec_prefix='/srv/win32builder/fixed_364/build/win32' libdir='/srv/win32builder/fixed_364/build/win32/lib'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/libcharset'
+cd lib && make install prefix='/srv/win32builder/fixed_364/build/win32' exec_prefix='/srv/win32builder/fixed_364/build/win32' libdir='/srv/win32builder/fixed_364/build/win32/lib'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/libcharset/lib'
+if test no = no; then \
+	  case 'mingw32' in \
+	    darwin[56]*) \
+	      need_charset_alias=true ;; \
+	    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+	      need_charset_alias=false ;; \
+	    *) \
+	      need_charset_alias=true ;; \
+	  esac ; \
+	else \
+	  need_charset_alias=false ; \
+	fi ; \
+	/bin/sh ../build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/lib ; \
+	/bin/sh ../libtool --mode=install /usr/bin/install -c -m 644 libcharset.la /srv/win32builder/fixed_364/build/win32/lib/libcharset.la
+libtool: install: /usr/bin/install -c -m 644 .libs/libcharset.dll.a /srv/win32builder/fixed_364/build/win32/lib/libcharset.dll.a
+libtool: install: base_file=`basename libcharset.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libcharset.la'i; echo libcharset-1.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libcharset-1.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c -m 644 .libs/libcharset-1.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libcharset-1.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libcharset-1.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libcharset-1.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c -m 644 .libs/libcharset.lai /srv/win32builder/fixed_364/build/win32/lib/libcharset.la
+libtool: install: /usr/bin/install -c -m 644 .libs/libcharset.a /srv/win32builder/fixed_364/build/win32/lib/libcharset.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libcharset.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libcharset.a
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /srv/win32builder/fixed_364/build/win32/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-LLIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+if test -f /srv/win32builder/fixed_364/build/win32/lib/charset.alias; then \
+	  sed -f ref-add.sed /srv/win32builder/fixed_364/build/win32/lib/charset.alias > /srv/win32builder/fixed_364/build/win32/lib/t-charset.alias; \
+	  /usr/bin/install -c -m 644 /srv/win32builder/fixed_364/build/win32/lib/t-charset.alias /srv/win32builder/fixed_364/build/win32/lib/charset.alias; \
+	  rm -f /srv/win32builder/fixed_364/build/win32/lib/t-charset.alias; \
+	else \
+	  if $need_charset_alias; then \
+	    sed -f ref-add.sed charset.alias > /srv/win32builder/fixed_364/build/win32/lib/t-charset.alias; \
+	    /usr/bin/install -c -m 644 /srv/win32builder/fixed_364/build/win32/lib/t-charset.alias /srv/win32builder/fixed_364/build/win32/lib/charset.alias; \
+	    rm -f /srv/win32builder/fixed_364/build/win32/lib/t-charset.alias; \
+	  fi ; \
+	fi
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/libcharset/lib'
+/bin/sh ./build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/include
+/usr/bin/install -c -m 644 include/libcharset.h /srv/win32builder/fixed_364/build/win32/include/libcharset.h
+/usr/bin/install -c -m 644 include/localcharset.h.inst /srv/win32builder/fixed_364/build/win32/include/localcharset.h
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/libcharset'
+cd lib && make install prefix='/srv/win32builder/fixed_364/build/win32' exec_prefix='/srv/win32builder/fixed_364/build/win32' libdir='/srv/win32builder/fixed_364/build/win32/lib'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/lib'
+if [ ! -d /srv/win32builder/fixed_364/build/win32/lib ] ; then /bin/sh ../build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/lib ; fi
+/bin/sh ../libtool --mode=install /usr/bin/install -c -m 644 libiconv.la /srv/win32builder/fixed_364/build/win32/lib/libiconv.la
+libtool: install: /usr/bin/install -c -m 644 .libs/libiconv.dll.a /srv/win32builder/fixed_364/build/win32/lib/libiconv.dll.a
+libtool: install: base_file=`basename libiconv.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libiconv.la'i; echo libiconv-2.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libiconv-2.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c -m 644 .libs/libiconv-2.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libiconv-2.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libiconv-2.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libiconv-2.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c -m 644 .libs/libiconv.lai /srv/win32builder/fixed_364/build/win32/lib/libiconv.la
+libtool: install: /usr/bin/install -c -m 644 .libs/libiconv.a /srv/win32builder/fixed_364/build/win32/lib/libiconv.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libiconv.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libiconv.a
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /srv/win32builder/fixed_364/build/win32/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-LLIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+case "mingw32" in \
+	  aix*) (cd /srv/win32builder/fixed_364/build/win32/lib && \
+	         objects=`ar t libiconv.a`" "`ar t /lib/libiconv.a` && \
+	         ar x libiconv.a && ar x /lib/libiconv.a && \
+	         ar q libiconv.new.a $objects && \
+	         rm -f $objects && \
+	         mv -f libiconv.new.a libiconv.a) ;; \
+	esac
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/lib'
+cd preload && make install prefix='/srv/win32builder/fixed_364/build/win32' exec_prefix='/srv/win32builder/fixed_364/build/win32' libdir='/srv/win32builder/fixed_364/build/win32/lib'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/preload'
+if [ ! -d /srv/win32builder/fixed_364/build/win32/lib ] ; then /bin/sh ./build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/lib ; fi
+if test -n ""; then /usr/bin/install -c -m 644  /srv/win32builder/fixed_364/build/win32/lib/.new && mv /srv/win32builder/fixed_364/build/win32/lib/.new /srv/win32builder/fixed_364/build/win32/lib/ ; fi
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/preload'
+cd srclib && make install prefix='/srv/win32builder/fixed_364/build/win32' exec_prefix='/srv/win32builder/fixed_364/build/win32' libdir='/srv/win32builder/fixed_364/build/win32/lib'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/srclib'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/srclib'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/srclib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/srclib'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/srclib'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/srclib'
+cd src && make install prefix='/srv/win32builder/fixed_364/build/win32' exec_prefix='/srv/win32builder/fixed_364/build/win32' libdir='/srv/win32builder/fixed_364/build/win32/lib'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/src'
+/bin/sh ../libtool --mode=link i686-pc-mingw32-gcc -L/srv/win32builder/fixed_364/build/win32/lib -I/srv/win32builder/fixed_364/build/win32/include iconv_no_i18n.o ../srclib/libicrt.a ../lib/libiconv.la iconv.res -o iconv_no_i18n
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include iconv_no_i18n.o iconv.res -o .libs/iconv_no_i18n  -L/srv/win32builder/fixed_364/build/win32/lib ../srclib/libicrt.a ../lib/.libs/libiconv.dll.a -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine host path corresponding to
+libtool: link:   '/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/lib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine host path corresponding to
+libtool: link:   '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine host path corresponding to
+libtool: link:   '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine host path corresponding to
+libtool: link:   '/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/lib/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+test `ls -ld . | sed -e 's/^d\(.........\).*/\1/'` = rwxrwxrwx || chmod 777 .
+if [ ! -d /srv/win32builder/fixed_364/build/win32/bin ] ; then /bin/sh ../build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/bin ; fi
+case "mingw32" in \
+	  hpux*) i686-pc-mingw32-gcc -L/srv/win32builder/fixed_364/build/win32/lib -I/srv/win32builder/fixed_364/build/win32/include `if test -n ''; then  /srv/win32builder/fixed_364/build/win32/bin; fi` iconv.o ../srclib/libicrt.a -L/srv/win32builder/fixed_364/build/win32/lib -liconv  iconv.res `if test -n ''; then echo " -Wl,+b -Wl,/srv/win32builder/fixed_364/build/win32/lib"; fi` -o iconv.exe;; \
+	  *) /bin/sh ../libtool --mode=link i686-pc-mingw32-gcc -L/srv/win32builder/fixed_364/build/win32/lib -I/srv/win32builder/fixed_364/build/win32/include `if test -n ''; then  /srv/win32builder/fixed_364/build/win32/bin; fi` iconv.o ../srclib/libicrt.a /srv/win32builder/fixed_364/build/win32/lib/libiconv.la  iconv.res -o iconv.exe;; \
+	esac
+libtool: link: i686-pc-mingw32-gcc -I/srv/win32builder/fixed_364/build/win32/include iconv.o iconv.res -o .libs/iconv.exe  -L/srv/win32builder/fixed_364/build/win32/lib ../srclib/libicrt.a /srv/win32builder/fixed_364/build/win32/lib/libiconv.dll.a -L/srv/win32builder/fixed_364/build/win32/lib
+libtool: link: Could not determine host path corresponding to
+libtool: link:   '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine host path corresponding to
+libtool: link:   '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine host path corresponding to
+libtool: link:   '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+/bin/sh ../libtool --mode=install /usr/bin/install -c iconv.exe /srv/win32builder/fixed_364/build/win32/bin/iconv.exe
+libtool: install: /usr/bin/install -c .libs/iconv.exe /srv/win32builder/fixed_364/build/win32/bin/iconv.exe
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/src'
+if [ ! -d /srv/win32builder/fixed_364/build/win32/include ] ; then /bin/sh ./build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/include ; fi
+/usr/bin/install -c -m 644 include/iconv.h.inst /srv/win32builder/fixed_364/build/win32/include/iconv.h
+cd po && make install prefix='/srv/win32builder/fixed_364/build/win32' exec_prefix='/srv/win32builder/fixed_364/build/win32' datarootdir='/srv/win32builder/fixed_364/build/win32/share' datadir='/srv/win32builder/fixed_364/build/win32/share'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/po'
+if test "libiconv" = "gettext-tools"; then \
+	  /bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/gettext/po; \
+	  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+	    /usr/bin/install -c -m 644 ./$file \
+			    /srv/win32builder/fixed_364/build/win32/share/gettext/po/$file; \
+	  done; \
+	  for file in Makevars; do \
+	    rm -f /srv/win32builder/fixed_364/build/win32/share/gettext/po/$file; \
+	  done; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/po'
+cd man && make install prefix='/srv/win32builder/fixed_364/build/win32' exec_prefix='/srv/win32builder/fixed_364/build/win32' datarootdir='/srv/win32builder/fixed_364/build/win32/share' datadir='/srv/win32builder/fixed_364/build/win32/share' mandir='/srv/win32builder/fixed_364/build/win32/share/man'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/man'
+if [ ! -d /srv/win32builder/fixed_364/build/win32/share/man/man1 ] ; then /bin/sh ../build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/share/man/man1 ; fi
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/man/man1
+builddir="`pwd`"; cd . && for f in *.1 ; do (cd "$builddir"; echo /usr/bin/install -c -m 644 ./$f /srv/win32builder/fixed_364/build/win32/share/man/man1/$f ; /usr/bin/install -c -m 644 ./$f /srv/win32builder/fixed_364/build/win32/share/man/man1/$f) ; done
+/usr/bin/install -c -m 644 ./iconv.1 /srv/win32builder/fixed_364/build/win32/share/man/man1/iconv.1
+if [ ! -d /srv/win32builder/fixed_364/build/win32/share/man/man3 ] ; then /bin/sh ../build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/share/man/man3 ; fi
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/man/man3
+builddir="`pwd`"; cd . && for f in *.3 ; do (cd "$builddir"; echo /usr/bin/install -c -m 644 ./$f /srv/win32builder/fixed_364/build/win32/share/man/man3/$f ; /usr/bin/install -c -m 644 ./$f /srv/win32builder/fixed_364/build/win32/share/man/man3/$f) ; done
+/usr/bin/install -c -m 644 ./iconv.3 /srv/win32builder/fixed_364/build/win32/share/man/man3/iconv.3
+/usr/bin/install -c -m 644 ./iconv_close.3 /srv/win32builder/fixed_364/build/win32/share/man/man3/iconv_close.3
+/usr/bin/install -c -m 644 ./iconvctl.3 /srv/win32builder/fixed_364/build/win32/share/man/man3/iconvctl.3
+/usr/bin/install -c -m 644 ./iconv_open.3 /srv/win32builder/fixed_364/build/win32/share/man/man3/iconv_open.3
+/usr/bin/install -c -m 644 ./iconv_open_into.3 /srv/win32builder/fixed_364/build/win32/share/man/man3/iconv_open_into.3
+if [ ! -d /srv/win32builder/fixed_364/build/win32/share/doc/libiconv ] ; then /bin/sh ../build-aux/mkinstalldirs /srv/win32builder/fixed_364/build/win32/share/doc/libiconv ; fi
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/doc/libiconv
+builddir="`pwd`"; cd . && for f in *.html ; do (cd "$builddir"; echo /usr/bin/install -c -m 644 ./$f /srv/win32builder/fixed_364/build/win32/share/doc/libiconv/$f ; /usr/bin/install -c -m 644 ./$f /srv/win32builder/fixed_364/build/win32/share/doc/libiconv/$f) ; done
+/usr/bin/install -c -m 644 ./iconv.1.html /srv/win32builder/fixed_364/build/win32/share/doc/libiconv/iconv.1.html
+/usr/bin/install -c -m 644 ./iconv.3.html /srv/win32builder/fixed_364/build/win32/share/doc/libiconv/iconv.3.html
+/usr/bin/install -c -m 644 ./iconv_close.3.html /srv/win32builder/fixed_364/build/win32/share/doc/libiconv/iconv_close.3.html
+/usr/bin/install -c -m 644 ./iconvctl.3.html /srv/win32builder/fixed_364/build/win32/share/doc/libiconv/iconvctl.3.html
+/usr/bin/install -c -m 644 ./iconv_open.3.html /srv/win32builder/fixed_364/build/win32/share/doc/libiconv/iconv_open.3.html
+/usr/bin/install -c -m 644 ./iconv_open_into.3.html /srv/win32builder/fixed_364/build/win32/share/doc/libiconv/iconv_open_into.3.html
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/01_libiconv/libiconv-1.13.1/man'

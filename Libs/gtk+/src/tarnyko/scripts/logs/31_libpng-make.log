@@ -1,0 +1,105 @@
+make  all-am
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/31_libpng/libpng-1.5.14'
+rm -f pnglibconf.dfn dfn?.out
+gawk -f ./scripts/options.awk out=dfn1.out version=search\
+	    ./pngconf.h ./scripts/pnglibconf.dfa\
+	    ./pngusr.dfa  1>&2
+gawk -f ./scripts/options.awk out=dfn2.out dfn1.out 1>&2
+rm dfn1.out
+mv dfn2.out pnglibconf.dfn
+rm -f pnglibconf.out dfn.c dfn?.out
+test -d scripts || mkdir scripts
+echo '#include "pnglibconf.dfn"' >dfn.c
+i686-pc-mingw32-gcc -E -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG\
+	    -I/srv/win32builder/fixed_364/build/win32/include -DPNGLIB_LIBNAME='PNG15_0' -DPNGLIB_VERSION='1.5.14' -DSYMBOL_PREFIX='' -DPNG_NO_USE_READ_MACROS -DPNG_BUILDING_SYMBOL_TABLE dfn.c > dfn1.out
+/bin/sed -n -e 's|^.*PNG_DEFN_MAGIC *-\(.*\)- *PNG_DEFN_END.*$|\1|p'\
+	    dfn1.out >dfn2.out
+/bin/sed -e 's| *PNG_JOIN *||g' -e 's| *$||' dfn2.out >dfn3.out
+rm -f dfn.c dfn[12].out
+mv dfn3.out pnglibconf.out
+rm -f pnglibconf.h
+cp pnglibconf.out pnglibconf.h
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-png.lo -MD -MP -MF .deps/libpng15_la-png.Tpo -c -o libpng15_la-png.lo `test -f 'png.c' || echo './'`png.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-png.lo -MD -MP -MF .deps/libpng15_la-png.Tpo -c png.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-png.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-png.lo -MD -MP -MF .deps/libpng15_la-png.Tpo -c png.c -o libpng15_la-png.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-png.Tpo .deps/libpng15_la-png.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngerror.lo -MD -MP -MF .deps/libpng15_la-pngerror.Tpo -c -o libpng15_la-pngerror.lo `test -f 'pngerror.c' || echo './'`pngerror.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngerror.lo -MD -MP -MF .deps/libpng15_la-pngerror.Tpo -c pngerror.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngerror.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngerror.lo -MD -MP -MF .deps/libpng15_la-pngerror.Tpo -c pngerror.c -o libpng15_la-pngerror.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngerror.Tpo .deps/libpng15_la-pngerror.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngget.lo -MD -MP -MF .deps/libpng15_la-pngget.Tpo -c -o libpng15_la-pngget.lo `test -f 'pngget.c' || echo './'`pngget.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngget.lo -MD -MP -MF .deps/libpng15_la-pngget.Tpo -c pngget.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngget.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngget.lo -MD -MP -MF .deps/libpng15_la-pngget.Tpo -c pngget.c -o libpng15_la-pngget.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngget.Tpo .deps/libpng15_la-pngget.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngmem.lo -MD -MP -MF .deps/libpng15_la-pngmem.Tpo -c -o libpng15_la-pngmem.lo `test -f 'pngmem.c' || echo './'`pngmem.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngmem.lo -MD -MP -MF .deps/libpng15_la-pngmem.Tpo -c pngmem.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngmem.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngmem.lo -MD -MP -MF .deps/libpng15_la-pngmem.Tpo -c pngmem.c -o libpng15_la-pngmem.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngmem.Tpo .deps/libpng15_la-pngmem.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngpread.lo -MD -MP -MF .deps/libpng15_la-pngpread.Tpo -c -o libpng15_la-pngpread.lo `test -f 'pngpread.c' || echo './'`pngpread.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngpread.lo -MD -MP -MF .deps/libpng15_la-pngpread.Tpo -c pngpread.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngpread.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngpread.lo -MD -MP -MF .deps/libpng15_la-pngpread.Tpo -c pngpread.c -o libpng15_la-pngpread.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngpread.Tpo .deps/libpng15_la-pngpread.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngread.lo -MD -MP -MF .deps/libpng15_la-pngread.Tpo -c -o libpng15_la-pngread.lo `test -f 'pngread.c' || echo './'`pngread.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngread.lo -MD -MP -MF .deps/libpng15_la-pngread.Tpo -c pngread.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngread.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngread.lo -MD -MP -MF .deps/libpng15_la-pngread.Tpo -c pngread.c -o libpng15_la-pngread.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngread.Tpo .deps/libpng15_la-pngread.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrio.lo -MD -MP -MF .deps/libpng15_la-pngrio.Tpo -c -o libpng15_la-pngrio.lo `test -f 'pngrio.c' || echo './'`pngrio.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrio.lo -MD -MP -MF .deps/libpng15_la-pngrio.Tpo -c pngrio.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngrio.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrio.lo -MD -MP -MF .deps/libpng15_la-pngrio.Tpo -c pngrio.c -o libpng15_la-pngrio.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngrio.Tpo .deps/libpng15_la-pngrio.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrtran.lo -MD -MP -MF .deps/libpng15_la-pngrtran.Tpo -c -o libpng15_la-pngrtran.lo `test -f 'pngrtran.c' || echo './'`pngrtran.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrtran.lo -MD -MP -MF .deps/libpng15_la-pngrtran.Tpo -c pngrtran.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngrtran.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrtran.lo -MD -MP -MF .deps/libpng15_la-pngrtran.Tpo -c pngrtran.c -o libpng15_la-pngrtran.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngrtran.Tpo .deps/libpng15_la-pngrtran.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrutil.lo -MD -MP -MF .deps/libpng15_la-pngrutil.Tpo -c -o libpng15_la-pngrutil.lo `test -f 'pngrutil.c' || echo './'`pngrutil.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrutil.lo -MD -MP -MF .deps/libpng15_la-pngrutil.Tpo -c pngrutil.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngrutil.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngrutil.lo -MD -MP -MF .deps/libpng15_la-pngrutil.Tpo -c pngrutil.c -o libpng15_la-pngrutil.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngrutil.Tpo .deps/libpng15_la-pngrutil.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngset.lo -MD -MP -MF .deps/libpng15_la-pngset.Tpo -c -o libpng15_la-pngset.lo `test -f 'pngset.c' || echo './'`pngset.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngset.lo -MD -MP -MF .deps/libpng15_la-pngset.Tpo -c pngset.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngset.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngset.lo -MD -MP -MF .deps/libpng15_la-pngset.Tpo -c pngset.c -o libpng15_la-pngset.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngset.Tpo .deps/libpng15_la-pngset.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngtrans.lo -MD -MP -MF .deps/libpng15_la-pngtrans.Tpo -c -o libpng15_la-pngtrans.lo `test -f 'pngtrans.c' || echo './'`pngtrans.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngtrans.lo -MD -MP -MF .deps/libpng15_la-pngtrans.Tpo -c pngtrans.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngtrans.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngtrans.lo -MD -MP -MF .deps/libpng15_la-pngtrans.Tpo -c pngtrans.c -o libpng15_la-pngtrans.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngtrans.Tpo .deps/libpng15_la-pngtrans.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwio.lo -MD -MP -MF .deps/libpng15_la-pngwio.Tpo -c -o libpng15_la-pngwio.lo `test -f 'pngwio.c' || echo './'`pngwio.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwio.lo -MD -MP -MF .deps/libpng15_la-pngwio.Tpo -c pngwio.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngwio.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwio.lo -MD -MP -MF .deps/libpng15_la-pngwio.Tpo -c pngwio.c -o libpng15_la-pngwio.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngwio.Tpo .deps/libpng15_la-pngwio.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwrite.lo -MD -MP -MF .deps/libpng15_la-pngwrite.Tpo -c -o libpng15_la-pngwrite.lo `test -f 'pngwrite.c' || echo './'`pngwrite.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwrite.lo -MD -MP -MF .deps/libpng15_la-pngwrite.Tpo -c pngwrite.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngwrite.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwrite.lo -MD -MP -MF .deps/libpng15_la-pngwrite.Tpo -c pngwrite.c -o libpng15_la-pngwrite.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngwrite.Tpo .deps/libpng15_la-pngwrite.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwtran.lo -MD -MP -MF .deps/libpng15_la-pngwtran.Tpo -c -o libpng15_la-pngwtran.lo `test -f 'pngwtran.c' || echo './'`pngwtran.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwtran.lo -MD -MP -MF .deps/libpng15_la-pngwtran.Tpo -c pngwtran.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngwtran.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwtran.lo -MD -MP -MF .deps/libpng15_la-pngwtran.Tpo -c pngwtran.c -o libpng15_la-pngwtran.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngwtran.Tpo .deps/libpng15_la-pngwtran.Plo
+/bin/sh ./libtool  --tag=CC   --mode=compile i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include  -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwutil.lo -MD -MP -MF .deps/libpng15_la-pngwutil.Tpo -c -o libpng15_la-pngwutil.lo `test -f 'pngwutil.c' || echo './'`pngwutil.c
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwutil.lo -MD -MP -MF .deps/libpng15_la-pngwutil.Tpo -c pngwutil.c  -DDLL_EXPORT -DPIC -o .libs/libpng15_la-pngwutil.o
+libtool: compile:  i686-pc-mingw32-gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -I/srv/win32builder/fixed_364/build/win32/include -I/srv/win32builder/fixed_364/build/win32/include -MT libpng15_la-pngwutil.lo -MD -MP -MF .deps/libpng15_la-pngwutil.Tpo -c pngwutil.c -o libpng15_la-pngwutil.o >/dev/null 2>&1
+mv -f .deps/libpng15_la-pngwutil.Tpo .deps/libpng15_la-pngwutil.Plo
+rm -f scripts/sym.out dfn.c dfn?.out
+test -d scripts || mkdir scripts
+echo '#include "scripts/sym.dfn"' >dfn.c
+i686-pc-mingw32-gcc -E -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG\
+	    -I/srv/win32builder/fixed_364/build/win32/include -DPNGLIB_LIBNAME='PNG15_0' -DPNGLIB_VERSION='1.5.14' -DSYMBOL_PREFIX='' -DPNG_NO_USE_READ_MACROS -DPNG_BUILDING_SYMBOL_TABLE dfn.c > dfn1.out
+/bin/sed -n -e 's|^.*PNG_DEFN_MAGIC *-\(.*\)- *PNG_DEFN_END.*$|\1|p'\
+	    dfn1.out >dfn2.out
+/bin/sed -e 's| *PNG_JOIN *||g' -e 's| *$||' dfn2.out >dfn3.out
+rm -f dfn.c dfn[12].out
+mv dfn3.out scripts/sym.out
+rm -f libpng.sym
+cp scripts/sym.out libpng.sym
+/bin/sh ./libtool --tag=CC   --mode=link i686-pc-mingw32-gcc  -I/srv/win32builder/fixed_364/build/win32/include -no-undefined -export-dynamic -version-number 15:14:0   -export-symbols libpng.sym -L/srv/win32builder/fixed_364/build/win32/lib -o libpng15.la -rpath /srv/win32builder/fixed_364/build/win32/lib libpng15_la-png.lo libpng15_la-pngerror.lo libpng15_la-pngget.lo libpng15_la-pngmem.lo libpng15_la-pngpread.lo libpng15_la-pngread.lo libpng15_la-pngrio.lo libpng15_la-pngrtran.lo libpng15_la-pngrutil.lo libpng15_la-pngset.lo libpng15_la-pngtrans.lo libpng15_la-pngwio.lo libpng15_la-pngwrite.lo libpng15_la-pngwtran.lo libpng15_la-pngwutil.lo    -lz 
+libtool: link: /usr/bin/i686-pc-mingw32-nm -B  .libs/libpng15_la-png.o .libs/libpng15_la-pngerror.o .libs/libpng15_la-pngget.o .libs/libpng15_la-pngmem.o .libs/libpng15_la-pngpread.o .libs/libpng15_la-pngread.o .libs/libpng15_la-pngrio.o .libs/libpng15_la-pngrtran.o .libs/libpng15_la-pngrutil.o .libs/libpng15_la-pngset.o .libs/libpng15_la-pngtrans.o .libs/libpng15_la-pngwio.o .libs/libpng15_la-pngwrite.o .libs/libpng15_la-pngwtran.o .libs/libpng15_la-pngwutil.o   | sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*_\([_A-Za-z][_A-Za-z0-9]*\)$/\1 _\2 \2/p' | sed '/ __gnu_lto/d' | /bin/sed -e '/^[BCDGRS][ ]/s/.*[ ]\([^ ]*\)/\1 DATA/;s/^.*[ ]__nm__\([^ ]*\)[ ][^ ]*/\1 DATA/;/^I[ ]/d;/^[AITW][ ]/s/.* //' | sort | uniq > .libs/libpng15.exp
+libtool: link: if test "x`/bin/sed 1q .libs/libpng15.def`" = xEXPORTS; then cp .libs/libpng15.def .libs/libpng15-15.dll.def; else echo EXPORTS > .libs/libpng15-15.dll.def; cat .libs/libpng15.def >> .libs/libpng15-15.dll.def; fi
+libtool: link:  i686-pc-mingw32-gcc -shared .libs/libpng15-15.dll.def  .libs/libpng15_la-png.o .libs/libpng15_la-pngerror.o .libs/libpng15_la-pngget.o .libs/libpng15_la-pngmem.o .libs/libpng15_la-pngpread.o .libs/libpng15_la-pngread.o .libs/libpng15_la-pngrio.o .libs/libpng15_la-pngrtran.o .libs/libpng15_la-pngrutil.o .libs/libpng15_la-pngset.o .libs/libpng15_la-pngtrans.o .libs/libpng15_la-pngwio.o .libs/libpng15_la-pngwrite.o .libs/libpng15_la-pngwtran.o .libs/libpng15_la-pngwutil.o   -L/srv/win32builder/fixed_364/build/win32/lib -lz    -o .libs/libpng15-15.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libpng15.dll.a
+Creating library file: .libs/libpng15.dll.a
+libtool: link: rm -f .libs/libpng15.exp .libs/libpng15.filter
+libtool: link: i686-pc-mingw32-ar cru .libs/libpng15.a  libpng15_la-png.o libpng15_la-pngerror.o libpng15_la-pngget.o libpng15_la-pngmem.o libpng15_la-pngpread.o libpng15_la-pngread.o libpng15_la-pngrio.o libpng15_la-pngrtran.o libpng15_la-pngrutil.o libpng15_la-pngset.o libpng15_la-pngtrans.o libpng15_la-pngwio.o libpng15_la-pngwrite.o libpng15_la-pngwtran.o libpng15_la-pngwutil.o
+libtool: link: i686-pc-mingw32-ranlib .libs/libpng15.a
+libtool: link: ( cd ".libs" && rm -f "libpng15.la" && ln -s "../libpng15.la" "libpng15.la" )
+cp libpng-config libpng15-config
+cp libpng.pc libpng15.pc
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/31_libpng/libpng-1.5.14'

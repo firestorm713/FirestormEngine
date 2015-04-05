@@ -1,0 +1,263 @@
+Making install in atk
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/atk'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/atk'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/atk'
+test -z "/srv/win32builder/fixed_364/build/win32/lib" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libatk-1.0.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libatk-1.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libatk-1.0.dll.a
+libtool: install: base_file=`basename libatk-1.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libatk-1.0.la'i; echo libatk-1.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libatk-1.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libatk-1.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libatk-1.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libatk-1.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libatk-1.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libatk-1.0.lai /srv/win32builder/fixed_364/build/win32/lib/libatk-1.0.la
+libtool: install: /usr/bin/install -c .libs/libatk-1.0.a /srv/win32builder/fixed_364/build/win32/lib/libatk-1.0.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libatk-1.0.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libatk-1.0.a
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /srv/win32builder/fixed_364/build/win32/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-LLIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+/usr/bin/install -c atk.def /srv/win32builder/fixed_364/build/win32/lib/atk-1.0.def
+test -z "" || /bin/mkdir -p ""
+test -z "/srv/win32builder/fixed_364/build/win32/include/atk-1.0/atk" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/include/atk-1.0/atk"
+ /usr/bin/install -c -m 644 atk.h atkaction.h atkcomponent.h atkdocument.h atkeditabletext.h atkgobjectaccessible.h atkhyperlink.h atkhyperlinkimpl.h atkhypertext.h atknoopobject.h atknoopobjectfactory.h atkobject.h atkobjectfactory.h atkplug.h atkimage.h atkregistry.h atkrelation.h atkrelationtype.h atkrelationset.h atkselection.h atksocket.h atkstate.h atkstateset.h atkstreamablecontent.h atktable.h atktext.h atkutil.h atkmisc.h atkvalue.h atkwindow.h atk-enum-types.h '/srv/win32builder/fixed_364/build/win32/include/atk-1.0/atk'
+test -z "" || /bin/mkdir -p ""
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/atk'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/atk'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/atk'
+Making install in tests
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/tests'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/tests'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/tests'
+Making install in docs
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/docs'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/docs'
+make[2]: Nothing to be done for `install-exec-am'.
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/gtk-doc/html/atk
+ /usr/bin/install -c -m 644 ./html/api-index-1-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-13.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-18.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-20.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-24.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-26.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-28.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-32.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-3.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/AtkAction.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkHyperlinkImpl.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkPlug.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkSocket.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkState.html
+ /usr/bin/install -c -m 644 ./html/AtkComponent.html
+ /usr/bin/install -c -m 644 ./html/atk.devhelp2
+ /usr/bin/install -c -m 644 ./html/AtkDocument.html
+ /usr/bin/install -c -m 644 ./html/AtkEditableText.html
+ /usr/bin/install -c -m 644 ./html/AtkGObjectAccessible.html
+ /usr/bin/install -c -m 644 ./html/atk.html
+ /usr/bin/install -c -m 644 ./html/AtkHyperlink.html
+ /usr/bin/install -c -m 644 ./html/AtkHypertext.html
+ /usr/bin/install -c -m 644 ./html/AtkImage.html
+ /usr/bin/install -c -m 644 ./html/AtkNoOpObjectFactory.html
+ /usr/bin/install -c -m 644 ./html/AtkNoOpObject.html
+ /usr/bin/install -c -m 644 ./html/AtkObjectFactory.html
+ /usr/bin/install -c -m 644 ./html/AtkObject.html
+ /usr/bin/install -c -m 644 ./html/AtkRegistry.html
+ /usr/bin/install -c -m 644 ./html/AtkRelation.html
+ /usr/bin/install -c -m 644 ./html/AtkRelationSet.html
+ /usr/bin/install -c -m 644 ./html/AtkSelection.html
+ /usr/bin/install -c -m 644 ./html/AtkStateSet.html
+ /usr/bin/install -c -m 644 ./html/AtkStreamableContent.html
+ /usr/bin/install -c -m 644 ./html/AtkTable.html
+ /usr/bin/install -c -m 644 ./html/AtkText.html
+ /usr/bin/install -c -m 644 ./html/AtkUtil.html
+ /usr/bin/install -c -m 644 ./html/AtkValue.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up.png
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/docs'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/docs'
+Making install in po
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/po'
+if test -r ".././mkinstalldirs"; then \
+	  .././mkinstalldirs /srv/win32builder/fixed_364/build/win32/share; \
+	else \
+	  /bin/sh ../mkinstalldirs /srv/win32builder/fixed_364/build/win32/share; \
+	fi
+installing af.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/af/LC_MESSAGES/atk10.mo
+installing am.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/am/LC_MESSAGES/atk10.mo
+installing ar.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ar/LC_MESSAGES/atk10.mo
+installing as.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/as/LC_MESSAGES/atk10.mo
+installing ast.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ast/LC_MESSAGES/atk10.mo
+installing az.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/az/LC_MESSAGES/atk10.mo
+installing be.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/be/LC_MESSAGES/atk10.mo
+installing be@latin.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/be@latin/LC_MESSAGES/atk10.mo
+installing bg.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bg/LC_MESSAGES/atk10.mo
+installing bn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bn/LC_MESSAGES/atk10.mo
+installing bn_IN.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bn_IN/LC_MESSAGES/atk10.mo
+installing bs.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/bs/LC_MESSAGES/atk10.mo
+installing ca.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ca/LC_MESSAGES/atk10.mo
+installing ca@valencia.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ca@valencia/LC_MESSAGES/atk10.mo
+installing cs.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/cs/LC_MESSAGES/atk10.mo
+installing cy.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/cy/LC_MESSAGES/atk10.mo
+installing da.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/da/LC_MESSAGES/atk10.mo
+installing de.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/de/LC_MESSAGES/atk10.mo
+installing dz.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/dz/LC_MESSAGES/atk10.mo
+installing el.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/el/LC_MESSAGES/atk10.mo
+installing en_CA.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en_CA/LC_MESSAGES/atk10.mo
+installing en_GB.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en_GB/LC_MESSAGES/atk10.mo
+installing en@shaw.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/en@shaw/LC_MESSAGES/atk10.mo
+installing eo.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/eo/LC_MESSAGES/atk10.mo
+installing es.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/es/LC_MESSAGES/atk10.mo
+installing et.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/et/LC_MESSAGES/atk10.mo
+installing eu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/eu/LC_MESSAGES/atk10.mo
+installing fa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fa/LC_MESSAGES/atk10.mo
+installing fi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fi/LC_MESSAGES/atk10.mo
+installing fr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/fr/LC_MESSAGES/atk10.mo
+installing ga.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ga/LC_MESSAGES/atk10.mo
+installing gl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/gl/LC_MESSAGES/atk10.mo
+installing gu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/gu/LC_MESSAGES/atk10.mo
+installing he.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/he/LC_MESSAGES/atk10.mo
+installing hi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hi/LC_MESSAGES/atk10.mo
+installing hr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hr/LC_MESSAGES/atk10.mo
+installing hu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hu/LC_MESSAGES/atk10.mo
+installing hy.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/hy/LC_MESSAGES/atk10.mo
+installing id.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/id/LC_MESSAGES/atk10.mo
+installing is.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/is/LC_MESSAGES/atk10.mo
+installing it.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/it/LC_MESSAGES/atk10.mo
+installing ja.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ja/LC_MESSAGES/atk10.mo
+installing ka.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ka/LC_MESSAGES/atk10.mo
+installing kk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/kk/LC_MESSAGES/atk10.mo
+installing km.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/km/LC_MESSAGES/atk10.mo
+installing kn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/kn/LC_MESSAGES/atk10.mo
+installing ko.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ko/LC_MESSAGES/atk10.mo
+installing ku.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ku/LC_MESSAGES/atk10.mo
+installing li.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/li/LC_MESSAGES/atk10.mo
+installing lt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/lt/LC_MESSAGES/atk10.mo
+installing lv.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/lv/LC_MESSAGES/atk10.mo
+installing mai.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mai/LC_MESSAGES/atk10.mo
+installing mk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mk/LC_MESSAGES/atk10.mo
+installing ml.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ml/LC_MESSAGES/atk10.mo
+installing mn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mn/LC_MESSAGES/atk10.mo
+installing mr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/mr/LC_MESSAGES/atk10.mo
+installing ms.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ms/LC_MESSAGES/atk10.mo
+installing nb.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nb/LC_MESSAGES/atk10.mo
+installing ne.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ne/LC_MESSAGES/atk10.mo
+installing nl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nl/LC_MESSAGES/atk10.mo
+installing nn.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/nn/LC_MESSAGES/atk10.mo
+installing oc.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/oc/LC_MESSAGES/atk10.mo
+installing or.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/or/LC_MESSAGES/atk10.mo
+installing pa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pa/LC_MESSAGES/atk10.mo
+installing pl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pl/LC_MESSAGES/atk10.mo
+installing ps.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ps/LC_MESSAGES/atk10.mo
+installing pt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pt/LC_MESSAGES/atk10.mo
+installing pt_BR.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/pt_BR/LC_MESSAGES/atk10.mo
+installing ro.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ro/LC_MESSAGES/atk10.mo
+installing ru.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ru/LC_MESSAGES/atk10.mo
+installing rw.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/rw/LC_MESSAGES/atk10.mo
+installing si.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/si/LC_MESSAGES/atk10.mo
+installing sk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sk/LC_MESSAGES/atk10.mo
+installing sl.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sl/LC_MESSAGES/atk10.mo
+installing sq.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sq/LC_MESSAGES/atk10.mo
+installing sr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr/LC_MESSAGES/atk10.mo
+installing sr@latin.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr@latin/LC_MESSAGES/atk10.mo
+installing sr@ije.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sr@ije/LC_MESSAGES/atk10.mo
+installing sv.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/sv/LC_MESSAGES/atk10.mo
+installing ta.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ta/LC_MESSAGES/atk10.mo
+installing te.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/te/LC_MESSAGES/atk10.mo
+installing th.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/th/LC_MESSAGES/atk10.mo
+installing tk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tk/LC_MESSAGES/atk10.mo
+installing tr.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tr/LC_MESSAGES/atk10.mo
+installing tt.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/tt/LC_MESSAGES/atk10.mo
+installing ug.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/ug/LC_MESSAGES/atk10.mo
+installing uk.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/uk/LC_MESSAGES/atk10.mo
+installing vi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/vi/LC_MESSAGES/atk10.mo
+installing wa.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/wa/LC_MESSAGES/atk10.mo
+installing xh.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/xh/LC_MESSAGES/atk10.mo
+installing yi.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/yi/LC_MESSAGES/atk10.mo
+installing zh_CN.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_CN/LC_MESSAGES/atk10.mo
+installing zh_HK.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_HK/LC_MESSAGES/atk10.mo
+installing zh_TW.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zh_TW/LC_MESSAGES/atk10.mo
+mkdir -p -- /srv/win32builder/fixed_364/build/win32/share/locale/zu/LC_MESSAGES
+installing zu.gmo as /srv/win32builder/fixed_364/build/win32/share/locale/zu/LC_MESSAGES/atk10.mo
+if test "atk" = "glib"; then \
+	  if test -r ".././mkinstalldirs"; then \
+	    .././mkinstalldirs /srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext/po; \
+	  else \
+	    /bin/sh ../mkinstalldirs /srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext/po; \
+	  fi; \
+	  /usr/bin/install -c -m 644 ./Makefile.in.in \
+			  /srv/win32builder/fixed_364/build/win32/share/glib-2.0/gettext/po/Makefile.in.in; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/po'
+Making install in build
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build'
+Making install in win32
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32'
+Making install in vs9
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32/vs9'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32/vs9'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32/vs9'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32/vs10'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32/vs10'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32/vs10'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32/vs10'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build/win32'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0/build'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/srv/win32builder/fixed_364/build/win32/lib/pkgconfig" || /bin/mkdir -p "/srv/win32builder/fixed_364/build/win32/lib/pkgconfig"
+ /usr/bin/install -c -m 644 atk.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/51_atk/atk-2.6.0'

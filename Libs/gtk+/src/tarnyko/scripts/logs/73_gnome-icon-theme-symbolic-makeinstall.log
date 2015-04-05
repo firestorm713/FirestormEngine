@@ -1,0 +1,38 @@
+Making install in src
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2/src'
+if test "x.." != "x.."; then \
+		cp -a ../gnome ../gnome; \
+	fi
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2/src'
+make[2]: Nothing to be done for `install-exec-am'.
+for size in ; do \
+		for file in `cd ../gnome/$size; find . -name "*.png"`; do \
+			context="`dirname $file`"; \
+			/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/icons/gnome/$size/$context; \
+			/bin/sh /srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2/install-sh -c -m 644 ../gnome/$size/$file /srv/win32builder/fixed_364/build/win32/share/icons/gnome/$size/$file; \
+		done; \
+	done
+for file in `cd ../gnome/scalable; find . -name "*.svg"`; do \
+		context="`dirname $file`"; \
+		/bin/mkdir -p /srv/win32builder/fixed_364/build/win32/share/icons/gnome/scalable/$context; \
+		/bin/sh /srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2/install-sh -c -m 644 ../gnome/scalable/$file /srv/win32builder/fixed_364/build/win32/share/icons/gnome/scalable/$file; \
+	done
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2/src'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2/src'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2'
+make[2]: Nothing to be done for `install-exec-am'.
+if [ -h /srv/win32builder/fixed_364/build/win32/share/icons/gnome ]; then \
+		rm -f /srv/win32builder/fixed_364/build/win32/share/icons/gnome; \
+	fi
+if [ -d /srv/win32builder/fixed_364/build/win32/share/icons/gnome ]; then \
+		touch /srv/win32builder/fixed_364/build/win32/share/icons/gnome; \
+	fi
+make  install-data-hook
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2'
+if test -z "" ; then \
+		/usr/bin/gtk-update-icon-cache -q /srv/win32builder/fixed_364/build/win32/share/icons/gnome; \
+	fi
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/74_gnome-icon-theme-symbolic/gnome-icon-theme-symbolic-3.6.2'

@@ -1,0 +1,232 @@
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5'
+Making all in gdk-pixbuf
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+  GEN      s-enum-types-h
+  GEN      stamp-gdk-pixbuf-marshal.h
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+Making all in pixops
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/pixops'
+  CC       pixops.lo
+  CPPAS    have_mmx.lo
+  CPPAS    scale_line_22_33_mmx.lo
+  CPPAS    composite_line_22_4a4_mmx.lo
+  CPPAS    composite_line_color_22_4a4_mmx.lo
+  CCLD     libpixops.la
+  CC       timescale.o
+  CCLD     timescale.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/pixops'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+  CC       gdk-pixbuf.lo
+  CC       gdk-pixbuf-animation.lo
+  CC       gdk-pixbuf-data.lo
+  CC       gdk-pixbuf-io.lo
+  CC       gdk-pixbuf-loader.lo
+  CC       gdk-pixbuf-scale.lo
+  CC       gdk-pixbuf-simple-anim.lo
+  CC       gdk-pixbuf-scaled-anim.lo
+  CC       gdk-pixbuf-util.lo
+  CC       gdk-pixdata.lo
+  CC       gdk-pixbuf-enum-types.lo
+  CC       io-ani.lo
+  CC       io-ani-animation.lo
+  CCLD     libstatic-pixbufloader-ani.la
+  CC       io-icns.lo
+  CCLD     libstatic-pixbufloader-icns.la
+  CC       io-pcx.lo
+  CCLD     libstatic-pixbufloader-pcx.la
+  CC       io-ras.lo
+  CCLD     libstatic-pixbufloader-ras.la
+  CC       io-tga.lo
+  CCLD     libstatic-pixbufloader-tga.la
+  CC       io-png.lo
+  CCLD     libstatic-pixbufloader-png.la
+  CC       io-pnm.lo
+  CCLD     libstatic-pixbufloader-pnm.la
+  CC       io-wbmp.lo
+  CCLD     libstatic-pixbufloader-wbmp.la
+  CC       io-xbm.lo
+  CCLD     libstatic-pixbufloader-xbm.la
+  CC       io-xpm.lo
+  CCLD     libstatic-pixbufloader-xpm.la
+  CC       io-qtif.lo
+  CCLD     libstatic-pixbufloader-qtif.la
+  CC       io-gdip-bmp.lo
+io-gdip-bmp.c: In function '_gdk_pixbuf__gdip_bmp_fill_info':
+io-gdip-bmp.c:82: warning: assignment discards qualifiers from pointer target type
+  CCLD     libstatic-pixbufloader-gdip-bmp.la
+  CC       io-gdip-emf.lo
+io-gdip-emf.c: In function '_gdk_pixbuf__gdip_emf_fill_info':
+io-gdip-emf.c:59: warning: assignment discards qualifiers from pointer target type
+  CCLD     libstatic-pixbufloader-gdip-emf.la
+  CC       io-gdip-gif.lo
+io-gdip-gif.c: In function '_gdk_pixbuf__gdip_gif_fill_info':
+io-gdip-gif.c:80: warning: assignment discards qualifiers from pointer target type
+  CCLD     libstatic-pixbufloader-gdip-gif.la
+  CC       io-gdip-utils.lo
+io-gdip-utils.c: In function 'gdip_buffer_to_bitmap':
+io-gdip-utils.c:285: warning: pointer targets in passing argument 1 of 'gdip_buffer_to_hglobal' differ in signedness
+io-gdip-utils.c:147: note: expected 'const gchar *' but argument is of type 'guint8 *'
+io-gdip-utils.c: In function 'gdip_buffer_to_image':
+io-gdip-utils.c:325: warning: pointer targets in passing argument 1 of 'gdip_buffer_to_hglobal' differ in signedness
+io-gdip-utils.c:147: note: expected 'const gchar *' but argument is of type 'guint8 *'
+io-gdip-utils.c: In function 'gdk_pixbuf__gdip_image_load_animation':
+io-gdip-utils.c:851: warning: pointer targets in passing argument 2 of 'gdk_pixbuf__gdip_image_load_increment' differ in signedness
+io-gdip-utils.c:587: note: expected 'const guchar *' but argument is of type 'char *'
+  CC       io-gdip-animation.lo
+  CC       io-gdip-ico.lo
+io-gdip-ico.c: In function '_gdk_pixbuf__gdip_ico_fill_info':
+io-gdip-ico.c:59: warning: assignment discards qualifiers from pointer target type
+  CCLD     libstatic-pixbufloader-gdip-ico.la
+  CC       io-gdip-jpeg.lo
+io-gdip-jpeg.c: In function '_gdk_pixbuf__gdip_jpeg_fill_info':
+io-gdip-jpeg.c:136: warning: assignment discards qualifiers from pointer target type
+  CCLD     libstatic-pixbufloader-gdip-jpeg.la
+  CC       io-gdip-tiff.lo
+  CCLD     libstatic-pixbufloader-gdip-tiff.la
+  CC       io-gdip-wmf.lo
+io-gdip-wmf.c: In function '_gdk_pixbuf__gdip_wmf_fill_info':
+io-gdip-wmf.c:58: warning: assignment discards qualifiers from pointer target type
+  CCLD     libstatic-pixbufloader-gdip-wmf.la
+  CC       io-pixdata.lo
+  CCLD     libstatic-pixbufloader-pixdata.la
+  GEN      gdk_pixbuf-win32-res.o
+  GEN      libgdiplus.dll.a
+  CCLD     libgdk_pixbuf-2.0.la
+Creating library file: .libs/libgdk_pixbuf-2.0.dll.a
+  CC       gdk-pixbuf-csource.o
+  CCLD     gdk-pixbuf-csource.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       gdk-pixbuf-pixdata.o
+  CCLD     gdk-pixbuf-pixdata.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       queryloaders.o
+  CCLD     gdk-pixbuf-query-loaders.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       test-gdk-pixbuf.o
+  CCLD     test-gdk-pixbuf.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf'
+Making all in po
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/po'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/po'
+Making all in docs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+Making all in reference
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+Making all in gdk-pixbuf
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference/gdk-pixbuf'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference/gdk-pixbuf'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs/reference'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/docs'
+Making all in tests
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/tests'
+  CC       pixbuf-read.o
+  CCLD     pixbuf-read.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       pixbuf-lowmem.o
+  CCLD     pixbuf-lowmem.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       pixbuf-randomly-modified.o
+  CCLD     pixbuf-randomly-modified.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       pixbuf-random.o
+  CCLD     pixbuf-random.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       pixbuf-threads.o
+pixbuf-threads.c: In function 'main':
+pixbuf-threads.c:93: warning: 'g_thread_init' is deprecated (declared at /srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib/deprecated/gthread.h:259)
+  CCLD     pixbuf-threads.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/gdk-pixbuf/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/tests'
+Making all in contrib
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/contrib'
+Making all in build
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+Making all in win32
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+Making all in vs9
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs9'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs10'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32/vs10'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build/win32'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5/build'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/44_gdk-pixbuf/gdk-pixbuf-2.26.5'

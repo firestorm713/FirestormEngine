@@ -1,0 +1,1988 @@
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4'
+Making all in po
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/po'
+Making all in po-properties
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/po-properties'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/po-properties'
+Making all in gdk
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk'
+  GEN      stamp-gdkenumtypes.h
+config.status: executing gdk/gdkconfig.h commands
+config.status: gdk/gdkconfig.h is unchanged
+echo timestamp > stamp-gc-h
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk'
+Making all in win32
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/win32'
+Making all in rc
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/win32/rc'
+i686-pc-mingw32-windres -I . gdk.rc gdk-win32-res.o
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/win32/rc'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/win32'
+  CC       gdkcursor-win32.lo
+  CC       gdkdevicemanager-win32.lo
+gdkdevicemanager-win32.c: In function '_gdk_input_other_event':
+gdkdevicemanager-win32.c:910: warning: 'gdk_window_at_pointer' is deprecated (declared at ../../gdk/gdkwindow.h:506)
+  CC       gdkdevice-virtual.lo
+gdkdevice-virtual.c: In function 'gdk_device_virtual_set_window_cursor':
+gdkdevice-virtual.c:183: warning: 'gdk_window_get_pointer' is deprecated (declared at ../../gdk/gdkwindow.h:715)
+  CC       gdkdevice-win32.lo
+gdkdevice-win32.c: In function 'gdk_device_win32_get_state':
+gdkdevice-win32.c:122: warning: 'gdk_window_get_pointer' is deprecated (declared at ../../gdk/gdkwindow.h:715)
+  CC       gdkdevice-wintab.lo
+  CC       gdkdisplay-win32.lo
+  CC       gdkdisplaymanager-win32.lo
+gdkdisplaymanager-win32.c: In function 'gdk_win32_display_manager_init':
+gdkdisplaymanager-win32.c:86: warning: type defaults to 'int' in declaration of 'once'
+  CC       gdkdnd-win32.lo
+  CC       gdkevents-win32.lo
+gdkevents-win32.c: In function 'gdk_event_translate':
+gdkevents-win32.c:2720: warning: 'gdk_pointer_ungrab' is deprecated (declared at ../../gdk/gdkmain.h:97)
+gdkevents-win32.c:2725: warning: 'gdk_keyboard_ungrab' is deprecated (declared at ../../gdk/gdkmain.h:99)
+gdkevents-win32.c:3121: warning: 'gdk_pointer_ungrab' is deprecated (declared at ../../gdk/gdkmain.h:97)
+gdkevents-win32.c:3126: warning: 'gdk_keyboard_ungrab' is deprecated (declared at ../../gdk/gdkmain.h:99)
+  CC       gdkgeometry-win32.lo
+  CC       gdkglobals-win32.lo
+  CC       gdkinput.lo
+  CC       gdkkeys-win32.lo
+  CC       gdkmain-win32.lo
+  CC       gdkproperty-win32.lo
+  CC       gdkscreen-win32.lo
+  CC       gdkselection-win32.lo
+gdkselection-win32.c: In function '_gdk_win32_display_convert_selection':
+gdkselection-win32.c:559: warning: pointer targets in assignment differ in signedness
+gdkselection-win32.c:564: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:49: note: expected 'const char *' but argument is of type 'guchar *'
+gdkselection-win32.c: In function 'gdk_text_property_to_text_list_for_display':
+gdkselection-win32.c:946: warning: pointer targets in passing argument 1 of 'g_convert' differ in signedness
+/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib/gconvert.h:89: note: expected 'const gchar *' but argument is of type 'const guchar *'
+  CC       gdktestutils-win32.lo
+  CC       gdkvisual-win32.lo
+  CC       gdkwin32id.lo
+  CC       gdkwindow-win32.lo
+gdkwindow-win32.c: In function 'gdk_win32_window_begin_resize_drag':
+gdkwindow-win32.c:2689: warning: 'gdk_display_pointer_ungrab' is deprecated (declared at ../../gdk/gdkdisplay.h:55)
+gdkwindow-win32.c: In function 'gdk_win32_window_begin_move_drag':
+gdkwindow-win32.c:2756: warning: 'gdk_display_pointer_ungrab' is deprecated (declared at ../../gdk/gdkdisplay.h:55)
+  CCLD     libgdk-win32.la
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/win32'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/win32'
+Making all in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk'
+  CC       gdk.lo
+  CC       gdkapplaunchcontext.lo
+  CC       gdkcairo.lo
+  CC       gdkcolor.lo
+  CC       gdkcursor.lo
+  CC       gdkdeprecated.lo
+  CC       gdkdevice.lo
+  CC       gdkdevicemanager.lo
+  CC       gdkdisplay.lo
+  CC       gdkdisplaymanager.lo
+  CC       gdkdnd.lo
+  CC       gdkevents.lo
+  CC       gdkglobals.lo
+  CC       gdkkeys.lo
+  CC       gdkkeyuni.lo
+  CC       gdkoffscreenwindow.lo
+  CC       gdkpango.lo
+  CC       gdkpixbuf-drawable.lo
+  CC       gdkrectangle.lo
+  CC       gdkrgba.lo
+  CC       gdkscreen.lo
+  CC       gdkselection.lo
+  CC       gdkvisual.lo
+  CC       gdkwindow.lo
+  CC       gdkwindowimpl.lo
+  CC       gdkenumtypes.lo
+  CC       gdkmarshalers.lo
+  CC       gdkkeynames.lo
+gdkkeynames.c:47: warning: '_gdk_keyval_name' defined but not used
+gdkkeynames.c:88: warning: '_gdk_keyval_from_name' defined but not used
+  CCLD     libgdk-3.la
+Creating library file: .libs/libgdk-3.dll.a
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk'
+Making all in tests
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/tests'
+  CC       rgba.o
+  CCLD     rgba.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       encoding.o
+  CCLD     encoding.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       display.o
+  CCLD     display.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/tests'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk'
+Making all in gtk
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk'
+  GEN      gtkresources.c
+  GEN      stamp-gtktypebuiltins.h
+  GEN      stamp-gtkprivatetypebuiltins.h
+  GEN      gtktypefuncs.c
+  GEN      stamp-gtkmarshalers.h
+  GEN      stamp-icons
+  GEN      gtkbuiltincache.h
+make  all-recursive
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk'
+Making all in a11y
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/a11y'
+  CC       libgail_la-gail.lo
+  CC       libgail_la-gtkarrowaccessible.lo
+  CC       libgail_la-gtkbooleancellaccessible.lo
+  CC       libgail_la-gtkboxaccessible.lo
+  CC       libgail_la-gtkbuttonaccessible.lo
+  CC       libgail_la-gtkcellaccessible.lo
+  CC       libgail_la-gtkcellaccessibleparent.lo
+  CC       libgail_la-gtkcheckmenuitemaccessible.lo
+  CC       libgail_la-gtkcolorswatchaccessible.lo
+  CC       libgail_la-gtkcomboboxaccessible.lo
+  CC       libgail_la-gtkcontaineraccessible.lo
+  CC       libgail_la-gtkcontainercellaccessible.lo
+  CC       libgail_la-gtkentryaccessible.lo
+  CC       libgail_la-gtkexpanderaccessible.lo
+  CC       libgail_la-gtkframeaccessible.lo
+  CC       libgail_la-gtkiconviewaccessible.lo
+  CC       libgail_la-gtkimageaccessible.lo
+  CC       libgail_la-gtkimagecellaccessible.lo
+  CC       libgail_la-gtklabelaccessible.lo
+  CC       libgail_la-gtklinkbuttonaccessible.lo
+  CC       libgail_la-gtklockbuttonaccessible.lo
+  CC       libgail_la-gtkmenuaccessible.lo
+  CC       libgail_la-gtkmenushellaccessible.lo
+  CC       libgail_la-gtkmenuitemaccessible.lo
+  CC       libgail_la-gtknotebookaccessible.lo
+  CC       libgail_la-gtknotebookpageaccessible.lo
+  CC       libgail_la-gtkpanedaccessible.lo
+  CC       libgail_la-gtkprogressbaraccessible.lo
+  CC       libgail_la-gtkradiobuttonaccessible.lo
+  CC       libgail_la-gtkradiomenuitemaccessible.lo
+  CC       libgail_la-gtkrangeaccessible.lo
+  CC       libgail_la-gtkrenderercellaccessible.lo
+  CC       libgail_la-gtkscaleaccessible.lo
+  CC       libgail_la-gtkscalebuttonaccessible.lo
+  CC       libgail_la-gtkscrollbaraccessible.lo
+  CC       libgail_la-gtkscrolledwindowaccessible.lo
+  CC       libgail_la-gtkspinbuttonaccessible.lo
+  CC       libgail_la-gtkspinneraccessible.lo
+  CC       libgail_la-gtkstatusbaraccessible.lo
+  CC       libgail_la-gtkswitchaccessible.lo
+  CC       libgail_la-gtktextcellaccessible.lo
+  CC       libgail_la-gtktextviewaccessible.lo
+  CC       libgail_la-gtktogglebuttonaccessible.lo
+  CC       libgail_la-gtktoplevelaccessible.lo
+  CC       libgail_la-gtktreeviewaccessible.lo
+  CC       libgail_la-gtkwidgetaccessible.lo
+  CC       libgail_la-gtkwindowaccessible.lo
+  CC       libgail_la-gailutil.lo
+  CC       libgail_la-gailmisc.lo
+  CCLD     libgail.la
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/a11y'
+Making all in .
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk'
+  CC       libgtk_3_la-gtkcolorsel.lo
+  CC       libgtk_3_la-gtkcolorseldialog.lo
+  CC       libgtk_3_la-gtkfontsel.lo
+  CC       libgtk_3_la-gtkhandlebox.lo
+  CC       libgtk_3_la-gtkhbbox.lo
+  CC       libgtk_3_la-gtkhbox.lo
+  CC       libgtk_3_la-gtkhpaned.lo
+  CC       libgtk_3_la-gtkhscale.lo
+  CC       libgtk_3_la-gtkhscrollbar.lo
+  CC       libgtk_3_la-gtkhseparator.lo
+  CC       libgtk_3_la-gtkhsv.lo
+  CC       libgtk_3_la-gtkrc.lo
+  CC       libgtk_3_la-gtkstyle.lo
+  CC       libgtk_3_la-gtktable.lo
+  CC       libgtk_3_la-gtktearoffmenuitem.lo
+  CC       libgtk_3_la-gtkvbbox.lo
+  CC       libgtk_3_la-gtkvbox.lo
+  CC       libgtk_3_la-gtkvscale.lo
+  CC       libgtk_3_la-gtkvscrollbar.lo
+  CC       libgtk_3_la-gtkvseparator.lo
+  CC       libgtk_3_la-gtkvpaned.lo
+  CC       libgtk_3_la-gactionmuxer.lo
+  CC       libgtk_3_la-gactionobserver.lo
+  CC       libgtk_3_la-gactionobservable.lo
+  CC       libgtk_3_la-gtkactionable.lo
+  CC       libgtk_3_la-gtkquery.lo
+  CC       libgtk_3_la-gtksearchentry.lo
+  CC       libgtk_3_la-gtksearchengine.lo
+  CC       libgtk_3_la-gtksearchenginesimple.lo
+gtksearchenginesimple.c:135: warning: 'search_thread_done_idle' defined but not used
+gtksearchenginesimple.c:177: warning: 'send_batch' defined but not used
+gtksearchenginesimple.c:195: warning: 'search_thread_data' defined but not used
+  CC       libgtk_3_la-fnmatch.lo
+  CC       libgtk_3_la-gtkaboutdialog.lo
+  CC       libgtk_3_la-gtkaccelgroup.lo
+  CC       libgtk_3_la-gtkaccellabel.lo
+  CC       libgtk_3_la-gtkaccelmap.lo
+  CC       libgtk_3_la-gtkaccessible.lo
+  CC       libgtk_3_la-gtkaction.lo
+  CC       libgtk_3_la-gtkactionhelper.lo
+  CC       libgtk_3_la-gtkactiongroup.lo
+  CC       libgtk_3_la-gtkactivatable.lo
+  CC       libgtk_3_la-gtkadjustment.lo
+  CC       libgtk_3_la-gtkalignment.lo
+  CC       libgtk_3_la-gtkallocatedbitmask.lo
+  CC       libgtk_3_la-gtkappchooser.lo
+  CC       libgtk_3_la-gtkappchooserwidget.lo
+  CC       libgtk_3_la-gtkappchooserbutton.lo
+  CC       libgtk_3_la-gtkappchooserdialog.lo
+  CC       libgtk_3_la-gtkappchoosermodule.lo
+  CC       libgtk_3_la-gtkappchooseronline.lo
+  CC       libgtk_3_la-gtkapplication.lo
+  CC       libgtk_3_la-gtkapplicationwindow.lo
+  CC       libgtk_3_la-gtkarrow.lo
+  CC       libgtk_3_la-gtkaspectframe.lo
+  CC       libgtk_3_la-gtkassistant.lo
+  CC       libgtk_3_la-gtkbbox.lo
+  CC       libgtk_3_la-gtkbin.lo
+  CC       libgtk_3_la-gtkbindings.lo
+  CC       libgtk_3_la-gtkborder.lo
+  CC       libgtk_3_la-gtkborderimage.lo
+  CC       libgtk_3_la-gtkbox.lo
+  CC       libgtk_3_la-gtkbuildable.lo
+  CC       libgtk_3_la-gtkbuilder.lo
+  CC       libgtk_3_la-gtkbuilderparser.lo
+  CC       libgtk_3_la-gtkbuilder-menus.lo
+  CC       libgtk_3_la-gtkbutton.lo
+  CC       libgtk_3_la-gtkcairoblur.lo
+  CC       libgtk_3_la-gtkcalendar.lo
+  CC       libgtk_3_la-gtkcellarea.lo
+  CC       libgtk_3_la-gtkcellareabox.lo
+  CC       libgtk_3_la-gtkcellareaboxcontext.lo
+  CC       libgtk_3_la-gtkcellareacontext.lo
+  CC       libgtk_3_la-gtkcelleditable.lo
+  CC       libgtk_3_la-gtkcelllayout.lo
+  CC       libgtk_3_la-gtkcellrenderer.lo
+  CC       libgtk_3_la-gtkcellrendereraccel.lo
+  CC       libgtk_3_la-gtkcellrenderercombo.lo
+  CC       libgtk_3_la-gtkcellrendererpixbuf.lo
+  CC       libgtk_3_la-gtkcellrendererprogress.lo
+  CC       libgtk_3_la-gtkcellrendererspin.lo
+  CC       libgtk_3_la-gtkcellrendererspinner.lo
+  CC       libgtk_3_la-gtkcellrenderertext.lo
+  CC       libgtk_3_la-gtkcellrenderertoggle.lo
+  CC       libgtk_3_la-gtkcellview.lo
+  CC       libgtk_3_la-gtkcheckbutton.lo
+  CC       libgtk_3_la-gtkcheckmenuitem.lo
+  CC       libgtk_3_la-gtkcolorbutton.lo
+  CC       libgtk_3_la-gtkcolorchooser.lo
+  CC       libgtk_3_la-gtkcolorchooserwidget.lo
+  CC       libgtk_3_la-gtkcolorchooserdialog.lo
+  CC       libgtk_3_la-gtkcoloreditor.lo
+  CC       libgtk_3_la-gtkcolorplane.lo
+  CC       libgtk_3_la-gtkcolorscale.lo
+  CC       libgtk_3_la-gtkcolorswatch.lo
+  CC       libgtk_3_la-gtkcolorutils.lo
+  CC       libgtk_3_la-gtkcombobox.lo
+  CC       libgtk_3_la-gtkcomboboxtext.lo
+  CC       libgtk_3_la-gtkcontainer.lo
+  CC       libgtk_3_la-gtkcssanimation.lo
+  CC       libgtk_3_la-gtkcssarrayvalue.lo
+  CC       libgtk_3_la-gtkcssbgsizevalue.lo
+  CC       libgtk_3_la-gtkcssbordervalue.lo
+  CC       libgtk_3_la-gtkcsscomputedvalues.lo
+  CC       libgtk_3_la-gtkcsscornervalue.lo
+  CC       libgtk_3_la-gtkcsscustomproperty.lo
+  CC       libgtk_3_la-gtkcsseasevalue.lo
+  CC       libgtk_3_la-gtkcssenumvalue.lo
+  CC       libgtk_3_la-gtkcssenginevalue.lo
+  CC       libgtk_3_la-gtkcssimage.lo
+  CC       libgtk_3_la-gtkcssimagecrossfade.lo
+  CC       libgtk_3_la-gtkcssimagegradient.lo
+  CC       libgtk_3_la-gtkcssimagelinear.lo
+  CC       libgtk_3_la-gtkcssimageurl.lo
+  CC       libgtk_3_la-gtkcssimagevalue.lo
+  CC       libgtk_3_la-gtkcssimagewin32.lo
+  CC       libgtk_3_la-gtkcssinheritvalue.lo
+  CC       libgtk_3_la-gtkcssinitialvalue.lo
+  CC       libgtk_3_la-gtkcsskeyframes.lo
+  CC       libgtk_3_la-gtkcsslookup.lo
+  CC       libgtk_3_la-gtkcssmatcher.lo
+  CC       libgtk_3_la-gtkcssnumbervalue.lo
+  CC       libgtk_3_la-gtkcssparser.lo
+  CC       libgtk_3_la-gtkcsspositionvalue.lo
+  CC       libgtk_3_la-gtkcssprovider.lo
+  CC       libgtk_3_la-gtkcssrepeatvalue.lo
+  CC       libgtk_3_la-gtkcssrgbavalue.lo
+  CC       libgtk_3_la-gtkcsssection.lo
+  CC       libgtk_3_la-gtkcssselector.lo
+  CC       libgtk_3_la-gtkcssstringvalue.lo
+  CC       libgtk_3_la-gtkcssshadowsvalue.lo
+  CC       libgtk_3_la-gtkcssshadowvalue.lo
+  CC       libgtk_3_la-gtkcssshorthandproperty.lo
+  CC       libgtk_3_la-gtkcssshorthandpropertyimpl.lo
+  CC       libgtk_3_la-gtkcssstylefuncs.lo
+  CC       libgtk_3_la-gtkcssstyleproperty.lo
+  CC       libgtk_3_la-gtkcssstylepropertyimpl.lo
+  CC       libgtk_3_la-gtkcsstransition.lo
+  CC       libgtk_3_la-gtkcsstypedvalue.lo
+  CC       libgtk_3_la-gtkcssvalue.lo
+  CC       libgtk_3_la-gtkcsstypes.lo
+  CC       libgtk_3_la-gtkdialog.lo
+  CC       libgtk_3_la-gtkdrawingarea.lo
+  CC       libgtk_3_la-gtkeditable.lo
+  CC       libgtk_3_la-gtkentry.lo
+  CC       libgtk_3_la-gtkentrybuffer.lo
+  CC       libgtk_3_la-gtkentrycompletion.lo
+  CC       libgtk_3_la-gtkeventbox.lo
+  CC       libgtk_3_la-gtkexpander.lo
+  CC       libgtk_3_la-gtkfilechooser.lo
+  CC       libgtk_3_la-gtkfilechooserbutton.lo
+  CC       libgtk_3_la-gtkfilechooserdefault.lo
+  CC       libgtk_3_la-gtkfilechooserdialog.lo
+  CC       libgtk_3_la-gtkfilechooserembed.lo
+  CC       libgtk_3_la-gtkfilechooserentry.lo
+  CC       libgtk_3_la-gtkfilechooserutils.lo
+  CC       libgtk_3_la-gtkfilechooserwidget.lo
+  CC       libgtk_3_la-gtkfilefilter.lo
+  CC       libgtk_3_la-gtkfilesystem.lo
+  CC       libgtk_3_la-gtkfilesystemmodel.lo
+  CC       libgtk_3_la-gtkfixed.lo
+  CC       libgtk_3_la-gtkfontbutton.lo
+  CC       libgtk_3_la-gtkfontchooser.lo
+  CC       libgtk_3_la-gtkfontchooserdialog.lo
+  CC       libgtk_3_la-gtkfontchooserutils.lo
+  CC       libgtk_3_la-gtkfontchooserwidget.lo
+  CC       libgtk_3_la-gtkframe.lo
+  CC       libgtk_3_la-gtkgradient.lo
+  CC       libgtk_3_la-gtkgrid.lo
+  CC       libgtk_3_la-gtkiconcache.lo
+  CC       libgtk_3_la-gtkiconcachevalidator.lo
+  CC       libgtk_3_la-gtkiconfactory.lo
+  CC       libgtk_3_la-gtkiconhelper.lo
+  CC       libgtk_3_la-gtkicontheme.lo
+  CC       libgtk_3_la-gtkiconview.lo
+  CC       libgtk_3_la-gtkimage.lo
+  CC       libgtk_3_la-gtkimagemenuitem.lo
+  CC       libgtk_3_la-gtkimcontext.lo
+  CC       libgtk_3_la-gtkimcontextsimple.lo
+  CC       libgtk_3_la-gtkimmodule.lo
+gtkimmodule.c: In function 'gtk_im_module_initialize':
+gtkimmodule.c:333: warning: pointer targets in passing argument 2 of '_gtk_immodule_am_et_list' differ in signedness
+gtkimmodule.c:333: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:336: warning: pointer targets in passing argument 2 of '_gtk_immodule_cedilla_list' differ in signedness
+gtkimmodule.c:336: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:339: warning: pointer targets in passing argument 2 of '_gtk_immodule_cyrillic_translit_list' differ in signedness
+gtkimmodule.c:339: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:342: warning: pointer targets in passing argument 2 of '_gtk_immodule_ime_list' differ in signedness
+gtkimmodule.c:342: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:345: warning: pointer targets in passing argument 2 of '_gtk_immodule_inuktitut_list' differ in signedness
+gtkimmodule.c:345: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:348: warning: pointer targets in passing argument 2 of '_gtk_immodule_ipa_list' differ in signedness
+gtkimmodule.c:348: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:351: warning: pointer targets in passing argument 2 of '_gtk_immodule_multipress_list' differ in signedness
+gtkimmodule.c:351: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:354: warning: pointer targets in passing argument 2 of '_gtk_immodule_thai_list' differ in signedness
+gtkimmodule.c:354: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:357: warning: pointer targets in passing argument 2 of '_gtk_immodule_ti_er_list' differ in signedness
+gtkimmodule.c:357: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:360: warning: pointer targets in passing argument 2 of '_gtk_immodule_ti_et_list' differ in signedness
+gtkimmodule.c:360: note: expected 'guint *' but argument is of type 'int *'
+gtkimmodule.c:363: warning: pointer targets in passing argument 2 of '_gtk_immodule_viqr_list' differ in signedness
+gtkimmodule.c:363: note: expected 'guint *' but argument is of type 'int *'
+  CC       libgtk_3_la-gtkimmulticontext.lo
+  CC       libgtk_3_la-gtkinfobar.lo
+  CC       libgtk_3_la-gtkinvisible.lo
+  CC       libgtk_3_la-gtkkeyhash.lo
+  CC       libgtk_3_la-gtklabel.lo
+  CC       libgtk_3_la-gtklayout.lo
+  CC       libgtk_3_la-gtklevelbar.lo
+  CC       libgtk_3_la-gtklinkbutton.lo
+  CC       libgtk_3_la-gtkliststore.lo
+  CC       libgtk_3_la-gtklockbutton.lo
+  CC       libgtk_3_la-gtkmain.lo
+  CC       libgtk_3_la-gtkmarshalers.lo
+  CC       libgtk_3_la-gtkmenu.lo
+  CC       libgtk_3_la-gtkmenubar.lo
+  CC       libgtk_3_la-gtkmenubutton.lo
+  CC       libgtk_3_la-gtkmenuitem.lo
+  CC       libgtk_3_la-gtkmenushell.lo
+gtkmenushell.c: In function 'gtk_real_menu_shell_cycle_focus':
+gtkmenushell.c:1726: warning: unused variable 'priv'
+  CC       libgtk_3_la-gtkmenutoolbutton.lo
+  CC       libgtk_3_la-gtkmessagedialog.lo
+  CC       libgtk_3_la-gtkmisc.lo
+  CC       libgtk_3_la-gtkmnemonichash.lo
+  CC       libgtk_3_la-gtkmodelmenu.lo
+  CC       libgtk_3_la-gtkmodelmenuitem.lo
+  CC       libgtk_3_la-gtkmodifierstyle.lo
+  CC       libgtk_3_la-gtkmodules.lo
+  CC       libgtk_3_la-gtkmountoperation.lo
+gtkmountoperation.c: In function 'add_pid_to_process_list_store':
+gtkmountoperation.c:1080: warning: format '%d' expects type 'int', but argument 2 has type 'GPid'
+  CC       libgtk_3_la-gtknotebook.lo
+  CC       libgtk_3_la-gtknumerableicon.lo
+  CC       libgtk_3_la-gtkoffscreenwindow.lo
+  CC       libgtk_3_la-gtkorientable.lo
+  CC       libgtk_3_la-gtkoverlay.lo
+  CC       libgtk_3_la-gtkpagesetup.lo
+  CC       libgtk_3_la-gtkpaned.lo
+  CC       libgtk_3_la-gtkpango.lo
+  CC       libgtk_3_la-gtkpapersize.lo
+  CC       libgtk_3_la-gtkpathbar.lo
+  CC       libgtk_3_la-gtkpressandhold.lo
+  CC       libgtk_3_la-gtkprintcontext.lo
+  CC       libgtk_3_la-gtkprintoperation.lo
+  CC       libgtk_3_la-gtkprintoperationpreview.lo
+  CC       libgtk_3_la-gtkprintsettings.lo
+  CC       libgtk_3_la-gtkprintutils.lo
+  CC       libgtk_3_la-gtkprivate.lo
+  CC       libgtk_3_la-gtkprivatetypebuiltins.lo
+  CC       libgtk_3_la-gtkprogressbar.lo
+  CC       libgtk_3_la-gtkradioaction.lo
+  CC       libgtk_3_la-gtkradiobutton.lo
+  CC       libgtk_3_la-gtkradiomenuitem.lo
+  CC       libgtk_3_la-gtkradiotoolbutton.lo
+  CC       libgtk_3_la-gtkrange.lo
+  CC       libgtk_3_la-gtkrbtree.lo
+  CC       libgtk_3_la-gtkrecentaction.lo
+  CC       libgtk_3_la-gtkrecentchooserdefault.lo
+  CC       libgtk_3_la-gtkrecentchooserdialog.lo
+  CC       libgtk_3_la-gtkrecentchoosermenu.lo
+  CC       libgtk_3_la-gtkrecentchooserwidget.lo
+  CC       libgtk_3_la-gtkrecentchooserutils.lo
+  CC       libgtk_3_la-gtkrecentchooser.lo
+  CC       libgtk_3_la-gtkrecentfilter.lo
+  CC       libgtk_3_la-gtkrecentmanager.lo
+  CC       libgtk_3_la-gtkresources.lo
+  CC       libgtk_3_la-gtkroundedbox.lo
+  CC       libgtk_3_la-gtkscale.lo
+  CC       libgtk_3_la-gtkscalebutton.lo
+  CC       libgtk_3_la-gtkscrollable.lo
+  CC       libgtk_3_la-gtkscrollbar.lo
+  CC       libgtk_3_la-gtkscrolledwindow.lo
+  CC       libgtk_3_la-gtkselection.lo
+gtkselection.c: In function 'selection_set_compound_text':
+gtkselection.c:1365: warning: unused variable 'new_length'
+gtkselection.c:1364: warning: unused variable 'format'
+gtkselection.c:1363: warning: unused variable 'encoding'
+gtkselection.c:1362: warning: unused variable 'text'
+gtkselection.c:1361: warning: unused variable 'tmp'
+  CC       libgtk_3_la-gtkseparator.lo
+  CC       libgtk_3_la-gtkseparatormenuitem.lo
+  CC       libgtk_3_la-gtkseparatortoolitem.lo
+  CC       libgtk_3_la-gtksettings.lo
+  CC       libgtk_3_la-gtksizegroup.lo
+  CC       libgtk_3_la-gtksizerequest.lo
+  CC       libgtk_3_la-gtkshow.lo
+  CC       libgtk_3_la-gtkspinbutton.lo
+  CC       libgtk_3_la-gtkspinner.lo
+  CC       libgtk_3_la-gtkstatusbar.lo
+  CC       libgtk_3_la-gtkstatusicon.lo
+gtkstatusicon.c: In function 'gtk_status_icon_position_menu':
+gtkstatusicon.c:2264: warning: 'gtk_widget_size_request' is deprecated (declared at ../gtk/gtkwidget.h:477)
+  CC       libgtk_3_la-gtkstock.lo
+  CC       libgtk_3_la-gtkstyleanimation.lo
+  CC       libgtk_3_la-gtkstylecascade.lo
+  CC       libgtk_3_la-gtkstylecontext.lo
+  CC       libgtk_3_la-gtkstyleproperties.lo
+  CC       libgtk_3_la-gtkstyleproperty.lo
+  CC       libgtk_3_la-gtkstyleprovider.lo
+  CC       libgtk_3_la-gtkstyleproviderprivate.lo
+  CC       libgtk_3_la-gtkswitch.lo
+  CC       libgtk_3_la-gtksymboliccolor.lo
+  CC       libgtk_3_la-gtktestutils.lo
+  CC       libgtk_3_la-gtktextattributes.lo
+  CC       libgtk_3_la-gtktextbtree.lo
+  CC       libgtk_3_la-gtktextbuffer.lo
+  CC       libgtk_3_la-gtktextbufferrichtext.lo
+  CC       libgtk_3_la-gtktextbufferserialize.lo
+  CC       libgtk_3_la-gtktextchild.lo
+  CC       libgtk_3_la-gtktextdisplay.lo
+  CC       libgtk_3_la-gtktexthandle.lo
+  CC       libgtk_3_la-gtktextiter.lo
+  CC       libgtk_3_la-gtktextlayout.lo
+  CC       libgtk_3_la-gtktextmark.lo
+  CC       libgtk_3_la-gtktextsegment.lo
+  CC       libgtk_3_la-gtktexttag.lo
+  CC       libgtk_3_la-gtktexttagtable.lo
+  CC       libgtk_3_la-gtktexttypes.lo
+  CC       libgtk_3_la-gtktextutil.lo
+  CC       libgtk_3_la-gtktextview.lo
+  CC       libgtk_3_la-gtkthemingbackground.lo
+  CC       libgtk_3_la-gtkthemingengine.lo
+  CC       libgtk_3_la-gtktoggleaction.lo
+  CC       libgtk_3_la-gtktogglebutton.lo
+  CC       libgtk_3_la-gtktoggletoolbutton.lo
+  CC       libgtk_3_la-gtktoolbar.lo
+  CC       libgtk_3_la-gtktoolbutton.lo
+  CC       libgtk_3_la-gtktoolitem.lo
+  CC       libgtk_3_la-gtktoolitemgroup.lo
+  CC       libgtk_3_la-gtktoolpalette.lo
+  CC       libgtk_3_la-gtktoolshell.lo
+  CC       libgtk_3_la-gtktooltip.lo
+  CC       libgtk_3_la-gtktreedatalist.lo
+  CC       libgtk_3_la-gtktreednd.lo
+  CC       libgtk_3_la-gtktreemenu.lo
+  CC       libgtk_3_la-gtktreemodel.lo
+  CC       libgtk_3_la-gtktreemodelfilter.lo
+  CC       libgtk_3_la-gtktreemodelsort.lo
+  CC       libgtk_3_la-gtktreeselection.lo
+  CC       libgtk_3_la-gtktreesortable.lo
+  CC       libgtk_3_la-gtktreestore.lo
+  CC       libgtk_3_la-gtktreeview.lo
+  CC       libgtk_3_la-gtktreeviewcolumn.lo
+  CC       libgtk_3_la-gtktypebuiltins.lo
+  CC       libgtk_3_la-gtkuimanager.lo
+  CC       libgtk_3_la-gtkvolumebutton.lo
+  CC       libgtk_3_la-gtkviewport.lo
+  CC       libgtk_3_la-gtkwidget.lo
+  CC       libgtk_3_la-gtkwidgetpath.lo
+  CC       libgtk_3_la-gtkwindow.lo
+gtkwindow.c:8462: warning: 'gtk_window_on_theme_variant_changed' defined but not used
+  CC       libgtk_3_la-gtkwin32theme.lo
+  CC       libgtk_3_la-gtkclipboard.lo
+  CC       libgtk_3_la-gtkdnd.lo
+  CC       libgtk_3_la-gtkdbusgenerated.lo
+  CC       libgtk_3_la-gtkprint-win32.lo
+gtkprint-win32.c:21:1: warning: "WINVER" redefined
+<command-line>: warning: this is the location of the previous definition
+  CC       libgtk_3_la-gtkprintoperation-win32.lo
+gtkprintoperation-win32.c:21:1: warning: "WINVER" redefined
+<command-line>: warning: this is the location of the previous definition
+gtkprintoperation-win32.c: In function 'devmode_to_settings':
+gtkprintoperation-win32.c:681: warning: pointer targets in passing argument 1 of 'g_base64_encode' differ in signedness
+/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib/gbase64.h:42: note: expected 'const guchar *' but argument is of type 'char *'
+gtkprintoperation-win32.c: In function 'devmode_from_settings':
+gtkprintoperation-win32.c:945: warning: pointer targets in passing argument 2 of 'g_base64_decode' differ in signedness
+/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib/gbase64.h:49: note: expected 'gsize *' but argument is of type 'int *'
+gtkprintoperation-win32.c:945: warning: pointer targets in assignment differ in signedness
+  CC       libgtk_3_la-gtkwin32.lo
+  CC       libgtk_3_la-gtkwin32embed.lo
+  CC       libgtk_3_la-gtkwin32embedwidget.lo
+gtkwin32embedwidget.c: In function 'gtk_win32_embed_widget_realize':
+gtkwin32embedwidget.c:212: warning: assignment discards qualifiers from pointer target type
+  CC       libgtk_3_la-gtkmountoperation-stub.lo
+gtkmountoperation-stub.c: In function '_gtk_mount_operation_kill_process':
+gtkmountoperation-stub.c:63: warning: format '%d' expects type 'int', but argument 5 has type 'GPid'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules/input'
+  CC       imam-et.lo
+  CCLD     libstatic-im-am-et.la
+  CC       imcedilla.lo
+  CCLD     libstatic-im-cedilla.la
+  CC       imcyrillic-translit.lo
+  CCLD     libstatic-im-cyrillic-translit.la
+  CC       gtkimcontextime.lo
+gtkimcontextime.c: In function 'gtk_im_context_ime_filter_keypress':
+gtkimcontextime.c:331: warning: pointer targets in passing argument 2 of 'g_unichar_to_utf8' differ in signedness
+/srv/win32builder/fixed_364/build/win32/include/glib-2.0/glib/gunicode.h:685: note: expected 'gchar *' but argument is of type 'guchar *'
+  CC       imime.lo
+  CCLD     libstatic-im-ime.la
+  CC       iminuktitut.lo
+  CCLD     libstatic-im-inuktitut.la
+  CC       imipa.lo
+  CCLD     libstatic-im-ipa.la
+  CC       libstatic_im_multipress_la-gtkimcontextmultipress.lo
+  CC       libstatic_im_multipress_la-immultipress.lo
+  CCLD     libstatic-im-multipress.la
+  CC       thai-charprop.lo
+  CC       gtkimcontextthai.lo
+  CC       imthai.lo
+  CCLD     libstatic-im-thai.la
+  CC       imti-er.lo
+  CCLD     libstatic-im-ti-er.la
+  CC       imti-et.lo
+  CCLD     libstatic-im-ti-et.la
+  CC       imviqr.lo
+  CCLD     libstatic-im-viqr.la
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules/input'
+i686-pc-mingw32-windres gtk-win32.rc gtk-win32-res.o
+  CCLD     libgtk-3.la
+Creating library file: .libs/libgtk-3.dll.a
+  CC       queryimmodules.o
+  CCLD     gtk-query-immodules-3.0.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       updateiconcache.o
+  CCLD     gtk-update-icon-cache.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+(echo '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>' ; \
+	 echo '<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">' ; \
+	 echo '  <assemblyIdentity version="1.0.0.0"' ; \
+	 echo '     processorArchitecture="'X86'"' ; \
+	 echo '     name="gtk-update-icon-cache.exe"' ; \
+	 echo '     type="win32"/>' ; \
+	 echo '  <!-- Identify the application security requirements. -->' ; \
+	 echo '  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">' ; \
+	 echo '    <security>' ; \
+	 echo '      <requestedPrivileges>' ; \
+	 echo '        <requestedExecutionLevel' ; \
+	 echo '          level="asInvoker"' ; \
+	 echo '          uiAccess="false"/>' ; \
+	 echo '        </requestedPrivileges>' ; \
+	 echo '       </security>' ; \
+	 echo '  </trustInfo>' ; \
+	 echo '</assembly>' ) >gtk-update-icon-cache.exe.manifest
+  GEN      org.gtk.Settings.FileChooser.gschema.valid
+  GEN      org.gtk.Settings.ColorChooser.gschema.valid
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk'
+Making all in tests
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/tests'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/tests'
+  CC       testing.o
+  CCLD     testing.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       treemodel.o
+  CC       liststore.o
+  CC       treestore.o
+  CC       filtermodel.o
+  CC       sortmodel.o
+  CC       modelrefcount.o
+  CC       gtktreemodelrefcount.o
+  CCLD     treemodel.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       treeview.o
+  CCLD     treeview.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       treeview-scrolling.o
+  CCLD     treeview-scrolling.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       recentmanager.o
+  CCLD     recentmanager.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       floating.o
+  CCLD     floating.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       accel.o
+  CCLD     accel.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       builder.o
+  CCLD     builder.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       textbuffer.o
+  CCLD     textbuffer.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       textiter.o
+  CCLD     textiter.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       expander.o
+  CCLD     expander.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       action.o
+  CCLD     action.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       stylecontext.o
+  CCLD     stylecontext.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       papersize.o
+  CCLD     papersize.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       cellarea.o
+  CCLD     cellarea.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       treepath.o
+  CCLD     treepath.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       accessible.o
+  CCLD     accessible.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       entry.o
+  CCLD     entry.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       grid.o
+  CCLD     grid.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       rbtree-rbtree.o
+  CC       rbtree-gtkrbtree.o
+  CCLD     rbtree.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       bitmask-bitmask.o
+  CC       bitmask-gtkallocatedbitmask.o
+  CCLD     bitmask.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       regression-tests.o
+  CCLD     regression-tests.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       keyhash-keyhash.o
+  CC       keyhash-gtkkeyhash.o
+  CC       keyhash-gtkprivate.o
+  CCLD     keyhash.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/tests'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/tests'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk'
+Making all in libgail-util
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/libgail-util'
+  CC       libgailutil_3_la-gailmisc.lo
+  CC       libgailutil_3_la-gailtextutil.lo
+  CCLD     libgailutil-3.la
+Creating library file: .libs/libgailutil-3.dll.a
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/libgail-util'
+Making all in modules
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules'
+Making all in input
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules/input'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules/input'
+Making all in engines
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules/engines'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules/engines'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules/engines'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules/engines'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/modules'
+Making all in demos
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos'
+Making all in gtk-demo
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/gtk-demo'
+  GEN      demos.h
+make  all-am
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/gtk-demo'
+  CC       application.o
+  CC       appwindow.o
+  CC       assistant.o
+  CC       builder.o
+  CC       button_box.o
+  CC       changedisplay.o
+  CC       clipboard.o
+  CC       colorsel.o
+  CC       combobox.o
+  CC       css_accordion.o
+  CC       css_basics.o
+  CC       css_multiplebgs.o
+  CC       css_pixbufs.o
+  CC       css_shadows.o
+  CC       dialog.o
+  CC       drawingarea.o
+  CC       editable_cells.o
+  CC       entry_buffer.o
+  CC       entry_completion.o
+  CC       expander.o
+  CC       hypertext.o
+  CC       iconview.o
+  CC       iconview_edit.o
+  CC       images.o
+  CC       infobar.o
+  CC       links.o
+  CC       list_store.o
+  CC       menus.o
+  CC       offscreen_window.o
+  CC       offscreen_window2.o
+  CC       overlay.o
+  CC       panes.o
+  CC       pickers.o
+  CC       pixbufs.o
+  CC       printing.o
+  CC       rotated_text.o
+  CC       search_entry.o
+  CC       sizegroup.o
+  CC       spinner.o
+  CC       stock_browser.o
+  CC       textview.o
+  CC       textscroll.o
+  CC       theming_style_classes.o
+  CC       theming_custom_css.o
+  CC       toolpalette.o
+  CC       transparent.o
+  CC       tree_store.o
+  CC       ui_manager.o
+  CC       demo_resources.o
+  CC       main.o
+  CCLD     gtk3-demo.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       application-standalone.o
+  CCLD     gtk3-demo-application.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  GEN      org.gtk.Demo.gschema.valid
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/gtk-demo'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/gtk-demo'
+Making all in widget-factory
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/widget-factory'
+make  all-am
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/widget-factory'
+  CC       gtk3_widget_factory-widget-factory.o
+  CC       gtk3_widget_factory-widget_factory_resources.o
+  CCLD     gtk3-widget-factory.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/widget-factory'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/widget-factory'
+Making all in pixbuf-demo
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/pixbuf-demo'
+  CC       pixbuf-demo.o
+  CCLD     pixbuf-demo.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos/pixbuf-demo'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/demos'
+Making all in tests
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests'
+Making all in css
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/css'
+Making all in parser
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/css/parser'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/css/parser'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/css'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/css'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/css'
+Making all in reftests
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/reftests'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/reftests'
+Making all in a11y
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/a11y'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/a11y'
+Making all in visuals
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/visuals'
+  CC       visuals.o
+  CCLD     visuals.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests/visuals'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests'
+  CC       simple.o
+  CCLD     simple.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       flicker.o
+  CCLD     flicker.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       print-editor.o
+  CCLD     print-editor.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testaccel.o
+  CCLD     testaccel.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testadjustsize.o
+  CCLD     testadjustsize.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testappchooser.o
+  CCLD     testappchooser.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testappchooserbutton.o
+  CCLD     testappchooserbutton.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testassistant.o
+  CCLD     testassistant.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testbbox.o
+  CCLD     testbbox.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testboxcss.o
+  CC       prop-editor.o
+  CCLD     testboxcss.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testbuttons.o
+  CCLD     testbuttons.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testcairo.o
+  CCLD     testcairo.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testcalendar.o
+  CCLD     testcalendar.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testclipboard.o
+  CCLD     testclipboard.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testcolorchooser.o
+  CCLD     testcolorchooser.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testcombo.o
+  CCLD     testcombo.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testcombochange.o
+  CCLD     testcombochange.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testcellrenderertext.o
+  CCLD     testcellrenderertext.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testdnd.o
+  CCLD     testdnd.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testellipsise.o
+  CCLD     testellipsise.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testentrycompletion.o
+  CCLD     testentrycompletion.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testentryicons.o
+  CCLD     testentryicons.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testfilechooser.o
+  CCLD     testfilechooser.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testfilechooserbutton.o
+  CCLD     testfilechooserbutton.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testfontselection.o
+  CCLD     testfontselection.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testfontselectiondialog.o
+  CCLD     testfontselectiondialog.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testfontchooser.o
+  CCLD     testfontchooser.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testfontchooserdialog.o
+  CCLD     testfontchooserdialog.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testframe.o
+  CCLD     testframe.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testgeometry.o
+  CCLD     testgeometry.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testgiconpixbuf.o
+  CCLD     testgiconpixbuf.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testgrid.o
+  CCLD     testgrid.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testgtk.o
+testgtk.c: In function 'create_cursors':
+testgtk.c:4663: warning: unused variable 'size'
+testgtk.c:4662: warning: unused variable 'entry'
+  CCLD     testgtk.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testheightforwidth.o
+  CCLD     testheightforwidth.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testiconview.o
+  CCLD     testiconview.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testiconview-keynav.o
+  CCLD     testiconview-keynav.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testicontheme.o
+  CCLD     testicontheme.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testimage.o
+  CCLD     testimage.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testinput.o
+  CCLD     testinput.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testkineticscrolling.o
+  CCLD     testkineticscrolling.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testlockbutton.o
+  CCLD     testlockbutton.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testmenubars.o
+  CCLD     testmenubars.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testmenubutton.o
+  CCLD     testmenubutton.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testmountoperation.o
+  CCLD     testmountoperation.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testmultidisplay.o
+  CCLD     testmultidisplay.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testmultiscreen.o
+  CCLD     testmultiscreen.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testnotebookdnd.o
+  CCLD     testnotebookdnd.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testnumerableicon.o
+  CCLD     testnumerableicon.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testnouiprint.o
+  CCLD     testnouiprint.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       gtkoffscreenbox.o
+  CC       testoffscreen.o
+  CCLD     testoffscreen.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testoffscreenwindow.o
+  CCLD     testoffscreenwindow.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testorientable.o
+  CCLD     testorientable.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testoverlay.o
+  CCLD     testoverlay.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testoverlaystyleclass.o
+  CCLD     testoverlaystyleclass.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testprint.o
+  CC       testprintfileoperation.o
+  CCLD     testprint.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testrecentchooser.o
+  CCLD     testrecentchooser.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testrecentchoosermenu.o
+  CCLD     testrecentchoosermenu.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testrichtext.o
+  CCLD     testrichtext.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testscale.o
+  CCLD     testscale.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testselection.o
+  CCLD     testselection.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testspinbutton.o
+  CCLD     testspinbutton.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       teststatusicon.o
+  CCLD     teststatusicon.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtoolbar.o
+  CCLD     testtoolbar.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       stresstest-toolbar.o
+  CCLD     stresstest-toolbar.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreechanging.o
+  CCLD     testtreechanging.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreeedit.o
+  CCLD     testtreeedit.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreemodel.o
+testtreemodel.c: In function 'test_run':
+testtreemodel.c:215: warning: unused variable 'uordblks_before'
+  CCLD     testtreemodel.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreeview.o
+  CCLD     testtreeview.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreefocus.o
+  CCLD     testtreefocus.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreeflow.o
+  CCLD     testtreeflow.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreecolumns.o
+  CCLD     testtreecolumns.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreecolumnsizing.o
+  CCLD     testtreecolumnsizing.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreesort.o
+  CCLD     testtreesort.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testverticalcells.o
+  CCLD     testverticalcells.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       treestoretest.o
+  CCLD     treestoretest.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testxinerama.o
+  CCLD     testxinerama.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testwindows.o
+  CCLD     testwindows.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testmerge.o
+  CCLD     testmerge.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testactions.o
+  CCLD     testactions.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testgrouping.o
+  CCLD     testgrouping.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtooltips.o
+  CCLD     testtooltips.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testexpand.o
+  CCLD     testexpand.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testexpander.o
+  CCLD     testexpander.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testvolumebutton.o
+  CCLD     testvolumebutton.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testscrolledwindow.o
+  CCLD     testscrolledwindow.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testswitch.o
+  CCLD     testswitch.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testcellarea.o
+  CCLD     testcellarea.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       styleexamples.o
+  CCLD     styleexamples.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreemenu.o
+  CCLD     testtreemenu.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtoplevelembed.o
+  CCLD     testtoplevelembed.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testnoscreen.o
+  CCLD     testnoscreen.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtreepos.o
+  CCLD     testtreepos.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testsensitive.o
+  CCLD     testsensitive.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testtextview.o
+  CCLD     testtextview.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testanimation.o
+  CCLD     testanimation.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testpixbuf-save.o
+  CCLD     testpixbuf-save.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testpixbuf-color.o
+  CCLD     testpixbuf-color.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testpixbuf-scale.o
+  CCLD     testpixbuf-scale.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testgmenu.o
+  CCLD     testgmenu.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       testlogout.o
+  CCLD     testlogout.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CXX      autotestkeywords-autotestkeywords.o
+  CXXLD    autotestkeywords.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/tests'
+Making all in perf
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/perf'
+( cd . && glib-mkenums --template typebuiltins.h.template \
+		gtkwidgetprofiler.h ) >> xgen-gtbh \
+	&& (cmp -s xgen-gtbh typebuiltins.h || cp xgen-gtbh typebuiltins.h ) \
+	&& rm -f xgen-gtbh \
+	&& echo timestamp > stamp-typebuiltins.h
+make  all-am
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/perf'
+  CC       appwindow.o
+  CC       gtkwidgetprofiler.o
+  CC       main.o
+  CC       textview.o
+  CC       treeview.o
+  CC       typebuiltins.o
+  CCLD     testperf.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/perf'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/perf'
+Making all in examples
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/examples'
+  CC       hello-world.o
+  CCLD     hello-world.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       window-default.o
+  CCLD     window-default.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       bloatpad.o
+  CCLD     bloatpad.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       plugman.o
+  CCLD     plugman.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       sunny.o
+  CCLD     sunny.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       action-namespace.o
+  CCLD     action-namespace.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       grid-packing.o
+  CCLD     grid-packing.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       drawing.o
+  CCLD     drawing.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC       builder.o
+  CCLD     builder.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gtk/.libs:/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/gdk/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/examples'
+Making all in docs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs'
+Making all in reference
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference'
+Making all in gdk
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference/gdk'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference/gdk'
+Making all in gtk
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference/gtk'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference/gtk'
+Making all in libgail-util
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference/libgail-util'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference/libgail-util'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/reference'
+Making all in tools
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/tools'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs/tools'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/docs'
+Making all in m4macros
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/m4macros'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/m4macros'
+Making all in build
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build'
+Making all in win32
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build/win32'
+Making all in vs9
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build/win32/vs9'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build/win32/vs10'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build/win32/vs10'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build/win32'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build/win32'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build/win32'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4/build'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4'
+rm -f gtk+-win32-3.0.pc && \
+	cp gtk+-3.0.pc gtk+-win32-3.0.pc
+rm -f gdk-win32-3.0.pc && \
+	cp gdk-3.0.pc gdk-win32-3.0.pc
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/52_gtk3/gtk+-3.6.4'

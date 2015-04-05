@@ -1,0 +1,206 @@
+Making install in port
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/port'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/port'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/port'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/port'
+Making install in libtiff
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libtiff.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libtiff.dll.a /srv/win32builder/fixed_364/build/win32/lib/libtiff.dll.a
+libtool: install: base_file=`basename libtiff.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libtiff.la'i; echo libtiff-5.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libtiff-5.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libtiff-5.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libtiff-5.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libtiff-5.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libtiff-5.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libtiff.lai /srv/win32builder/fixed_364/build/win32/lib/libtiff.la
+libtool: install: /usr/bin/install -c .libs/libtiff.a /srv/win32builder/fixed_364/build/win32/lib/libtiff.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/libtiff.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/libtiff.a
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include'
+ /usr/bin/install -c -m 644 tiff.h tiffio.h tiffvers.h '/srv/win32builder/fixed_364/build/win32/include'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include'
+ /usr/bin/install -c -m 644 tiffconf.h '/srv/win32builder/fixed_364/build/win32/include'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/libtiff'
+Making install in tools
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/tools'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/tools'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c bmp2tiff.exe fax2ps.exe fax2tiff.exe gif2tiff.exe pal2rgb.exe ppm2tiff.exe ras2tiff.exe raw2tiff.exe rgb2ycbcr.exe thumbnail.exe tiff2bw.exe tiff2pdf.exe tiff2ps.exe tiff2rgba.exe tiffcmp.exe tiffcp.exe tiffcrop.exe tiffdither.exe tiffdump.exe tiffinfo.exe tiffmedian.exe tiffset.exe tiffsplit.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/bmp2tiff.exe /srv/win32builder/fixed_364/build/win32/bin/bmp2tiff.exe
+libtool: install: /usr/bin/install -c .libs/fax2ps.exe /srv/win32builder/fixed_364/build/win32/bin/fax2ps.exe
+libtool: install: /usr/bin/install -c .libs/fax2tiff.exe /srv/win32builder/fixed_364/build/win32/bin/fax2tiff.exe
+libtool: install: /usr/bin/install -c .libs/gif2tiff.exe /srv/win32builder/fixed_364/build/win32/bin/gif2tiff.exe
+libtool: install: /usr/bin/install -c .libs/pal2rgb.exe /srv/win32builder/fixed_364/build/win32/bin/pal2rgb.exe
+libtool: install: /usr/bin/install -c .libs/ppm2tiff.exe /srv/win32builder/fixed_364/build/win32/bin/ppm2tiff.exe
+libtool: install: /usr/bin/install -c .libs/ras2tiff.exe /srv/win32builder/fixed_364/build/win32/bin/ras2tiff.exe
+libtool: install: /usr/bin/install -c .libs/raw2tiff.exe /srv/win32builder/fixed_364/build/win32/bin/raw2tiff.exe
+libtool: install: /usr/bin/install -c .libs/rgb2ycbcr.exe /srv/win32builder/fixed_364/build/win32/bin/rgb2ycbcr.exe
+libtool: install: /usr/bin/install -c .libs/thumbnail.exe /srv/win32builder/fixed_364/build/win32/bin/thumbnail.exe
+libtool: install: /usr/bin/install -c .libs/tiff2bw.exe /srv/win32builder/fixed_364/build/win32/bin/tiff2bw.exe
+libtool: install: /usr/bin/install -c .libs/tiff2pdf.exe /srv/win32builder/fixed_364/build/win32/bin/tiff2pdf.exe
+libtool: install: /usr/bin/install -c .libs/tiff2ps.exe /srv/win32builder/fixed_364/build/win32/bin/tiff2ps.exe
+libtool: install: /usr/bin/install -c .libs/tiff2rgba.exe /srv/win32builder/fixed_364/build/win32/bin/tiff2rgba.exe
+libtool: install: /usr/bin/install -c .libs/tiffcmp.exe /srv/win32builder/fixed_364/build/win32/bin/tiffcmp.exe
+libtool: install: /usr/bin/install -c .libs/tiffcp.exe /srv/win32builder/fixed_364/build/win32/bin/tiffcp.exe
+libtool: install: /usr/bin/install -c .libs/tiffcrop.exe /srv/win32builder/fixed_364/build/win32/bin/tiffcrop.exe
+libtool: install: /usr/bin/install -c .libs/tiffdither.exe /srv/win32builder/fixed_364/build/win32/bin/tiffdither.exe
+libtool: install: /usr/bin/install -c .libs/tiffdump.exe /srv/win32builder/fixed_364/build/win32/bin/tiffdump.exe
+libtool: install: /usr/bin/install -c .libs/tiffinfo.exe /srv/win32builder/fixed_364/build/win32/bin/tiffinfo.exe
+libtool: install: /usr/bin/install -c .libs/tiffmedian.exe /srv/win32builder/fixed_364/build/win32/bin/tiffmedian.exe
+libtool: install: /usr/bin/install -c .libs/tiffset.exe /srv/win32builder/fixed_364/build/win32/bin/tiffset.exe
+libtool: install: /usr/bin/install -c .libs/tiffsplit.exe /srv/win32builder/fixed_364/build/win32/bin/tiffsplit.exe
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/tools'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/tools'
+Making install in build
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/build'
+Making install in contrib
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+Making install in addtiffo
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/addtiffo'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/addtiffo'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/addtiffo'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/addtiffo'
+Making install in dbs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+Making install in xtiff
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs/xtiff'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs/xtiff'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs/xtiff'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs/xtiff'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/dbs'
+Making install in iptcutil
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/iptcutil'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/iptcutil'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/iptcutil'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/iptcutil'
+Making install in mfs
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/mfs'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/mfs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/mfs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/mfs'
+Making install in pds
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/pds'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/pds'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/pds'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/pds'
+Making install in ras
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/ras'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/ras'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/ras'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/ras'
+Making install in stream
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/stream'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/stream'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/stream'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/stream'
+Making install in tags
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/tags'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/tags'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/tags'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/tags'
+Making install in win_dib
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/win_dib'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/win_dib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/win_dib'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib/win_dib'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/contrib'
+Making install in test
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/test'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/test'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/test'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/test'
+Making install in man
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/man'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/man'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 bmp2tiff.1 fax2ps.1 fax2tiff.1 gif2tiff.1 pal2rgb.1 ppm2tiff.1 ras2tiff.1 raw2tiff.1 rgb2ycbcr.1 sgi2tiff.1 thumbnail.1 tiff2bw.1 tiff2pdf.1 tiff2ps.1 tiff2rgba.1 tiffcmp.1 tiffcp.1 tiffcrop.1 tiffdither.1 tiffdump.1 tiffgt.1 tiffinfo.1 tiffmedian.1 tiffset.1 tiffsplit.1 tiffsv.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man3'
+ /usr/bin/install -c -m 644 libtiff.3tiff TIFFbuffer.3tiff TIFFClose.3tiff TIFFcodec.3tiff TIFFcolor.3tiff TIFFDataWidth.3tiff TIFFError.3tiff TIFFFieldDataType.3tiff TIFFFieldName.3tiff TIFFFieldPassCount.3tiff TIFFFieldReadCount.3tiff TIFFFieldTag.3tiff TIFFFieldWriteCount.3tiff TIFFFlush.3tiff TIFFGetField.3tiff TIFFmemory.3tiff TIFFOpen.3tiff TIFFPrintDirectory.3tiff TIFFquery.3tiff TIFFReadDirectory.3tiff TIFFReadEncodedStrip.3tiff TIFFReadEncodedTile.3tiff TIFFReadRawStrip.3tiff TIFFReadRawTile.3tiff TIFFReadRGBAImage.3tiff TIFFReadRGBAStrip.3tiff TIFFReadRGBATile.3tiff TIFFReadScanline.3tiff TIFFReadTile.3tiff TIFFRGBAImage.3tiff TIFFSetDirectory.3tiff TIFFSetField.3tiff TIFFsize.3tiff TIFFstrip.3tiff TIFFswab.3tiff TIFFtile.3tiff TIFFWarning.3tiff TIFFWriteDirectory.3tiff TIFFWriteEncodedStrip.3tiff TIFFWriteEncodedTile.3tiff '/srv/win32builder/fixed_364/build/win32/share/man/man3'
+ /usr/bin/install -c -m 644 TIFFWriteRawStrip.3tiff TIFFWriteRawTile.3tiff TIFFWriteScanline.3tiff TIFFWriteTile.3tiff '/srv/win32builder/fixed_364/build/win32/share/man/man3'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/man'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/man'
+Making install in html
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+Making install in images
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/images'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/images'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3/html/images'
+ /usr/bin/install -c -m 644 back.gif bali.jpg cat.gif cover.jpg cramps.gif dave.gif info.gif jello.jpg jim.gif note.gif oxford.gif quad.jpg ring.gif smallliz.jpg strike.gif warning.gif '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3/html/images'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/images'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/images'
+Making install in man
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/man'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/man'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3/html/man'
+ /usr/bin/install -c -m 644 index.html libtiff.3tiff.html TIFFbuffer.3tiff.html TIFFClose.3tiff.html TIFFcodec.3tiff.html TIFFcolor.3tiff.html TIFFDataWidth.3tiff.html TIFFError.3tiff.html TIFFFieldDataType.3tiff.html TIFFFieldName.3tiff.html TIFFFieldPassCount.3tiff.html TIFFFieldReadCount.3tiff.html TIFFFieldTag.3tiff.html TIFFFieldWriteCount.3tiff.html TIFFFlush.3tiff.html TIFFGetField.3tiff.html TIFFmemory.3tiff.html TIFFOpen.3tiff.html TIFFPrintDirectory.3tiff.html TIFFquery.3tiff.html TIFFReadDirectory.3tiff.html TIFFReadEncodedStrip.3tiff.html TIFFReadEncodedTile.3tiff.html TIFFReadRawStrip.3tiff.html TIFFReadRawTile.3tiff.html TIFFReadRGBAImage.3tiff.html TIFFReadRGBAStrip.3tiff.html TIFFReadRGBATile.3tiff.html TIFFReadScanline.3tiff.html TIFFReadTile.3tiff.html TIFFRGBAImage.3tiff.html TIFFSetDirectory.3tiff.html TIFFSetField.3tiff.html TIFFsize.3tiff.html TIFFstrip.3tiff.html TIFFswab.3tiff.html TIFFtile.3tiff.html TIFFWarning.3tiff.html TIFFWriteDirectory.3tiff.html TIFFWriteEncodedStrip.3tiff.html '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3/html/man'
+ /usr/bin/install -c -m 644 TIFFWriteEncodedTile.3tiff.html TIFFWriteRawStrip.3tiff.html TIFFWriteRawTile.3tiff.html TIFFWriteScanline.3tiff.html TIFFWriteTile.3tiff.html bmp2tiff.1.html fax2ps.1.html fax2tiff.1.html gif2tiff.1.html pal2rgb.1.html ppm2tiff.1.html ras2tiff.1.html raw2tiff.1.html rgb2ycbcr.1.html sgi2tiff.1.html thumbnail.1.html tiff2bw.1.html tiff2pdf.1.html tiff2ps.1.html tiff2rgba.1.html tiffcmp.1.html tiffcp.1.html tiffcrop.1.html tiffdither.1.html tiffdump.1.html tiffgt.1.html tiffinfo.1.html tiffmedian.1.html tiffset.1.html tiffsplit.1.html tiffsv.1.html '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3/html/man'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/man'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html/man'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3/html'
+ /usr/bin/install -c -m 644 addingtags.html bugs.html build.html contrib.html document.html images.html index.html internals.html intro.html libtiff.html misc.html support.html TIFFTechNote2.html tools.html v3.4beta007.html v3.4beta016.html v3.4beta018.html v3.4beta024.html v3.4beta028.html v3.4beta029.html v3.4beta031.html v3.4beta032.html v3.4beta033.html v3.4beta034.html v3.4beta035.html v3.4beta036.html v3.5.1.html v3.5.2.html v3.5.3.html v3.5.4.html v3.5.5.html v3.5.6-beta.html v3.5.7.html v3.6.0.html v3.6.1.html v3.7.0alpha.html v3.7.0beta.html v3.7.0beta2.html v3.7.0.html v3.7.1.html '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3/html'
+ /usr/bin/install -c -m 644 v3.7.2.html v3.7.3.html v3.7.4.html v3.8.0.html v3.8.1.html v3.8.2.html v3.9.0beta.html v3.9.1.html v3.9.2.html v4.0.0.html v4.0.1.html v4.0.2.html '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3/html'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3/html'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3'
+ /usr/bin/install -c -m 644 COPYRIGHT ChangeLog README README.vms RELEASE-DATE TODO VERSION '/srv/win32builder/fixed_364/build/win32/share/doc/tiff-4.0.3'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libtiff-4.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/43_libtiff/tiff-4.0.3'

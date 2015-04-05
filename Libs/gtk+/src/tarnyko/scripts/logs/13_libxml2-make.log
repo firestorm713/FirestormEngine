@@ -1,0 +1,466 @@
+make  all-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0'
+Making all in include
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+Making all in libxml
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include/libxml'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include/libxml'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/include'
+Making all in .
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0'
+  CC     SAX.lo
+  CC     entities.lo
+  CC     encoding.lo
+  CC     error.lo
+  CC     parserInternals.lo
+  CC     parser.lo
+In file included from /srv/win32builder/fixed_364/build/win32/include/lzma.h:281,
+                 from parser.c:83:
+/srv/win32builder/fixed_364/build/win32/include/lzma/base.h:218: warning: comma at end of enumerator list
+parser.c: In function 'xmlParseInNodeContext':
+parser.c:13084: warning: pointer targets in passing argument 1 of 'xmlFindCharEncodingHandler' differ in signedness
+./include/libxml/encoding.h:175: note: expected 'const char *' but argument is of type 'const xmlChar *'
+  CC     tree.lo
+  CC     hash.lo
+  CC     list.lo
+  CC     xmlIO.lo
+In file included from /srv/win32builder/fixed_364/build/win32/include/lzma.h:281,
+                 from xmlIO.c:39:
+/srv/win32builder/fixed_364/build/win32/include/lzma/base.h:218: warning: comma at end of enumerator list
+  CC     xmlmemory.lo
+  CC     uri.lo
+uri.c: In function 'xmlCanonicPath':
+uri.c:2544: warning: pointer targets in assignment differ in signedness
+uri.c:2553: warning: pointer targets in assignment differ in signedness
+uri.c:2554: warning: pointer targets in passing argument 1 of 'strncpy' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:52: note: expected 'char *' but argument is of type 'xmlChar *'
+uri.c:2554: warning: pointer targets in passing argument 2 of 'strncpy' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:52: note: expected 'const char *' but argument is of type 'const xmlChar *'
+uri.c:2556: warning: pointer targets in assignment differ in signedness
+uri.c:2561: warning: pointer targets in assignment differ in signedness
+uri.c:2475: warning: unused variable 'i'
+  CC     valid.lo
+  CC     xlink.lo
+  CC     HTMLparser.lo
+  CC     HTMLtree.lo
+  CC     debugXML.lo
+  CC     xpath.lo
+xpath.c: In function 'xmlXPathRegisterFuncNS':
+xpath.c:4800: warning: ISO C forbids passing argument 4 of 'xmlHashAddEntry2' between function pointer and 'void *'
+./include/libxml/hash.h:128: note: expected 'void *' but argument is of type 'xmlXPathFunction'
+xpath.c: In function 'xmlXPathFunctionLookupNS':
+xpath.c:4881: warning: ISO C forbids assignment between function pointer and 'void *'
+xpath.c: In function 'xmlXPathCompOpEval':
+xpath.c:13456: warning: ISO C forbids assignment between function pointer and 'void *'
+xpath.c:13483: warning: ISO C forbids assignment between function pointer and 'void *'
+xpath.c: At top level:
+trionan.c:218: warning: 'trio_is_negative' defined but not used
+  CC     xpointer.lo
+  CC     xinclude.lo
+  CC     nanohttp.lo
+nanohttp.c: In function 'xmlNanoHTTPConnectAttempt':
+nanohttp.c:992: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:543: note: expected 'int *' but argument is of type 'unsigned int *'
+  CC     nanoftp.lo
+nanoftp.c: In function 'xmlNanoFTPGetConnection':
+nanoftp.c:1471: warning: pointer targets in passing argument 3 of 'getsockname' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:542: note: expected 'int *' but argument is of type 'unsigned int *'
+nanoftp.c:1484: warning: pointer targets in passing argument 3 of 'getsockname' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winsock2.h:542: note: expected 'int *' but argument is of type 'unsigned int *'
+  CC     DOCBparser.lo
+  CC     catalog.lo
+catalog.c: In function 'xmlLoadCatalogs':
+catalog.c:3248: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/string.h:49: note: expected 'const char *' but argument is of type 'xmlChar *'
+  CC     globals.lo
+  CC     threads.lo
+threads.c: In function '__xmlGlobalInitMutexLock':
+threads.c:459: warning: value computed is not used
+threads.c: In function 'xmlOnceInit':
+threads.c:959: warning: pointer targets in passing argument 1 of 'InterlockedIncrement' differ in signedness
+/usr/i686-pc-mingw32/sys-root/mingw/include/winbase.h:1702: note: expected 'volatile LONG *' but argument is of type 'DWORD *'
+threads.c: At top level:
+threads.c:1001: warning: no previous prototype for 'DllMain'
+threads.c: In function 'DllMain':
+threads.c:1001: warning: unused parameter 'hinstDLL'
+threads.c:1001: warning: unused parameter 'lpvReserved'
+  CC     c14n.lo
+  CC     xmlstring.lo
+  CC     xmlregexp.lo
+  CC     xmlschemas.lo
+  CC     xmlschemastypes.lo
+  CC     xmlunicode.lo
+  CC     xmlreader.lo
+  CC     relaxng.lo
+  CC     dict.lo
+  CC     SAX2.lo
+  CC     xmlwriter.lo
+  CC     legacy.lo
+  CC     chvalid.lo
+  CC     pattern.lo
+  CC     xmlsave.lo
+  CC     xmlmodule.lo
+xmlmodule.c: In function 'xmlModulePlatformSymbol':
+xmlmodule.c:329: warning: ISO C forbids assignment between function pointer and 'void *'
+  CC     schematron.lo
+  CC     xzlib.lo
+In file included from /srv/win32builder/fixed_364/build/win32/include/lzma.h:281,
+                 from xzlib.c:37:
+/srv/win32builder/fixed_364/build/win32/include/lzma/base.h:218: warning: comma at end of enumerator list
+  CCLD   libxml2.la
+Creating library file: .libs/libxml2.dll.a
+  CC     testdso.lo
+  CCLD   testdso.la
+Creating library file: .libs/testdso.dll.a
+  CC     xmllint.o
+xmllint.c:31:1: warning: "_WINSOCKAPI_" redefined
+In file included from libxml.h:32,
+                 from xmllint.c:9:
+config.h:296:1: warning: this is the location of the previous definition
+  CCLD   xmllint.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     xmlcatalog.o
+  CCLD   xmlcatalog.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testSchemas.o
+  CCLD   testSchemas.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testRelax.o
+  CCLD   testRelax.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testSAX.o
+  CCLD   testSAX.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testHTML.o
+  CCLD   testHTML.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testXPath.o
+  CCLD   testXPath.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testURI.o
+  CCLD   testURI.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testThreadsWin32.o
+testThreadsWin32.c:21: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:22: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:23: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:24: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:25: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:26: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:27: warning: initialization discards qualifiers from pointer target type
+testThreadsWin32.c:87: warning: function declaration isn't a prototype
+  CCLD   testThreads.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testC14N.o
+  CCLD   testC14N.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testAutomata.o
+  CCLD   testAutomata.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testRegexp.o
+  CCLD   testRegexp.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testReader.o
+  CCLD   testReader.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testapi.o
+testapi.c:18015: warning: 'gen_xmlSchematronPtr' defined but not used
+testapi.c:18018: warning: 'des_xmlSchematronPtr' defined but not used
+testapi.c:18035: warning: 'gen_xmlSchematronParserCtxtPtr' defined but not used
+testapi.c:18038: warning: 'des_xmlSchematronParserCtxtPtr' defined but not used
+testapi.c:34265: warning: 'gen_xmlSAXHandlerPtr_ptr' defined but not used
+testapi.c:34268: warning: 'des_xmlSAXHandlerPtr_ptr' defined but not used
+  CCLD   testapi.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testModule.o
+  CCLD   testModule.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     runtest.o
+runtest.c: In function 'glob':
+runtest.c:121: warning: unused parameter 'flags'
+runtest.c:122: warning: unused parameter 'errfunc'
+  CCLD   runtest.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     runsuite.o
+  CCLD   runsuite.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testchar.o
+  CCLD   testchar.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testdict.o
+  CCLD   testdict.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     runxmlconf.o
+  CCLD   runxmlconf.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testrecurse.o
+testrecurse.c: In function 'glob':
+testrecurse.c:75: warning: unused parameter 'flags'
+testrecurse.c:76: warning: unused parameter 'errfunc'
+  CCLD   testrecurse.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+sed -e 's?\@XML_LIBDIR\@?-L/srv/win32builder/fixed_364/build/win32/lib?g' \
+	    -e 's?\@XML_INCLUDEDIR\@?-I/srv/win32builder/fixed_364/build/win32/include/libxml2?g' \
+	    -e 's?\@VERSION\@?2.8.0?g' \
+	    -e 's?\@XML_LIBS\@?-lxml2 -lz   -liconv  ?g' \
+	       < ./xml2Conf.sh.in > xml2Conf.tmp \
+	&& mv xml2Conf.tmp xml2Conf.sh
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0'
+Making all in doc
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+Making all in devhelp
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/devhelp'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/devhelp'
+Making all in examples
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/examples'
+  CC     xpath2.o
+  CCLD   xpath2.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     reader1.o
+  CCLD   reader1.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     reader4.o
+  CCLD   reader4.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     parse2.o
+  CCLD   parse2.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     reader2.o
+  CCLD   reader2.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     parse3.o
+  CCLD   parse3.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     reader3.o
+  CCLD   reader3.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     tree2.o
+  CCLD   tree2.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     parse4.o
+  CCLD   parse4.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     io2.o
+  CCLD   io2.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     testWriter.o
+  CCLD   testWriter.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     io1.o
+  CCLD   io1.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     xpath1.o
+  CCLD   xpath1.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     parse1.o
+  CCLD   parse1.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+  CC     tree1.o
+  CCLD   tree1.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc/examples'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/doc'
+Making all in example
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/example'
+  CC     gjobread.o
+  CCLD   gjobread.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs:/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin:/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/.libs'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/example'
+Making all in xstc
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/xstc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0/xstc'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/13_libxml2/libxml2-2.8.0'

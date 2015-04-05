@@ -1,0 +1,25 @@
+Making install in .
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c pkg-config.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/pkg-config.exe /srv/win32builder/fixed_364/build/win32/bin/pkg-config.exe
+make  install-exec-hook
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+cd /srv/win32builder/fixed_364/build/win32/bin && ln pkg-config.exe i686-pc-mingw32-pkg-config.exe
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/doc/pkg-config'
+ /usr/bin/install -c -m 644 pkg-config-guide.html '/srv/win32builder/fixed_364/build/win32/share/doc/pkg-config'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/aclocal'
+ /usr/bin/install -c -m 644 pkg.m4 '/srv/win32builder/fixed_364/build/win32/share/aclocal'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 pkg-config.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28'
+Making install in check
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28/check'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28/check'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28/check'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/23_pkg-config/pkg-config-0.28/check'

@@ -1,0 +1,127 @@
+make  install-recursive
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'
+Making install in .
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   librsvg-2.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/librsvg-2.dll.a /srv/win32builder/fixed_364/build/win32/lib/librsvg-2.dll.a
+libtool: install: base_file=`basename librsvg-2.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'librsvg-2.la'i; echo librsvg-2-2.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/librsvg-2-2.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/librsvg-2-2.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/librsvg-2-2.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/librsvg-2-2.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/librsvg-2-2.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/librsvg-2.lai /srv/win32builder/fixed_364/build/win32/lib/librsvg-2.la
+libtool: install: /usr/bin/install -c .libs/librsvg-2.a /srv/win32builder/fixed_364/build/win32/lib/librsvg-2.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/librsvg-2.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/librsvg-2.a
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c rsvg-convert.exe rsvg-view-3.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/rsvg-convert.exe /srv/win32builder/fixed_364/build/win32/bin/rsvg-convert.exe
+libtool: install: /usr/bin/install -c .libs/rsvg-view-3.exe /srv/win32builder/fixed_364/build/win32/bin/rsvg-view-3.exe
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/librsvg-2.0/librsvg'
+ /usr/bin/install -c -m 644 rsvg.h rsvg-cairo.h librsvg-features.h librsvg-enum-types.h '/srv/win32builder/fixed_364/build/win32/include/librsvg-2.0/librsvg'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 rsvg-convert.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 librsvg-2.0.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'
+Making install in gdk-pixbuf-loader
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/gdk-pixbuf-loader'
+  GEN    gdk-pixbuf-loaders
+  CCLD   rsvg-loader.exe
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib'
+libtool: link: Continuing, but uninstalled executables may not work.
+libtool: link: Could not determine the host path corresponding to
+libtool: link:   `/srv/win32builder/fixed_364/build/win32/lib:/srv/win32builder/fixed_364/build/win32/bin'
+libtool: link: Continuing, but uninstalled executables may not work.
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/gdk-pixbuf-loader'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libpixbufloader-svg.la '/srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders'
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-svg.dll.a /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.dll.a
+libtool: install: base_file=`basename libpixbufloader-svg.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libpixbufloader-svg.la'i; echo libpixbufloader-svg.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/`dirname libpixbufloader-svg.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/. || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/.
+libtool: install:  /usr/bin/install -c .libs/libpixbufloader-svg.dll /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/./libpixbufloader-svg.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/./libpixbufloader-svg.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/./libpixbufloader-svg.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-svg.lai /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.la
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-svg.a /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.a
+libtool: install: chmod 644 /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.a
+libtool: install: i686-pc-mingw32-ranlib /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.a
+make  install-data-hook
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/gdk-pixbuf-loader'
+if test -z ""; then \
+		/bin/sh /srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/install-sh -d /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0 ; \
+		/usr/bin/gdk-pixbuf-query-loaders-64 > /srv/win32builder/fixed_364/build/win32/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache ; \
+	fi
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/gdk-pixbuf-loader'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/gdk-pixbuf-loader'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/gdk-pixbuf-loader'
+Making install in tests
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+Making install in pdiff
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests/pdiff'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests/pdiff'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests/pdiff'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests/pdiff'
+Making install in .
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tests'
+Making install in tools
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tools'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tools'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tools'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/tools'
+Making install in doc
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/doc'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-14.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-32.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-36.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-9.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/licence.html
+ /usr/bin/install -c -m 644 ./html/object-tree.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/rsvg.devhelp2
+ /usr/bin/install -c -m 644 ./html/RsvgHandle.html
+ /usr/bin/install -c -m 644 ./html/rsvg.html
+ /usr/bin/install -c -m 644 ./html/rsvg-Using-RSVG-with-cairo.html
+ /usr/bin/install -c -m 644 ./html/rsvg-Using-RSVG-with-GdkPixbuf.html
+ /usr/bin/install -c -m 644 ./html/rsvg-Using-RSVG-with-GIO.html
+ /usr/bin/install -c -m 644 ./html/rsvg-Version-check-and-feature-tests.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up.png
+http://library.gnome.org/devel/gdk-pixbuf/unstable/ -> ../gdk-pixbuf/ (24)
+http://library.gnome.org/devel/gio/unstable/ -> ../gio/ (25)
+http://library.gnome.org/devel/glib/unstable/ -> ../glib/ (155)
+http://library.gnome.org/devel/gobject/unstable/ -> ../gobject/ (7)
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/doc'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4/doc'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/62_librsvg/librsvg-2.36.4'

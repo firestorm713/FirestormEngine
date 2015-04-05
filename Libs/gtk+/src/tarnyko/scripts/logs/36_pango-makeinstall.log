@@ -1,0 +1,376 @@
+Making install in pango
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+make  install-recursive
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+Making install in opentype
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango/opentype'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango/opentype'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango/opentype'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango/opentype'
+Making install in mini-fribidi
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango/mini-fribidi'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango/mini-fribidi'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango/mini-fribidi'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango/mini-fribidi'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+  GEN    included-modules
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/arabic'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/arabic'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/basic'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/basic'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hangul'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hangul'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hebrew'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hebrew'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/indic'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/indic'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/khmer'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/khmer'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/syriac'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/syriac'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/thai'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/thai'
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/tibetan'
+make[5]: Nothing to be done for `included-modules'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/tibetan'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+  GEN    ../modules/arabic/libpango-arabic-lang.la
+  GEN    ../modules/indic/libpango-indic-lang.la
+  GEN    ../modules/arabic/libpango-arabic-fc.la
+  GEN    ../modules/basic/libpango-basic-fc.la
+  GEN    ../modules/hangul/libpango-hangul-fc.la
+  GEN    ../modules/hebrew/libpango-hebrew-fc.la
+  GEN    ../modules/indic/libpango-indic-fc.la
+  GEN    ../modules/khmer/libpango-khmer-fc.la
+  GEN    ../modules/syriac/libpango-syriac-fc.la
+  GEN    ../modules/thai/libpango-thai-fc.la
+  GEN    ../modules/tibetan/libpango-tibetan-fc.la
+  GEN    ../modules/basic/libpango-basic-win32.la
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+  GEN    included-modules
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/arabic'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/arabic'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/basic'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/basic'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hangul'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hangul'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hebrew'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hebrew'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/indic'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/indic'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/khmer'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/khmer'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/syriac'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/syriac'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/thai'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/thai'
+make[6]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/tibetan'
+make[6]: Nothing to be done for `included-modules'.
+make[6]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/tibetan'
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+  GEN    ../modules/arabic/libpango-arabic-lang.la
+  GEN    ../modules/indic/libpango-indic-lang.la
+  GEN    ../modules/arabic/libpango-arabic-fc.la
+  GEN    ../modules/basic/libpango-basic-fc.la
+  GEN    ../modules/hangul/libpango-hangul-fc.la
+  GEN    ../modules/hebrew/libpango-hebrew-fc.la
+  GEN    ../modules/indic/libpango-indic-fc.la
+  GEN    ../modules/khmer/libpango-khmer-fc.la
+  GEN    ../modules/syriac/libpango-syriac-fc.la
+  GEN    ../modules/thai/libpango-thai-fc.la
+  GEN    ../modules/tibetan/libpango-tibetan-fc.la
+  GEN    ../modules/basic/libpango-basic-win32.la
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libpango-1.0.la libpangoft2-1.0.la libpangocairo-1.0.la libpangowin32-1.0.la '/srv/win32builder/fixed_364/build/win32/lib'
+libtool: install: /usr/bin/install -c .libs/libpango-1.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libpango-1.0.dll.a
+libtool: install: base_file=`basename libpango-1.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libpango-1.0.la'i; echo libpango-1.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libpango-1.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libpango-1.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libpango-1.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libpango-1.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libpango-1.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libpango-1.0.lai /srv/win32builder/fixed_364/build/win32/lib/libpango-1.0.la
+libtool: install: /usr/bin/install -c .libs/libpangoft2-1.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libpangoft2-1.0.dll.a
+libtool: install: base_file=`basename libpangoft2-1.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libpangoft2-1.0.la'i; echo libpangoft2-1.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libpangoft2-1.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libpangoft2-1.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangoft2-1.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangoft2-1.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangoft2-1.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libpangoft2-1.0.lai /srv/win32builder/fixed_364/build/win32/lib/libpangoft2-1.0.la
+libtool: install: /usr/bin/install -c .libs/libpangocairo-1.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libpangocairo-1.0.dll.a
+libtool: install: base_file=`basename libpangocairo-1.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libpangocairo-1.0.la'i; echo libpangocairo-1.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libpangocairo-1.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libpangocairo-1.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangocairo-1.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangocairo-1.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangocairo-1.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libpangocairo-1.0.lai /srv/win32builder/fixed_364/build/win32/lib/libpangocairo-1.0.la
+libtool: install: /usr/bin/install -c .libs/libpangowin32-1.0.dll.a /srv/win32builder/fixed_364/build/win32/lib/libpangowin32-1.0.dll.a
+libtool: install: base_file=`basename libpangowin32-1.0.la`
+libtool: install:  dlpath=`/bin/sh 2>&1 -c '. .libs/'libpangowin32-1.0.la'i; echo libpangowin32-1.0-0.dll'`
+libtool: install:  dldir=/srv/win32builder/fixed_364/build/win32/lib/`dirname ../bin/libpangowin32-1.0-0.dll`
+libtool: install:  test -d /srv/win32builder/fixed_364/build/win32/lib/../bin || mkdir -p /srv/win32builder/fixed_364/build/win32/lib/../bin
+libtool: install:  /usr/bin/install -c .libs/libpangowin32-1.0-0.dll /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangowin32-1.0-0.dll
+libtool: install:  chmod a+x /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangowin32-1.0-0.dll
+libtool: install:  if test -n '' && test -n 'i686-pc-mingw32-strip --strip-unneeded'; then eval 'i686-pc-mingw32-strip --strip-unneeded /srv/win32builder/fixed_364/build/win32/lib/../bin/libpangowin32-1.0-0.dll' || exit 0; fi
+libtool: install: /usr/bin/install -c .libs/libpangowin32-1.0.lai /srv/win32builder/fixed_364/build/win32/lib/libpangowin32-1.0.la
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c pango-querymodules.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/pango-querymodules.exe /srv/win32builder/fixed_364/build/win32/bin/pango-querymodules.exe
+make  install-exec-hook
+make[5]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+make[5]: Nothing to be done for `install-exec-hook'.
+make[5]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+  GEN    install-def-files
+/usr/bin/install -c ./pangoft2.def /srv/win32builder/fixed_364/build/win32/lib/pangoft2-1.0.def
+/usr/bin/install -c ./pangowin32.def /srv/win32builder/fixed_364/build/win32/lib/pangowin32-1.0.def
+/usr/bin/install -c ./pangocairo.def /srv/win32builder/fixed_364/build/win32/lib/pangocairo-1.0.def
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/include/pango-1.0/pango'
+ /usr/bin/install -c -m 644 pango.h pango-attributes.h pango-bidi-type.h pango-break.h pango-context.h pango-coverage.h pango-engine.h pango-font.h pango-fontmap.h pango-fontset.h pango-glyph.h pango-glyph-item.h pango-gravity.h pango-item.h pango-language.h pango-layout.h pango-matrix.h pango-modules.h pango-renderer.h pango-script.h pango-tabs.h pango-types.h pango-utils.h pango-features.h pango-enum-types.h pango-ot.h pangofc-font.h pangofc-fontmap.h pangofc-decoder.h pangoft2.h pangocairo.h pangowin32.h '/srv/win32builder/fixed_364/build/win32/include/pango-1.0/pango'
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango'
+Making install in modules
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+Making install in arabic
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/arabic'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/arabic'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/arabic'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/arabic'
+Making install in basic
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/basic'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/basic'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/basic'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/basic'
+Making install in hangul
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hangul'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hangul'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hangul'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hangul'
+Making install in hebrew
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hebrew'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hebrew'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hebrew'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/hebrew'
+Making install in indic
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/indic'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/indic'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/indic'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/indic'
+Making install in khmer
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/khmer'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/khmer'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/khmer'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/khmer'
+Making install in syriac
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/syriac'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/syriac'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/syriac'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/syriac'
+Making install in thai
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/thai'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/thai'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/thai'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/thai'
+Making install in tibetan
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/tibetan'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/tibetan'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/tibetan'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules/tibetan'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+make[3]: Nothing to be done for `install-exec-am'.
+***
+*** Warning: /srv/win32builder/fixed_364/build/win32/etc/pango/pango.modules
+*** not created
+*** Generate this file on the target system
+*** using pango-querymodules
+***
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/modules'
+Making install in pango-view
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango-view'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango-view'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango-view'
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c pango-view.exe '/srv/win32builder/fixed_364/build/win32/bin'
+libtool: install: /usr/bin/install -c .libs/pango-view.exe /srv/win32builder/fixed_364/build/win32/bin/pango-view.exe
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 pango-view.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango-view'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango-view'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/pango-view'
+Making install in examples
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/examples'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/examples'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/examples'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/examples'
+Making install in docs
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/docs'
+make  install-am
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/docs'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/docs'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-10.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-14.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-16.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-18.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-20.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-24.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-26.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-28.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/layout.gif
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/lowlevel.html
+ /usr/bin/install -c -m 644 ./html/pango-ATSUI-Fonts.html
+ /usr/bin/install -c -m 644 ./html/pango-Bidirectional-Text.html
+ /usr/bin/install -c -m 644 ./html/pango-Cairo-Rendering.html
+ /usr/bin/install -c -m 644 ./html/pango-CoreText-Fonts.html
+ /usr/bin/install -c -m 644 ./html/pango-Coverage-Maps.html
+ /usr/bin/install -c -m 644 ./html/pango.devhelp2
+ /usr/bin/install -c -m 644 ./html/PangoEngineLang.html
+ /usr/bin/install -c -m 644 ./html/PangoEngineShape.html
+ /usr/bin/install -c -m 644 ./html/pango-Engines.html
+ /usr/bin/install -c -m 644 ./html/PangoFcDecoder.html
+ /usr/bin/install -c -m 644 ./html/PangoFcFont.html
+ /usr/bin/install -c -m 644 ./html/PangoFcFontMap.html
+ /usr/bin/install -c -m 644 ./html/pango-Fonts.html
+ /usr/bin/install -c -m 644 ./html/pango-FreeType-Fonts-and-Rendering.html
+ /usr/bin/install -c -m 644 ./html/pango-Glyph-Storage.html
+ /usr/bin/install -c -m 644 ./html/pango-hierarchy.html
+ /usr/bin/install -c -m 644 ./html/pango.html
+ /usr/bin/install -c -m 644 ./html/pango-Layout-Objects.html
+ /usr/bin/install -c -m 644 ./html/PangoMarkupFormat.html
+ /usr/bin/install -c -m 644 ./html/pango-Miscellaneous-Utilities.html
+ /usr/bin/install -c -m 644 ./html/pango-Modules.html
+ /usr/bin/install -c -m 644 ./html/pango-OpenType-Font-Handling.html
+ /usr/bin/install -c -m 644 ./html/pango-pango-renderer.html
+ /usr/bin/install -c -m 644 ./html/pango-querymodules.html
+ /usr/bin/install -c -m 644 ./html/pango-Scripts-and-Languages.html
+ /usr/bin/install -c -m 644 ./html/pango-Tab-Stops.html
+ /usr/bin/install -c -m 644 ./html/pango-Text-Attributes.html
+ /usr/bin/install -c -m 644 ./html/pango-Text-Processing.html
+ /usr/bin/install -c -m 644 ./html/pango-Version-Checking.html
+ /usr/bin/install -c -m 644 ./html/pango-Vertical-Text.html
+ /usr/bin/install -c -m 644 ./html/pango-Win32-Fonts-and-Rendering.html
+ /usr/bin/install -c -m 644 ./html/pango-X-Fonts-and-Rendering.html
+ /usr/bin/install -c -m 644 ./html/pango-Xft-Fonts-and-Rendering.html
+ /usr/bin/install -c -m 644 ./html/rendering.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/rotated-text.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/tools.html
+ /usr/bin/install -c -m 644 ./html/up.png
+http://library.gnome.org/devel/glib/unstable/ -> ../glib/ (921)
+http://library.gnome.org/devel/gobject/unstable/ -> ../gobject/ (97)
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+ /usr/bin/install -c -m 644 pango-querymodules.1 '/srv/win32builder/fixed_364/build/win32/share/man/man1'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/docs'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/docs'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/docs'
+Making install in tools
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/tools'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/tools'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/tools'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/tools'
+Making install in tests
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/tests'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/tests'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/tests'
+Making install in build
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build'
+Making install in win32
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32'
+Making install in vs9
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32/vs9'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32/vs9'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32/vs9'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32/vs10'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32/vs10'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32/vs10'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32/vs10'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32'
+make[4]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32'
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build/win32'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build'
+make[3]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1/build'
+make[1]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1'
+make[2]: Entering directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+ /usr/bin/install -c -m 644 pango.pc pangocairo.pc pangoft2.pc pangowin32.pc '/srv/win32builder/fixed_364/build/win32/lib/pkgconfig'
+make[2]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1'
+make[1]: Leaving directory `/srv/win32builder/fixed_364/libs/36_pango/pango-1.30.1'
