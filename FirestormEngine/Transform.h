@@ -15,9 +15,9 @@ private:
 	glm::mat4 Scale_Mat;
 	glm::mat4* Parent;
 	Component* ParentComponent;
-	glm::mat4 PositionToMatrix();
-	glm::mat4 RotationToMatrix();
-	glm::mat4 ScaleToMatrix();
+	void PositionToMatrix();
+	void RotationToMatrix();
+	void ScaleToMatrix();
 	glm::vec3 Position;
 	glm::vec3 Rotation;
 	glm::vec3 Scale;

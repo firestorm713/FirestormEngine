@@ -1,6 +1,7 @@
 #include"Shader.h"
 #include<stdio.h>
 #include<vector>
+#include<algorithm>
 
 const char* VertexShaderSource =    "#version 150 core\n"
     "in vec2 position;"

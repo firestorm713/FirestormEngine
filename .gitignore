@@ -44,3 +44,6 @@ Temporary Items
 
 # Mine
 /FirestormEngine/Debug/
+/FirestormEditor/Debug/
+/FirestormEngine/FirestormEngine/Win32/Debug/
+/FirestormEngine/FirestormEditor/Debug/

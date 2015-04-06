@@ -14,14 +14,14 @@ Transform::~Transform()
 {
 }
 
-glm::mat4 Transform::PositionToMatrix()
+void Transform::PositionToMatrix()
 {
 	Position_Mat = glm::mat4();
 	glm::translate(Position_Mat, Position);
 	Transformation=Position_Mat*Rotation_Mat*Scale_Mat;
 }
 
-glm::mat4 Transform::RotationToMatrix()
+void Transform::RotationToMatrix()
 {
 	Rotation_Mat = glm::mat4();
 	glm::rotate(Rotation_Mat, Rotation.x, glm::vec3(1,0,0));
@@ -30,7 +30,7 @@ glm::mat4 Transform::RotationToMatrix()
 	Transformation = Position_Mat*Rotation_Mat*Scale_Mat;
 }
 
-glm::mat4 Transform::ScaleToMatrix()
+void Transform::ScaleToMatrix()
 {
 	Scale_Mat = glm::mat4();
 	glm::scale(Scale_Mat, Scale);
@@ -57,7 +57,7 @@ glm::mat4 Transform::GetTransformation()
 void Transform::SetPosition(glm::vec3 _position)
 {
 	Position = _position;
-	PositionToMatrix;
+	PositionToMatrix();
 }
 
 void Transform::SetRotation(glm::vec3 _rotation)
