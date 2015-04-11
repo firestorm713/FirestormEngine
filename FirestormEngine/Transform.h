@@ -2,8 +2,11 @@
 #include<glm/glm.hpp>
 #include<glm/gtc/matrix_transform.hpp>
 #include<glm/gtc/type_ptr.hpp>
+#include<memory>
 #include"Component.h"
 class Component;
+
+__declspec(align(16))
 class Transform
 {
 private:
@@ -13,8 +16,7 @@ private:
 	glm::mat4 Position_Mat;
 	glm::mat4 Rotation_Mat;
 	glm::mat4 Scale_Mat;
-	glm::mat4* Parent;
-	Component* ParentComponent;
+	//std::shared_ptr<glm::mat4> Parent;
 	void PositionToMatrix();
 	void RotationToMatrix();
 	void ScaleToMatrix();

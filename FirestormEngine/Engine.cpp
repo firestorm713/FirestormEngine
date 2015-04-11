@@ -1,4 +1,5 @@
 #include"Engine.h"
+#include"Camera.h"
 Engine::Engine()
 {
 	// std::cout << "Engine Constructor: Instantiation of engine." << std::endl
@@ -10,15 +11,9 @@ Engine::Engine()
 	// all SDL_GL functions to Graphicssystem
 	// Have window be specified when initializing GraphicsSystem and built there
 	// move window, context and glewinit to GraphicsSystem.
-	SDL_Init(SDL_INIT_EVERYTHING);
-	SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
-	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
-	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 2);
-	window = SDL_CreateWindow("OpenGL", 100, 100, 800, 600, SDL_WINDOW_OPENGL);
-	context = SDL_GL_CreateContext(window);
-	glewExperimental = GL_TRUE;
-	glewInit();
-	graphicsSystem = new GraphicsSystem(this);
+	SDL_Init(0);
+	graphicsSystem = std::shared_ptr<GraphicsSystem>(new GraphicsSystem(std::shared_ptr<Engine>(this)));
+	sceneSystem = std::shared_ptr<SceneSystem>(new SceneSystem(std::shared_ptr<Engine>(this)));
 	Startup();
 }
 
@@ -28,6 +23,7 @@ void Engine::Startup()
 //			  << "Calls ReadInSettings" << std::endl
 //			  << "Instantiates and initializes each Engine System" << std::endl;
 	ReadInSettings();
+	sceneSystem->StartUp();
 	Execute();
 }
 
@@ -60,7 +56,9 @@ void Engine::Update()
 			running = false;
 	}
 	graphicsSystem->Update();
+	sceneSystem->Update();
 	graphicsSystem->LateUpdate();
+	sceneSystem->Update();
 	//std::cout << "Engine Update" << std::endl
 	//	      << "Loops throughs systems and components and calls their update function" << std::endl;
 
@@ -70,7 +68,6 @@ void Engine::Shutdown()
 {
 	//std::cout << "Engine Shutdown" << std::endl
 	//	      << "Calls all Shutdown behavior" << std::endl;
-	SDL_GL_DeleteContext(context);
 	SDL_Quit();
 }
 

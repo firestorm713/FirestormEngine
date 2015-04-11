@@ -6,7 +6,7 @@
 
 int main(int argc, char* argv[])
 {
-	std::shared_ptr<Engine> Engine(new Engine());
+	std::unique_ptr<Engine> Engine(new Engine());
 //	system("pause");
 	return 0;
 }

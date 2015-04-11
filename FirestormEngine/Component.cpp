@@ -1,9 +1,9 @@
 #include"Component.h"
 
-Component::Component(Engine* _engine, Entity* _parent)
+Component::Component(std::shared_ptr<Engine> _engine, std::shared_ptr<Entity> _parent)
 {
-	engine = std::shared_ptr<Engine>(_engine);
-	parent = std::shared_ptr<Entity>(_parent);
+	engine = _engine;
+	parent = _parent;
 	Name = "";
 }
 
@@ -19,9 +19,9 @@ void Component::LateUpdate()
 {
 }
 
-std::weak_ptr<Entity> Component::GetParent()
+std::shared_ptr<Entity> Component::GetParent()
 {
-	return std::weak_ptr<Entity>(parent);
+	return parent;
 }
 
 void Component::Serialize()

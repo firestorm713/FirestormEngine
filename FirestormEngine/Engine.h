@@ -5,12 +5,16 @@
 #include<iostream>
 #include<memory>
 #include"GraphicsSystem.h"
+#include"SceneSystem.h"
 //#include "GameSystem.h"
-#include "Shader.h"
+//#include "ShaderProgram.h"
+#include "Entity.h"
 //class GameSystem;
 class GraphicsSystem;
+class SceneSystem;
+class Entity;
 
-class Engine
+class Engine : public std::enable_shared_from_this<Engine>
 {
 public:
 	Engine();
@@ -20,9 +24,8 @@ public:
 	int Execute();
 	void Update();
 	void Shutdown();
-	SDL_Window* window;
-	SDL_GLContext context;
 	SDL_Event EngineEvent;
 	bool running;
-	GraphicsSystem* graphicsSystem;
+	std::shared_ptr<GraphicsSystem> graphicsSystem;
+	std::shared_ptr<SceneSystem> sceneSystem;
 };

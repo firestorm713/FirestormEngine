@@ -6,7 +6,7 @@ class Engine;
 class GameSystem
 {
 public:
-	GameSystem(Engine* _engine);
+	GameSystem(std::shared_ptr<Engine> _engine);
 	~GameSystem();
 	virtual void StartUp();
 	virtual void Update();
