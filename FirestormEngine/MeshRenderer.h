@@ -5,6 +5,7 @@
 #include"Component.h"
 #include"Engine.h"
 #include"GraphicsSystem.h"
+#include"FlatTransformed.h"
 class GraphicsSystem;
 
 class MeshRenderer : public Component
@@ -13,11 +14,12 @@ private:
 	GLuint VBO;
 	GLuint EBO;
 	GLuint UVBO;
+	//GLuint NBO;
 public:
 	std::shared_ptr<GraphicsSystem> gSystem;
 	std::shared_ptr<Mesh> mesh;
-	std::shared_ptr<Material> material;
-	MeshRenderer(std::shared_ptr<Engine> _Engine, std::shared_ptr<Entity> _parent);
+	std::shared_ptr<FlatTransformed> material;
+	MeshRenderer(Engine* _Engine, std::shared_ptr<Entity> _parent, std::shared_ptr<FlatTransformed> _material);
 	~MeshRenderer();
 	void Update();
 	void LateUpdate();

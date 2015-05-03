@@ -39,7 +39,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>..\Libs\glew-1.12.0-win32\include;..\Libs\SDL2-devel-2.0.3\include;..\Libs\SDL2_image-devel-2.0.0\include;..\Libs\SDL2_mixer-2.0.0\include;..\Libs\SDL2_net-devel-2.0.0\include;..\Libs\glm-0.9.6.3;$(IncludePath)</IncludePath>
+    <IncludePath>..\Libs\glew-1.12.0-win32\include;..\Libs\SDL2-devel-2.0.3\include;..\Libs\SDL2_image-devel-2.0.0\include;..\Libs\SDL2_mixer-2.0.0\include;..\Libs\SDL2_net-devel-2.0.0\include;..\Libs\glm-0.9.6.3;..\Libs\rapidxml;$(IncludePath)</IncludePath>
     <LibraryPath>..\Libs\SDL2-devel-2.0.3\lib\x86;..\Libs\glew-1.12.0-win32\lib\Release\Win32;..\Libs\SDL2_image-devel-2.0.0\lib\x86;..\Libs\SDL2_mixer-2.0.0\lib\x86;..\Libs\SDL2_net-devel-2.0.0\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -77,12 +77,16 @@
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="FlatTransformed.cpp" />
     <ClCompile Include="GameSystem.cpp" />
     <ClCompile Include="GraphicsSystem.cpp" />
+    <ClCompile Include="GUIMaterial.cpp" />
+    <ClCompile Include="GUIRenderer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Material.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="RectTransform.cpp" />
     <ClCompile Include="SceneSystem.cpp" />
     <ClCompile Include="ShaderProgram.cpp" />
     <ClCompile Include="Transform.cpp" />
@@ -92,11 +96,15 @@
     <ClInclude Include="Component.h" />
     <ClInclude Include="Engine.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="FlatTransformed.h" />
     <ClInclude Include="GameSystem.h" />
     <ClInclude Include="GraphicsSystem.h" />
+    <ClInclude Include="GUIMaterial.h" />
+    <ClInclude Include="GUIRenderer.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="RectTransform.h" />
     <ClInclude Include="SceneSystem.h" />
     <ClInclude Include="ShaderProgram.h" />
     <ClInclude Include="Transform.h" />
@@ -104,8 +112,12 @@
   <ItemGroup>
     <None Include="basic.fragment" />
     <None Include="basic.vertex" />
+    <None Include="basicTex.fragment" />
+    <None Include="basicTex.vertex" />
     <None Include="flatTextured.vertex" />
     <None Include="flatTextured.fragment" />
+    <None Include="settings.config" />
+    <None Include="test.scn" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="cube.obj">
@@ -115,6 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="sample.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="scenesystemcode.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,17 +3,9 @@
 Engine::Engine()
 {
 	// std::cout << "Engine Constructor: Instantiation of engine." << std::endl
-	// 		  << "Calls SDL_Init" << std::endl
-	// 		  << "Calls Glew_Init" << std::endl
-	// 		  << "Creates window and sets context" << std::endl;
-	// TODO: Move SDL_Init(SDL_INIT_GRAPHICS) to GraphicsSystem
-	// SDL_Init(0) in this function instead
-	// all SDL_GL functions to Graphicssystem
-	// Have window be specified when initializing GraphicsSystem and built there
-	// move window, context and glewinit to GraphicsSystem.
 	SDL_Init(0);
-	graphicsSystem = std::shared_ptr<GraphicsSystem>(new GraphicsSystem(std::shared_ptr<Engine>(this)));
-	sceneSystem = std::shared_ptr<SceneSystem>(new SceneSystem(std::shared_ptr<Engine>(this)));
+	graphicsSystem = std::shared_ptr<GraphicsSystem>(new GraphicsSystem(this));
+	sceneSystem = std::shared_ptr<SceneSystem>(new SceneSystem(this));
 	Startup();
 }
 
@@ -32,6 +24,20 @@ void Engine::ReadInSettings()
 //	std::cout <<"Engine ReadInSettings"<< std::endl
 //		      << "Grabs Engine config file" << std::endl
 //			  << "Reads in settings for each Engine System" << std::endl;
+	std::ifstream file("settings.config");
+	std::vector<char> settings((std::istreambuf_iterator<char>(file)),
+		std::istreambuf_iterator<char>());
+	settings.push_back('\0');
+	doc.parse<0>(&settings[0]);
+	rapidxml::xml_node<>* root = doc.first_node();
+	rapidxml::xml_node<>* node = doc.first_node()->first_node("GraphicsSystem");
+	int width, height;
+	std::cout << "GraphicsSystem Node has value " << node->value() << std::endl;
+	rapidxml::xml_attribute<>* myWidth = node->first_attribute("windowWidth");
+	width = std::stoi(myWidth->value());
+	rapidxml::xml_attribute<>* myHeight = node->first_attribute("windowHeight");
+	height = std::stoi(myHeight->value());
+	graphicsSystem->setWindowSize(width, height);
 }
 
 int Engine::Execute()
@@ -58,7 +64,7 @@ void Engine::Update()
 	graphicsSystem->Update();
 	sceneSystem->Update();
 	graphicsSystem->LateUpdate();
-	sceneSystem->Update();
+	sceneSystem->LateUpdate();
 	//std::cout << "Engine Update" << std::endl
 	//	      << "Loops throughs systems and components and calls their update function" << std::endl;
 
@@ -66,6 +72,8 @@ void Engine::Update()
 
 void Engine::Shutdown()
 {
+	graphicsSystem->ShutDown();
+	sceneSystem->ShutDown();
 	//std::cout << "Engine Shutdown" << std::endl
 	//	      << "Calls all Shutdown behavior" << std::endl;
 	SDL_Quit();

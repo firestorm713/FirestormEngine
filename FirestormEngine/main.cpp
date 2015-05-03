@@ -6,7 +6,8 @@
 
 int main(int argc, char* argv[])
 {
-	std::unique_ptr<Engine> Engine(new Engine());
+	Engine* _engine = new Engine();
+	delete _engine;
 //	system("pause");
 	return 0;
 }

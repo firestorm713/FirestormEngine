@@ -4,6 +4,7 @@
 #include<GL/glew.h>
 #include<iostream>
 #include<memory>
+#include<rapidxml.hpp>
 #include"GraphicsSystem.h"
 #include"SceneSystem.h"
 //#include "GameSystem.h"
@@ -14,8 +15,9 @@ class GraphicsSystem;
 class SceneSystem;
 class Entity;
 
-class Engine : public std::enable_shared_from_this<Engine>
+class Engine
 {
+	rapidxml::xml_document<> doc;
 public:
 	Engine();
 	~Engine();

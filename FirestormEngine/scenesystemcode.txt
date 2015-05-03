@@ -1,0 +1,74 @@
+	//eMainCamera = std::shared_ptr<Entity>(new Entity());
+	//GLuint VBO1, VBO2, VBO3, VBO4;
+	//glm::vec3 triangle1[4];
+	//int Triangle1Tris[6];
+	//glm::vec2 triangleTexCoords[4];
+	//glm::vec3 triangle2[3];
+	//glm::vec3 triangle3[3];
+	//glm::vec3 triangle4[3];
+	//GLint posAttrib;
+	//GLint colAttrib;
+	//GLint texCoord;
+	//GLuint texObj;
+	//SDL_Surface* texKitten;
+	//std::unique_ptr<ShaderProgram> Shader;
+	//std::shared_ptr<Entity> Cube;
+	//std::shared_ptr<Entity> eMainCamera;
+
+	//std::shared_ptr<MeshRenderer> cubeRenderer;
+
+		//std::shared_ptr<Camera> Cam = std::shared_ptr<Camera>(new Camera(_engine, eMainCamera));
+	//eMainCamera->AddComponent(Cam);
+	//graphicsSystem->SetMainCamera(Cam);
+	//glGenBuffers(1, &VBO1);
+	//glGenBuffers(1, &VBO2);
+	//glGenBuffers(1, &VBO3);
+	//triangle1[0] = glm::vec3(-0.5, 0.5, 0);
+	//triangle1[1] = glm::vec3(0.5, 0.5, 0);
+	//triangle1[2] = glm::vec3(-0.5, -0.5, 0);
+	//triangle1[3] = glm::vec3(0.5, -0.5, 0);
+	//Triangle1Tris[0] = 0;
+	//Triangle1Tris[1] = 1;
+	//Triangle1Tris[2] = 2;
+	//Triangle1Tris[3] = 1;
+	//Triangle1Tris[4] = 3;
+	//Triangle1Tris[5] = 2;
+	//triangleTexCoords[0] = glm::vec2(0,1);
+	//triangleTexCoords[1] = glm::vec2(1,1); 
+	//triangleTexCoords[2] = glm::vec2(0,0); 
+	//triangleTexCoords[3] = glm::vec2(1,0);
+	//Shader = std::unique_ptr<ShaderProgram>(new ShaderProgram("basicTex.vertex", "basicTex.fragment"));
+	//Shader->CompileShaders();
+	//posAttrib = glGetAttribLocation(Shader->Program, "position");
+	//colAttrib = glGetAttribLocation(Shader->Program, "color");
+	//texCoord = glGetAttribLocation(Shader->Program, "texcoord");
+	//glGenTextures(1, &texObj);
+	//texKitten = IMG_Load("sample.png");
+	//glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, texKitten->w, texKitten->h, 0, GL_RGB, GL_UNSIGNED_BYTE, texKitten->pixels);
+	//glUniform1i(glGetUniformLocation(Shader->Program, "tex"), 0);
+	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+	//glUseProgram(Shader->Program);
+	//glBindBuffer(GL_ARRAY_BUFFER, VBO1);
+	//glBufferData(GL_ARRAY_BUFFER, sizeof(triangle1), triangle1, GL_STATIC_DRAW);
+	//glVertexAttribPointer(posAttrib,3,GL_FLOAT, GL_FALSE, 0,(void*)0);	
+	//
+	//glBindBuffer(GL_ARRAY_BUFFER, VBO2);
+	//glBufferData(GL_ARRAY_BUFFER, sizeof(triangleTexCoords), triangleTexCoords, GL_STATIC_DRAW);
+	//glVertexAttribPointer(texCoord, 2, GL_FLOAT, GL_FALSE, 0, (void*)0);
+	//
+	//glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, VBO3);
+	//glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(Triangle1Tris), Triangle1Tris, GL_STATIC_DRAW);
+	//
+	//glBindTexture(GL_TEXTURE_2D, texObj);
+	//glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, texKitten->w, texKitten->h, 0, GL_RGB, GL_UNSIGNED_BYTE, texKitten->pixels);
+	//glUniform1i(glGetUniformLocation(Shader->Program, "tex"), 0);
+	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	//
+	//glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);

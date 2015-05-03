@@ -1,0 +1,55 @@
+<Scene>
+	<Entities>
+		<Entity name="Cube 1">
+			<Components>
+				<GUIRenderer 
+				Position = "(0,0)" 
+				Dimensions = "(1,1)" 
+				Rotation = "0"
+				Scale = "(1,1)">
+				<Material type="GUIMaterial" texture = "sample.png"/>
+				</GUIRenderer>
+			</Components>
+		</Entity>
+		<Entity name="Cube 1">
+			<Components>
+				<GUIRenderer 
+				Position = "(-1,-1)" 
+				Dimensions = "(1,1)" 
+				Rotation = "0"
+				Scale = "(1,1)"
+				/>
+			</Components>
+		</Entity>
+		<Entity name="Cube 1">
+			<Components>
+				<GUIRenderer 
+				Position = "(1,1)" 
+				Dimensions = "(1,1)" 
+				Rotation = "0"
+				Scale = "(1,1)"
+				/>
+			</Components>
+		</Entity>
+		<Entity name="Cube 1">
+			<Components>
+				<GUIRenderer 
+				Position = "(1,-1)" 
+				Dimensions = "(1,1)" 
+				Rotation = "0"
+				Scale = "(1,1)"
+				/>
+			</Components>
+		</Entity>
+		<Entity name="Cube 1">
+			<Components>
+				<GUIRenderer 
+				Position = "(-1,1)" 
+				Dimensions = "(1,1)" 
+				Rotation = "0"
+				Scale = "(1,1)"
+				/>
+			</Components>
+		</Entity>
+	</Entities>
+</Scene>

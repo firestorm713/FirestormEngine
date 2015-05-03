@@ -10,18 +10,12 @@ class Material
 {
 private:
 public:
-	GLuint Program;
-	Material(std::shared_ptr<ShaderProgram> _program);
-	GLint Position_Attribute;
-	GLint TexCoord_Attribute;
-	GLint Color_Uniform;
-	GLint Texture_Uniform;
-	GLuint Texture_Object;
-	GLuint Model_Uniform;
-	GLuint View_Uniform;
-	GLuint Projection_Uniform;
-	std::shared_ptr<ShaderProgram> Shader_Program;
-	std::shared_ptr<SDL_Surface> Texture;
-	void SetTexture(std::shared_ptr<SDL_Surface> _texture);
+	Material(std::shared_ptr<ShaderProgram> shader_program);
 	~Material();
+	std::shared_ptr<ShaderProgram> Shader_Program;
+	GLuint Program;
+	GLint Position_Attribute;
+	GLint Color_Uniform;
+	std::shared_ptr<SDL_Surface> Texture;
+	virtual void RefreshTexture();
 };

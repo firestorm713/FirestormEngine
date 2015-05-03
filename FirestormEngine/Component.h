@@ -9,10 +9,10 @@ class Entity;
 class Component
 {
 private:
-	std::shared_ptr<Engine> engine;
+	Engine* engine;
 	std::shared_ptr<Entity> parent;
 public:
-	Component(std::shared_ptr<Engine> _Engine, std::shared_ptr<Entity> _parent);
+	Component(Engine* _Engine, std::shared_ptr<Entity> _parent);
 	~Component();
 	virtual void Update();
 	virtual void LateUpdate();

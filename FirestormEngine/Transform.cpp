@@ -16,24 +16,44 @@ Transform::~Transform()
 
 void Transform::PositionToMatrix()
 {
-	Position_Mat = glm::mat4();
-	glm::translate(Position_Mat, Position);
-	Transformation=Position_Mat*Rotation_Mat*Scale_Mat;
+	Position_Mat = glm::mat4(
+		1, 0, 0, Position.x,
+		0, 1, 0, Position.y,
+		0, 0, 1, Position.z,
+		0, 0, 0, 1
+		);
+	Transformation = Position_Mat*Rotation_Mat*Scale_Mat;
 }
 
 void Transform::RotationToMatrix()
 {
-	Rotation_Mat = glm::mat4();
-	glm::rotate(Rotation_Mat, Rotation.x, glm::vec3(1,0,0));
-	glm::rotate(Rotation_Mat, Rotation.y, glm::vec3(0,1,0));
-	glm::rotate(Rotation_Mat, Rotation.z, glm::vec3(0,0,1));
+	Rotation_Mat = glm::mat4(
+		1, 0, 0, 0,
+		0, cos(Rotation.x), -sin(Rotation.x), 0,
+		0, sin(Rotation.x), cos(Rotation.x), 0,
+		0, 0, 0, 1
+		)*glm::mat4(
+		cos(Rotation.y), 0, sin(Rotation.y), 0,
+		0, 1, 0, 0,
+		-sin(Rotation.y), 0, cos(Rotation.y), 0,
+		0, 0, 0, 1
+		)*glm::mat4(
+		cos(Rotation.z), -sin(Rotation.z), 0, 0,
+		sin(Rotation.z), cos(Rotation.z), 0, 0,
+		0, 0, 1, 0,
+		0, 0, 0, 1
+		);
 	Transformation = Position_Mat*Rotation_Mat*Scale_Mat;
 }
 
 void Transform::ScaleToMatrix()
 {
-	Scale_Mat = glm::mat4();
-	glm::scale(Scale_Mat, Scale);
+	Scale_Mat = glm::mat4(
+		Scale.x, 0, 0, 0,
+		0, Scale.y, 0, 0,
+		0, 0, Scale.z, 0,
+		0, 0, 0, 1
+		);
 	Transformation = Position_Mat*Rotation_Mat*Scale_Mat;
 }
 
@@ -85,4 +105,27 @@ glm::vec3 Transform::GetRotation()
 glm::vec3 Transform::GetScale()
 {
 	return Scale;
+}
+
+glm::vec3 Transform::Forward()
+{
+	return glm::vec3(
+		cos(Rotation.x)*sin(Rotation.z),
+		sin(Rotation.x),
+		cos(Rotation.x)*cos(Rotation.z)
+		);
+}
+
+glm::vec3 Transform::Right()
+{
+	return glm::vec3(
+		sin(Rotation.z - 3.14f / 2.0f),
+		0,
+		cos(Rotation.z - 3.14f / 2.0f)
+		);
+}
+
+glm::vec3 Transform::Up()
+{
+	return glm::cross(Right(), Forward());
 }

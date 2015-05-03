@@ -13,6 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{0ea91d4b-d1dc-4f48-b07b-966d7eabc71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Classes">
+      <UniqueIdentifier>{63159a33-24ee-4abd-a25e-089e15cf3a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Systems">
+      <UniqueIdentifier>{abe5f190-8ed1-4fa9-a716-5877ef46ccaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{9b8bce13-a11c-4ad5-8a70-e918c5d7e89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{a851d3d4-2e1d-4c0c-810c-353914dad6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Classes">
+      <UniqueIdentifier>{690077ec-97fa-4333-a0bb-522ebc9e752d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Systems">
+      <UniqueIdentifier>{1f164f10-ba58-41bf-9d53-fb53e294c70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{661b164a-76ff-4a02-a5f9-898398d71ee5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,38 +45,50 @@
     <ClCompile Include="Engine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GraphicsSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GameSystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Material.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Mesh.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Components</Filter>
     </ClCompile>
     <ClCompile Include="Component.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Components</Filter>
     </ClCompile>
     <ClCompile Include="MeshRenderer.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Transform.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Data Classes</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneSystem.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Data Classes</Filter>
     </ClCompile>
     <ClCompile Include="ShaderProgram.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Data Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>Source Files\Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>Source Files\Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSystem.cpp">
+      <Filter>Source Files\Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatTransformed.cpp">
+      <Filter>Source Files\Data Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMaterial.cpp">
+      <Filter>Source Files\Data Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIRenderer.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RectTransform.cpp">
+      <Filter>Source Files\Entity</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -60,37 +96,49 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraphicsSystem.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Game Systems</Filter>
     </ClInclude>
     <ClInclude Include="GameSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Material.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Mesh.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MeshRenderer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Component.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Transform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Game Systems</Filter>
     </ClInclude>
     <ClInclude Include="SceneSystem.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Data Classes</Filter>
     </ClInclude>
     <ClInclude Include="ShaderProgram.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Data Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Data Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMaterial.h">
+      <Filter>Header Files\Data Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatTransformed.h">
+      <Filter>Header Files\Data Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIRenderer.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RectTransform.h">
+      <Filter>Header Files\Entity</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +154,18 @@
     <None Include="flatTextured.fragment">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="basicTex.vertex">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="basicTex.fragment">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="settings.config">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="test.scn">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="cube.obj">
@@ -116,5 +176,10 @@
     <Image Include="sample.png">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="scenesystemcode.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

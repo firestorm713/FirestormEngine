@@ -3,6 +3,7 @@
 #include<glm/gtc/matrix_transform.hpp>
 #include<glm/gtc/type_ptr.hpp>
 #include<memory>
+#include<math.h>
 #include"Component.h"
 class Component;
 
@@ -35,4 +36,7 @@ public:
 	glm::vec3 GetPosition();
 	glm::vec3 GetRotation();
 	glm::vec3 GetScale();
+	glm::vec3 Forward();
+	glm::vec3 Up();
+	glm::vec3 Right();
 };

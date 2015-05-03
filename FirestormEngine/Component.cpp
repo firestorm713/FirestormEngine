@@ -1,6 +1,6 @@
 #include"Component.h"
 
-Component::Component(std::shared_ptr<Engine> _engine, std::shared_ptr<Entity> _parent)
+Component::Component(Engine* _engine, std::shared_ptr<Entity> _parent)
 {
 	engine = _engine;
 	parent = _parent;

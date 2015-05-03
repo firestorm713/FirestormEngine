@@ -3,21 +3,21 @@
 #include<vector>
 #include<algorithm>
 
-const char* VertexShaderSource =    "#version 150 core\n"
-    "in vec2 position;"
-    "in vec3 color;"
-    "out vec3 Color;"
-    "void main() {"
-    "   Color = color;"
-    "   gl_Position = vec4(position, 0.0, 1.0);"
-    "}";
-
-const char* FragmentShaderSource = "#version 150 core\n"
-    "in vec3 Color;"
-    "out vec4 outColor;"
-    "void main() {"
-    "   outColor = vec4(Color, 1.0);"
-    "}";
+//const char* VertexShaderSource =    "#version 150 core\n"
+//    "in vec2 position;"
+//    "in vec3 color;"
+//    "out vec3 Color;"
+//    "void main() {"
+//    "   Color = color;"
+//    "   gl_Position = vec4(position, 0.0, 1.0);"
+//    "}";
+//
+//const char* FragmentShaderSource = "#version 150 core\n"
+//    "in vec3 Color;"
+//    "out vec4 outColor;"
+//    "void main() {"
+//    "   outColor = vec4(Color, 1.0);"
+//    "}";
 
 ShaderProgram::ShaderProgram()
 {
@@ -38,7 +38,7 @@ ShaderProgram::ShaderProgram(std::string vertSourcePath, std::string fragSourceP
 		vertexShader +="\n" + Line;
 	fin.close();
 
-	fin.open(fragSourcePath);
+	fin.open(fragSourcePath, std::ios::in);
 	Line = "";
 	while(getline(fin, Line))
 		fragmentShader += "\n" + Line;
@@ -75,11 +75,11 @@ void ShaderProgram::CompileShaders()
 	glGetShaderiv(vertexShaderID, GL_COMPILE_STATUS, &status);
 	glGetShaderiv(vertexShaderID, GL_INFO_LOG_LENGTH, &infoLogLength);
 	// later assert GLint status == GL_TRUE
-	if(status != GL_TRUE)
+	if(infoLogLength > 0)
 	{
 		std::vector<char> buffer(infoLogLength);
 		glGetShaderInfoLog(vertexShaderID, infoLogLength, NULL, &buffer[0]);
-		printf("%s\n",&buffer[0]);
+//		printf("%s\n",&buffer[0]);
 		//std::cout << &buffer[0] << std::endl;
 	}
 
@@ -89,12 +89,12 @@ void ShaderProgram::CompileShaders()
 
 	glGetShaderiv(fragmentShaderID, GL_COMPILE_STATUS, &status);
 	glGetShaderiv(fragmentShaderID, GL_INFO_LOG_LENGTH, &infoLogLength);
-	if(status != GL_TRUE)
+	if (infoLogLength > 0)
 	{
 		std::vector<char> buffer(infoLogLength);
 		glGetShaderInfoLog(vertexShaderID, infoLogLength, NULL, &buffer[0]);
 		buffer[0] = '\0';
-		printf("%s\n",&buffer[0]);
+//		printf("%s\n",&buffer[0]);
 		//std::cout << &buffer[0] << std::endl;
 	}
 	Program = glCreateProgram();
@@ -103,8 +103,12 @@ void ShaderProgram::CompileShaders()
 	glBindFragDataLocation(Program, 0, "outColor");
 	glLinkProgram(Program);
 
-	glGetProgramiv(Program, GL_COMPILE_STATUS, &status);
+	glGetProgramiv(Program, GL_LINK_STATUS, &status);
 	glGetProgramiv(Program, GL_INFO_LOG_LENGTH, &infoLogLength);
-	std::vector<char> ProgramErrorMessage(std::max(infoLogLength, int(1)));
-	printf("%s\n",&ProgramErrorMessage[0]);
+	if (infoLogLength > 0)
+	{
+		std::vector<char> ProgramErrorMessage(std::max(infoLogLength, int(1)));
+		//printf("%s\n",&ProgramErrorMessage[0]);
+		//std::cout << &ProgramErrorMessage[0] << std::endl;
+	}
 }

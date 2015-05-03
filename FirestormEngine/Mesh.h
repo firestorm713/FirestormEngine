@@ -16,14 +16,12 @@
 class Mesh
 {
 public:
-	std::vector<glm::vec3> Vertices;
-	std::vector<int> Triangles;
-	std::vector<glm::vec3> Normals;
-	std::vector<glm::vec2> UVs;
-
-	Mesh(std::vector<glm::vec3> _vertices, std::vector<int> _triangles);
-	Mesh(std::vector<glm::vec3> _vertices, std::vector<int> _triangles, std::vector<glm::vec3> _normals, std::vector<glm::vec2>UVs);
+	Mesh(std::vector<glm::vec3> _vertices, std::vector<int> _triangles, std::vector<glm::vec2>UVs);
 	~Mesh();
 	void LoadFromFile(std::string path);
 	void RecalculateNormals();
+	std::vector<glm::vec3> Vertices;
+	std::vector<int> Triangles;
+	//std::vector<glm::vec3> Normals;
+	std::vector<glm::vec2> UVs;
 };

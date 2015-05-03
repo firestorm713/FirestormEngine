@@ -1,6 +1,6 @@
 #include"GameSystem.h"
 
-GameSystem::GameSystem(std::shared_ptr<Engine> _engine)
+GameSystem::GameSystem(Engine* _engine)
 {
 	MainEngine = _engine;
 }

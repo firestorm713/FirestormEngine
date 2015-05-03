@@ -19,7 +19,7 @@ public:
 	float NearClipPlane;
 	float FarClipPlane;
 	glm::vec3 BackgroundColor;
-	Camera(std::shared_ptr<Engine> _Engine, std::shared_ptr<Entity> _parent);
+	Camera(Engine* _Engine, std::shared_ptr<Entity> _parent);
 	~Camera();
 	virtual void Update();
 	virtual void LateUpdate();
