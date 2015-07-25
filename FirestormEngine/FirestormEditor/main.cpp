@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "firestormeditor.h"
 #include <QtWidgets/QApplication>
 

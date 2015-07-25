@@ -2,7 +2,6 @@
 #include<SDL.h>
 #include<memory>
 #include"Engine.h"
-//#include<SDL_opengl.h>
 
 int main(int argc, char* argv[])
 {

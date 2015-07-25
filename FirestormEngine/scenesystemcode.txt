@@ -1,74 +1,128 @@
-	//eMainCamera = std::shared_ptr<Entity>(new Entity());
-	//GLuint VBO1, VBO2, VBO3, VBO4;
-	//glm::vec3 triangle1[4];
-	//int Triangle1Tris[6];
-	//glm::vec2 triangleTexCoords[4];
-	//glm::vec3 triangle2[3];
-	//glm::vec3 triangle3[3];
-	//glm::vec3 triangle4[3];
-	//GLint posAttrib;
-	//GLint colAttrib;
-	//GLint texCoord;
-	//GLuint texObj;
-	//SDL_Surface* texKitten;
-	//std::unique_ptr<ShaderProgram> Shader;
-	//std::shared_ptr<Entity> Cube;
-	//std::shared_ptr<Entity> eMainCamera;
+	//GLuint VBO;
+	//GLuint UVBO;
+	//GLuint EBO;
+	//glm::vec3 Quad[4];
+	//glm::vec2 QuadUV[4];
+	//unsigned int QuadTris[6];
+	
+	//std::shared_ptr<ShaderProgram> SProgram;
+	//GLuint Program1;
+	//GLint Position_Attribute;
+	//GLint Color_Uniform;
 
-	//std::shared_ptr<MeshRenderer> cubeRenderer;
+	//std::shared_ptr<ShaderProgram> texShader;
+	//GLuint Program2;
+	//glm::vec3 TexQuad[4];
+	//GLint TPos_Attribute;
+	//GLint TCor_Attribute;
+	//GLint TCol_Uniform;
+	//GLuint Tex_Object;
+	//GLint Tex_Uniform;
+	//GLint Trans_Uniform;
 
-		//std::shared_ptr<Camera> Cam = std::shared_ptr<Camera>(new Camera(_engine, eMainCamera));
-	//eMainCamera->AddComponent(Cam);
-	//graphicsSystem->SetMainCamera(Cam);
-	//glGenBuffers(1, &VBO1);
-	//glGenBuffers(1, &VBO2);
-	//glGenBuffers(1, &VBO3);
-	//triangle1[0] = glm::vec3(-0.5, 0.5, 0);
-	//triangle1[1] = glm::vec3(0.5, 0.5, 0);
-	//triangle1[2] = glm::vec3(-0.5, -0.5, 0);
-	//triangle1[3] = glm::vec3(0.5, -0.5, 0);
-	//Triangle1Tris[0] = 0;
-	//Triangle1Tris[1] = 1;
-	//Triangle1Tris[2] = 2;
-	//Triangle1Tris[3] = 1;
-	//Triangle1Tris[4] = 3;
-	//Triangle1Tris[5] = 2;
-	//triangleTexCoords[0] = glm::vec2(0,1);
-	//triangleTexCoords[1] = glm::vec2(1,1); 
-	//triangleTexCoords[2] = glm::vec2(0,0); 
-	//triangleTexCoords[3] = glm::vec2(1,0);
-	//Shader = std::unique_ptr<ShaderProgram>(new ShaderProgram("basicTex.vertex", "basicTex.fragment"));
-	//Shader->CompileShaders();
-	//posAttrib = glGetAttribLocation(Shader->Program, "position");
-	//colAttrib = glGetAttribLocation(Shader->Program, "color");
-	//texCoord = glGetAttribLocation(Shader->Program, "texcoord");
-	//glGenTextures(1, &texObj);
-	//texKitten = IMG_Load("sample.png");
-	//glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, texKitten->w, texKitten->h, 0, GL_RGB, GL_UNSIGNED_BYTE, texKitten->pixels);
-	//glUniform1i(glGetUniformLocation(Shader->Program, "tex"), 0);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	//std::shared_ptr<ShaderProgram> TransShader;
+	//GLuint Program3;
+	//glm::mat4 model;
+	//glm::mat4 view;
+	//glm::mat4 proj;
+	//glm::vec3 Cube[8];
+	//glm::vec2 CubeUV[8];
+	//unsigned int CubeTris[36];
+	//GLint PPos_Attribute;
+	//GLint PCor_Attribute;
+	//GLint PCol_Uniform;
+	//GLuint PTex_Object;
+	//GLint PTex_Uniform;
+	//GLint Model_Uniform;
+	//GLint View_Uniform;
+	//GLint Proj_Uniform;
 
-	//glUseProgram(Shader->Program);
-	//glBindBuffer(GL_ARRAY_BUFFER, VBO1);
-	//glBufferData(GL_ARRAY_BUFFER, sizeof(triangle1), triangle1, GL_STATIC_DRAW);
-	//glVertexAttribPointer(posAttrib,3,GL_FLOAT, GL_FALSE, 0,(void*)0);	
+	//GUIFrame = std::shared_ptr<Entity>(new Entity());
+	//glGenBuffers(1, &VBO);
+	//glGenBuffers(1, &UVBO);
+	//glGenBuffers(1, &EBO);
+	//glGenTextures(1, &Tex_Object);
+	//SProgram = std::shared_ptr<ShaderProgram>(new ShaderProgram("basic.vertex", "basic.fragment"));
+	//SProgram->CompileShaders();
+	//Program1 = SProgram->Program;
+	//texShader = std::shared_ptr<ShaderProgram>(new ShaderProgram("basicTex.vertex", "basicTex.fragment"));
+	//texShader->CompileShaders();
+	//Program2 = texShader->Program;
+	//TransShader = std::shared_ptr<ShaderProgram>(new ShaderProgram("flatTextured.vertex", "flatTextured.fragment"));
+	//TransShader->CompileShaders();
+	//Program3 = TransShader->Program;
+
+	//Position_Attribute = glGetAttribLocation(Program1, "position");
+	//Color_Uniform = glGetUniformLocation(Program1, "Color");
+	//TPos_Attribute = glGetAttribLocation(Program2, "position");
 	//
-	//glBindBuffer(GL_ARRAY_BUFFER, VBO2);
-	//glBufferData(GL_ARRAY_BUFFER, sizeof(triangleTexCoords), triangleTexCoords, GL_STATIC_DRAW);
-	//glVertexAttribPointer(texCoord, 2, GL_FLOAT, GL_FALSE, 0, (void*)0);
+	//TCol_Uniform = glGetUniformLocation(Program2, "color");
+	//TCor_Attribute = glGetAttribLocation(Program2, "texcoord");
+	//Tex_Uniform = glGetUniformLocation(Program2, "tex");
+	//Trans_Uniform = glGetUniformLocation(Program2, "Trans");
 	//
-	//glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, VBO3);
-	//glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(Triangle1Tris), Triangle1Tris, GL_STATIC_DRAW);
+	//PPos_Attribute = glGetAttribLocation(Program3, "position");
+	//PCor_Attribute = glGetAttribLocation(Program3, "texcoord");
+	//PCol_Uniform   = glGetUniformLocation(Program3, "color");
+	//PTex_Uniform   = glGetUniformLocation(Program3, "tex");
+	//Model_Uniform  = glGetUniformLocation(Program3, "model");
+	//View_Uniform   = glGetUniformLocation(Program3, "view");
+	//Proj_Uniform   = glGetUniformLocation(Program3, "proj");
+
+		//std::vector<glm::vec3> Vertices = { glm::vec3(-1.0f, 1.0f, 0.0f), glm::vec3(-0.5f, 1.0f, 0.0f), glm::vec3(-1.0f, 0.5f, 0.0f), glm::vec3(-0.5f, 0.5f, 0.0f) };
+	//std::vector<glm::vec3> texQ = { glm::vec3(0.5f, 1.0f, 0.0f), glm::vec3(1.0f, 1.0f, 0.0f), 
+	//								glm::vec3(0.5f, 0.5f, 0.0f), glm::vec3(1.0f, 0.5f, 0.0f) };
+	//std::vector<int> Triangles = {0,1,2,1,3,2};
+	//std::vector<glm::vec2> UVs = { glm::vec2(0, 0), glm::vec2(1, 0), glm::vec2(0, 1), glm::vec2(1, 1) };
 	//
-	//glBindTexture(GL_TEXTURE_2D, texObj);
-	//glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, texKitten->w, texKitten->h, 0, GL_RGB, GL_UNSIGNED_BYTE, texKitten->pixels);
-	//glUniform1i(glGetUniformLocation(Shader->Program, "tex"), 0);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	//std::vector<glm::vec3> CubeVerts = { 
+	//	glm::vec3(-0.5f, -0.5f, -0.5f), glm::vec3(0.5f, -0.5f, -0.5f), glm::vec3(0.5f, 0.5f, -0.5f), glm::vec3(-0.5f, 0.5f, -0.5f),
+	//	glm::vec3(-0.5f, -0.5f, 0.5f), glm::vec3(0.5f, -0.5f, 0.5f), glm::vec3(0.5f, 0.5f, 0.5f), glm::vec3(-0.5f, 0.5f, 0.5f) };
+	//std::vector<glm::vec2> CubeUVsTemp = { 
+	//	glm::vec2(0, 0), glm::vec2(1, 0), glm::vec2(1, 1), glm::vec2(0, 1),
+	//	glm::vec2(0, 0), glm::vec2(1, 0), glm::vec2(1, 1), glm::vec2(0, 1) };
+	//std::vector<int> CubeTriangles = { 
+	//	0, 2, 1, 0, 3, 2,
+	//	4, 6, 5, 4, 7, 6,
+	//	0, 7, 4, 0, 3, 7,
+	//	5, 2, 1, 5, 6, 2,
+	//	7, 2, 6, 7, 3, 2,
+	//	0, 5, 1, 0, 4, 5 };
 	//
-	//glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+	//model = glm::mat4(1.0);
+	//view = glm::lookAt(
+	//	glm::vec3(1.2f, 1.2f, 1.2f),
+	//	glm::vec3(0.0f, 0.0f, 0.0f),
+	//	glm::vec3(0.0f, 0.0f, 1.0f)
+	//	);
+	//proj = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 1.0f, 10.0f);
+
+	//std::copy(Vertices.begin(), Vertices.end(), Quad);
+	//std::copy(UVs.begin(), UVs.end(), QuadUV);
+	//
+	//std::copy(texQ.begin(), texQ.end(), TexQuad);
+	//std::copy(Triangles.begin(), Triangles.end(), QuadTris);
+	//
+	//std::copy(CubeVerts.begin(), CubeVerts.end(), Cube);
+	//std::copy(CubeUVsTemp.begin(), CubeUVsTemp.end(), CubeUV);
+	//std::copy(CubeTriangles.begin(), CubeTriangles.end(), CubeTris);
+	//
+	//glUniform3f(Color_Uniform, 1.0f, 1.0f, 0.0f);
+	//glUniform3f(TCol_Uniform, 1.0f, 1.0f, 0.0f);
+	//
+	//glUniform3f(PCol_Uniform, 1.0f, 1.0f, 0.0f);
+	//glUniform1i(PTex_Uniform, 0);
+	//glUniformMatrix4fv(Model_Uniform, 1, GL_FALSE, glm::value_ptr(model));
+	//glUniformMatrix4fv(View_Uniform, 1, GL_FALSE, glm::value_ptr(view));
+	//glUniformMatrix4fv(Proj_Uniform, 1, GL_FALSE, glm::value_ptr(proj));
+	//glm::mat3 id = glm::mat3(1);
+	//glUniformMatrix3fv(Trans_Uniform, 1, GL_FALSE, glm::value_ptr(id));
+
+	SDL_Surface* surf = IMG_Load("sample.png");
+	//glBindTexture(GL_TEXTURE_2D, Tex_Object);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, surf->w, surf->h, 0, GL_RGBA, GL_UNSIGNED_BYTE, surf->pixels);
+	//glUniform1i(Tex_Uniform, 0);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);

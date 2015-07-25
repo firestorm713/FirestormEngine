@@ -24,20 +24,17 @@
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{483da837-bebf-4440-a239-ec751c9c2ab9}</UniqueIdentifier>
+      <UniqueIdentifier>{a8bf36a8-8da9-4aa6-a099-dfdf9c8f7f8c}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{555203b7-56ba-4a37-90ab-ace3654221c5}</UniqueIdentifier>
+      <UniqueIdentifier>{bb4642be-86ec-420c-b285-8745b5c86074}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -53,14 +50,9 @@
     <ClCompile Include="GeneratedFiles\qrc_firestormeditor.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_firestormeditor.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
+    <ClCompile Include="EditorViewWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="firestormeditor.h">
@@ -72,5 +64,13 @@
     <CustomBuild Include="firestormeditor.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_firestormeditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorViewWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

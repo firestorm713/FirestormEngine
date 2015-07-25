@@ -7,13 +7,8 @@
 #include<rapidxml.hpp>
 #include"GraphicsSystem.h"
 #include"SceneSystem.h"
-//#include "GameSystem.h"
-//#include "ShaderProgram.h"
 #include "Entity.h"
-//class GameSystem;
-class GraphicsSystem;
 class SceneSystem;
-class Entity;
 
 class Engine
 {

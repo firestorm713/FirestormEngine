@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <Scene>
 	<Entities>
 		<Entity name="Cube 1">
@@ -7,18 +8,19 @@
 				Dimensions = "(1,1)" 
 				Rotation = "0"
 				Scale = "(1,1)">
-				<Material type="GUIMaterial" texture = "sample.png"/>
+				<Material type="GUIMaterial" texture = "Franky.png"/>
 				</GUIRenderer>
 			</Components>
 		</Entity>
 		<Entity name="Cube 1">
 			<Components>
-				<GUIRenderer 
-				Position = "(-1,-1)" 
-				Dimensions = "(1,1)" 
-				Rotation = "0"
-				Scale = "(1,1)"
-				/>
+			  <GUIRenderer
+			  Position = "(-1,-1)"
+			  Dimensions = "(1,1)"
+			  Rotation = "0"
+			  Scale = "(1,1)">
+				  <Material type="GUIMaterial" texture = "chopper.png"/>
+			  </GUIRenderer>
 			</Components>
 		</Entity>
 		<Entity name="Cube 1">
@@ -27,8 +29,9 @@
 				Position = "(1,1)" 
 				Dimensions = "(1,1)" 
 				Rotation = "0"
-				Scale = "(1,1)"
-				/>
+				Scale = "(1,1)">
+				  <Material type="GUIMaterial" texture = "Zoro.png"/>
+				</GUIRenderer>
 			</Components>
 		</Entity>
 		<Entity name="Cube 1">
@@ -37,8 +40,9 @@
 				Position = "(1,-1)" 
 				Dimensions = "(1,1)" 
 				Rotation = "0"
-				Scale = "(1,1)"
-				/>
+				Scale = "(1,1)">
+				  <Material type="GUIMaterial" texture = "Sanji.png"/>
+				</GUIRenderer>
 			</Components>
 		</Entity>
 		<Entity name="Cube 1">
@@ -47,8 +51,9 @@
 				Position = "(-1,1)" 
 				Dimensions = "(1,1)" 
 				Rotation = "0"
-				Scale = "(1,1)"
-				/>
+				Scale = "(1,1)">
+					<Material type="GUIMaterial" texture = "chopper.png"/>
+				</GUIRenderer>
 			</Components>
 		</Entity>
 	</Entities>

@@ -176,6 +176,21 @@
     <Image Include="sample.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="Franky.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Luffy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zoro.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="chopper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sanji.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Text Include="scenesystemcode.txt">

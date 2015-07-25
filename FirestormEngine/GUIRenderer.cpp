@@ -8,8 +8,10 @@ GUIRenderer::GUIRenderer(Engine* _Engine, std::shared_ptr<Entity> _parent, std::
 	glGenBuffers(1, &UVBO);
 	Name = "GUIRenderer";
 	Dimensions = glm::vec2(1, 1);
-	std::vector<glm::vec3> verts = { glm::vec3(-Dimensions.x/2.0f, Dimensions.y/2.0f, 1.0f), glm::vec3(Dimensions.x/2.0f, Dimensions.y/2.0f, 1.0f), glm::vec3(-Dimensions.x/2.0f, -Dimensions.y/2.0f, 1.0f), glm::vec3(Dimensions.x/2.0f, -Dimensions.y/2.0f, 1.0f) };
-	std::vector<glm::vec2> uvs = { glm::vec2(0, 1), glm::vec2(1, 1), glm::vec2(0, 0), glm::vec2(1, 0) };
+	std::vector<glm::vec3> verts = { glm::vec3(-Dimensions.x/2.0f, Dimensions.y/2.0f, 1.0f),  glm::vec3(Dimensions.x/2.0f, Dimensions.y/2.0f, 1.0f), 
+								     glm::vec3(-Dimensions.x/2.0f, -Dimensions.y/2.0f, 1.0f), glm::vec3(Dimensions.x/2.0f, -Dimensions.y/2.0f, 1.0f) };
+	std::vector<glm::vec2> uvs = { glm::vec2(0, 0), glm::vec2(1, 0), 
+								   glm::vec2(0, 1), glm::vec2(1, 1) };
 	std::vector<int> tris = { 0,1,2,2,1,3 };
 	mesh = std::shared_ptr<Mesh>(new Mesh(verts, tris, uvs));
 	Sca_Mat = glm::mat3(1);
@@ -82,6 +84,8 @@ void GUIRenderer::setScale(glm::vec2 _Sca)
 void GUIRenderer::Update()
 {
 	glDisable(GL_DEPTH_TEST);
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	glUseProgram(GUI_material->Program);
 	glUniform3f(GUI_material->Color_Uniform, 1.0f, 1.0f, 1.0f);
 
@@ -101,6 +105,7 @@ void GUIRenderer::Update()
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, mesh->Triangles.size()*sizeof(int), &mesh->Triangles[0], GL_STATIC_DRAW);
 
 	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+	glDisable(GL_BLEND);
 }
 
 void GUIRenderer::LateUpdate()
